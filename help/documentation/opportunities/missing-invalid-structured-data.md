@@ -1,0 +1,61 @@
+---
+title: Documentación de datos estructurados que falta o no es válida
+description: Obtenga información sobre la oportunidad de datos estructurados que falta o que no es válida y cómo utilizarla para mejorar la adquisición de tráfico.
+badgeTrafficAcquisition: label="Adquisición de tráfico" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Adquisición de tráfico"
+source-git-commit: 0a333a4055e59c49d3266d8c3ed55d7e60771923
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 1%
+
+---
+
+
+# Oportunidad de datos estructurados faltante o no válida
+
+![Falta la oportunidad de datos estructurados o no es válida](./assets/missing-or-invalid-structured-data/hero.png){align="center"}
+
+La oportunidad de datos estructurados que faltan o no son válidos identifica los datos estructurados que faltan o son defectuosos en el formato estandarizado Json-LD. Los datos estructurados son una forma de organizar, describir y etiquetar información importante en el sitio web. Ayuda a los motores de búsqueda a interpretar el contenido de sus páginas y mejora la visibilidad de los resultados de búsqueda. Unos mejores resultados de búsqueda pueden hacer que más usuarios se involucren con el sitio web.
+
+La oportunidad de datos estructurados que faltan o no son válidos muestra un resumen en la parte superior de la página, que incluye una sinopsis del problema y su impacto en el sitio y en la empresa.
+
+* **Tráfico proyectado perdido** - La pérdida de tráfico estimada debido a datos estructurados defectuosos.
+* **Valor de tráfico proyectado** - Valor estimado del tráfico perdido.
+
+## Identificar automáticamente
+
+![Identificar automáticamente los datos estructurados que faltan o no son válidos](./assets/missing-or-invalid-structured-data/auto-identify.png){align="center"}
+
+La oportunidad de datos estructurados que faltan o no son válidos enumera todos los problemas detectados en las páginas y contiene las siguientes categorías:
+
+* **Página con problemas**: la página que contiene los datos estructurados que faltan o no son válidos.
+* **Problema y corrección propuesta por IA**: indica el tipo de problema de datos estructurados que afecta a la página.
+* **Sugerencia**: una sugerencia generada por IA para actualizaciones de datos estructurados adecuadas. Consulte la sección siguiente para obtener más información.
+
+## Sugerir automáticamente
+
+![Sugerencia automática de datos estructurados que faltan o no son válidos](./assets/missing-or-invalid-structured-data/auto-suggest.png){align="center"}
+
+La oportunidad de datos estructurados no válida o que falta también proporciona sugerencias generadas por IA sobre cómo cambiar o actualizar los datos estructurados. Al hacer clic en el botón de sugerencias, aparece una nueva ventana que contiene lo siguiente:
+
+* **Ruta de página**: campo que contiene la ruta a la página con datos estructurados no válidos o que faltan.
+* **Problemas**: un campo que contiene el número de problemas y un menú desplegable que enumera todos los problemas.
+* **Campo de sugerencias**: una descripción generada por IA y sugerencias para actualizaciones de datos estructurados adecuadas. Puede desplazarse hacia abajo para ver sugerencias y problemas adicionales.
+
+## Optimizar automáticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+
+
+![Optimizar automáticamente los datos estructurados sugeridos que faltan o no son válidos](./assets/missing-or-invalid-structured-data/auto-optimize.png){align="center"}
+
+Sites Optimizer Ultimate agrega la capacidad de implementar la optimización automática para los problemas que encuentre la oportunidad de datos estructurados no válida o que falta. <!--- TBD-need more in-depth and opportunity specific information here. What does the auto-optimization do?-->
+
+>[!BEGINTABS]
+
+>[!TAB Implementar optimización]
+
+{{auto-optimize-deploy-optimization-slack}}
+
+>[!TAB Solicitar aprobación]
+
+{{auto-optimize-request-approval}}
+
+>[!ENDTABS]
