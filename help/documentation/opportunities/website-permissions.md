@@ -2,7 +2,7 @@
 title: Documentación de oportunidad de permisos de sitio web
 description: Obtenga información acerca de la oportunidad de permisos del sitio web y cómo utilizarla para aumentar la seguridad de en el sitio web.
 badgeSecurityPosture: label="Posición de seguridad" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Posición de seguridad"
-source-git-commit: 5d1ae616ddde74f69b73ba5b44297c14b2dea36b
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 2%
@@ -33,7 +33,9 @@ La característica de **oportunidad de Permisos de sitios web** identifica y enu
 
 La sugerencia automática proporciona recomendaciones generadas por IA en el campo **Permisos sugeridos**, lo que le permite reemplazar cualquier permiso marcado con alternativas seguras.
 
-## Optimizar automáticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Optimización automática
+
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Optimizar automáticamente los permisos del sitio web](./assets/website-permissions/auto-optimize.png){align="center"}
 

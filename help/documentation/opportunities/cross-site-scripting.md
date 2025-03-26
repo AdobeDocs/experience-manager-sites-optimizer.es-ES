@@ -2,7 +2,7 @@
 title: Documentación de oportunidad de ejecución de scripts en sitios múltiples
 description: Obtenga información sobre la oportunidad de ejecución de scripts en sitios múltiples, así como para identificar y corregir las vulnerabilidades de seguridad del sitio.
 badgeSecurityPosture: label="Posición de seguridad" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Posición de seguridad"
-source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 4%
@@ -29,8 +29,9 @@ La oportunidad de ejecución de scripts en sitios múltiples identifica y corrig
 
 * **Corrección sugerida**: Una sugerencia generada por IA sobre cómo corregir la vulnerabilidad.
 
-## Optimizar automáticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Optimización automática
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 >[!BEGINTABS]
 

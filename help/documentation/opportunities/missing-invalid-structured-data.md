@@ -2,7 +2,7 @@
 title: Documentación de datos estructurados que falta o no es válida
 description: Obtenga información sobre la oportunidad de datos estructurados que falta o que no es válida y cómo utilizarla para mejorar la adquisición de tráfico.
 badgeTrafficAcquisition: label="Adquisición de tráfico" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Adquisición de tráfico"
-source-git-commit: 0a333a4055e59c49d3266d8c3ed55d7e60771923
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 1%
@@ -41,8 +41,9 @@ La oportunidad de datos estructurados no válida o que falta también proporcion
 * **Problemas**: un campo que contiene el número de problemas y un menú desplegable que enumera todos los problemas.
 * **Campo de sugerencias**: una descripción generada por IA y sugerencias para actualizaciones de datos estructurados adecuadas. Puede desplazarse hacia abajo para ver sugerencias y problemas adicionales.
 
-## Optimizar automáticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Optimización automática
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Optimizar automáticamente los datos estructurados sugeridos que faltan o no son válidos](./assets/missing-or-invalid-structured-data/auto-optimize.png){align="center"}
 

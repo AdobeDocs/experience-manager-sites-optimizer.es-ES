@@ -2,7 +2,7 @@
 title: Documentación de oportunidad de vínculos internos rotos
 description: Obtenga información acerca de la oportunidad de vínculos rotos y cómo utilizarla para mejorar la participación en el sitio web.
 badgeEngagement: label="Compromiso" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Compromiso"
-source-git-commit: 40ed1b3d60bd4eb1e5410c8c76a7d45856a3d79b
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -61,8 +61,9 @@ Puede elegir ignorar las entradas con las direcciones URL rotas objetivo. Al sel
 >[!ENDTABS]
 
 
-## Optimizar automáticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Optimización automática
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 <!---![Auto-optimize suggested invalid or missing metadata](./assets/broken-internal-links/auto-optimize.png){align="center"}-->
 

@@ -2,7 +2,7 @@
 title: Falta la documentación de texto ALT
 description: Obtenga información sobre la oportunidad de perder texto alternativo y cómo utilizarla para mejorar la participación en el sitio web.
 badgeEngagement: label="Compromiso" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Compromiso"
-source-git-commit: 84f922b5d0f788c1affe47a9013ed640947d0ec4
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -57,8 +57,9 @@ Puede elegir ignorar las entradas de la lista de oportunidades. Si se selecciona
 
 >[!ENDTABS]
 
-## Optimizar automáticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Optimización automática
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Optimizar automáticamente el texto alternativo que falta](./assets/missing-alt-text/auto-optimize.png){align="center"}
 

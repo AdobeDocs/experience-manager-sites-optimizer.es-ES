@@ -2,7 +2,7 @@
 title: Documentación de oportunidad de vínculos rotos
 description: Obtenga información acerca de la oportunidad de vínculos rotos y cómo utilizarla para mejorar la adquisición de tráfico.
 badgeTrafficAcquisition: label="Adquisición de tráfico" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Adquisición de tráfico"
-source-git-commit: d2f8df0515265f6bc983cf906e07e9bf7230becf
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 1%
@@ -60,9 +60,9 @@ Puede optar por ignorar las entradas con la URL de destino rota. Al seleccionar 
 
 >[!ENDTABS]
 
+## Optimización automática
 
-## Optimizar automáticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
-
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Optimizar automáticamente los backlinks rotos](./assets/broken-backlinks/auto-optimize.png){align="center"}
 

@@ -2,7 +2,7 @@
 title: Documentación de oportunidad de configuración CORS
 description: Conozca la oportunidad de configuración de CORS y para identificar y corregir las vulnerabilidades de seguridad del sitio.
 badgeSecurityPosture: label="Posición de seguridad" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Posición de seguridad"
-source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 3%
@@ -32,9 +32,9 @@ La identificación automática analiza su sitio web en busca de configuraciones 
 La sugerencia automática proporciona **archivos de código de aplicación** y sus **líneas** que se revisarán y que pueden estar configurando políticas CORS laxas.
 
 
-## Optimizar automáticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Optimización automática
 
-
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 >[!BEGINTABS]
 

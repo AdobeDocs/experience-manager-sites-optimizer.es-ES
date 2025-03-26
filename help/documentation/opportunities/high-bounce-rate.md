@@ -2,7 +2,7 @@
 title: Documentación de oportunidad de tasa de devolución alta
 description: Obtenga información acerca de la oportunidad de vistas bajas y cómo utilizarla para mejorar la participación del formulario en su sitio web.
 badgeEngagement: label="Compromiso" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Compromiso"
-source-git-commit: 393feffe477eff99a026b7ad7cad5531c20254ea
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -50,7 +50,9 @@ Haga clic en cada variación para previsualizarla en el lado derecho de la panta
 
 >[!ENDTABS]
 
-## Optimizar automáticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Optimización automática
+
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Optimizar automáticamente la tasa de salida hacia otro sitio](./assets/high-bounce-rate/auto-optimize.png){align="center"}
 

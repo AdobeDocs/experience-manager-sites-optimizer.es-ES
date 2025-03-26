@@ -2,7 +2,7 @@
 title: Documentación de oportunidad de elementos vitales web principales
 description: Obtenga información acerca de la oportunidad de elementos vitales de la web y cómo utilizarla para mejorar la adquisición de tráfico.
 badgeSiteHealth: label="Estado del sitio" type="Caution" url="../../opportunity-types/site-health.md" tooltip="Estado del sitio"
-source-git-commit: 81343812472477448fd0ee8be89bd6ae784a9e61
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -42,8 +42,9 @@ La oportunidad de constantes web principales proporciona sugerencias de correcci
 
 Cada categoría puede contener varios problemas, por lo que asegúrese de desplazarse hacia abajo para ver la lista completa de problemas y recomendaciones.  Además, hay dos indicadores de rendimiento para móviles y equipos de escritorio para cada métrica.
 
-## Optimizar automáticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Optimización automática
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Oportunidad de optimizar automáticamente los elementos vitales de la web principal](./assets/core-web-vitals/auto-optimize.png){align="center"}
 

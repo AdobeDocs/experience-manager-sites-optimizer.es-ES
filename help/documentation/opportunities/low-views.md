@@ -2,7 +2,7 @@
 title: Documentación de oportunidad de vistas bajas
 description: Obtenga información acerca de la oportunidad de vistas bajas y cómo utilizarla para mejorar la participación del formulario en su sitio web.
 badgeFormOptimization: label="Optimización de formulario" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Optimización de formulario"
-source-git-commit: 258024606c732a4f4d4fe21a9ee36e1e2d3572f5
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 1%
@@ -50,8 +50,9 @@ Haga clic en cada variación para previsualizarla en el lado derecho de la panta
 
 >[!ENDTABS]
 
-## Optimizar automáticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Optimización automática
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Optimizar automáticamente las vistas bajas](./assets/low-views/auto-optimize.png){align="center"}
 
