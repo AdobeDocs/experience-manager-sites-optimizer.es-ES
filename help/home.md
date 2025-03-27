@@ -1,10 +1,10 @@
 ---
 title: AEM Sites Optimizer
-description: Esta es la página de aterrizaje de AEM Sites Optimizer.
-source-git-commit: ddb9cd950a3c793722ac6de49c449d70c491b495
+description: 'Aumente el rendimiento de su sitio web con Sites Optimizer: mejore la velocidad, reduzca los costes y mejore la fiabilidad para lograr una mejor participación.'
+source-git-commit: 80d1bb016dedcff9b3b6293008b43070ff24867c
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 3%
+source-wordcount: '140'
+ht-degree: 2%
 
 ---
 
