@@ -2,7 +2,7 @@
 title: Documentación de oportunidad de problemas de accesibilidad
 description: Obtenga información acerca de la oportunidad de problemas de accesibilidad y cómo utilizarla para aumentar la seguridad de en el sitio web.
 badgeEngagement: label="Compromiso" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Compromiso"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
+source-git-commit: c52b60fb483009856cb6976eddbf86141d0846fc
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 2%
