@@ -1,19 +1,19 @@
 ---
-title: Optimización de la postura de seguridad con Sites Optimizer
-description: Obtenga información sobre cómo mejorar la seguridad del sitio con Sites Optimizer.
+title: Optimización de la posición de seguridad con Sites Optimizer
+description: Obtenga información sobre cómo mejorar la seguridad de su sitio con Sites Optimizer.
 source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
 
-# Oportunidades de postura de seguridad
+# Oportunidades de posición de seguridad
 
-![Oportunidades de seguridad](./assets/security-posture/hero.png){align="center"}
+![Oportunidades de posición de seguridad](./assets/security-posture/hero.png){align="center"}
 
-Mantener una postura de seguridad sólida en AEM Sites Optimizer es fundamental para proteger las experiencias digitales y los datos de usuario. Al identificar oportunidades de mejora (como la configuración de CORS, los scripts entre sitios, los permisos de sitios web y las vulnerabilidades de sitios web), los equipos pueden abordar de forma proactiva los posibles riesgos de seguridad y garantizar el cumplimiento de las prácticas recomendadas. El refuerzo de las medidas de seguridad no solo protege la información confidencial, sino que también aumenta la confianza de los usuarios y la fiabilidad del sitio. El uso de las perspectivas de AEM Sites Optimizer ayuda a las organizaciones a monitorizar y mejorar continuamente su postura de seguridad, reduciendo los riesgos y manteniendo un entorno digital seguro.
+Mantener una posición de seguridad sólida en AEM Sites Optimizer es fundamental para proteger las experiencias digitales y los datos del usuario. Al identificar oportunidades de mejora (como la configuración de CORS, la ejecución de scripts en sitios múltiples, los permisos de sitios web y las vulnerabilidades de sitios web), los equipos pueden abordar de forma proactiva los posibles riesgos de seguridad y garantizar el cumplimiento de las prácticas recomendadas. El refuerzo de las medidas de seguridad no solo protege la información confidencial, sino que también aumenta la confianza de los usuarios y la fiabilidad del sitio. Aprovechar la información de AEM Sites Optimizer ayuda a las organizaciones a monitorizar y mejorar continuamente su posición de seguridad, reduciendo los riesgos y manteniendo un entorno digital seguro.
 
 ## Oportunidades
 
@@ -51,7 +51,7 @@ Mantener una postura de seguridad sólida en AEM Sites Optimizer es fundamental 
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/cors-configuration.md" target="_blank" rel="referrer" title="Configuración de CORS">Configuración de CORS</a>
                     </p>
-                    <p class="is-size-6">Conozca la oportunidad de configuración de CORS y para identificar y corregir las vulnerabilidades de seguridad del sitio.</p>
+                    <p class="is-size-6">Obtenga información sobre la oportunidad de configuración de CORS y aprenda a identificar y corregir las vulnerabilidades de seguridad del sitio.</p>
                 </div>
                 <a href="../documentation/opportunities/cors-configuration.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
@@ -72,13 +72,13 @@ Mantener una postura de seguridad sólida en AEM Sites Optimizer es fundamental 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/cross-site-scripting.md" target="_blank" rel="referrer" title="Ejecución de scripts en sitios múltiples">Secuencias de comandos entre sitios</a>
+                        <a href="../documentation/opportunities/cross-site-scripting.md" target="_blank" rel="referrer" title="Ejecución de scripts en sitios múltiples">Ejecución de scripts en sitios múltiples</a>
                     </p>
-                    <p class="is-size-6">Obtenga información sobre la oportunidad de ejecución de scripts en sitios múltiples, así como para identificar y corregir las vulnerabilidades de seguridad del sitio.</p>
+                    <p class="is-size-6">Obtenga información sobre la oportunidad de ejecución de scripts en sitios múltiples e identifique y corrija las vulnerabilidades de seguridad del sitio.</p>
                 </div>
                 <a href="../documentation/opportunities/cross-site-scripting.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -86,8 +86,8 @@ Mantener una postura de seguridad sólida en AEM Sites Optimizer es fundamental 
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../documentation/opportunities/website-permissions.md" title="Permisos de sitio web" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-people.png" alt="Permisos de sitio web"
+                    <a href="../documentation/opportunities/website-permissions.md" title="Permisos del sitio web" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/common/card-people.png" alt="Permisos del sitio web"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -95,13 +95,13 @@ Mantener una postura de seguridad sólida en AEM Sites Optimizer es fundamental 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/website-permissions.md" target="_blank" rel="referrer" title="Permisos de sitio web">Permisos del sitio web</a>
+                        <a href="../documentation/opportunities/website-permissions.md" target="_blank" rel="referrer" title="Permisos del sitio web">Permisos de sitio web</a>
                     </p>
-                    <p class="is-size-6">Obtenga información acerca de la oportunidad de permisos del sitio web y cómo utilizarla para aumentar la seguridad de en el sitio web.</p>
+                    <p class="is-size-6">Obtenga información sobre la oportunidad de permisos del sitio web y cómo utilizarla para aumentar la seguridad en el sitio web.</p>
                 </div>
                 <a href="../documentation/opportunities/website-permissions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -123,8 +123,8 @@ Mantener una postura de seguridad sólida en AEM Sites Optimizer es fundamental 
                     <p class="is-size-6">Obtenga información sobre la oportunidad de vulnerabilidades del sitio web y cómo utilizarla para aumentar la seguridad de en el sitio web.</p>
                 </div>
                 <a href="../documentation/opportunities//website-vulnerabilities.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>

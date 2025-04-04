@@ -2,9 +2,9 @@
 title: Optimización de la adquisición de tráfico con Sites Optimizer
 description: Obtenga información sobre cómo aumentar la adquisición de tráfico con Sites Optimizer.
 source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '237'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 16%
 
 ![Oportunidades de adquisición de tráfico](./assets/traffic-acquisition/hero.png){align="center"}
 
-La adquisición de tráfico es esencial para atraer clientes potenciales a su sitio web y crear oportunidades para las ventas o la generación de posibles clientes. Al aprovechar estrategias como la optimización de los motores de búsqueda (SEO), las empresas pueden mejorar la visibilidad de la búsqueda y facilitar a los usuarios el descubrimiento de su contenido. Un flujo continuo de visitantes no solo aumenta la conciencia y la confianza de la marca, sino que también proporciona una valiosa perspectiva del comportamiento del usuario, lo que ayuda a los equipos a refinar sus ofertas y mejorar la experiencia general. El uso de las perspectivas de AEM Sites Optimizer permite una optimización continua, lo que garantiza un crecimiento sostenido y tasas de conversión mejoradas a lo largo del tiempo.
+La adquisición de tráfico es esencial para atraer a clientes potenciales a su sitio web y crear oportunidades de venta o generar posibles clientes. Al aprovechar estrategias como la optimización del motor de búsqueda (SEO), las empresas pueden mejorar la visibilidad de la búsqueda y facilitar a los usuarios el descubrimiento de su contenido. Un flujo constante de visitantes no solo aumenta la imagen de marca y la confianza, sino que también proporciona una valiosa información del comportamiento del usuario, lo que ayuda a los equipos a perfeccionar sus ofertas y mejorar la experiencia general. Aprovechar la información que ofrece AEM Sites Optimizer permite una optimización continua, lo que garantiza un crecimiento sostenido y tasas de conversión mejoradas a lo largo del tiempo.
 
 ## Oportunidades
 
@@ -48,13 +48,13 @@ La adquisición de tráfico es esencial para atraer clientes potenciales a su si
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/broken-backlinks.md" target="_blank" rel="referrer" title="Vínculos de retroceso rotos">Vínculos secundarios rotos</a>
+                        <a href="../documentation/opportunities/broken-backlinks.md" target="_blank" rel="referrer" title="Vínculos de retroceso rotos">Vínculos de retroceso rotos</a>
                     </p>
-                    <p class="is-size-6">Obtenga información acerca de la oportunidad de vínculos rotos y cómo utilizarla para mejorar la adquisición de tráfico.</p>
+                    <p class="is-size-6">Obtenga información sobre la oportunidad de vínculos de retroceso rotos y cómo utilizarla para mejorar la adquisición de tráfico.</p>
                 </div>
                 <a href="../documentation/opportunities/broken-backlinks.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -71,13 +71,13 @@ La adquisición de tráfico es esencial para atraer clientes potenciales a su si
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" title="Metadatos que faltan o no son válidos">Faltan metadatos o no son válidos</a>
+                        <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" title="Metadatos que faltan o no son válidos">Metadatos que faltan o no son válidos</a>
                     </p>
-                    <p class="is-size-6">Obtenga información sobre la oportunidad de metadatos no válida o que falta y cómo utilizarla para mejorar la adquisición de tráfico.</p>
+                    <p class="is-size-6">Obtenga información sobre la oportunidad de metadatos no válidos o que faltan y cómo utilizarla para mejorar la adquisición de tráfico.</p>
                 </div>
                 <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -94,13 +94,13 @@ La adquisición de tráfico es esencial para atraer clientes potenciales a su si
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/missing-invalid-structured-data.md" target="_blank" rel="referrer" title="Datos estructurados que faltan o no son válidos">Faltan datos estructurados o no son válidos</a>
+                        <a href="../documentation/opportunities/missing-invalid-structured-data.md" target="_blank" rel="referrer" title="Datos estructurados que faltan o no son válidos">Datos estructurados que faltan o no son válidos</a>
                     </p>
-                    <p class="is-size-6">Obtenga información sobre la oportunidad de datos estructurados que falta o que no es válida y cómo utilizarla para mejorar la adquisición de tráfico.</p>
+                    <p class="is-size-6">Obtenga información sobre la oportunidad de datos estructurados que faltan o no son válidos y cómo utilizarlos para mejorar la adquisición de tráfico.</p>
                 </div>
                 <a href="../documentation/opportunities/missing-invalid-structured-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -117,13 +117,13 @@ La adquisición de tráfico es esencial para atraer clientes potenciales a su si
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/sitemap-issues.md" target="_blank" rel="referrer" title="Problemas del mapa del sitio">Problemas de mapa del sitio</a>
+                        <a href="../documentation/opportunities/sitemap-issues.md" target="_blank" rel="referrer" title="Problemas del mapa del sitio">Problemas del mapa del sitio</a>
                     </p>
-                    <p class="is-size-6">Obtenga información acerca de la oportunidad de problemas de mapa del sitio y cómo utilizarla para mejorar la adquisición de tráfico.</p>
+                    <p class="is-size-6">Obtenga información sobre la oportunidad de problemas del mapa del sitio y cómo utilizarla para mejorar la adquisición de tráfico.</p>
                 </div>
                 <a href="../documentation/opportunities/sitemap-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>

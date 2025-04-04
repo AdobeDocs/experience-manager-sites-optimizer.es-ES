@@ -2,9 +2,9 @@
 title: Documentación de Sites Optimizer
 description: Documentación de Experience Manager Sites Optimizer.
 source-git-commit: a0b7fcae81bee2bce5ed1d3186026f4577708512
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 8%
 
 ![Sites Optimizer](./assets/overview/hero.png){align="center"}
 
-Bienvenido a la documentación de Sites Optimizer. Aquí encontrará información sobre cómo utilizar Sites Optimizer para optimizar los sitios de AEM.
+Le damos la bienvenida a la documentación de Sites Optimizer. Aquí encontrará información sobre cómo utilizar Sites Optimizer para optimizar AEM Sites.
 
 ## Conceptos básicos de Site Optimizer
 
-Explore la documentación de AEM Sites Optimizer para obtener más información acerca de los componentes clave de la interfaz de usuario, como el panel de inicio, las configuraciones de configuración y la lista de oportunidades para obtener perspectivas de optimización.
+Explore la documentación de AEM Sites Optimizer para obtener más información sobre los componentes clave de la interfaz de usuario, como el panel de inicio, las configuraciones de los ajustes y la lista de oportunidades para obtener información sobre la optimización.
 
 <!-- CARDS 
 
@@ -45,13 +45,13 @@ Explore la documentación de AEM Sites Optimizer para obtener más información 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./basics.md" target="_blank" rel="referrer" title="Datos básicos">Conceptos básicos</a>
+                        <a href="./basics.md" target="_blank" rel="referrer" title="Conceptos básicos">Conceptos básicos</a>
                     </p>
-                    <p class="is-size-6">Obtenga información sobre los conceptos básicos de Sites Optimizer y cómo navegarlo.</p>
+                    <p class="is-size-6">Obtenga información sobre los conceptos básicos de Sites Optimizer y cómo navegar por él.</p>
                 </div>
                 <a href="./basics.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -93,11 +93,11 @@ Explore la documentación de AEM Sites Optimizer para obtener más información 
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./settings.md" target="_blank" rel="referrer" title="Configuración">Configuración</a>
                     </p>
-                    <p class="is-size-6">Obtenga información sobre cómo ajustar la configuración de Sites Optimizer e integrarla con otras herramientas.</p>
+                    <p class="is-size-6">Obtenga información sobre cómo configurar los valores de Sites Optimizer e integrarlo con otras herramientas.</p>
                 </div>
                 <a href="./settings.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
