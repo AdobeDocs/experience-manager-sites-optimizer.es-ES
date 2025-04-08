@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Se trata de una descripción de la guía del usuario que se mostrará en la página de aterrizaje.
-source-git-commit: fbcd038d52f4761fc328404c410ef25534071f22
+source-git-commit: 80d40840aecf1bc2506ccbb5f1cb9a32e74d5fd5
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 100%
+source-wordcount: '88'
+ht-degree: 92%
 
 ---
 
@@ -38,3 +38,4 @@ ht-degree: 100%
       + [Permisos del sitio web](/help/documentation/opportunities/website-permissions.md)
       + [Vulnerabilidades del sitio web](/help/documentation/opportunities/website-vulnerabilities.md)
    + [Configuración](/help/documentation/settings.md)
++ [Archivo oculto para actualizar la tabla de contenido de déclencheur Loc](hidden-delete-me.md)
