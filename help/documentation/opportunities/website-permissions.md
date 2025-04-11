@@ -3,9 +3,9 @@ title: Documentación sobre la oportunidad de permisos del sitio web
 description: Obtenga información sobre la oportunidad de permisos del sitio web y cómo utilizarla para aumentar la seguridad en el sitio web.
 badgeSecurityPosture: label="Posición de seguridad" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Posición de seguridad"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

@@ -3,9 +3,9 @@ title: Documentación sobre la oportunidad de visualizaciones bajas
 description: Obtenga información sobre la oportunidad de visualizaciones bajas y cómo utilizarla para mejorar la participación del formulario en su sitio web.
 badgeFormOptimization: label="Optimización de formulario" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Optimización de formulario"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

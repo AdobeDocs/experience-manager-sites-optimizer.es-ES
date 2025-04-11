@@ -3,9 +3,9 @@ title: Documentación sobre la oportunidad de vínculos internos rotos
 description: Obtenga información sobre la oportunidad de vínculos rotos y cómo utilizarla para mejorar la participación en el sitio web.
 badgeEngagement: label="Participación" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Participación"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

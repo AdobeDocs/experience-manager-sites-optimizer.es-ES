@@ -3,9 +3,9 @@ title: Documentación sobre la oportunidad de metadatos no válidos o que faltan
 description: Obtenga información sobre la oportunidad de metadatos no válidos o que faltan y cómo utilizarla para mejorar la adquisición de tráfico.
 badgeTrafficAcquisition: label="Adquisición de tráfico" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Adquisición de tráfico"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

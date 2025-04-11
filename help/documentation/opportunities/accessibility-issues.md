@@ -3,9 +3,9 @@ title: Documentación sobre la oportunidad de problemas de accesibilidad
 description: Obtenga información sobre la oportunidad de problemas de accesibilidad y cómo utilizarla para aumentar la seguridad de en el sitio web.
 badgeEngagement: label="Participación" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Participación"
 source-git-commit: c52b60fb483009856cb6976eddbf86141d0846fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '253'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ La oportunidad de problemas de accesibilidad identifica en qué medida su sitio 
 
 La **oportunidad de problemas de accesibilidad** identifica los problemas de accesibilidad en su sitio web e incluye lo siguiente:
 
-* **Problemas**: se encontró el problema de accesibilidad específico.
+* **Problemas**: se ha encontrado el problema de accesibilidad específico.
 * **Pautas**: el [ID de las pautas WCAG](https://www.w3.org/TR/WCAG21/) que el problema infringe.
 * **Impacto en el usuario**: una evaluación del impacto en los usuarios con discapacidades.
 * **Elementos con error**: los elementos HTML de la página web afectados por el problema.
