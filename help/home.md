@@ -2,7 +2,7 @@
 title: AEM Sites Optimizer
 description: 'Aumente el rendimiento de su sitio web con Sites Optimizer: mejore la velocidad, reduzca los costes y mejore la fiabilidad para lograr una mejor participación.'
 source-git-commit: 80d1bb016dedcff9b3b6293008b43070ff24867c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Adobe Experience Manager (AEM) Sites Optimizer es un servicio basado en la nube 
                     </p>
                     <p class="is-size-6">Obtenga información sobre las oportunidades disponibles de Site Optimizer y cómo utilizarlas para mejorar el rendimiento del sitio.</p>
                 </div>
-                {<a href="./opportunity-types/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="./opportunity-types/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
