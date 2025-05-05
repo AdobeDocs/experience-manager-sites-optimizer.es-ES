@@ -11,7 +11,7 @@ ht-degree: 100%
 
 # AEM Sites Optimizer
 
->[!VIDEO](https://video.tv.adobe.com/v/3455085/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3455088/?learn=on&enablevpops&captions=spa)
 
 Adobe Experience Manager (AEM) Sites Optimizer es un servicio basado en la nube que analiza y mejora el rendimiento de los sitios web creados en AEM. Identifica las áreas en las que se puede mejorar la carga de páginas, el uso de componentes y la distribución de contenido, lo que le ayuda a mejorar el rendimiento del sitio web y a reducir los costes de mantenimiento y actualización. Gracias a Sites Optimizer, puede garantizar una experiencia en línea fluida y fiable, lo que es importante para mantener la participación y las conversiones.
 
