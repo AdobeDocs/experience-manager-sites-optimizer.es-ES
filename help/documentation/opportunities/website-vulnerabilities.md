@@ -2,10 +2,10 @@
 title: Documentación sobre la oportunidad de vulnerabilidades del sitio web
 description: Obtenga información sobre la oportunidad de vulnerabilidades del sitio web y cómo utilizarla para aumentar la seguridad de en el sitio web.
 badgeSecurityPosture: label="Posición de seguridad" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Posición de seguridad"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: ht
-source-wordcount: '371'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 77%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ![Oportunidad de vulnerabilidades del sitio web](./assets/website-vulnerabilities/hero.png){align="center"}
 
-La oportunidad de vulnerabilidades del sitio web identifica vulnerabilidades en seguridad en las bibliotecas de terceros utilizadas por el código de la aplicación. Estas vulnerabilidades podrían ser aprovechadas por un atacante malicioso, lo que aumenta el riesgo y disminuye la posición en materia de seguridad de su sitio web.
+La oportunidad de vulnerabilidades del sitio web identifica vulnerabilidades de seguridad en las bibliotecas de terceros que utiliza el código de la aplicación. Los atacantes maliciosos explotan estas vulnerabilidades, aumentando el riesgo y disminuyendo la postura de seguridad de su sitio web.
 
 La oportunidad de vulnerabilidades del sitio web muestra un resumen en la parte superior de la página, que incluye lo siguiente:
 
@@ -37,17 +37,17 @@ La característica **Oportunidad de vulnerabilidades del sitio web** identifica 
 
 ![Sugerencia automática de vulnerabilidades del sitio web](./assets/website-vulnerabilities/auto-suggest.png){align="center"}
 
-La sugerencia automática proporciona sugerencias generadas por IA para la **versión recomendada** de la biblioteca vulnerable a la que debería actualizarse. Cada entrada tiene una **puntuación** que indica su gravedad general, lo que ayuda a priorizar las vulnerabilidades más críticas.
+La sugerencia automática proporciona sugerencias generadas por IA para la **versión recomendada** de una biblioteca vulnerable a la que debería actualizar. Cada entrada tiene una **puntuación** que indica su gravedad general, lo que ayuda a priorizar las vulnerabilidades más críticas.
 
 >[!BEGINTABS]
 
 >[!TAB Detalles de la vulnerabilidad]
 
-Cada vulnerabilidad contiene un vínculo a la información detallada de la [Base de datos nacional de vulnerabilidades (NVD)](https://nvd.nist.gov/). Al hacer clic en el identificador de vulnerabilidad o en el elemento de vínculo a la derecha de la descripción, se le redirigirá a la página de NVD correspondiente a esa vulnerabilidad.
+Cada vulnerabilidad contiene un vínculo a la información detallada de la [Base de datos nacional de vulnerabilidades (NVD)](https://nvd.nist.gov/). Al hacer clic en el identificador de vulnerabilidad o en el elemento de vínculo a la derecha de la descripción, se le redirige a la página de NVD correspondiente a esa vulnerabilidad.
 
 >[!TAB Ignorar entradas]
 
-Puede elegir ignorar las entradas de la lista de vulnerabilidades. Si se selecciona el **icono de ignorar**, se eliminará la entrada de la lista. Las entradas ignoradas se pueden volver a activar desde la pestaña **Ignorado** en la parte superior de la página de la oportunidad.<!---right now it does not seem to be implemented, but the page description mentions this functionality-->
+Puede elegir ignorar las entradas de la lista de vulnerabilidades. Si selecciona ![Eliminar icono](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg), se eliminará la entrada de la lista. Las entradas ignoradas se pueden volver a activar desde la pestaña **Ignorado** en la parte superior de la página de la oportunidad.<!---right now it does not seem to be implemented, but the page description mentions this functionality-->
 
 >[!ENDTABS]
 

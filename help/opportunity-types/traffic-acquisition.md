@@ -1,10 +1,10 @@
 ---
 title: Optimización de la adquisición de tráfico con Sites Optimizer
 description: Obtenga información sobre cómo aumentar la adquisición de tráfico con Sites Optimizer.
-source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
-workflow-type: ht
-source-wordcount: '237'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 63%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ![Oportunidades de adquisición de tráfico](./assets/traffic-acquisition/hero.png){align="center"}
 
-La adquisición de tráfico es esencial para atraer a clientes potenciales a su sitio web y crear oportunidades de venta o generar posibles clientes. Al aprovechar estrategias como la optimización del motor de búsqueda (SEO), las empresas pueden mejorar la visibilidad de la búsqueda y facilitar a los usuarios el descubrimiento de su contenido. Un flujo constante de visitantes no solo aumenta la imagen de marca y la confianza, sino que también proporciona una valiosa información del comportamiento del usuario, lo que ayuda a los equipos a perfeccionar sus ofertas y mejorar la experiencia general. Aprovechar la información que ofrece AEM Sites Optimizer permite una optimización continua, lo que garantiza un crecimiento sostenido y tasas de conversión mejoradas a lo largo del tiempo.
+La adquisición de tráfico lleva a los clientes potenciales a su sitio web y crea oportunidades de ventas o posibles clientes. Mediante estrategias como la optimización de los motores de búsqueda (SEO), las empresas pueden mejorar la visibilidad de la búsqueda y facilitar a los usuarios el descubrimiento de su contenido. Un flujo constante de visitantes aumenta la imagen de marca y genera confianza. También ofrece información valiosa sobre el comportamiento del usuario. Estas perspectivas ayudan a los equipos a refinar sus ofertas y mejorar la experiencia general. El uso de las perspectivas de AEM Sites Optimizer permite una optimización continua, lo que garantiza un crecimiento sostenido y tasas de conversión mejoradas a lo largo del tiempo.
 
 ## Oportunidades
 

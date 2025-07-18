@@ -1,10 +1,10 @@
 ---
 title: Documentación sobre oportunidades de Sites Optimizer
 description: Obtenga información sobre todas las oportunidades disponibles de Site Optimizer y cómo utilizarlas para mejorar el rendimiento del sitio.
-source-git-commit: fbcd038d52f4761fc328404c410ef25534071f22
-workflow-type: ht
-source-wordcount: '758'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '756'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ Las oportunidades están disponibles mediante la opción de menú **Oportunidade
 
 ## Estado de la oportunidad
 
-Las oportunidades se pueden organizar y filtrar por el estado mediante las pestañas situadas en la parte superior:
+Utilice las pestañas de la parte superior para organizar y filtrar las oportunidades por estado.
 
 >[!BEGINTABS]
 
@@ -44,7 +44,7 @@ Una lista histórica de oportunidades que se han optimizado.
 
 ## Oportunidades
 
-Con un [estado de oportunidad](#opportunity-status) seleccionado, puede ver una lista de oportunidades. La lista de oportunidades se puede filtrar aún más por:
+Con un [estado de oportunidad](#opportunity-status) seleccionado, puede ver una lista de oportunidades. Puede filtrar la lista de oportunidades de las siguientes maneras:
 
 * **Búsqueda**: búsqueda de oportunidades por **palabras clave, etiquetas o URL**.
 * **Tipo de oportunidad**: use el menú desplegable **Tipo** para filtrarlas por [tipo de oportunidad](/help/opportunity-types/overview.md).
@@ -56,9 +56,10 @@ Con un [estado de oportunidad](#opportunity-status) seleccionado, puede ver una 
 Cada oportunidad proporciona una breve descripción del problema, su impacto potencial en su sitio y un vínculo a todos los detalles. También puede ver su estado, que indica si se ha optimizado o si aún está pendiente.
 
 * **Título de la oportunidad**: una breve descripción del problema y su impacto potencial en el rendimiento de su sitio.
-* **Última actualización**: la fecha en la que Sites Optimizer actualizó por última vez la oportunidad con datos nuevos.
-* **Número de problemas**: el número de instancias del problema identificadas en su sitio.
-* **Tipo(s) de oportunidad**: el(los) [tipo(s) de oportunidad](/help/opportunity-types/overview.md) de los que forma parte esta oportunidad, como la adquisición de tráfico, la participación o el estado del sitio.
+* **Última actualización**: Sites Optimizer actualizó por última vez la oportunidad con nuevos datos en esta fecha.
+
+* **Número de problemas**: el número de instancias del problema identificadas en el sitio.
+* **Tipos de oportunidad** - Los [tipos de oportunidad](/help/opportunity-types/overview.md) de los que forma parte esta oportunidad, como la adquisición de tráfico, la participación o el estado del sitio.
 
 La información de resumen de cada oportunidad varía según el tipo y puede incluir detalles sobre el impacto en los ingresos, el tráfico, la participación del usuario o las amenazas a la seguridad.
 

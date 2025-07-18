@@ -2,9 +2,9 @@
 title: Documentación sobre la oportunidad de conversiones bajas
 description: Obtenga información sobre la oportunidad de conversiones bajas y cómo utilizarla para mejorar la participación del formulario en su sitio web.
 badgeFormOptimization: label="Optimización de formulario" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Optimización de formulario"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: ht
-source-wordcount: '343'
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '342'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Cada página web con un formulario con conversiones bajas se enumera como su pro
 
 ![Sugerencia automática de conversiones bajas](./assets/low-conversions/auto-suggest.png){align="center"}
 
-La sugerencia automática proporciona variaciones de páginas web generadas por IA y diseñadas para aumentar las conversiones de sus formularios. Cada variación muestra el **aumento de tasa de conversión del proyecto** en función de su potencial para mejorar la participación del formulario, lo que le ayuda a priorizar las sugerencias más efectivas.
+La sugerencia automática proporciona variaciones de páginas web generadas por IA y diseñadas para aumentar las conversiones de sus formularios. Cada variación muestra el **aumento en la tasa de conversión del proyecto** en función de su potencial para mejorar la participación del formulario, lo que le ayuda a priorizar las sugerencias más efectivas.
 
 >[!BEGINTABS]
 

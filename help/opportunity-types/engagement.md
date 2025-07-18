@@ -1,10 +1,10 @@
 ---
 title: Optimización de la participación con Sites Optimizer
 description: Obtenga información sobre cómo mejorar la participación con Sites Optimizer.
-source-git-commit: 62909a9c65a62beb202896d98bb9ab058bcd984a
-workflow-type: ht
-source-wordcount: '238'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 92%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ![Oportunidades de participación](./assets/engagement/hero.png){align="center"}
 
-Las oportunidades de participación en AEM Sites Optimizer son cruciales para mejorar las experiencias digitales al proporcionar información práctica sobre cómo los usuarios interactúan con las páginas web. Al identificar áreas para mejorar, como problemas de accesibilidad, vínculos internos rotos, altas tasas de salida hacia otro sitio y falta de texto alternativo, los especialistas en marketing y los autores de contenido pueden optimizar sus sitios para obtener un mejor rendimiento y la participación del usuario. Estas oportunidades ayudan a garantizar que el contenido sea eficaz, fácil de detectar y convincente, lo que a la larga genera conversiones más altas y un recorrido del cliente más fluido. Aprovechar las recomendaciones de AEM Sites Optimizer permite a los equipos perfeccionar continuamente su estrategia digital y ofrecer experiencias de alto impacto a escala.
+Las oportunidades de participación en AEM Sites Optimizer son cruciales para mejorar las experiencias digitales al proporcionar información práctica sobre cómo los usuarios interactúan con las páginas web. Al identificar áreas para mejorar, como problemas de accesibilidad, vínculos internos rotos, altas tasas de salida hacia otro sitio y falta de texto alternativo, los especialistas en marketing y los autores de contenido pueden optimizar sus sitios para obtener un mejor rendimiento y la participación del usuario. Estas oportunidades ayudan a garantizar que el contenido sea eficaz, fácil de detectar y convincente, lo que a la larga genera conversiones más altas y un recorrido del cliente más fluido. El uso de las recomendaciones de AEM Sites Optimizer permite a los equipos refinar continuamente su estrategia digital y ofrecer experiencias de alto impacto a escala.
 
 
 ## Oportunidades

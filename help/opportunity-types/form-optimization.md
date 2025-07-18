@@ -1,10 +1,10 @@
 ---
 title: Optimización de formularios con Sites Optimizer
 description: Obtenga información sobre la optimización de formularios con Sites Optimizer.
-source-git-commit: 84f922b5d0f788c1affe47a9013ed640947d0ec4
-workflow-type: ht
-source-wordcount: '153'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 86%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ![Oportunidades de optimización de formularios](./assets/form-optimization/hero.png){align="center"}
 
-La optimización de formularios en AEM Sites Optimizer es esencial para mejorar las interacciones del usuario y maximizar las conversiones. Al identificar áreas para mejorar (como las visualizaciones bajas y las bajas conversiones de formularios), los equipos pueden perfeccionar el diseño, la ubicación y el contenido del formulario para mejorar la participación. Los formularios optimizados garantizan una experiencia de usuario perfecta, facilitando a los visitantes la ejecución de acciones e impulsando resultados empresariales. Aprovechar la información de AEM Sites Optimizer permite a los especialistas en marketing identificar continuamente las áreas de mejora, lo que a la larga aumenta la eficacia y aumenta el rendimiento general del sitio.
+La optimización de formularios en AEM Sites Optimizer es esencial para mejorar las interacciones del usuario y maximizar las conversiones. Al identificar áreas para mejorar (como las visualizaciones bajas y las bajas conversiones de formularios), los equipos pueden perfeccionar el diseño, la ubicación y el contenido del formulario para mejorar la participación. Los formularios optimizados garantizan una experiencia de usuario perfecta, facilitando a los visitantes la ejecución de acciones e impulsando resultados empresariales. El uso de las perspectivas de AEM Sites Optimizer permite a los especialistas en marketing identificar continuamente las áreas de mejora, lo que a la larga aumenta la eficacia y aumenta el rendimiento general del sitio.
 
 ## Oportunidades
 

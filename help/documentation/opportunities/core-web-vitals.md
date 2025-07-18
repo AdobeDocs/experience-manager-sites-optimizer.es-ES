@@ -2,10 +2,10 @@
 title: Documentación sobre la oportunidad de Core Web Vitals
 description: Obtenga información sobre la oportunidad de Core Web Vitals y cómo utilizarla para mejorar la adquisición de tráfico.
 badgeSiteHealth: label="Estado del sitio" type="Caution" url="../../opportunity-types/site-health.md" tooltip="Estado del sitio"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: ht
-source-wordcount: '378'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ![oportunidad de core web vitals](./assets/core-web-vitals/hero.png){align="center"}
 
-La oportunidad de Core Web Vitals identifica problemas que pueden degradar la experiencia del usuario y el rendimiento de búsqueda orgánica de sus páginas web. Estos problemas surgen de una amplia gama de factores como: fuentes personalizadas, dependencias de javascript no optimizadas, scripts de terceros, etc. La oportunidad de Web Core Vitals apunta a estos elementos defectuosos y sugiere correcciones que pueden aumentar el rendimiento de su página web. Tenga en cuenta que solo se pueden analizar las páginas que tienen al menos 1000 vistas de página.
+La oportunidad de Core Web Vitals identifica problemas que pueden degradar la experiencia del usuario y el rendimiento de búsqueda orgánica de sus páginas web. Estos problemas surgen de una amplia gama de factores como: fuentes personalizadas, dependencias de JavaScript no optimizadas, scripts de terceros, etc. La oportunidad de Web Core Vitals apunta a estos elementos defectuosos y sugiere correcciones que pueden aumentar el rendimiento de su página web. Tenga en cuenta que solo se pueden analizar las páginas que tienen al menos 1000 vistas de página.
 
 Para empezar, la oportunidad de Core Web Vitals muestra un resumen en la parte superior de la página, incluida una sinopsis del problema y su impacto en el sitio y en la empresa.
 
@@ -32,7 +32,11 @@ En la parte inferior de la página, tiene una lista de todos los problemas actua
 
 Cada problema se muestra en una tabla, con la columna **Página** que identifica la entrada de la página afectada.
 
-Además, estos problemas también se agrupan por las métricas de rendimiento estándar del informe de Core Web Vitals: mayor pintura de contenido **LCP**, interacción con la siguiente pintura **INP** y desplazamiento de diseño acumulativo **CLS**.
+El sistema agrupa estos problemas por las métricas de rendimiento estándar del informe Elementos vitales de la web:
+
+* pintura con contenido más grande **LCP**
+* interacción con la siguiente pintura **INP**
+* cambio de diseño acumulativo **CLS**
 
 ## Sugerencia automática
 

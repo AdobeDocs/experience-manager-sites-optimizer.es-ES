@@ -2,10 +2,10 @@
 title: Documentación sobre la oportunidad de problemas de accesibilidad
 description: Obtenga información sobre la oportunidad de problemas de accesibilidad y cómo utilizarla para aumentar la seguridad de en el sitio web.
 badgeEngagement: label="Participación" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Participación"
-source-git-commit: c52b60fb483009856cb6976eddbf86141d0846fc
-workflow-type: ht
-source-wordcount: '253'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 73%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ![Oportunidad de problemas de accesibilidad](./assets/accessibility-issues/hero.png){align="center"}
 
-La oportunidad de problemas de accesibilidad identifica en qué medida su sitio web se ajusta a las necesidades de las personas con discapacidades y si siguen las [pautas de accesibilidad para el contenido web (WCAG)](https://www.w3.org/TR/WCAG21/). Al evaluar la conformidad de su sitio con WCAG, ayudará a crear una experiencia en línea integradora que permitirá a las personas con deficiencias visuales, auditivas, cognitivas y motoras navegar por su contenido, interactuar con él y beneficiarse de él. Esto no solo es esencial por razones éticas, sino que también promueve el cumplimiento de los requisitos legales, mejora la optimización de los motores de búsqueda y puede aumentar el alcance del público, mejorando tanto la experiencia del usuario como el rendimiento empresarial.
+La oportunidad de problemas de accesibilidad identifica en qué medida su sitio web se ajusta a las necesidades de las personas con discapacidades y si siguen las [pautas de accesibilidad para el contenido web (WCAG)](https://www.w3.org/TR/WCAG21/). Al evaluar la conformidad de su sitio con WCAG, ayudará a crear una experiencia en línea inclusiva. A su vez, permite a las personas con deficiencias visuales, auditivas, cognitivas y motoras navegar por el contenido, interactuar con él y beneficiarse de él. Esta funcionalidad no solo es esencial por motivos éticos, sino que también promueve el cumplimiento de los requisitos legales, mejora la SEO y puede aumentar el alcance de su audiencia, mejorando tanto la experiencia del usuario como el rendimiento empresarial.
 
 ## Identificación automática
 

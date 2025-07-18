@@ -2,10 +2,10 @@
 title: Documentación sobre la oportunidad de vínculos de retroceso rotos
 description: Obtenga información sobre la oportunidad de vínculos de retroceso rotos y cómo utilizarla para mejorar la adquisición de tráfico.
 badgeTrafficAcquisition: label="Adquisición de tráfico" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Adquisición de tráfico"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: ht
-source-wordcount: '542'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '547'
+ht-degree: 71%
 
 ---
 
@@ -44,19 +44,19 @@ La oportunidad de vínculos de retroceso rotos también proporciona sugerencias 
 
 ![Motivo de la IA sobre la sugerencia automática de vínculos de retroceso rotos](./assets/broken-backlinks/auto-suggest-ai-rationale.png){align="center"}
 
-Seleccione el icono **información** para ver los motivos de IA para la URL sugerida. El motivo explica por qué la IA cree que la URL sugerida es la mejor opción para el vínculo roto. Esto puede ayudarle a comprender el proceso de toma de decisiones de la IA y a tomar una decisión fundamentada sobre si aceptar o rechazar la sugerencia.
+Seleccione el icono **información** para ver los motivos de IA para la URL sugerida. El motivo explica por qué la IA cree que la URL sugerida es la mejor opción para el vínculo roto. Puede ayudarle a comprender el proceso de toma de decisiones de la AI y a tomar una decisión informada sobre si acepta o rechaza la sugerencia.
 
 >[!TAB Editar URL de destino]
 
 ![Editar URL sugerida de vínculos de retroceso rotos](./assets/broken-backlinks/edit-target-url.png){align="center"}
 
-Si no está de acuerdo con la sugerencia generada por IA, puede editar la URL sugerida seleccionando el **icono de edición**. Esto le permite introducir manualmente la dirección URL que crea que es la mejor opción para el vínculo roto. Sites Optimizer también enumerará otras direcciones URL del sitio que crea que pueden ser adecuadas para el vínculo roto.
+Si no está de acuerdo con la sugerencia generada por IA, puede editar la URL sugerida seleccionando el **icono de edición**. La edición permite introducir manualmente la dirección URL que cree que es la mejor opción para el vínculo interrumpido. Sites Optimizer también enumera cualquier otra dirección URL del sitio que crea que puede ser adecuada para el vínculo roto.
 
 >[!TAB Ignorar entradas]
 
 ![Ignorar vínculos de retroceso rotos](./assets/broken-backlinks/ignore.png){align="center"}
 
-Puede optar por ignorar las entradas con la URL de destino rota. Al seleccionar el **icono de ignorar**, se eliminará el vínculo de retroceso roto de la lista de oportunidades. Los vínculos de retroceso rotos ignorados se pueden volver a activar desde la pestaña **Ignorado** en la parte superior de la página de la oportunidad.
+Puede optar por ignorar las entradas con la URL de destino rota. Si selecciona ![Eliminar icono o ignorar icono](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg), se eliminará el vínculo de retorno roto de la lista de oportunidades. Los vínculos de retroceso rotos ignorados se pueden volver a activar desde la pestaña **Ignorado** en la parte superior de la página de la oportunidad.
 
 >[!ENDTABS]
 
@@ -66,7 +66,7 @@ Puede optar por ignorar las entradas con la URL de destino rota. Al seleccionar 
 
 ![Optimización automática de vínculos de retroceso rotos](./assets/broken-backlinks/auto-optimize.png){align="center"}
 
-Sites Optimizer Ultimate añade la posibilidad de implementar la optimización automática de vínculos de retroceso rotos. Al seleccionar el botón **Optimización automática**, se actualizan automáticamente las reglas de redireccionamiento del sitio de AEM para asignar la **URL de destino rota** a la **URL sugerida**. Esto garantiza que los visitantes del sitio web y los bots de búsqueda que siguen los vínculos rotos en las **páginas de referencia** se redirijan a la página correcta del sitio, lo que mejora la optimización de los motores de búsqueda y la experiencia del usuario.
+Sites Optimizer Ultimate añade la posibilidad de implementar la optimización automática de vínculos de retroceso rotos. Al seleccionar el botón **Optimización automática**, se actualizan automáticamente las reglas de redireccionamiento del sitio de AEM para asignar la **URL de destino rota** a la **URL sugerida**. Esta funcionalidad garantiza que los visitantes del sitio web y los bots de búsqueda que siguen los vínculos rotos en las **páginas de referencia** se redirijan a la página correcta del sitio, lo que mejora la optimización de los motores de búsqueda y la experiencia del usuario.
 
 >[!BEGINTABS]
 
@@ -74,7 +74,7 @@ Sites Optimizer Ultimate añade la posibilidad de implementar la optimización a
 
 ![Implementar optimización de vínculos de retroceso rotos rotos](./assets/broken-backlinks/deploy-optimization.png){align="center"}
 
-Si se selecciona **Implementar optimización**, se actualizan las reglas de redireccionamiento del sitio de AEM para asignar la **URL de destino rota** a la **URL sugerida**. Esto garantiza que los visitantes del sitio web y los bots de búsqueda que siguen los vínculos rotos en las **páginas de referencia** se redirijan a la página correcta del sitio, lo que mejora la optimización de los motores de búsqueda y la experiencia del usuario.
+Al seleccionar **Implementar optimización**, se actualizan las reglas de redireccionamiento del sitio de AEM para asignar la **URL de destino rota** a la **URL sugerida**. Esta funcionalidad garantiza que los visitantes del sitio web y los bots de búsqueda que siguen los vínculos rotos en las **páginas de referencia** se redirijan a la página correcta del sitio, lo que mejora la optimización de los motores de búsqueda y la experiencia del usuario.
 
 >[!TAB Solicitar aprobación]
 

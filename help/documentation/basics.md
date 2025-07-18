@@ -1,10 +1,10 @@
 ---
 title: Conceptos básicos de Sites Optimizer
 description: Obtenga información sobre los conceptos básicos de Sites Optimizer y cómo navegar por él.
-source-git-commit: 38e6921ab511b34e54fe97e7317ba1442a4d2121
-workflow-type: ht
-source-wordcount: '520'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 85%
 
 ---
 
@@ -28,7 +28,7 @@ El menú contextual del administrador de dominios le permite elegir el sitio de 
 La sección Navegación proporciona acceso rápido y persistente a áreas clave de Sites Optimizer desde cualquier lugar de Sites Optimizer, como:
 
 * **Inicio**: el panel principal, que proporciona información general de alto nivel sobre el rendimiento del sitio y las oportunidades de mejora.
-* **Oportunidades**: vea y administre las oportunidades identificadas por Sites Optimizer, incluidas las que se han optimizado y las que siguen sin optimizarse.
+* **Oportunidades**: vea y administre las oportunidades identificadas por Sites Optimizer, incluidas las oportunidades que se han optimizado o que no se han optimizado.
 * **Configuración** : realice la configuración de Sites Optimizer, incluidos los sitios que estás monitorizando y las notificaciones que recibe.
 
 ## Resumen del sitio
@@ -50,7 +50,8 @@ La sección Resumen del sitio proporciona una instantánea del rendimiento del s
 
 La sección Oportunidades de alto impacto destaca las oportunidades pendientes más significativas para la mejora, basadas en su impacto potencial en el rendimiento del sitio. Estas oportunidades están organizadas por tipo, lo que facilita la priorización de los esfuerzos de optimización.
 
-Las oportunidades se pueden filtrar por palabras clave, etiquetas o direcciones URL, o por [tipo de oportunidad](../opportunity-types/overview.md) para ayudarle a centrarse en las áreas de mejora más críticas.
+Filtre las oportunidades por palabras clave, etiquetas, direcciones URL o [tipo de oportunidad](../opportunity-types/overview.md) para centrarse en las áreas de mejora más críticas.
+
 
 ### Detalles de la oportunidad
 
@@ -59,9 +60,9 @@ Las oportunidades se pueden filtrar por palabras clave, etiquetas o direcciones 
 Cada oportunidad proporciona una breve descripción del problema, su impacto potencial en su sitio y un vínculo a todos los detalles. También puede ver su estado, que indica si se ha optimizado o si aún está pendiente.
 
 * **Título de la oportunidad**: una breve descripción del problema y su impacto potencial en el rendimiento de su sitio.
-* **Última actualización**: la fecha en la que Sites Optimizer actualizó por última vez la oportunidad con datos nuevos.
+* **Última actualización**: Sites Optimizer actualizó por última vez la oportunidad con nuevos datos en esta fecha.
 * **Número de problemas**: el número de instancias del problema identificadas en el sitio.
-* **Tipo(s) de oportunidad**: el(los) [tipo(s) de oportunidad](../opportunity-types/overview.md) de los que forma parte esta oportunidad, como la adquisición de tráfico, la participación o el estado del sitio.
+* **Tipos de oportunidad** - Los [tipos de oportunidad](../opportunity-types/overview.md) de los que forma parte esta oportunidad, como la adquisición de tráfico, la participación o el estado del sitio.
 
 La información de resumen de cada oportunidad varía según el tipo y puede incluir detalles sobre el impacto en los ingresos, el tráfico, la participación del usuario o las amenazas a la seguridad.
 

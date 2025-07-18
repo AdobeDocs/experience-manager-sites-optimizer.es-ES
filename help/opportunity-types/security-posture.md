@@ -1,10 +1,10 @@
 ---
 title: Optimización de la posición de seguridad con Sites Optimizer
 description: Obtenga información sobre cómo mejorar la seguridad de su sitio con Sites Optimizer.
-source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
-workflow-type: ht
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ![Oportunidades de posición de seguridad](./assets/security-posture/hero.png){align="center"}
 
-Mantener una posición de seguridad sólida en AEM Sites Optimizer es fundamental para proteger las experiencias digitales y los datos del usuario. Al identificar oportunidades de mejora (como la configuración de CORS, la ejecución de scripts en sitios múltiples, los permisos de sitios web y las vulnerabilidades de sitios web), los equipos pueden abordar de forma proactiva los posibles riesgos de seguridad y garantizar el cumplimiento de las prácticas recomendadas. El refuerzo de las medidas de seguridad no solo protege la información confidencial, sino que también aumenta la confianza de los usuarios y la fiabilidad del sitio. Aprovechar la información de AEM Sites Optimizer ayuda a las organizaciones a monitorizar y mejorar continuamente su posición de seguridad, reduciendo los riesgos y manteniendo un entorno digital seguro.
+Mantener una posición de seguridad sólida en AEM Sites Optimizer es fundamental para proteger las experiencias digitales y los datos del usuario. Al identificar oportunidades de mejora (como la configuración de CORS, la ejecución de scripts en sitios múltiples, los permisos de sitios web y las vulnerabilidades de sitios web), los equipos pueden abordar de forma proactiva los posibles riesgos de seguridad y garantizar el cumplimiento de las prácticas recomendadas. El refuerzo de las medidas de seguridad no solo protege la información confidencial, sino que también aumenta la confianza de los usuarios y la fiabilidad del sitio. El uso de las perspectivas de AEM Sites Optimizer ayuda a las organizaciones a monitorizar y mejorar continuamente su postura de seguridad, reduciendo los riesgos y manteniendo un entorno digital seguro.
 
 ## Oportunidades
 
@@ -95,7 +95,7 @@ Mantener una posición de seguridad sólida en AEM Sites Optimizer es fundamenta
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/website-permissions.md" target="_blank" rel="referrer" title="Permisos del sitio web">Permisos de sitio web</a>
+                        <a href="../documentation/opportunities/website-permissions.md" target="_blank" rel="referrer" title="Permisos del sitio web">Permisos del sitio web</a>
                     </p>
                     <p class="is-size-6">Obtenga información sobre la oportunidad de permisos del sitio web y cómo utilizarla para aumentar la seguridad en el sitio web.</p>
                 </div>

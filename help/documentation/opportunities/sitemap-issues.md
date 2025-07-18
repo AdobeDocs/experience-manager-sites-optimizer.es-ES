@@ -2,10 +2,10 @@
 title: Documentación sobre la oportunidad de problemas del mapa del sitio
 description: Obtenga información sobre la oportunidad de problemas del mapa del sitio y cómo utilizarla para mejorar la adquisición de tráfico.
 badgeTrafficAcquisition: label="Adquisición de tráfico" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Adquisición de tráfico"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: ht
-source-wordcount: '486'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '490'
+ht-degree: 88%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ![Oportunidad de problemas del mapa del sitio](./assets/sitemap-issues/hero.png){align="center"}
 
-Un mapa del sitio completo y preciso ayuda a los motores de búsqueda a rastrear e indexar eficientemente las páginas del sitio web, lo que garantiza una mejor visibilidad en los resultados de búsqueda. La oportunidad del mapa del sitio identifica posibles problemas con el mapa del sitio. Solucionar estos problemas puede mejorar en gran medida la indexación del motor de búsqueda y la capacidad de detección del contenido del sitio.
+Un mapa del sitio completo y preciso ayuda a los motores de búsqueda a rastrear e indexar eficientemente las páginas del sitio web, lo que garantiza una mejor visibilidad en los resultados de búsqueda. La oportunidad del mapa del sitio identifica posibles problemas con el mapa del sitio. La corrección de estos problemas puede mejorar en gran medida la indexación del motor de búsqueda y la capacidad de detección de contenido del sitio.
 
 En la parte superior de la página se muestra un resumen que incluye una sinopsis del problema y su impacto en el sitio y en la empresa.
 
@@ -36,11 +36,11 @@ Los problemas con el mapa del sitio se pueden filtrar según los siguientes crit
 
 ![Identificación automática de los errores del cliente del mapa del sitio](./assets/sitemap-issues/auto-identify-client-errors.png){align="center"}
 
-Si las direcciones URL del mapa del sitio devuelven estos errores, los motores de búsqueda pueden suponer que el mapa del sitio está obsoleto o que las páginas se eliminaron por error. El cliente indica que la solicitud del cliente (explorador o rastreador) no era válida. Los errores habituales son:
+Si las URL del mapa del sitio devuelven estos errores, los motores de búsqueda pueden suponer que el mapa del sitio está obsoleto o que las páginas se eliminaron por error. El cliente indica que la solicitud del cliente (explorador o rastreador) no era válida. Los errores habituales son:
 
-* **404 No encontrado**: la página solicitada no existe.
+* **404 no encontrado** - La página solicitada no existe.
 * **403 Prohibido**: el servidor deniega el acceso a la página solicitada.
-* **410 Se ha ido**: la página se eliminó intencionadamente y no se devolverá.
+* **410 se ha ido**: la página se eliminó intencionadamente y no se devuelve.
 * **401 No autorizado**: se requiere autenticación, pero no se proporciona.
 
 Estos errores pueden dañar la optimización de los motores de búsqueda, especialmente si las páginas importantes devuelven **404 o 410**, ya que los motores de búsqueda pueden desindexarlas.
