@@ -1,9 +1,9 @@
 ---
 title: Conceptos básicos de Sites Optimizer
 description: Obtenga información sobre los conceptos básicos de Sites Optimizer y cómo navegar por él.
-source-git-commit: e103b37bbc0bdae7554bdc1f058083c64143a235
+source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 85%
 
 ---
@@ -62,7 +62,7 @@ Cada oportunidad proporciona una breve descripción del problema, su impacto pot
 * **Título de la oportunidad**: una breve descripción del problema y su impacto potencial en el rendimiento de su sitio.
 * **Última actualización**: Sites Optimizer actualizó por última vez la oportunidad con nuevos datos en esta fecha.
 * **Número de problemas**: el número de instancias del problema identificadas en el sitio.
-* **Tipos de oportunidad** - Los [tipos de oportunidad](../opportunity-types/overview.md) de los que forma parte esta oportunidad, como la adquisición de tráfico, la participación o el estado del sitio.
+* **Tipos de oportunidad** - Los [tipos de oportunidad](../opportunity-types/overview.md) de los que forma parte esta oportunidad, como la adquisición de tráfico, la participación, la conversión o el estado del sitio.
 
 La información de resumen de cada oportunidad varía según el tipo y puede incluir detalles sobre el impacto en los ingresos, el tráfico, la participación del usuario o las amenazas a la seguridad.
 
