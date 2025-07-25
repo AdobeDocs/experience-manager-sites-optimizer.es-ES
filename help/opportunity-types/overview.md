@@ -4,7 +4,7 @@ description: Obtenga información sobre los tipos de oportunidades clave en Site
 source-git-commit: 8645876161e475b0e8c641ba8f5fa2ff7906d3cb
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 48%
+ht-degree: 75%
 
 ---
 
@@ -14,16 +14,16 @@ ht-degree: 48%
 ![Tipos de oportunidades](./assets/overview/hero.png){align="center"}
 
 
-AEM Sites Optimizer proporciona información y recomendaciones valiosas para ayudarle a mejorar el rendimiento, la facilidad de uso y la seguridad de su sitio web. Estas perspectivas se agrupan en las siguientes áreas de oportunidad clave:
+AEM Sites Optimizer proporciona información y recomendaciones valiosas para ayudarle a mejorar el rendimiento, la facilidad de uso y la seguridad de su sitio web. Esta información se agrupa en las siguientes áreas de oportunidad clave:
 
 * Participación
 * Adquisición de tráfico
-* Postura de seguridad
+* Posición de seguridad
 * Estado del sitio
 
-Cada categoría resalta una manera diferente de mejorar el sitio. Una categoría puede aumentar la interacción del visitante. Otra puede mejorar la capacidad de detección. Otros se centran en reforzar la seguridad o mantener la estabilidad del sitio.
+Cada categoría resalta una manera diferente de mejorar el sitio. Una categoría puede aumentar la interacción del visitante. Otra puede mejorar la capacidad de detección. Otras se centran en reforzar la seguridad o en mantener la estabilidad del sitio.
 
-El uso de estas oportunidades mejora la experiencia del usuario, atrae a la audiencia adecuada y mantiene el sitio seguro y fiable. La mejora de la participación y la adquisición de tráfico impulsa la interacción y la visibilidad, mientras que una postura de seguridad y un estado del sitio sólidos ayudan a garantizar la confianza y la estabilidad.  Explore los vínculos siguientes para ver las oportunidades organizadas por categoría y descubrir formas de mejorar el sitio.
+Aprovechar estas oportunidades mejora la experiencia del usuario, atrae al público adecuado y mantiene el sitio seguro y fiable. Mejorar la participación y la adquisición de tráfico fomenta la interacción y la visibilidad, mientras que una posición de seguridad sólida y el estado del sitio ayudan a garantizar la confianza y la estabilidad. Explore los vínculos siguientes para ver las oportunidades organizadas por categoría y descubrir formas de mejorar el sitio.
 
 ## Tipos de oportunidades
 

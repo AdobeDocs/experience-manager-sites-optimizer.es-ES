@@ -4,7 +4,7 @@ description: Obtenga información sobre todas las oportunidades disponibles de S
 source-git-commit: bac5199a6082a2070080cef9421d39f8b22dc697
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 78%
+ht-degree: 82%
 
 ---
 
@@ -20,7 +20,7 @@ Las oportunidades están disponibles mediante la opción de menú **Oportunidade
 
 ## Estado de la oportunidad
 
-Utilice las pestañas de la parte superior para organizar y filtrar las oportunidades por estado.
+Utilice las pestañas situadas en la parte superior para organizar y filtrar las oportunidades por el estado.
 
 >[!BEGINTABS]
 

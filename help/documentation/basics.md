@@ -4,7 +4,7 @@ description: Obtenga información sobre los conceptos básicos de Sites Optimize
 source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 85%
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ El menú contextual del administrador de dominios le permite elegir el sitio de 
 La sección Navegación proporciona acceso rápido y persistente a áreas clave de Sites Optimizer desde cualquier lugar de Sites Optimizer, como:
 
 * **Inicio**: el panel principal, que proporciona información general de alto nivel sobre el rendimiento del sitio y las oportunidades de mejora.
-* **Oportunidades**: vea y administre las oportunidades identificadas por Sites Optimizer, incluidas las oportunidades que se han optimizado o que no se han optimizado.
+* **Oportunidades**: vea y administre las oportunidades identificadas por Sites Optimizer, incluidas las que se han optimizado y las que siguen sin optimizarse.
 * **Configuración** : realice la configuración de Sites Optimizer, incluidos los sitios que estás monitorizando y las notificaciones que recibe.
 
 ## Resumen del sitio
@@ -50,7 +50,7 @@ La sección Resumen del sitio proporciona una instantánea del rendimiento del s
 
 La sección Oportunidades de alto impacto destaca las oportunidades pendientes más significativas para la mejora, basadas en su impacto potencial en el rendimiento del sitio. Estas oportunidades están organizadas por tipo, lo que facilita la priorización de los esfuerzos de optimización.
 
-Filtre las oportunidades por palabras clave, etiquetas, direcciones URL o [tipo de oportunidad](../opportunity-types/overview.md) para centrarse en las áreas de mejora más críticas.
+Filtre las oportunidades por palabras clave, etiquetas, direcciones URL o [tipo de oportunidad](../opportunity-types/overview.md) para centrarse en las áreas de mejora más esenciales.
 
 
 ### Detalles de la oportunidad
