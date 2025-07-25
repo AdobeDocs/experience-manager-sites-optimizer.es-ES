@@ -3,9 +3,9 @@ title: Documentación sobre la oportunidad de Core Web Vitals
 description: Obtenga información sobre la oportunidad de Core Web Vitals y cómo utilizarla para mejorar la adquisición de tráfico.
 badgeSiteHealth: label="Estado del sitio" type="Caution" url="../../opportunity-types/site-health.md" tooltip="Estado del sitio"
 source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ En la parte inferior de la página, tiene una lista de todos los problemas actua
 
 Cada problema se muestra en una tabla, con la columna **Página** que identifica la entrada de la página afectada.
 
-El sistema agrupa estos problemas por las métricas de rendimiento estándar del informe Elementos vitales de la web:
+El sistema agrupa estos problemas por las métricas de rendimiento estándar del informe Core Web Vitals:
 
-* pintura con contenido más grande **LCP**
-* interacción con la siguiente pintura **INP**
-* cambio de diseño acumulativo **CLS**
+* Largest Contentful Paint **LCP**
+* Interaction to Next Paint **INP**
+* Cumulative Layout Shift **CLS**
 
 ## Sugerencia automática
 

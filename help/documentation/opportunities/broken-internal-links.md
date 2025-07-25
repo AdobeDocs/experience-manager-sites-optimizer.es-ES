@@ -3,9 +3,9 @@ title: Documentación sobre la oportunidad de vínculos internos rotos
 description: Obtenga información sobre la oportunidad de vínculos rotos y cómo utilizarla para mejorar la participación en el sitio web.
 badgeEngagement: label="Participación" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Participación"
 source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 78%
 
 ![Oportunidad de vínculos internos rotos](./assets/broken-internal-links/hero.png){align="center"}
 
-Los vínculos internos rotos afectan a la posibilidad del motor de búsqueda para indexar el sitio y afectan negativamente a la experiencia del usuario y a la optimización del motor de búsqueda. Para ayudar a solucionar este problema, la oportunidad de vínculos internos rotos señala las direcciones URL rotas y proporciona sugerencias para actualizaciones de vínculos válidos. Abordar estos problemas puede mejorar la participación del usuario y garantizar una navegación y accesibilidad fluidas.
+Los vínculos internos rotos afectan a la posibilidad del motor de búsqueda para indexar el sitio y afectan negativamente a la experiencia del usuario y a la optimización del motor de búsqueda. Para ayudar a solucionar este problema, la oportunidad de vínculos internos rotos señala las direcciones URL rotas y proporciona sugerencias para actualizaciones de vínculos válidos. Solucionar estos problemas mejora la participación del usuario y garantiza una navegación y accesibilidad fluidas.
 
 La oportunidad de vínculos internos rotos muestra un resumen en la parte superior de la página, que incluye una sinopsis del problema y su impacto en el sitio y en la empresa.
 
@@ -35,7 +35,7 @@ La oportunidad de vínculos internos rotos identifica y enumera automáticamente
 
 <!--![Auto-suggest broken internal links](./assets/broken-internal-links/auto-suggest.png){align="center"}-->
 
-La oportunidad de vínculos internos rotos proporciona sugerencias generadas por la IA sobre cómo actualizar los vínculos rotos. Estas sugerencias se basan en la dirección URL interrumpida de destino y proporcionan un reemplazo adecuado. Seleccionar ![icono de información](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) proporciona una justificación generada por IA para la actualización sugerida.
+La oportunidad de vínculos internos rotos proporciona sugerencias generadas por la IA sobre cómo actualizar los vínculos rotos. Estas sugerencias se basan en la dirección URL interrumpida de destino y proporcionan un reemplazo adecuado. Al seleccionar el ![icono Información](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg), se proporciona un motivo generado por la IA para la actualización sugerida.
 
 
 >[!BEGINTABS]
@@ -44,19 +44,19 @@ La oportunidad de vínculos internos rotos proporciona sugerencias generadas por
 
 <!--[AI rationale of broken internal links](./assets/broken-internal-links/auto-suggest-ai-rationale.png) -->
 
-Seleccione ![Icono de información](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) para ver la justificación de IA para la URL sugerida. El motivo explica por qué la IA cree que la URL sugerida es la mejor opción para el vínculo roto. También puede ayudarle a comprender el proceso de toma de decisiones de la IA y a tomar una decisión informada sobre si aceptar o rechazar la sugerencia.
+Seleccione el ![icono Información](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) para ver los motivos de IA para la URL sugerida. El motivo explica por qué la IA cree que la URL sugerida es la mejor opción para el vínculo roto. Esto puede ayudarle a comprender el proceso de toma de decisiones de la IA y a tomar una decisión fundamentada sobre si aceptar o rechazar la sugerencia.
 
 >[!TAB Editar URL de destino]
 
 <!--![Edit suggested URL of broken internal links](./assets/broken-internal-links/edit-target-url.png){align="center"}-->
 
-Si no está de acuerdo con la sugerencia generada por la IA, puede editar el valor de vínculo sugerido seleccionando el **icono de edición**. Esta capacidad permite introducir el vínculo deseado manualmente. La ventana de edición contiene la **Ruta de destino rota** del vínculo, la **Ruta de destino deseada** donde puede editar manualmente el vínculo y un campo con la sugerencia generada por la IA. Una vez que haya terminado de editar, haga clic en **Guardar** para actualizar la entrada de vínculo roto. Aparece un punto amarillo en el campo de entrada para indicar que el vínculo se ha editado.
+Si no está de acuerdo con la sugerencia generada por la IA, puede editar el valor de vínculo sugerido seleccionando el **icono de edición**. Esta posibilidad permite introducir el vínculo deseado manualmente. La ventana de edición contiene la **Ruta de destino rota** del vínculo, la **Ruta de destino deseada** donde puede editar manualmente el vínculo y un campo con la sugerencia generada por la IA. Una vez que haya terminado de editar, haga clic en **Guardar** para actualizar la entrada de vínculo roto. Aparecerá un punto amarillo en el campo de entrada para indicar que el vínculo se ha editado.
 
 >[!TAB Ignorar entradas]
 
 <!--![Ignore broken links](./assets/broken-internal-links/ignore.png){align="center"}-->
 
-Puede elegir ignorar las entradas con las direcciones URL rotas indicadas. Si selecciona ![Eliminar icono](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg), se eliminará la entrada de la lista de oportunidades. Las entradas ignoradas se pueden volver a activar desde la pestaña **Ignorado** en la parte superior de la página de la oportunidad.
+Puede elegir ignorar las entradas con las direcciones URL rotas indicadas. Al seleccionar el ![icono Eliminar](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg), se eliminará la entrada de la lista de oportunidades. Las entradas ignoradas se pueden volver a activar desde la pestaña **Ignorado** en la parte superior de la página de la oportunidad.
 
 >[!ENDTABS]
 

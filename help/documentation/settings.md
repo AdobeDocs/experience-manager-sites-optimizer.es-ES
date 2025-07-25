@@ -2,9 +2,9 @@
 title: Configuración de Sites Optimizer
 description: Obtenga información sobre cómo configurar los valores de Sites Optimizer e integrarlo con otras herramientas.
 source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 87%
 
 ![Configuración de Sites Optimizer](./assets/settings/hero.png){align="center"}
 
-La configuración de Site Optimizer es el sistema centralizado para configurar la experiencia de Sites Optimizer.
+La configuración de Site Optimizer es el centro para configurar la experiencia de Sites Optimizer.
 
 ## Consola de Google Search
 
