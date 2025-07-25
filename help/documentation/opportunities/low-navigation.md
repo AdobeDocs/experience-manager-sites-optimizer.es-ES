@@ -1,10 +1,10 @@
 ---
 title: Documentación de oportunidad de navegación baja
 description: Obtenga información sobre la oportunidad de baja navegación y cómo utilizarla para mejorar la participación de los formularios en su sitio web.
-badgeFormOptimization: label="Forms Optimizer" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Forms Optimizer"
+badgeFormOptimization: label="Optimización de Forms" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Optimización de Forms"
 hide: true
 hidefromtoc: true
-source-git-commit: 1666ab8c7946e4ba68ce6e1af5dda2e7ec1be9dd
+source-git-commit: 8645876161e475b0e8c641ba8f5fa2ff7906d3cb
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 23%
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # Oportunidad de baja navegación de Forms
 
-<span class="preview">: la capacidad de Forms Optimizer está disponible en el programa de acceso anticipado. Puede escribir a aem-forms-ea@adobe.com desde su ID de correo electrónico oficial para unirse al programa de acceso anticipado y solicitar acceso a la capacidad. </span>
+<span class="preview">: la funcionalidad Optimización de Forms está disponible en el programa de acceso anticipado. Puede escribir a aem-forms-ea@adobe.com desde su ID de correo electrónico oficial para unirse al programa de acceso anticipado y solicitar acceso a la capacidad. </span>
 
 ![Baja oportunidad de navegación](./assets/low-navigation/hero.png){align="center"}
 
