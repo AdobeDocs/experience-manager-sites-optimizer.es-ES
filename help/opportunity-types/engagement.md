@@ -2,9 +2,9 @@
 title: Optimización de la participación con Sites Optimizer
 description: Obtenga información sobre cómo mejorar la participación con Sites Optimizer.
 source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '237'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Las oportunidades de participación en AEM Sites Optimizer son cruciales para me
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" title="Tasa de salida hacia otro sitio alta">Tasa de salida hacia otro sitio alta</a>
                     </p>
-                    <p class="is-size-6">Obtenga información sobre la oportunidad de vistas bajas y cómo utilizarla para mejorar la participación de los formularios en su sitio web.</p>
+                    <p class="is-size-6">Obtenga información sobre la oportunidad de visualizaciones bajas y cómo utilizarla para mejorar la participación de los formularios en su sitio web.</p>
                 </div>
                 <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
