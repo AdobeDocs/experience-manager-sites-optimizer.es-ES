@@ -1,36 +1,36 @@
 ---
-title: Documentación de oportunidad de navegación baja
-description: Obtenga información sobre la oportunidad de baja navegación y cómo utilizarla para mejorar la participación de los formularios en su sitio web.
-badgeFormOptimization: label="Optimización de Forms" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Optimización de Forms"
+title: Documentación sobre la oportunidad de navegación baja
+description: Obtenga información sobre la oportunidad de visualizaciones bajas y cómo utilizarla para mejorar la participación de los formularios en su sitio web.
+badgeFormOptimization: label="Optimización de formularios" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Optimización de formularios"
 hide: true
 hidefromtoc: true
 source-git-commit: 954409fb1ad41b016ddc4dd2058e69db98ca6654
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
 
-# Oportunidad de baja navegación de Forms
+# Oportunidad de navegación baja de formularios
 
-<span class="preview">: la funcionalidad Optimización de Forms está disponible en el programa de acceso anticipado. Puede escribir a aem-forms-ea@adobe.com desde su ID de correo electrónico oficial para unirse al programa de acceso anticipado y solicitar acceso a la capacidad. </span>
+<span class="preview"> La capacidad de optimización de formularios está disponible en el programa de acceso anticipado. Puede escribir a aem-forms-ea@adobe.com desde su ID de correo electrónico oficial para unirse al programa de acceso anticipado y solicitar acceso a esta funcionalidad. </span>
 
-![Baja oportunidad de navegación](./assets/low-navigation/hero.png){align="center"}
+![Oportunidad de navegación baja](./assets/low-navigation/hero.png){align="center"}
 
-La oportunidad de navegación baja identifica los formularios del sitio web que tienen tasas de navegación bajas. Este tipo de oportunidad le ayuda a comprender a qué formularios no están descubriendo los usuarios ni a qué usuarios no están accediendo, y le ofrece sugerencias sobre cómo mejorar su capacidad de detección.
+La oportunidad de navegación baja identifica los formularios del sitio web que tienen tasas de navegación bajas. Este tipo de oportunidad le ayuda a comprender qué formularios no están siendo descubiertos o a los que no acceden los usuarios y le ofrece sugerencias sobre cómo mejorar su capacidad de detección.
 
 ## Identificación automática
 
-![Identificar automáticamente la navegación baja](./assets/low-navigation/auto-identify.png){align="center"}
+![Navegación baja de autoidentificación](./assets/low-navigation/auto-identify.png){align="center"}
 
-Cada página web con formularios con poca navegación aparece como su propia oportunidad **Navegación baja**. En la parte superior de la página de la oportunidad se muestra un breve resumen de la oportunidad y el motivo.
+Cada página web con formularios con navegación baja se enumera como su propia oportunidad de **navegación baja**. En la parte superior de la página de la oportunidad se muestra un breve resumen de la oportunidad y el motivo.
 
 ## Sugerencia automática
 
-![Sugerencia automática de navegación baja](./assets/low-navigation/auto-suggest.png)
+![Navegación baja de sugerencia automática](./assets/low-navigation/auto-suggest.png)
 
-La sugerencia automática proporciona variaciones de formularios generadas por IA y diseñadas para aumentar la navegación a los formularios. Cada variación muestra el **aumento previsto de la tasa de conversión** en función de su potencial para mejorar la accesibilidad y la detección de formularios, lo que le ayuda a priorizar las sugerencias más efectivas.
+La sugerencia automática proporciona variaciones de formularios generadas por IA y diseñadas para aumentar la navegación en sus formularios. Cada variación muestra el **aumento proyectado de la tasa de conversión** en función de su potencial para mejorar la accesibilidad y detectabilidad de los formularios, lo que le ayuda a priorizar las sugerencias más efectivas.
 
 >[!BEGINTABS]
 
@@ -38,18 +38,18 @@ La sugerencia automática proporciona variaciones de formularios generadas por I
 
 ![Variaciones de control](./assets/low-navigation/control-variation.png){align="center"}
 
-La variación de control son los formularios originales que están activos actualmente en el sitio web. Esta variación se utiliza como línea de base para comparar el rendimiento de las variaciones sugeridas.
+La variación de control es el formulario original que se encuentra activo actualmente en el sitio web. Esta variación se utiliza como línea de base para comparar el rendimiento de las variaciones sugeridas.
 
 >[!TAB Variaciones sugeridas]
 
 ![Variaciones sugeridas](./assets/low-navigation/suggested-variations.png){align="center"}
 
-Las variaciones sugeridas son variaciones de formularios generadas por IA y diseñadas para aumentar la navegación a los formularios. Cada variación muestra el **aumento previsto de la tasa de conversión** en función de su potencial para mejorar la accesibilidad y la detección de formularios, lo que le ayuda a priorizar las sugerencias más efectivas.
+Las variaciones sugeridas son variaciones de páginas web generadas por IA y diseñadas para aumentar la navegación de los formularios. Cada variación muestra el **aumento proyectado de la tasa de conversión** en función de su potencial para mejorar la accesibilidad y detectabilidad de los formularios, lo que le ayuda a priorizar las sugerencias más efectivas.
 
 Haga clic en cada variación para previsualizarla en el lado derecho de la pantalla. En la parte superior de la vista previa, están disponibles las siguientes acciones e información:
 
 * **Cambios**: un breve resumen de los cambios en esta variación respecto a la variación de **Control**.
-* **Aumento previsto de la tasa de conversión**: el aumento estimado de la participación en los formularios si se implementa esta variación.
+* **Aumento de tasa de conversión proyectada**: el aumento estimado en la participación del formulario si se implementa esta variación.
 * **Editar**: haga clic para editar la variación en la creación de AEM.
 
 >[!ENDTABS]
