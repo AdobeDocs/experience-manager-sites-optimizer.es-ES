@@ -1,10 +1,10 @@
 ---
 title: Optimización de la participación con Sites Optimizer
 description: Obtenga información sobre cómo mejorar la participación con Sites Optimizer.
-source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
-workflow-type: ht
-source-wordcount: '237'
-ht-degree: 100%
+source-git-commit: b471cb120d456805d5195cd990bdc9b8d3967d15
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 83%
 
 ---
 
@@ -15,9 +15,7 @@ ht-degree: 100%
 
 Las oportunidades de participación en AEM Sites Optimizer son cruciales para mejorar las experiencias digitales al proporcionar información práctica sobre cómo los usuarios interactúan con las páginas web. Al identificar áreas para mejorar, como problemas de accesibilidad, vínculos internos rotos, altas tasas de salida hacia otro sitio y falta de texto alternativo, los especialistas en marketing y los autores de contenido pueden optimizar sus sitios para obtener un mejor rendimiento y la participación del usuario. Estas oportunidades ayudan a garantizar que el contenido sea eficaz, fácil de detectar y convincente, lo que a la larga genera conversiones más altas y un recorrido del cliente más fluido. Seguir las recomendaciones de AEM Sites Optimizer permite a los equipos perfeccionar continuamente su estrategia digital y ofrecer experiencias de alto impacto a escala.
 
-
 ## Oportunidades
-
 
 <!-- CARDS
 
@@ -30,6 +28,9 @@ Las oportunidades de participación en AEM Sites Optimizer son cruciales para me
 * ../documentation/opportunities//high-bounce-rate.md
   {title=High bounce rate}
   {image=../assets/common/card-arrows.png}
+* ../documentation/opportunities/high-traffic-page-has-low-ctr.md
+  {title=High traffic page has low CTR}
+  {image=../assets/common/card-browser.png}
 * ../documentation/opportunities/missing-alt-text.md  
   {title=Missing alt text}
   {image=../assets/common/card-arrows.png}
@@ -101,6 +102,29 @@ Las oportunidades de participación en AEM Sites Optimizer son cruciales para me
                     <p class="is-size-6">Obtenga información sobre la oportunidad de visualizaciones bajas y cómo utilizarla para mejorar la participación de los formularios en su sitio web.</p>
                 </div>
                 <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="High traffic page has low CTR">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="../documentation/opportunities/high-traffic-page-has-low-ctr.md" title="La página de alto tráfico tiene un CTR bajo" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/common/card-browser.png" alt="La página de alto tráfico tiene un CTR bajo"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="../documentation/opportunities/high-traffic-page-has-low-ctr.md" target="_blank" rel="referrer" title="La página de alto tráfico tiene un CTR bajo">La página de alto tráfico tiene un CTR bajo</a>
+                    </p>
+                    <p class="is-size-6">Obtenga información acerca de la página de alto tráfico tiene una oportunidad de CTR baja y cómo utilizarla para aumentar la participación en el sitio web.</p>
+                </div>
+                <a href="../documentation/opportunities/high-traffic-page-has-low-ctr.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
