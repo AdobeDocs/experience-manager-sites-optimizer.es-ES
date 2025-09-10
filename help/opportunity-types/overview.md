@@ -2,9 +2,9 @@
 title: Tipos de oportunidades de Sites Optimizer
 description: Obtenga información sobre los tipos de oportunidades clave en Sites Optimizer y cómo pueden ayudarle a mejorar el rendimiento de su sitio.
 source-git-commit: 469370cfcb19e25bf8da5f7f9e08b8b0da52dbb9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ AEM Sites Optimizer proporciona información y recomendaciones valiosas para ayu
 * Adquisición de tráfico
 * Posición de seguridad
 * Estado del sitio
-* Comprobación preliminar
+* Preflight
 
-Cada categoría resalta una manera diferente de mejorar el sitio. Una categoría puede aumentar la interacción del visitante. Otra puede mejorar la capacidad de detección. Otros se centran en reforzar la seguridad o mantener la estabilidad del sitio. Las comprobaciones le ayudan a analizar y optimizar las páginas antes de publicarlas.
+Cada categoría resalta una manera diferente de mejorar el sitio. Una categoría puede aumentar la interacción del visitante. Otra puede mejorar la capacidad de detección. Otras se centran en reforzar la seguridad o en mantener la estabilidad del sitio. Preflight le ayuda a analizar y optimizar las páginas antes de publicarlas.
 
-Aprovechar estas oportunidades mejora la experiencia del usuario, atrae al público adecuado y mantiene el sitio seguro y fiable. La mejora de la participación y la adquisición de tráfico impulsa la interacción y la visibilidad, mientras que una postura de seguridad y un estado del sitio sólidos ayudan a garantizar la confianza y la estabilidad. El análisis de comprobaciones garantiza que el contenido esté optimizado antes de publicarse. Explore los vínculos siguientes para ver las oportunidades organizadas por categoría y descubrir formas de mejorar el sitio.
+Aprovechar estas oportunidades mejora la experiencia del usuario, atrae al público adecuado y mantiene el sitio seguro y fiable. La mejora de la participación y la adquisición de tráfico fomenta la interacción y la visibilidad, mientras que una posición de seguridad sólida y el estado saludable del sitio ayudan a garantizar la confianza y la estabilidad. El análisis de Preflight garantiza que el contenido esté optimizado antes de publicarse. Explore los vínculos siguientes para ver las oportunidades organizadas por categoría y descubrir formas de mejorar el sitio.
 
 ## Tipos de oportunidades
 
@@ -188,8 +188,8 @@ Aprovechar estas oportunidades mejora la experiencia del usuario, atrae al públ
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./preflight.md" title="Comprobación preliminar" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/preflight/hero.png" alt="Comprobación preliminar"
+                    <a href="./preflight.md" title="Preflight" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/preflight/hero.png" alt="Preflight"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -197,9 +197,9 @@ Aprovechar estas oportunidades mejora la experiencia del usuario, atrae al públ
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./preflight.md" target="_blank" rel="referrer" title="Comprobación preliminar">Comprobación preliminar</a>
+                        <a href="./preflight.md" target="_blank" rel="referrer" title="Preflight">Preflight</a>
                     </p>
-                    <p class="is-size-6">Obtenga información acerca del análisis de comprobaciones y cómo configurar oportunidades de comprobaciones en Sites Optimizer.</p>
+                    <p class="is-size-6">Obtenga información acerca del análisis de preflight y cómo configurar oportunidades de preflight en Sites Optimizer.</p>
                 </div>
                 <a href="./preflight.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>

@@ -1,19 +1,19 @@
 ---
-title: 'AEM Sites Optimizer: Guía de incorporación de comprobaciones'
-description: Obtenga información sobre las oportunidades de comprobaciones y cómo configurar el análisis de comprobaciones en AEM Sites Optimizer.
+title: 'AEM Sites Optimizer: guía de incorporación de Preflight'
+description: Obtenga información sobre las oportunidades de Preflight y cómo configurar el análisis de Preflight en AEM Sites Optimizer.
 source-git-commit: 0a6ddcdfd369253500067b31617facfb7f38b656
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '488'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
 
-# Oportunidades de comprobación preliminar
+# Oportunidades de Preflight
 
-![Oportunidades de comprobación preliminar](./assets/preflight/hero.png){align="center"}
+![Oportunidades de Preflight](./assets/preflight/hero.png){align="center"}
 
-<span class="preview">AEM Sites Optimizer Preflight analiza los datos técnicos y de rendimiento de la página y anticipa y detecta las oportunidades antes de su publicación. Utiliza IA generativa para sugerir optimizaciones.</span>
+<span class="preview">Preflight de AEM Sites Optimizer analiza los datos técnicos y de rendimiento de la página y anticipa y detecta las oportunidades antes de su publicación. Utiliza IA generativa para sugerir optimizaciones.</span>
 
 ## Oportunidades
 
@@ -88,8 +88,8 @@ ht-degree: 6%
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../documentation/opportunities/invalid-or-missing-metadata.md" title="Metatags" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-code.png" alt="Metatags"
+                    <a href="../documentation/opportunities/invalid-or-missing-metadata.md" title="Metaetiquetas" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/common/card-code.png" alt="Metaetiquetas"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -97,9 +97,9 @@ ht-degree: 6%
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" title="Metatags">Etiquetas de metadatos</a>
+                        <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" title="Metaetiquetas">Metaetiquetas</a>
                     </p>
-                    <p class="is-size-6">Conozca la oportunidad de las metaetiquetas y cómo utilizarla para optimizar los metadatos de su página y mejorar el rendimiento de la SEO.</p>
+                    <p class="is-size-6">Conozca la oportunidad de las metaetiquetas y cómo utilizarla para optimizar los metadatos de su página y mejorar el rendimiento SEO.</p>
                 </div>
                 <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
@@ -122,7 +122,7 @@ ht-degree: 6%
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" title="Recuento H1">Recuento H1</a>
                     </p>
-                    <p class="is-size-6">Obtenga información acerca de la oportunidad de recuento H1 y cómo utilizarla para garantizar una estructura de encabezados y una optimización de los motores de búsqueda adecuadas.</p>
+                    <p class="is-size-6">Obtenga información acerca de la oportunidad de recuento H1 y cómo utilizarla para garantizar una estructura de encabezados y una optimización SEO adecuadas.</p>
                 </div>
                 <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
@@ -162,17 +162,17 @@ ht-degree: 6%
 ### Configuración del editor universal
 
 1. Vaya a Extension Manager desde la dirección URL: https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor
-2. Seleccione la extensión de comprobaciones de AEM Sites Optimizer y solicite la activación
+2. Seleccione la extensión de Preflight de AEM Sites Optimizer y solicite la activación
 3. El equipo de AEM habilitará la extensión para su organización
 4. Una vez hecho esto, abra una página en el editor universal como: https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/site/subscription.html
-5. La extensión de comprobación preliminar será visible en el carril lateral
-6. Al hacer clic en Extensión de comprobación preliminar desde el carril lateral, se iniciará la auditoría de comprobaciones para la página actual
+5. La extensión de Preflight será visible en el carril lateral
+6. Al hacer clic en Extensión de Preflight desde el carril lateral, se iniciará la auditoría de comprobaciones para la página actual
 
 ### Configuración de vista previa basada en documentos
 
-#### Paso 1: Habilitar Sidekick con el botón de verificación previa
+#### Paso 1: Habilitar Sidekick con el botón de Preflight
 
-Agregue la siguiente configuración a `/tools/sidekick/config.json` en su repositorio de GitHub:
+Añada la siguiente configuración a `/tools/sidekick/config.json` en su repositorio de GitHub:
 
 ```json
 {
@@ -191,7 +191,7 @@ Agregue la siguiente configuración a `/tools/sidekick/config.json` en su reposi
 
 #### Paso 2: Creación del script de integración de Sidekick
 
-Crear `/tools/sidekick/aem-sites-optimizer-preflight.js` con el siguiente contenido:
+Cree `/tools/sidekick/aem-sites-optimizer-preflight.js` con el siguiente contenido:
 
 ```javascript
 (function () {
@@ -240,7 +240,7 @@ Crear `/tools/sidekick/aem-sites-optimizer-preflight.js` con el siguiente conten
 
 #### Paso 3: Actualización del archivo de scripts
 
-Agregue la siguiente instrucción de importación a la función `loadLazy()` en `/scripts/scripts.js` para las direcciones URL de vista previa, como se muestra a continuación:
+Añada la siguiente instrucción de importación a la función `loadLazy()` en `/scripts/scripts.js` para las direcciones URL de vista previa, como se muestra a continuación:
 
 ```javascript
 if (window.location.href.includes('.aem.page')) {
@@ -248,19 +248,19 @@ if (window.location.href.includes('.aem.page')) {
 }
 ```
 
-Ahora el botón Comprobaciones debería estar visible en Sidekick.
+Ahora el botón Preflight debería estar visible en Sidekick.
 
 #### Paso 4: Ejecución de la auditoría
 
-Abra la URL de vista previa (*.aem.page) de la página auditada. Haga clic en el botón Comprobaciones de Sidekick.
+Abra la URL de vista previa (*.aem.page) de la página auditada. Haga clic en el botón Preflight de Sidekick.
 
 ### Configuración de AEM Cloud Service
 
-Puede utilizar la opción de bookmarklet para probar la comprobación preliminar en editores de páginas y entornos de espacio aislado de AEM Cloud Service.
+Puede utilizar la opción de bookmarklet para probar Preflight en editores de páginas y entornos de zona protegida de AEM Cloud Service.
 
 <!-- Drag the button below to your Bookmarks Bar to get started. -->
 
-Presione **Ctrl+Mayús+B** (Windows) o **Cmd+Mayús+B** (Mac) para mostrar la barra de marcadores. Haga clic con el botón derecho en la barra de marcadores y seleccione &quot;Nueva página&quot; o &quot;Agregar marcador&quot;. En el campo de dirección, copie el código siguiente.
+Pulse **Ctrl+Mayús+B** (Windows) o **Cmd+Mayús+B** (Mac) para mostrar la barra de marcadores. Haga clic con el botón derecho en la barra de marcadores y seleccione &quot;Nueva página&quot; o &quot;Añadir marcador&quot;. En el campo de dirección, copie el código siguiente.
 
 <!-- **Drag this link to your Bookmarks Bar:**
 
@@ -272,13 +272,13 @@ Presione **Ctrl+Mayús+B** (Windows) o **Cmd+Mayús+B** (Mac) para mostrar la ba
 javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();
 ```
 
-Una vez añadido el bookmarklet, abra la URL de vista previa (*.aem.page) de la página auditada. Haga clic en el marcador Comprobaciones para iniciar la auditoría de comprobaciones.
+Una vez añadido el Bookmarklet, abra la URL de vista previa (*.aem.page) de la página auditada. Haga clic en el marcador Preflight para iniciar la auditoría de Preflight.
 
 ## Prácticas recomendadas
 
-Al utilizar la comprobación preliminar, tenga en cuenta lo siguiente:
+Cuando utilice Preflight, tenga en cuenta lo siguiente:
 
-* Ejecute auditorías de comprobaciones en todas las páginas de ensayo y vista previa antes de publicar.
+* Ejecute auditorías de Preflight en todas las páginas de ensayo y vista previa antes de publicar.
 * Aborde primero los problemas de alto impacto (vínculos rotos, etiquetas H1 faltantes, vínculos no seguros).
 * Habilite la autenticación para entornos de ensayo protegidos.
 * Revise e implemente sugerencias de etiquetas meta para obtener un mejor rendimiento de SEO.
