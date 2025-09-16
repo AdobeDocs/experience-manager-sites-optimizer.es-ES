@@ -2,7 +2,7 @@
 title: La página Tráfico alto tiene una documentación de oportunidad de CTR baja
 description: Obtenga información acerca de la página de alto tráfico tiene una oportunidad de CTR baja y cómo utilizarla para aumentar la participación en el sitio web.
 badgeEngagement: label="Participación" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Participación"
-source-git-commit: b471cb120d456805d5195cd990bdc9b8d3967d15
+source-git-commit: 5c3b4eb9941c82273c017602202b74d7911f7cc5
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 4%
@@ -20,7 +20,7 @@ La página de alto tráfico tiene una oportunidad de CTR baja que identifica las
 
 ![La página de identificación automática de alto tráfico tiene problemas de CTR bajos](./assets/high-traffic-page-has-low-ctr/auto-identify.png){align="center"}
 
-La **página de alto tráfico tiene una oportunidad de CTR baja** identifica las páginas de alto tráfico con CTR bajo en su sitio web e incluye lo siguiente:
+La página **Tráfico alto tiene una oportunidad de CTR bajo** identifica las páginas de tráfico alto con CTR bajo en el sitio web e incluye lo siguiente:
 
 * **Recomendación**: acción sugerida para mejorar el CTR de la página.
 * **Insight**: explicación de por qué la página tiene un CTR bajo.
