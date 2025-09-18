@@ -1,7 +1,7 @@
 ---
 title: Optimizaciones de comprobaciones con AEM Sites Optimizer
 description: Obtenga información sobre las oportunidades de comprobaciones con AEM Sites Optimizer.
-source-git-commit: 214a9d7d4c7e498a8c2f39009e93c4c1f8f772b1
+source-git-commit: cae186f8a953fd9d4e9d68653dd5eb2a4bd14152
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 23%
@@ -161,14 +161,14 @@ Las oportunidades de comprobación preliminar de AEM Sites Optimizer ayudan a ga
 
 La identificación de la oportunidad de comprobación preliminar de AEM Sites Optimizer requiere la configuración de la extensión de comprobación preliminar en el editor universal, la vista previa basada en documentos o AEM Cloud Service para ejecutar auditorías de comprobaciones en las páginas antes de publicarlas.
 
-## Habilitar acceso de usuario
+### Habilitar acceso de usuario
 
 Para usar la extensión de comprobaciones, asegúrese de que el usuario esté asignado al menos a uno de los siguientes perfiles de producto de AEM Sites Optimizer en [Adobe Admin Console](https://adminconsole.adobe.com):
 
 * AEM Sites Optimizer: Sugerencia automática de usuario
 * AEM Sites Optimizer: Optimización automática del usuario
 
-## Habilitar la extensión de comprobaciones
+### Habilitar la extensión de comprobaciones
 
 >[!BEGINTABS]
 
