@@ -1,17 +1,17 @@
 ---
 title: AEM Sites Optimizer
 description: 'Aumente el rendimiento de su sitio web con Sites Optimizer: mejore la velocidad, reduzca los costes y mejore la fiabilidad para lograr una mejor participación.'
-source-git-commit: 214a9d7d4c7e498a8c2f39009e93c4c1f8f772b1
+source-git-commit: 96fc971f592120b2fc82ee9db5d765c94940f63f
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 56%
+source-wordcount: '214'
+ht-degree: 61%
 
 ---
 
 
 # AEM Sites Optimizer
 
->[!VIDEO](https://video.tv.adobe.com/v/3455088/?learn=on&enablevpops&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3455085/?learn=on&enablevpops)
 
 Adobe Experience Manager (AEM) Sites Optimizer es un servicio basado en la nube que analiza y mejora el rendimiento de los sitios web creados en AEM. Sites Optimizer identifica las áreas para mejorar la carga de página, el uso de componentes y la entrega de contenido. Esta funcionalidad ayuda a mejorar el rendimiento del sitio web, a la vez que reduce los costes de mantenimiento y actualización. Gracias a Sites Optimizer, puede garantizar una experiencia en línea fluida y fiable, lo que es importante para mantener la participación y las conversiones.
 
@@ -20,8 +20,8 @@ Adobe Experience Manager (AEM) Sites Optimizer es un servicio basado en la nube 
 <!-- CARDS 
 
 * ./opportunity-types/overview.md
-   {title=Opportunity types}
-   {description = Learn about the available Site Optimizer opportunities and how to use them to improve your site's performance.}
+    * {title=Opportunity types}
+    * {description = Learn about the available Site Optimizer opportunities and how to use them to improve your site's performance.}
 * ./documentation/overview.md
   * {title=Documentation}
   * {description=Explore the Sites Optimizer documentation to learn about all its capabilities.}
@@ -81,25 +81,27 @@ Adobe Experience Manager (AEM) Sites Optimizer es un servicio basado en la nube 
 ## Más información sobre Sites Optimizer
 
 <!-- CARDS 
-    * https://helpx.adobe.com/es/legal/product-descriptions/adobe-experience-manager-sites-optimizer.html
-        {title=Packages and licensing}
-        {description=Learn about AEM Sites Optimizer packages and licensing.}
-        {image=https://business.adobe.com/products/experience-manager/sites/media_17296346c44dba1976d5fbac060205b5ec7df0164.png?width=2000&format=webply&optimize=medium}
-        {cta=Learn more}
-    * https://business.adobe.com/products/experience-manager/sites/optimizer.html
-        {title=Explore the capabilities of AEM Sites Optimizer}
-        {description=Learn what AEM Site Optimizer can do for your company.}
-        {target=_blank}
-        {cta=Learn more}
+* https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-sites-optimizer.html
+    {title=Packages and licensing}
+    {description=Learn about AEM Sites Optimizer packages and licensing.}
+    {image=./assets/home/licensing.png}
+    {target=_blank}
+    {cta=Learn more}
+* https://business.adobe.com/products/experience-manager/sites/optimizer.html
+    {title=Explore the capabilities of AEM Sites Optimizer}
+    {description=Learn what AEM Site Optimizer can do for your company.}
+    {image=./assets/home/business-adobe-com.png}
+    {target=_blank}
+    {cta=Learn more}
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Explore the capabilities of AEM Sites Optimizer">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Packages and licensing">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://helpx.adobe.com/es/legal/product-descriptions/adobe-experience-manager-sites-optimizer.html" title="Explore las funcionalidades de AEM Sites Optimizer" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://business.adobe.com/products/experience-manager/sites/media_17296346c44dba1976d5fbac060205b5ec7df0164.png?width=400&format=webply&optimize=medium" alt="Explore las funcionalidades de AEM Sites Optimizer"
+                    <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-sites-optimizer.html" title="Paquetes y licencias" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="./assets/home/licensing.png" alt="Paquetes y licencias"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -107,11 +109,11 @@ Adobe Experience Manager (AEM) Sites Optimizer es un servicio basado en la nube 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://helpx.adobe.com/es/legal/product-descriptions/adobe-experience-manager-sites-optimizer.html" target="_blank" rel="referrer" title="Explore las funcionalidades de AEM Sites Optimizer">Explorar las capacidades de AEM Sites Optimizer</a>
+                        <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-sites-optimizer.html" target="_blank" rel="referrer" title="Paquetes y licencias">Paquetes y licencias</a>
                     </p>
-                    <p class="is-size-6">Descubra lo que AEM Site Optimizer puede hacer por su compañía.</p>
+                    <p class="is-size-6">Obtenga información acerca de los paquetes y las licencias de AEM Sites Optimizer.</p>
                 </div>
-                <a href="https://helpx.adobe.com/es/legal/product-descriptions/adobe-experience-manager-sites-optimizer.html" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-sites-optimizer.html" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
@@ -122,7 +124,7 @@ Adobe Experience Manager (AEM) Sites Optimizer es un servicio basado en la nube 
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://business.adobe.com/products/experience-manager/sites/optimizer.html" title="Explore las funcionalidades de AEM Sites Optimizer" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://business.adobe.com/products/experience-manager/sites/media_134c5e6db48bfd903d3b7e7c8432b7d0f0c238dd9.png?width=400&format=pjpg&optimize=medium" alt="Explore las funcionalidades de AEM Sites Optimizer"
+                        <img class="is-bordered-r-small" src="./assets/home/business-adobe-com.png" alt="Explore las funcionalidades de AEM Sites Optimizer"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
