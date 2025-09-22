@@ -5,7 +5,7 @@ user-guide-description: Se trata de una descripción de la guía del usuario que
 source-git-commit: 214a9d7d4c7e498a8c2f39009e93c4c1f8f772b1
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
