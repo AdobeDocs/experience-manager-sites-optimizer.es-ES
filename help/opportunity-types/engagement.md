@@ -2,9 +2,9 @@
 title: Optimización de la participación con Sites Optimizer
 description: Obtenga información sobre cómo mejorar la participación con Sites Optimizer.
 source-git-commit: b471cb120d456805d5195cd990bdc9b8d3967d15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -122,7 +122,7 @@ Las oportunidades de participación en AEM Sites Optimizer son cruciales para me
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/high-traffic-page-has-low-ctr.md" target="_blank" rel="referrer" title="La página de alto tráfico tiene un CTR bajo">La página de alto tráfico tiene un CTR bajo</a>
                     </p>
-                    <p class="is-size-6">Obtenga información acerca de la página de alto tráfico tiene una oportunidad de CTR baja y cómo utilizarla para aumentar la participación en el sitio web.</p>
+                    <p class="is-size-6">Obtenga más información sobre la oportunidad que representan las páginas con mucho tráfico y un CTR bajo, y cómo aprovecharla para aumentar la participación en su sitio web.</p>
                 </div>
                 <a href="../documentation/opportunities/high-traffic-page-has-low-ctr.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
