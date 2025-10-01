@@ -3,16 +3,16 @@ title: La página de tráfico alto tiene una documentación de oportunidad de CT
 description: Obtenga más información sobre la oportunidad que representan las páginas con mucho tráfico y un CTR bajo, y cómo aprovecharla para aumentar la participación en su sitio web.
 badgeEngagement: label="Participación" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Participación"
 source-git-commit: 5c3b4eb9941c82273c017602202b74d7911f7cc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# La página de alto tráfico tiene una oportunidad de CTR baja
+# La página de tráfico elevado tiene una oportunidad de CTR baja
 
-![La página de alto tráfico tiene una oportunidad de CTR baja](./assets/high-traffic-page-has-low-ctr/hero.png){align="center"}
+![La página de tráfico elevado tiene una oportunidad de CTR baja](./assets/high-traffic-page-has-low-ctr/hero.png){align="center"}
 
 La página de tráfico alto tiene una oportunidad de CTR baja que identifica las páginas del sitio web que reciben una cantidad significativa de tráfico, pero que tienen una tasa de clics baja (CTR). Al analizar estas páginas, puede descubrir posibles problemas que podrían estar dificultando la participación del usuario y tomar medidas para mejorar su rendimiento. Esta oportunidad es esencial para optimizar el contenido y el diseño de su sitio web, lo que a la larga se traduce en tasas de conversión más altas y en mejores experiencias de usuario.
 
@@ -20,7 +20,7 @@ La página de tráfico alto tiene una oportunidad de CTR baja que identifica las
 
 ![La página de identificación automática de tráfico alto tiene problemas de CTR baja](./assets/high-traffic-page-has-low-ctr/auto-identify.png){align="center"}
 
-La página **Tráfico alto tiene una oportunidad de CTR bajo** identifica las páginas de tráfico alto con CTR bajo en el sitio web e incluye lo siguiente:
+La **página de tráfico elevado tiene oportunidad de CTR bajo** identifica las páginas de tráfico elevado con CTR bajo en su sitio web, e incluye lo siguiente:
 
 * **Recomendación**: acción sugerida para mejorar la CTR de la página.
 * **Datos**: explicación de por qué la página tiene una CTR baja.
