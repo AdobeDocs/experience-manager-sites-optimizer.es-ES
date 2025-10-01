@@ -1,10 +1,10 @@
 ---
-title: Optimizaciones de comprobaciones con AEM Sites Optimizer
-description: Obtenga información sobre las oportunidades de comprobaciones con AEM Sites Optimizer.
+title: Optimizaciones de Preflight con AEM Sites Optimizer
+description: Obtenga información sobre las oportunidades de Preflight con AEM Sites Optimizer.
 source-git-commit: 6e177ef6b9d121ac7484ae118037c7e542f981d8
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 18%
+ht-degree: 61%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 18%
 
 ![Oportunidades de Preflight](./assets/preflight/hero.png){align="center"}
 
-Las [oportunidades de comprobación preliminar](../documentation/preflight/overview.md) de AEM Sites Optimizer ayudan a garantizar que sus páginas web estén optimizadas para el rendimiento, la optimización de los motores de búsqueda y la experiencia del usuario antes de que se publiquen. Al identificar posibles problemas, como vínculos rotos, etiquetas meta que faltan y problemas de accesibilidad, las comprobaciones de verificación previa permiten a los autores de contenido y a los especialistas en marketing abordar estos problemas al principio del proceso de publicación. Este enfoque proactivo minimiza el riesgo de publicar contenido subóptimo, mejora la calidad del sitio y mejora la presencia digital en general. El uso de las oportunidades de comprobación preliminar permite un flujo de trabajo más fluido, reduce las correcciones posteriores a la publicación y contribuye a mejorar las clasificaciones de los motores de búsqueda y la satisfacción del usuario.
+Las [oportunidades de comprobación preliminar](../documentation/preflight/overview.md) de AEM Sites Optimizer ayudan a garantizar que sus páginas web estén optimizadas para el rendimiento, la optimización de los motores de búsqueda y la experiencia del usuario antes de que se publiquen. Al identificar posibles problemas, como vínculos rotos, etiquetas meta que faltan y problemas de accesibilidad, las comprobaciones de verificación previa permiten a los autores de contenido y a los especialistas en marketing abordar estos problemas al principio del proceso de publicación. Este enfoque proactivo minimiza el riesgo de publicar contenido de calidad inferior, mejora la calidad del sitio y la presencia digital en general. El uso de las oportunidades de comprobación preliminar permite un flujo de trabajo más fluido, reduce las correcciones posteriores a la publicación y contribuye a mejorar las clasificaciones de los motores de búsqueda y la satisfacción del usuario.
 
 ## Oportunidades
 
