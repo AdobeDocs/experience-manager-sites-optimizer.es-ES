@@ -1,10 +1,10 @@
 ---
 title: Oportunidades de Preflight
-description: Documentación sobre las oportunidades de comprobación preliminar en Sites Optimizer.
+description: Documentación sobre las oportunidades de Preflight en Sites Optimizer.
 source-git-commit: 6e177ef6b9d121ac7484ae118037c7e542f981d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 8%
 
 ![Oportunidades de Preflight](./assets/overview/hero.png){align="center"}
 
-Las oportunidades de comprobación preliminar de Sites Optimizer están compuestas por un conjunto de evaluaciones que analizan diferentes aspectos del contenido y la estructura del sitio web antes de la publicación de la página web. Estas evaluaciones ayudan a identificar posibles problemas y proporcionan recomendaciones procesables para mejorar la calidad general y el rendimiento del sitio.
+Las oportunidades de Preflight de Sites Optimizer están compuestas por un conjunto de evaluaciones que analizan diferentes aspectos del contenido y la estructura del sitio web antes de la publicación de la página web. Estas evaluaciones ayudan a identificar posibles problemas y proporcionan recomendaciones procesables para mejorar la calidad general y el rendimiento del sitio.
 
-## Configuración de comprobación preliminar
+## Configuración de Preflight
 
-Siga los pasos de la guía [Configuración de comprobaciones](./setup.md) para configurar la extensión de comprobaciones en su sitio web.
+Siga los pasos de la guía [Configuración de Preflight](./setup.md) para configurar la extensión de comprobaciones en su sitio web.
 
 ## Oportunidades de Preflight
 
@@ -34,8 +34,8 @@ Siga los pasos de la guía [Configuración de comprobaciones](./setup.md) para c
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./accessibility.md" title="Oportunidad de accesibilidad de comprobación preliminar" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/accessibility/hero.png" alt="Oportunidad de accesibilidad de comprobación preliminar"
+                    <a href="./accessibility.md" title="Oportunidad de accesibilidad de Preflight" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/accessibility/hero.png" alt="Oportunidad de accesibilidad de Preflight"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -43,7 +43,7 @@ Siga los pasos de la guía [Configuración de comprobaciones](./setup.md) para c
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./accessibility.md" target="_blank" rel="referrer" title="Oportunidad de accesibilidad de comprobación preliminar">Oportunidad de accesibilidad de comprobación preliminar</a>
+                        <a href="./accessibility.md" target="_blank" rel="referrer" title="Oportunidad de accesibilidad de Preflight">Oportunidad de accesibilidad de Preflight</a>
                     </p>
                     <p class="is-size-6">Obtenga información acerca de la oportunidad de accesibilidad de las comprobaciones en Sites Optimizer.</p>
                 </div>
@@ -57,8 +57,8 @@ Siga los pasos de la guía [Configuración de comprobaciones](./setup.md) para c
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./h1-count.md" title="Oportunidad de recuento H1 de comprobación preliminar" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/h1-count/hero.png" alt="Oportunidad de recuento H1 de comprobación preliminar"
+                    <a href="./h1-count.md" title="Oportunidad de recuento H1 de Preflight" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/h1-count/hero.png" alt="Oportunidad de recuento H1 de Preflight"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -66,7 +66,7 @@ Siga los pasos de la guía [Configuración de comprobaciones](./setup.md) para c
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./h1-count.md" target="_blank" rel="referrer" title="Oportunidad de recuento H1 de comprobación preliminar">Oportunidad de recuento H1 de comprobación preliminar</a>
+                        <a href="./h1-count.md" target="_blank" rel="referrer" title="Oportunidad de recuento H1 de Preflight">Oportunidad de recuento H1 de Preflight</a>
                     </p>
                     <p class="is-size-6">Obtenga información acerca de la oportunidad de accesibilidad de las comprobaciones en Sites Optimizer.</p>
                 </div>
@@ -80,8 +80,8 @@ Siga los pasos de la guía [Configuración de comprobaciones](./setup.md) para c
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./links.md" title="Oportunidad de vínculos de comprobación preliminar" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/links/hero.png" alt="Oportunidad de vínculos de comprobación preliminar"
+                    <a href="./links.md" title="Oportunidad de vínculos de Preflight" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/links/hero.png" alt="Oportunidad de vínculos de Preflight"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -89,9 +89,9 @@ Siga los pasos de la guía [Configuración de comprobaciones](./setup.md) para c
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./links.md" target="_blank" rel="referrer" title="Oportunidad de vínculos de comprobación preliminar">Oportunidad de vínculos de comprobación preliminar</a>
+                        <a href="./links.md" target="_blank" rel="referrer" title="Oportunidad de vínculos de Preflight">Oportunidad de vínculos de Preflight</a>
                     </p>
-                    <p class="is-size-6">Obtenga información acerca de la oportunidad Vínculos de comprobación preliminar en Sites Optimizer.</p>
+                    <p class="is-size-6">Obtenga información acerca de la oportunidad Vínculos de Preflight en Sites Optimizer.</p>
                 </div>
                 <a href="./links.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
@@ -103,8 +103,8 @@ Siga los pasos de la guía [Configuración de comprobaciones](./setup.md) para c
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./meta-data.md" title="Oportunidad de metadatos de comprobación preliminar" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/metadata/hero.png" alt="Oportunidad de metadatos de comprobación preliminar"
+                    <a href="./meta-data.md" title="Oportunidad de metadatos de Preflight" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/metadata/hero.png" alt="Oportunidad de metadatos de Preflight"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -112,7 +112,7 @@ Siga los pasos de la guía [Configuración de comprobaciones](./setup.md) para c
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./meta-data.md" target="_blank" rel="referrer" title="Oportunidad de metadatos de comprobación preliminar">Oportunidad de metadatos de comprobación preliminar</a>
+                        <a href="./meta-data.md" target="_blank" rel="referrer" title="Oportunidad de metadatos de Preflight">Oportunidad de metadatos de Preflight</a>
                     </p>
                     <p class="is-size-6">Obtenga información acerca de la oportunidad de metadatos de comprobaciones en Sites Optimizer.</p>
                 </div>
@@ -126,8 +126,8 @@ Siga los pasos de la guía [Configuración de comprobaciones](./setup.md) para c
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./readability.md" title="Oportunidad de legibilidad de comprobación preliminar" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/readability/hero.png" alt="Oportunidad de legibilidad de comprobación preliminar"
+                    <a href="./readability.md" title="Oportunidad de legibilidad de Preflight" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/readability/hero.png" alt="Oportunidad de legibilidad de Preflight"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -135,7 +135,7 @@ Siga los pasos de la guía [Configuración de comprobaciones](./setup.md) para c
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./readability.md" target="_blank" rel="referrer" title="Oportunidad de legibilidad de comprobación preliminar">Oportunidad de legibilidad de comprobación preliminar</a>
+                        <a href="./readability.md" target="_blank" rel="referrer" title="Oportunidad de legibilidad de Preflight">Oportunidad de legibilidad de Preflight</a>
                     </p>
                     <p class="is-size-6">Obtenga información acerca de la oportunidad Legibilidad de las comprobaciones en Sites Optimizer.</p>
                 </div>
