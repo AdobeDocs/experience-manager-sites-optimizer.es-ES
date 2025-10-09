@@ -84,7 +84,7 @@ Adobe Experience Manager (AEM) Sites Optimizer es un servicio basado en la nube 
 ## Más información sobre Sites Optimizer
 
 <!-- CARDS 
-* https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-sites-optimizer.html
+* https://helpx.adobe.com/es/legal/product-descriptions/adobe-experience-manager-sites-optimizer.html
     {title=Packages and licensing}
     {description=Learn about AEM Sites Optimizer packages and licensing.}
     {image=./assets/home/licensing.png}
