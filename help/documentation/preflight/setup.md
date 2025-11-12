@@ -1,8 +1,8 @@
 ---
 title: Configuración de Preflight
 description: Obtenga información sobre cómo configurar la extensión de Preflight para AEM Sites Optimizer.
-source-git-commit: 6e177ef6b9d121ac7484ae118037c7e542f981d8
-workflow-type: ht
+source-git-commit: 210acc5337796707ced10f2b84d473503fc06088
+workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%
 
@@ -124,14 +124,14 @@ Para utilizar la comprobación preliminar en el editor de páginas de AEM Sites,
 
    * Pulse **Ctrl+Mayús+B** (Windows) o **Cmd+Mayús+B** (Mac).
 
-!. Cree un nuevo marcador en el explorador:
+1. Cree un nuevo marcador en el explorador:
 
-* Haga clic con el botón derecho en la barra de marcadores y seleccione **Nueva página** o **Añadir marcador**.
-* En el campo **Dirección (URL)**, pegue el siguiente código:
+   * Haga clic con el botón derecho en la barra de marcadores y seleccione **Nueva página** o **Añadir marcador**.
+   * En el campo **Dirección (URL)**, pegue el siguiente código:
 
-```javascript
-javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();
-```
+   ```javascript
+   javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();
+   ```
 
 1. Asigne un nombre al marcador **Comprobación preliminar** (o cualquier nombre que prefiera).
 1. Abra la URL de vista previa (`*.aem.page`) de la página que desea auditar en el **Editor de páginas de AEM Sites**.
