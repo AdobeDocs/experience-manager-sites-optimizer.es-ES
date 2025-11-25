@@ -8,17 +8,17 @@ git-repo: https://github.com/AdobeDocs/experience-manager-sites-optimizer.es-ES
 feature-set: Experience Manager Assets,Experience Manager Sites,Experience Manager, Experience Manager Forms, Experience Manager Cloud Manager
 cloud: Experience Cloud
 recommendations: noDisplay
-source-git-commit: eda941a0096e32f61b45d69d89a3ee5b1a0c7e4b
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 53%
+source-wordcount: '79'
+ht-degree: 29%
 
 ---
 
 
 # Metadatos para uso interno
 
-Los metadatos del sistema de creación de GitHub son jerárquicos y se definen con los siguientes niveles crecientes de precedentes.
+El sistema de creación de GitHub organiza los metadatos de forma jerárquica, utilizando los siguientes niveles crecientes de precedentes.
 
 1. metadata.md
 1. TDC
@@ -26,7 +26,7 @@ Los metadatos del sistema de creación de GitHub son jerárquicos y se definen c
 
 Los metadatos definidos en el archivo metadata.md se aplican a todo el repositorio, pero se pueden sobrescribir en los niveles de TDC y de artículo. Cualquier anulación de los metadatos debe realizarse en el nivel más bajo posible.
 
-Los metadatos del repositorio experience-manager-cloud-service.en son los mínimos requeridos.
+Los metadatos del repositorio `experience-manager-cloud-service.en` son los mínimos requeridos.
 
 metadata.md
 

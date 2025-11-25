@@ -1,10 +1,10 @@
 ---
 title: Documentación sobre oportunidades de Sites Optimizer
 description: Obtenga información sobre todas las oportunidades disponibles de Site Optimizer y cómo utilizarlas para mejorar el rendimiento del sitio.
-source-git-commit: bac5199a6082a2070080cef9421d39f8b22dc697
-workflow-type: ht
-source-wordcount: '885'
-ht-degree: 100%
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+workflow-type: tm+mt
+source-wordcount: '883'
+ht-degree: 96%
 
 ---
 
@@ -64,7 +64,7 @@ La información de resumen de cada oportunidad varía según el tipo y puede inc
 
 Para ver los detalles de una oportunidad, haga clic en el botón **Detalles**.
 
-Para excluir una oportunidad del panel de Sites Optimizer, haga clic en el botón **Ignorar**.  Esta acción mueve la oportunidad a la pestaña [**Ignorado**](#opportunity-status).
+Para excluir una oportunidad del panel de control de Sites Optimizer, haga clic en el botón **Ignorar**.  Esta acción mueve la oportunidad a la pestaña [**Ignorado**](#opportunity-status).
 
 ## Todas las oportunidades
 
@@ -277,8 +277,8 @@ Explore todas las oportunidades posibles disponibles en Sites Optimizer:
                     <p class="is-size-6">Obtenga información sobre la oportunidad de visualizaciones bajas y cómo utilizarla para mejorar la participación de los formularios en su sitio web.</p>
                 </div>
                 <a href="./high-bounce-rate.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -366,7 +366,7 @@ Explore todas las oportunidades posibles disponibles en Sites Optimizer:
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./low-navigation.md" target="_blank" rel="referrer" title="Navegación baja de formularios">Navegación baja de formularios</a>
                     </p>
-                    <p class="is-size-6">Obtenga información sobre la oportunidad de navegación baja y cómo utilizarla para mejorar la participación del formulario en su sitio web.</p>
+                    <p class="is-size-6">Obtenga información sobre la oportunidad de baja navegación y cómo utilizarla para mejorar la participación del formulario en su sitio web.</p>
                 </div>
                 <a href="./low-navigation.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
@@ -389,7 +389,7 @@ Explore todas las oportunidades posibles disponibles en Sites Optimizer:
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" title="Problemas de accesibilidad de formularios">Problemas de accesibilidad de formularios</a>
                     </p>
-                    <p class="is-size-6">Obtenga información sobre la oportunidad de accesibilidad de formularios y cómo utilizarla para mejorar la participación en el sitio web.</p>
+                    <p class="is-size-6">Obtenga información acerca de los problemas de accesibilidad de Forms y cómo utilizarlos para mejorar la participación en el sitio web.</p>
                 </div>
                 <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>

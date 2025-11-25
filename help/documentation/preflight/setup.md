@@ -1,17 +1,17 @@
 ---
 title: Configuración de Preflight
 description: Obtenga información sobre cómo configurar la extensión de Preflight para AEM Sites Optimizer.
-source-git-commit: 210acc5337796707ced10f2b84d473503fc06088
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 100%
+source-wordcount: '430'
+ht-degree: 67%
 
 ---
 
 
 # Configuración de Preflight
 
-La identificación de la oportunidad de comprobación preliminar de AEM Sites Optimizer requiere la configuración de la extensión de comprobación preliminar en el editor universal, la vista previa basada en documentos o AEM Cloud Service para ejecutar auditorías de comprobaciones en las páginas antes de publicarlas.
+La identificación de la oportunidad de comprobación preliminar de AEM Sites Optimizer requiere la configuración de la extensión de comprobación preliminar. Puede configurarlo en el editor universal, la vista previa basada en documentos o AEM Cloud Service para poder ejecutar auditorías de comprobaciones en las páginas antes de publicarlas.
 
 ## Habilitar el acceso de los usuarios
 
@@ -31,10 +31,10 @@ Para configurar la comprobación preliminar en el editor universal, siga estos p
 1. Abra **Extension Manager** en:
    [https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor](https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor)
 1. Busque la **extensión de comprobaciones de AEM Sites Optimizer** y envíe una solicitud para habilitarla.
-1. El equipo de **Adobe AEM** revisará y habilitará la extensión para su organización.
+1. El **equipo de AEM de Adobe** revisa y habilita la extensión para su organización.
 1. Una vez habilitada la extensión, abra una página en el **Editor universal**, por ejemplo:
    `https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/en/example/home.html`
-1. La **extensión de Preflight** aparecerá en el **panel lateral**.
+1. La **extensión de comprobación preliminar** aparece en el **carril lateral**.
 1. Seleccione la **extensión Preflight** en la barra lateral para iniciar una **auditoría Preflight** de la página actual.
 
 >[!TAB Creación basada en documentos]
@@ -120,7 +120,7 @@ Para configurar la comprobación preliminar para la creación basada en document
 
 Para utilizar la comprobación preliminar en el editor de páginas de AEM Sites, puede crear un bookmarklet en el explorador web. Siga estos pasos:
 
-1. Muestre la **Barra de marcadores** en el explorador web:
+1. Mostrar la **Barra de marcadores** en el explorador web:
 
    * Pulse **Ctrl+Mayús+B** (Windows) o **Cmd+Mayús+B** (Mac).
 
@@ -134,7 +134,7 @@ Para utilizar la comprobación preliminar en el editor de páginas de AEM Sites,
    ```
 
 1. Asigne un nombre al marcador **Comprobación preliminar** (o cualquier nombre que prefiera).
-1. Abra la URL de vista previa (`*.aem.page`) de la página que desea auditar en el **Editor de páginas de AEM Sites**.
+1. Abra la dirección URL de vista previa (`*.aem.page`) de la página que desea auditar en el **Editor de páginas de AEM Sites**.
 1. Haga clic en el marcador **Comprobación preliminar** de la barra de marcadores para iniciar la auditoría de la página actual.
 
 >[!ENDTABS]

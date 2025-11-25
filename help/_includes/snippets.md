@@ -1,16 +1,16 @@
 ---
-source-git-commit: 5b36ccb14e952d03f7301215986fab07858542e9
-workflow-type: ht
-source-wordcount: '71'
-ht-degree: 100%
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+workflow-type: tm+mt
+source-wordcount: '70'
+ht-degree: 45%
 
 ---
 # Fragmentos de código
 
 ## Solicitar aprobación {#auto-optimize-request-approval}
 
-Si no puede implementar la optimización, puede solicitar la aprobación al administrador del sitio de AEM. Si selecciona **Solicitar aprobación**, se enviará un correo electrónico al administrador del sitio de AEM con los detalles de la optimización. A continuación, el administrador puede aprobar o rechazar la optimización.
+Si no puede implementar la optimización, puede solicitar la aprobación al administrador del sitio de AEM. Al seleccionar **Solicitar aprobación**, se enviará un correo electrónico al administrador del sitio de AEM con los detalles de la optimización. A continuación, el administrador puede aprobar o rechazar la optimización.
 
 ## Implementar optimización {#auto-optimize-deploy-optimization-slack}
 
-Nuestro equipo está aquí para ayudar. Para obtener soporte técnico con las optimizaciones técnicas, únase a nuestro canal de Slack y conecte directamente con nuestros expertos.
+El equipo de Adobe está aquí para ayudarle. Para obtener soporte con optimizaciones técnicas, únase al canal de Slack de Adobe y conéctese directamente con expertos en Adobe.
