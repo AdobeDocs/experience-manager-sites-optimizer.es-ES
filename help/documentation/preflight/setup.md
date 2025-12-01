@@ -1,10 +1,10 @@
 ---
 title: Configuración de Preflight
 description: Obtenga información sobre cómo configurar la extensión de Preflight para AEM Sites Optimizer.
-source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+source-git-commit: e39930ebe2213dcca17209934173a7b521b34dbc
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 67%
+source-wordcount: '573'
+ht-degree: 63%
 
 ---
 
@@ -135,6 +135,31 @@ Para utilizar la comprobación preliminar en el editor de páginas de AEM Sites,
 
 1. Asigne un nombre al marcador **Comprobación preliminar** (o cualquier nombre que prefiera).
 1. Abra la dirección URL de vista previa (`*.aem.page`) de la página que desea auditar en el **Editor de páginas de AEM Sites**.
+1. Haga clic en el marcador **Comprobación preliminar** de la barra de marcadores para iniciar la auditoría de la página actual.
+
+>[!TAB Adobe Managed Services]
+
+>[!IMPORTANT]
+>
+>Solo se admiten los entornos de Adobe Managed Services (AMS) que utilizan el proveedor de identidad (IMS) de Adobe para la autenticación en AEM Author. Las comprobaciones no funcionan si su organización utiliza cualquier otro proveedor de identidad para la autenticación AMS.
+
+Para utilizar la comprobación preliminar en el editor de páginas de AEM Sites en un entorno de AMS, cree un bookmarklet en el explorador web siguiendo estos pasos:
+
+1. Muestre la **Barra de marcadores** en el explorador web:
+
+   * Pulse **Ctrl+Mayús+B** (Windows) o **Cmd+Mayús+B** (Mac).
+
+1. Cree un nuevo marcador en el explorador:
+
+   * Haga clic con el botón derecho en la barra de marcadores y seleccione **Nueva página** o **Añadir marcador**.
+   * En el campo **Dirección (URL)**, pegue el siguiente código:
+
+   ```javascript
+   javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=ams';document.head.appendChild(script);})();
+   ```
+
+1. Asigne un nombre al marcador **Comprobación preliminar** (o cualquier nombre que prefiera).
+1. Abra la página que desee auditar en el **Editor de páginas de AEM Sites**.
 1. Haga clic en el marcador **Comprobación preliminar** de la barra de marcadores para iniciar la auditoría de la página actual.
 
 >[!ENDTABS]
