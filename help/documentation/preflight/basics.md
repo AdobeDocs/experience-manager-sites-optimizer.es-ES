@@ -1,9 +1,9 @@
 ---
 title: Conceptos básicos de comprobación preliminar
 description: Obtenga información acerca de los conceptos básicos de las comprobaciones y cómo utilizar su interfaz.
-source-git-commit: b73458e4d575547ccb9220105a5f72090431221c
+source-git-commit: d669706909eeed61c6d0803e2b37df81ece987e1
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Para ejecutar la comprobación preliminar:
 ## Resultados de auditoría
 
 Cuando finaliza la auditoría, la comprobación preliminar muestra las oportunidades que ha encontrado. Cada oportunidad está organizada por tipo e incluye detalles sobre cómo resolver el problema.
+
+En la parte superior del cuadro de diálogo Comprobación preliminar de AEM, hay una barra de progreso del usuario que refleja los resultados generales de la auditoría. Muestra el porcentaje de oportunidades que pasaron sin problemas y la cantidad total de problemas encontrados en todas las oportunidades. La barra de progreso del usuario ayuda a los autores a medir el estado general de la página de un vistazo.
 
 ## Acerca de las oportunidades de comprobación preliminar
 
