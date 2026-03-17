@@ -1,8 +1,8 @@
 ---
 title: Optimización de la adquisición de tráfico con Sites Optimizer
 description: Obtenga información sobre cómo aumentar la adquisición de tráfico con Sites Optimizer.
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
+source-git-commit: fe5da3da1f08d061829b21f367a1bbc3a9be1714
+workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 100%
 
@@ -17,7 +17,9 @@ La adquisición de tráfico lleva a los clientes potenciales a su sitio web y cr
 
 ## Oportunidades
 
-<!-- CARDS
+<!--
+CARDS
+
  
 * ../documentation/opportunities/broken-backlinks.md
   {title=Broken backlinks}
@@ -32,7 +34,7 @@ La adquisición de tráfico lleva a los clientes potenciales a su sitio web y cr
   {title=Sitemap issues}
   {image=../assets/common/card-relationship.png}
 
---->
+-->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Broken backlinks">
@@ -122,8 +124,8 @@ La adquisición de tráfico lleva a los clientes potenciales a su sitio web y cr
                     <p class="is-size-6">Obtenga información sobre la oportunidad de problemas del mapa del sitio y cómo utilizarla para mejorar la adquisición de tráfico.</p>
                 </div>
                 <a href="../documentation/opportunities/sitemap-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>

@@ -1,9 +1,9 @@
 ---
 title: Documentación sobre oportunidades de Sites Optimizer
 description: Obtenga información sobre todas las oportunidades disponibles de Site Optimizer y cómo utilizarlas para mejorar el rendimiento del sitio.
-source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '891'
 ht-degree: 96%
 
 ---
@@ -70,8 +70,8 @@ Para excluir una oportunidad del panel de control de Sites Optimizer, haga clic 
 
 Explore todas las oportunidades posibles disponibles en Sites Optimizer:
 
-<!-- CARDS
-
+<!--
+CARDS
 * ./accessibility-issues.md
   {title=Accessibility issues}
   {image=../../assets/common/card-arrows.png} 
@@ -117,8 +117,8 @@ Explore todas las oportunidades posibles disponibles en Sites Optimizer:
 * ./website-vulnerabilities.md
   {title=Website vulnerabilities}
   {image=../../assets/common/card-puzzle.png}
-  
---->
+-->
+
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Accessibility issues">
@@ -185,8 +185,8 @@ Explore todas las oportunidades posibles disponibles en Sites Optimizer:
                     <p class="is-size-6">Obtenga información sobre la oportunidad de vínculos rotos y cómo utilizarla para mejorar la participación en el sitio web.</p>
                 </div>
                 <a href="./broken-internal-links.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -208,8 +208,8 @@ Explore todas las oportunidades posibles disponibles en Sites Optimizer:
                     <p class="is-size-6">Obtenga información sobre la oportunidad de configuración de CORS y aprenda a identificar y corregir las vulnerabilidades de seguridad del sitio.</p>
                 </div>
                 <a href="./cors-configuration.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -231,8 +231,8 @@ Explore todas las oportunidades posibles disponibles en Sites Optimizer:
                     <p class="is-size-6">Obtenga información sobre la oportunidad de Core Web Vitals y cómo utilizarla para mejorar la adquisición de tráfico.</p>
                 </div>
                 <a href="./core-web-vitals.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>                    
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -254,8 +254,8 @@ Explore todas las oportunidades posibles disponibles en Sites Optimizer:
                     <p class="is-size-6">Obtenga información sobre la oportunidad de ejecución de scripts en sitios múltiples e identifique y corrija las vulnerabilidades de seguridad del sitio.</p>
                 </div>
                 <a href="./cross-site-scripting.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -507,8 +507,8 @@ Explore todas las oportunidades posibles disponibles en Sites Optimizer:
                     <p class="is-size-6">Obtenga información sobre la oportunidad de vulnerabilidades del sitio web y cómo utilizarla para aumentar la seguridad de en el sitio web.</p>
                 </div>
                 <a href="./website-vulnerabilities.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>

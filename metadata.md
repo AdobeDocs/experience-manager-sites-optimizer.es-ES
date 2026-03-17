@@ -1,17 +1,19 @@
 ---
 solution: Experience Manager
 product: adobe experience manager
+landing-page-name: experience-manager
+landing-page-breadcrumb-title: AEM
 type: Documentation
 description: Documentación de AEM Sites Optimizer.
-index: y
-git-repo: https://github.com/AdobeDocs/experience-manager-sites-optimizer.es-ES
+index: true
+git-repo: https://github.com/AdobeDocs/experience-manager-sites-optimizer.en
 feature-set: Experience Manager Assets,Experience Manager Sites,Experience Manager, Experience Manager Forms, Experience Manager Cloud Manager
 cloud: Experience Cloud
 recommendations: noDisplay
-source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 29%
+source-wordcount: '85'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +23,7 @@ ht-degree: 29%
 El sistema de creación de GitHub organiza los metadatos de forma jerárquica, utilizando los siguientes niveles crecientes de precedentes.
 
 1. metadata.md
-1. TDC
+1. ToC
 1. Artículo
 
 Los metadatos definidos en el archivo metadata.md se aplican a todo el repositorio, pero se pueden sobrescribir en los niveles de TDC y de artículo. Cualquier anulación de los metadatos debe realizarse en el nivel más bajo posible.
@@ -40,7 +42,7 @@ metadata.md
 * `tutorials-title`
 * `tutorials-url`
 
-TDC
+ToCs
 
 * `sub-product`
 * `user-guide-title`

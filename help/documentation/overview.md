@@ -1,8 +1,8 @@
 ---
 title: Documentación de Sites Optimizer
 description: Documentación de Experience Manager Sites Optimizer.
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
+workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 100%
 
@@ -17,9 +17,10 @@ Le damos la bienvenida a la documentación de Sites Optimizer. Aquí encontrará
 
 ## Conceptos básicos de Site Optimizer
 
-Explore la documentación de AEM Sites Optimizer para obtener más información sobre los componentes clave de la interfaz de usuario, como el panel de inicio, las configuraciones de los ajustes y la lista de oportunidades para obtener información sobre la optimización.
+Explore la documentación de AEM Sites Optimizer para obtener más información sobre los componentes clave de la interfaz de usuario, como el panel de control de inicio, las configuraciones de los ajustes y la lista de oportunidades para obtener información sobre la optimización.
 
-<!-- CARDS 
+<!--
+CARDS 
 
 * ./basics.md
   {title = Basics}
@@ -96,8 +97,8 @@ Explore la documentación de AEM Sites Optimizer para obtener más información 
                     <p class="is-size-6">Obtenga información sobre cómo configurar los valores de Sites Optimizer e integrarlo con otras herramientas.</p>
                 </div>
                 <a href="./settings.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>

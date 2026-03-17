@@ -1,9 +1,9 @@
 ---
 title: Optimización de estado del sitio con Sites Optimizer
 description: Obtenga información sobre cómo mejorar el estado del sitio con Sites Optimizer.
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '126'
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
+workflow-type: tm+mt
+source-wordcount: '130'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,9 @@ Mantener el estado del sitio en AEM Sites Optimizer es esencial para ofrecer exp
 
 ## Oportunidades
 
-<!-- CARDS
+<!--
+CARDS
+
 
 * ../documentation/opportunities/core-web-vitals.md
   {title=Core web vitals}

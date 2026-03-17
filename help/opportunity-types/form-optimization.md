@@ -3,10 +3,10 @@ title: Optimización de formularios con Sites Optimizer
 description: Obtenga información sobre la optimización de formularios con Sites Optimizer.
 hide: true
 hidefromtoc: true
-source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+source-git-commit: fe5da3da1f08d061829b21f367a1bbc3a9be1714
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 66%
+source-wordcount: '219'
+ht-degree: 67%
 
 ---
 
@@ -23,7 +23,9 @@ Las oportunidades de optimización de Forms permiten a las organizaciones mejora
 
 ## Oportunidades
 
-<!-- CARDS
+<!--
+CARDS
+
  
 * ../documentation/opportunities/low-views.md
   {title=Low views}
@@ -32,7 +34,7 @@ Las oportunidades de optimización de Forms permiten a las organizaciones mejora
   {title=Low conversions}
   {image=../assets/common/card-bag.png}
 
---->
+-->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Low views">

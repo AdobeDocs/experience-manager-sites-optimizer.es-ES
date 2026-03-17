@@ -1,9 +1,9 @@
 ---
 title: Optimización de la participación con Sites Optimizer
 description: Obtenga información sobre cómo mejorar la participación con Sites Optimizer.
-source-git-commit: b471cb120d456805d5195cd990bdc9b8d3967d15
-workflow-type: ht
-source-wordcount: '285'
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
+workflow-type: tm+mt
+source-wordcount: '286'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,9 @@ Las oportunidades de participación en AEM Sites Optimizer son cruciales para me
 
 ## Oportunidades
 
-<!-- CARDS
+<!--
+CARDS
+
 
 * ../documentation/opportunities/accessibility-issues.md
   {title=Accessibility issues}
@@ -148,8 +150,8 @@ Las oportunidades de participación en AEM Sites Optimizer son cruciales para me
                     <p class="is-size-6">Obtenga información sobre la oportunidad de texto alternativo que falta y cómo utilizarla para mejorar la participación en el sitio web.</p>
                 </div>
                 <a href="../documentation/opportunities/missing-alt-text.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
