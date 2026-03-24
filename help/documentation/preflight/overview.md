@@ -1,34 +1,40 @@
 ---
-title: Oportunidades de Preflight
-description: Documentación sobre las oportunidades de comprobación preliminar en Sites Optimizer.
-source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
+title: AEM Sites Optimizer Preflight
+description: Obtenga información acerca de las comprobaciones y los tipos de oportunidades que evalúa antes de publicar.
+source-git-commit: d0fda0afad66289298e79edd1f84be251433a9f1
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 81%
+source-wordcount: '307'
+ht-degree: 40%
 
 ---
 
 
-# Oportunidades de Preflight
+# AEM Sites Optimizer Preflight
 
 ![Oportunidades de Preflight](./assets/overview/hero.png){align="center"}
 
-Las oportunidades de comprobación preliminar de Sites Optimizer están compuestas por un conjunto de evaluaciones que analizan diferentes aspectos del contenido y la estructura del sitio web antes de la publicación de la página web. Estas evaluaciones ayudan a identificar posibles problemas y proporcionan recomendaciones procesables para mejorar la calidad general y el rendimiento del sitio.
+Las comprobaciones en AEM Sites Optimizer le ayudan a validar y optimizar las páginas antes de que se publiquen, analizando el contenido y la estructura, y marcando los problemas con recomendaciones procesables. Está diseñado para autores, especialistas en marketing y desarrolladores que deseen garantizar que las páginas sean de alta calidad, tengan un buen rendimiento y estén listas para publicar, a la vez que reducen la reutilización.
 
-## Configuración de Preflight
+En el núcleo de la comprobación preliminar se encuentran las oportunidades, que se identifican a través de un conjunto de auditorías que evalúan aspectos clave de la página antes de su publicación. Estas auditorías ponen de manifiesto posibles problemas y ofrecen recomendaciones claras y útiles para mejorar la calidad y el rendimiento generales.
 
-Siga los pasos de la guía [Configuración de Preflight](./setup.md) para configurar la extensión de comprobaciones en su sitio web.
+## Introducción a las comprobaciones
+
+Comenzar con las comprobaciones es fácil. Solo tiene que configurar las comprobaciones, abrirlas en el entorno de creación, realizar una auditoría en la página y realizar las comprobaciones restantes.
+
+1. [Configurar comprobación preliminar](./setup.md) - Aprenda a configurar la comprobación preliminar para su instancia de AEM
+1. [Acceder a la comprobación preliminar](./access-preflight.md) - Descubra dónde aparece la comprobación preliminar en su entorno de creación
+1. [Ejecutar auditorías](./audits.md) - Obtenga información sobre cómo iniciar una auditoría de comprobaciones
+1. [Resultados y oportunidades de auditoría](./audit-results.md) - Aprenda a interpretar los resultados de la auditoría
 
 ## Oportunidades de Preflight
 
-<!--
-CARDS
+<!-- CARDS
 
-* ./accessibility.md
-* ./h1-count.md
-* ./links.md
-* ./meta-data.md
-* ./readability.md
+* ./opportunities/accessibility.md
+* ./opportunities/h1-count.md
+* ./opportunities/links.md
+* ./opportunities/meta-data.md
+* ./opportunities/readability.md
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
@@ -36,8 +42,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./accessibility.md" title="Oportunidad de accesibilidad de Preflight" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/accessibility/hero.png" alt="Oportunidad de accesibilidad de Preflight"
+                    <a href="./opportunities/accessibility.md" title="Oportunidad de accesibilidad de Preflight" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="opportunities/assets/accessibility/hero.png" alt="Oportunidad de accesibilidad de Preflight"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -45,11 +51,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./accessibility.md" target="_blank" rel="referrer" title="Oportunidad de accesibilidad de Preflight">Oportunidad de accesibilidad de Preflight</a>
+                        <a href="./opportunities/accessibility.md" target="_blank" rel="referrer" title="Oportunidad de accesibilidad de Preflight">Oportunidad de accesibilidad de Preflight</a>
                     </p>
                     <p class="is-size-6">Obtenga información acerca de la oportunidad de accesibilidad de las comprobaciones en Sites Optimizer.</p>
                 </div>
-                <a href="./accessibility.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="./opportunities/accessibility.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
@@ -59,8 +65,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./h1-count.md" title="Oportunidad de recuento H1 de Preflight" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/h1-count/hero.png" alt="Oportunidad de recuento H1 de Preflight"
+                    <a href="./opportunities/h1-count.md" title="Oportunidad de recuento H1 de Preflight" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="opportunities/assets/h1-count/hero.png" alt="Oportunidad de recuento H1 de Preflight"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -68,11 +74,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./h1-count.md" target="_blank" rel="referrer" title="Oportunidad de recuento H1 de Preflight">Oportunidad de recuento H1 de Preflight</a>
+                        <a href="./opportunities/h1-count.md" target="_blank" rel="referrer" title="Oportunidad de recuento H1 de Preflight">Oportunidad de recuento H1 de Preflight</a>
                     </p>
                     <p class="is-size-6">Obtenga información acerca de la oportunidad de accesibilidad de las comprobaciones en Sites Optimizer.</p>
                 </div>
-                <a href="./h1-count.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="./opportunities/h1-count.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
@@ -82,8 +88,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./links.md" title="Oportunidad de vínculos de Preflight" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/links/hero.png" alt="Oportunidad de vínculos de Preflight"
+                    <a href="./opportunities/links.md" title="Oportunidad de vínculos de Preflight" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="opportunities/assets/links/hero.png" alt="Oportunidad de vínculos de Preflight"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -91,11 +97,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./links.md" target="_blank" rel="referrer" title="Oportunidad de vínculos de Preflight">Oportunidad de vínculos de Preflight</a>
+                        <a href="./opportunities/links.md" target="_blank" rel="referrer" title="Oportunidad de vínculos de Preflight">Oportunidad de vínculos de Preflight</a>
                     </p>
                     <p class="is-size-6">Obtenga información acerca de la oportunidad Vínculos de Preflight en Sites Optimizer.</p>
                 </div>
-                <a href="./links.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="./opportunities/links.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
@@ -105,8 +111,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./meta-data.md" title="Oportunidad de metadatos de Preflight" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/metadata/hero.png" alt="Oportunidad de metadatos de Preflight"
+                    <a href="./opportunities/meta-data.md" title="Oportunidad de metadatos de Preflight" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="opportunities/assets/metadata/hero.png" alt="Oportunidad de metadatos de Preflight"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -114,11 +120,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./meta-data.md" target="_blank" rel="referrer" title="Oportunidad de metadatos de Preflight">Oportunidad de metadatos de Preflight</a>
+                        <a href="./opportunities/meta-data.md" target="_blank" rel="referrer" title="Oportunidad de metadatos de Preflight">Oportunidad de metadatos de Preflight</a>
                     </p>
                     <p class="is-size-6">Obtenga información acerca de la oportunidad de metadatos de comprobaciones en Sites Optimizer.</p>
                 </div>
-                <a href="./meta-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="./opportunities/meta-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
@@ -128,8 +134,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./readability.md" title="Oportunidad de legibilidad de Preflight" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/readability/hero.png" alt="Oportunidad de legibilidad de Preflight"
+                    <a href="./opportunities/readability.md" title="Oportunidad de legibilidad de Preflight" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="opportunities/assets/readability/hero.png" alt="Oportunidad de legibilidad de Preflight"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -137,11 +143,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./readability.md" target="_blank" rel="referrer" title="Oportunidad de legibilidad de Preflight">Oportunidad de legibilidad de Preflight</a>
+                        <a href="./opportunities/readability.md" target="_blank" rel="referrer" title="Oportunidad de legibilidad de Preflight">Oportunidad de legibilidad de Preflight</a>
                     </p>
                     <p class="is-size-6">Obtenga información acerca de la oportunidad Legibilidad de las comprobaciones en Sites Optimizer.</p>
                 </div>
-                <a href="./readability.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="./opportunities/readability.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
