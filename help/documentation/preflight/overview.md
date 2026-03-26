@@ -1,7 +1,7 @@
 ---
 title: AEM Sites Optimizer Preflight
 description: Obtenga información acerca de las comprobaciones y los tipos de oportunidades que evalúa antes de publicar.
-source-git-commit: d0fda0afad66289298e79edd1f84be251433a9f1
+source-git-commit: 626de60c72579fd6ed96f259fbf524ed0a7103ba
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 40%
@@ -28,7 +28,8 @@ Comenzar con las comprobaciones es fácil. Solo tiene que configurar las comprob
 
 ## Oportunidades de Preflight
 
-<!-- CARDS
+<!--
+CARDS
 
 * ./opportunities/accessibility.md
 * ./opportunities/h1-count.md
