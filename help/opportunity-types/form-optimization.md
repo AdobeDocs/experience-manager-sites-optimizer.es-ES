@@ -2,11 +2,10 @@
 title: Optimización de formularios con Sites Optimizer
 description: Obtenga información sobre la optimización de formularios con Sites Optimizer.
 hide: true
-hidefromtoc: true
-source-git-commit: fe5da3da1f08d061829b21f367a1bbc3a9be1714
+source-git-commit: c05518af996465226105421a8ea8dc3aaf04b8e3
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 67%
+ht-degree: 64%
 
 ---
 

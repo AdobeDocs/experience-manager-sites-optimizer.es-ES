@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Se trata de una descripción de la guía del usuario que se mostrará en la página de destino.
-source-git-commit: d0fda0afad66289298e79edd1f84be251433a9f1
+source-git-commit: c05518af996465226105421a8ea8dc3aaf04b8e3
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 94%
+ht-degree: 91%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 94%
    + [Participación](/help/opportunity-types/engagement.md)
    + [Estado del sitio](/help/opportunity-types/site-health.md)
    + [Posición de seguridad](/help/opportunity-types/security-posture.md)
-   + [Optimización de formularios](/help/opportunity-types/form-optimization.md)
-   + [Accesibilidad a formularios](/help/opportunity-types/form-accesibility.md)
+   + {hide-from-toc}[Optimización de formularios](/help/opportunity-types/form-optimization.md)
+   + {hide-from-toc}[Accesibilidad de formularios](/help/opportunity-types/form-accesibility.md)
 + Documentación{#documentation}
    + [Información general](/help/documentation/overview.md)
    + [Conceptos básicos](/help/documentation/basics.md)
@@ -39,10 +39,10 @@ ht-degree: 94%
       + [Metadatos que faltan o no son válidos](/help/documentation/opportunities/invalid-or-missing-metadata.md)
       + [Datos estructurados que faltan o no son válidos](/help/documentation/opportunities/missing-invalid-structured-data.md)
       + [Texto alternativo que falta](/help/documentation/opportunities/missing-alt-text.md)
-      + [Conversiones bajas de formularios](/help/documentation/opportunities/low-conversions.md)
-      + [Visualizaciones bajas de formularios](/help/documentation/opportunities/low-views.md)
-      + [Navegación baja de formularios](/help/documentation/opportunities/low-navigation.md)
-      + [Problema de accesibilidad a formularios](/help/documentation/opportunities/forms-accessibility-issues.md)
+      + {hide-from-toc}[Conversiones bajas de formularios](/help/documentation/opportunities/low-conversions.md)
+      + {hide-from-toc}[Visualizaciones bajas de formularios](/help/documentation/opportunities/low-views.md)
+      + {hide-from-toc}[Navegación baja de formularios](/help/documentation/opportunities/low-navigation.md)
+      + {hide-from-toc}[Problema de accesibilidad de Forms](/help/documentation/opportunities/forms-accessibility-issues.md)
       + [Problemas del mapa del sitio](/help/documentation/opportunities/sitemap-issues.md)
       + [Permisos del sitio web](/help/documentation/opportunities/website-permissions.md)
       + [Vulnerabilidades del sitio web](/help/documentation/opportunities/website-vulnerabilities.md)
