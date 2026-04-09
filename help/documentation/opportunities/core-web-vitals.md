@@ -2,10 +2,10 @@
 title: Documentación sobre la oportunidad de Core Web Vitals
 description: Obtenga información sobre la oportunidad de Core Web Vitals y cómo utilizarla para mejorar la adquisición de tráfico.
 badgeSiteHealth: label="Estado del sitio" type="Caution" url="../../opportunity-types/site-health.md" tooltip="Estado del sitio"
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '376'
-ht-degree: 100%
+source-git-commit: 42f67f8ca52aa8e17ab780702023c0987e457f76
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 10%
 
 ---
 
@@ -14,37 +14,25 @@ ht-degree: 100%
 
 ![oportunidad de core web vitals](./assets/core-web-vitals/hero.png){align="center"}
 
-La oportunidad de Core Web Vitals identifica problemas que pueden degradar la experiencia del usuario y el rendimiento de búsqueda orgánica de sus páginas web. Estos problemas surgen de una amplia gama de factores como: fuentes personalizadas, dependencias de JavaScript no optimizadas, scripts de terceros, etc. La oportunidad de Web Core Vitals apunta a estos elementos defectuosos y sugiere correcciones que pueden aumentar el rendimiento de su página web. Tenga en cuenta que solo se pueden analizar las páginas que tienen al menos 1000 vistas de página.
+La oportunidad de Core Web Vitals identifica las páginas del sitio web que tienen un bajo rendimiento, lo que afecta a la experiencia del usuario y al rendimiento de la búsqueda orgánica. Estos problemas pueden surgir de factores como fuentes personalizadas, dependencias de JavaScript no optimizadas y scripts de terceros. Core Web Vitals mide la rapidez con la que se carga el contenido, la estabilidad del diseño de la página y la capacidad de respuesta de la página a las interacciones del usuario.
 
-Para empezar, la oportunidad de Core Web Vitals muestra un resumen en la parte superior de la página, incluida una sinopsis del problema y su impacto en el sitio y en la empresa.
-
-* **Tráfico proyectado perdido**: la pérdida de tráfico estimada debido a Core Web Vitals que están por debajo de los umbrales de rendimiento.
-* **Valor de tráfico proyectado**: el valor estimado del tráfico perdido.
+AEM Sites Optimizer detecta las páginas afectadas por estos problemas, proporciona recomendaciones de IA específicas en el nivel de código y aplica correcciones a través de los flujos de trabajo de desarrollo existentes. Tenga en cuenta que solo se pueden analizar las páginas con al menos 1000 vistas de página.
 
 ## Identificación automática
 
 ![Identificación automática de Core Web Vitals](./assets/core-web-vitals/auto-identify.png){align="center"}
 
-En la parte inferior de la página, tiene una lista de todos los problemas actuales agrupados como:
+AEM Sites Optimizer supervisa continuamente el rendimiento del sitio mediante [Telemetría operativa](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) para detectar regresiones en las métricas de Core Web Vitals, como Pintado de contenido más grande (LCP), Cambio de diseño acumulativo (CLS) e Interacción con Pintado siguiente (INP). Utiliza datos de usuarios reales para identificar regresiones de rendimiento y prioriza problemas en función de su impacto en la experiencia del usuario.
 
-* **Problemas con dispositivos móviles**: una lista de problemas que afectan a la versión de dispositivo móvil de la página.
-* **Problemas de escritorio**: una lista de problemas que afectan a la versión de escritorio de la página.
-
-Cada problema se muestra en una tabla, con la columna **Página** que identifica la entrada de la página afectada.
-
-El sistema agrupa estos problemas por las métricas de rendimiento estándar del informe Core Web Vitals:
-
-* Largest Contentful Paint **LCP**
-* Interaction to Next Paint **INP**
-* Cumulative Layout Shift **CLS**
+AEM Sites Optimizer muestra la lista de todos los problemas actuales, detallados por dispositivos móviles y de escritorio. La columna **Página** indica la entrada de página afectada y los problemas se clasifican por LCP, INP y CLS.
 
 ## Sugerencia automática
 
 ![Sugerencia automática para la oportunidad de Core Web Vitals](./assets/core-web-vitals/auto-suggest.png){align="center"}
 
-La oportunidad Core Web Vitals proporciona sugerencias de correcciones generadas por IA. Al hacer clic en el botón de sugerencias, aparece una nueva ventana que contiene las métricas de rendimiento **LCP**, **INP** y **CLS** como categorías. Puede cambiar entre estas categorías para ver una lista de problemas específicos.
+Para cada problema identificado, AEM Sites Optimizer genera recomendaciones prescriptivas a nivel de código para mejorar el rendimiento de Core Web Vitals. Evalúa la implementación subyacente accediendo al repositorio de código. Esto permite al sistema analizar cómo se implementan los componentes, los scripts y los estilos, así como identificar la causa raíz de los problemas de rendimiento. En función de este análisis, el sistema proporciona recomendaciones específicas y genera parches de código que especifican los cambios necesarios para mejorar el rendimiento. Cada recomendación se puede revisar antes de aplicarla.
 
-Cada categoría puede contener varios problemas, así que asegúrese de desplazarse hacia abajo para ver la lista completa de problemas y recomendaciones.  Además, hay dos indicadores de rendimiento para dispositivos móviles y de escritorio para cada métrica.
+Al hacer clic en el botón de sugerencia, aparece una nueva ventana que contiene las métricas de rendimiento LCP, INP y CLS como categorías. Puede cambiar entre estas categorías para ver la lista de problemas específicos. Cada categoría puede contener varios problemas, por lo que asegúrese de desplazarse hacia abajo para ver la lista completa de problemas y recomendaciones. Además, hay dos indicadores de rendimiento para móviles y equipos de escritorio para cada métrica.
 
 ## Optimización automática
 
@@ -52,17 +40,12 @@ Cada categoría puede contener varios problemas, así que asegúrese de desplaza
 
 ![Optimización automática de la oportunidad de Core Web Vitals](./assets/core-web-vitals/auto-optimize.png){align="center"}
 
-Sites Optimizer Ultimate añade la posibilidad de implementar la optimización automática para los problemas encontrados por la oportunidad de Core Web Vitals. <!--- TBD-need more in-depth and opportunity specific information here. What does the auto-optimization do?-->
+Una vez que las recomendaciones se hayan revisado y aprobado, puede hacer clic en **Implementar optimización**. AEM Sites Optimizer genera parches de código basados en los problemas identificados y los pone a disposición a través de procesos de control de versiones. El proceso de optimización incluye los siguientes pasos:
 
->[!BEGINTABS]
+* **Creación de problema**: crea un problema de GitHub etiquetado para cada corrección, incluida una descripción clara y una URL afectada para la visibilidad.
+* **Envío de solicitud de extracción**: abre automáticamente una solicitud de extracción vinculada con la corrección de código exacta, lista para revisión, pruebas y combinación.
+* **Seguimiento del estado**: Rastrea cada corrección hasta su finalización e indica los intentos parciales o fallidos de seguimiento.
 
->[!TAB Implementar optimización]
+Antes de que estas actualizaciones estén disponibles, AEM Sites Optimizer realiza una validación para garantizar que las correcciones solucionen el problema subyacente y no introduzcan regresiones. Todas las actualizaciones siguen las prácticas de desarrollo estándar, que requieren revisión y aprobación antes de fusionarse en producción.
 
-{{auto-optimize-deploy-optimization-slack}}
-
->[!TAB Solicitar aprobación]
-
-{{auto-optimize-request-approval}}
-
->[!ENDTABS]
-
+Esto garantiza que las optimizaciones de rendimiento sean precisas, validadas e integradas en los procesos de desarrollo y gobernanza existentes.

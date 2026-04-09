@@ -2,10 +2,10 @@
 title: Documentación sobre el texto ALT que falta
 description: Obtenga información sobre la oportunidad de texto alternativo que falta y cómo utilizarla para mejorar la participación en el sitio web.
 badgeEngagement: label="Participación" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Participación"
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+source-git-commit: 42f67f8ca52aa8e17ab780702023c0987e457f76
+workflow-type: tm+mt
+source-wordcount: '692'
+ht-degree: 36%
 
 ---
 
@@ -14,30 +14,24 @@ ht-degree: 100%
 
 ![Oportunidad de texto alternativo que falta](./assets/missing-alt-text/hero.png){align="center"}
 
-La oportunidad de texto alternativo que falta identifica las imágenes sin texto alternativo descriptivo en su sitio web. Los motores de búsqueda no pueden indexar ni comprender correctamente las imágenes sin texto alternativo. Esta funcionalidad reduce significativamente la capacidad de detección del contenido y la clasificación de búsqueda, lo que a la larga limita el alcance de su público. Además, la ausencia de texto alternativo para las imágenes excluye a las personas con deficiencias visuales que dependen de lectores de pantalla para comprender el contenido web, lo que crea barreras de acceso a la información.
-
-La oportunidad de texto alternativo que falta muestra un resumen en la parte superior de la página, que incluye una sinopsis del problema y su impacto en el sitio y en la empresa.
-
-* **Tráfico proyectado perdido**: la pérdida de tráfico estimada debido a la falta de texto alternativo.
-* **Valor de tráfico proyectado**: el valor estimado del tráfico perdido.
-
-También hay un campo adicional que muestra el motivo, los datos y las sugerencias relacionadas con la oportunidad.
+La oportunidad de texto alternativo que falta identifica las imágenes del sitio web que no tienen texto alternativo descriptivo. Sin texto alternativo, los usuarios que dependen de los lectores de pantalla no pueden interpretar el contenido visual, lo que crea barreras de accesibilidad. También limita la manera en que los motores de búsqueda entienden e indexan las imágenes, lo que reduce la capacidad de detección de contenido y el rendimiento de la búsqueda. AEM Sites Optimizer identifica los problemas de texto alternativo que faltan, proporciona recomendaciones de IA específicas y permite una implementación con un solo clic para solucionarlos, todo en una sola vista centralizada.
 
 ## Identificación automática
 
 ![Identificación automática del texto alternativo que falta](./assets/missing-alt-text/auto-identify.png){align="center"}
 
-La oportunidad de texto alternativo que falta enumera todas las imágenes de su sitio web en las que falta texto alternativo. Esta sección contiene las siguientes categorías:
+AEM Sites Optimizer explora su sitio web mediante una auditoría de varios pasos que combina la rastrea del sitio, los datos del tráfico de usuarios reales y el análisis de IA para identificar imágenes que requieren texto alternativo pero no lo tienen definido. También evalúa las imágenes de la página para determinar si es necesario un texto alternativo, excluyendo las imágenes decorativas o no informativas de acuerdo con las Directrices de accesibilidad al contenido web (WCAG). Las imágenes se analizan en función de su función y relevancia dentro de la página priorizando las correcciones que tienen el mayor impacto en la accesibilidad y la SEO.
+
+Esta oportunidad proporciona una lista de los problemas identificados, entre los que se incluyen:
 
 * **Página**: ruta a la página que contiene el texto alternativo que falta.
 * **Imagen**: imagen en la que falta el texto alternativo descriptivo.
-* **Sugerencia**: una sugerencia generada por la IA para el texto alternativo.
 
 ## Sugerencia automática
 
 ![Sugerencia automática para texto alternativo que falta](./assets/missing-alt-text/auto-suggest.png){align="center"}
 
-La sugerencia automática proporciona sugerencias generadas por IA para el texto alternativo de las imágenes. Las sugerencias generadas por IA están diseñadas para ayudarle a añadir texto alternativo rápidamente a las imágenes sin tener que analizar manualmente cada imagen.
+Para cada problema identificado, AEM Sites Optimizer sugiere un texto alternativo descriptivo para la imagen. Utiliza modelos de visión de IA para analizar la imagen y generar una descripción que refleje su contenido y función dentro de la página. Las recomendaciones son concisas, relevantes y están alineadas con las prácticas recomendadas de accesibilidad. Cada sugerencia se puede revisar y editar antes de aplicarla.
 
 >[!BEGINTABS]
 
@@ -45,7 +39,7 @@ La sugerencia automática proporciona sugerencias generadas por IA para el texto
 
 ![Editar texto alternativo que falta](./assets/missing-alt-text/edit-alt-text-value.png){align="center"}
 
-Si no está de acuerdo con la sugerencia generada por IA, puede editar el texto alternativo sugerido seleccionando el **icono de edición**. Esta función le permite ajustar manualmente el texto que piensa que es el más adecuado para la imagen.  La ventana de edición contiene lo siguiente:
+Si no está de acuerdo con la sugerencia generada por IA, puede editar el texto alternativo sugerido seleccionando el **icono de edición**. Esta función le permite ajustar manualmente el texto que piensa que es el más adecuado para la imagen. La ventana de edición contiene lo siguiente:
 
 * **Ruta de página**: campo de solo lectura que muestra la ruta a la página donde se produce el problema de texto alternativo que falta. Haga clic en la flecha situada junto a la ruta para abrir la página correspondiente.
 * **Imagen**: vista previa de solo lectura de la imagen que requiere texto alternativo.
@@ -63,16 +57,18 @@ Puede elegir omitir las entradas de la lista de oportunidades. Si se selecciona 
 
 ![Optimización automática del texto alternativo que falta](./assets/missing-alt-text/auto-optimize.png){align="center"}
 
-Sites Optimizer Ultimate añade la posibilidad de implementar la optimización automática para los problemas que se encuentra la oportunidad de texto alternativo que falta. <!--- TBD-need more in-depth and opportunity specific information here. What does the auto-optimization do?-->
+Una vez que las sugerencias se hayan revisado y aprobado, puede hacer clic en **Implementar optimización**. A continuación, AEM Sites Optimizer aplica las correcciones en el entorno de creación, en función de cómo se administre el texto alternativo en la implementación. El autor de AEM puede publicar los cambios desde el sistema de administración de contenido (CMS).
 
->[!BEGINTABS]
+Según la configuración, las actualizaciones se pueden aplicar directamente al contenido de la página, los metadatos de los recursos o los modelos de contenido de soporte. El proceso de optimización incluye los siguientes pasos:
 
->[!TAB Implementar optimización]
+* **Validación**: garantiza que las actualizaciones se apliquen de forma segura sin afectar a la funcionalidad existente.
+* **Implementación**: aplica las actualizaciones a través de procesos existentes, como actualizaciones de contenido en AEM o integración con API de contenido.
+* **Comprobación de permisos** - Comprueba que el usuario tiene los permisos adecuados para aplicar los cambios. Si no es así, se pueden utilizar resultados alternativos, como actualizaciones descargables, para el traspaso.
 
-{{auto-optimize-deploy-optimization-slack}}
+Las actualizaciones se versiones donde se admiten, lo que proporciona visibilidad y capacidad de reversión. Esto garantiza que las actualizaciones de texto alternativo se apliquen con precisión, se alineen con las implementaciones existentes y sean coherentes con los estándares de gobernanza y accesibilidad.
 
->[!TAB Solicitar aprobación]
+AEM Sites Optimizer aplica automáticamente las actualizaciones de texto alternativo en función de su configuración:
 
-{{auto-optimize-request-approval}}
-
->[!ENDTABS]
+* **Edge Delivery Services**: actualiza el documento de origen (por ejemplo, Google Docs o SharePoint).
+* **AEM as a Cloud Service**: escribe actualizaciones directamente a través de la API de contenido con versiones y compatibilidad de reserva.
+* **Administración de recursos digitales (opcional)**: actualiza el texto alternativo de nivel de recurso donde corresponda.
