@@ -2,10 +2,10 @@
 title: Documentación sobre la oportunidad de vínculos de retroceso rotos
 description: Obtenga información sobre la oportunidad de vínculos de retroceso rotos y cómo utilizarla para mejorar la adquisición de tráfico.
 badgeTrafficAcquisition: label="Adquisición de tráfico" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Adquisición de tráfico"
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '547'
-ht-degree: 100%
+source-git-commit: 42f67f8ca52aa8e17ab780702023c0987e457f76
+workflow-type: tm+mt
+source-wordcount: '684'
+ht-degree: 33%
 
 ---
 
@@ -14,29 +14,31 @@ ht-degree: 100%
 
 ![Oportunidad de vínculos de retroceso rotos](./assets/broken-backlinks/hero.png){align="center"}
 
-La oportunidad de vínculos de retroceso rotos identifica los vínculos de otros sitios web hasta su sitio que generan un error 404. Dado que los motores de búsqueda utilizan vínculos de retroceso para determinar la relevancia de la búsqueda, los vínculos rotos pueden afectar negativamente a la SEO y la capacidad de detección de su sitio. Estos problemas pueden deberse a factores como los cambios de URL o la eliminación de la página vinculada.
-
-La oportunidad de vínculos de retroceso rotos muestra un resumen en la parte superior de la página, que incluye una sinopsis del problema y su impacto en el sitio y en la empresa.
-
-* **Tráfico proyectado perdido**: la pérdida de tráfico estimada debido a vínculos de retroceso rotos.
-* **Valor de tráfico proyectado**: el valor estimado del tráfico perdido.
+La oportunidad de vínculos secundarios rotos identifica vínculos externos que apuntan a páginas inexistentes (404) del sitio. Estos vínculos resultan en pérdida de tráficos de referencia y menor valor de SEO, ya que los motores de búsqueda dependen de los backlinks para evaluar la relevancia y la autoridad. Estos problemas se producen cuando se cambian las direcciones URL, se elimina el contenido o las páginas ya no están disponibles sin las redirecciones adecuadas. AEM Sites Optimizer identifica todos los vínculos secundarios rotos, proporciona recomendaciones de IA específicas y permite una implementación con un solo clic para corregirlas, todo en una sola vista centralizada.
 
 ## Identificación automática
 
 ![Identificación automática de vínculos de retroceso rotos](./assets/broken-backlinks/auto-identify.png){align="center"}
 
-La oportunidad de vínculos de retroceso rotos enumera todos los vínculos de retroceso rotos del sitio, incluidos los siguientes elementos:
+AEM Sites Optimizer analiza continuamente las fuentes de datos externas para detectar los vínculos secundarios que apuntan a páginas 404 inexistentes del sitio. Se agregan datos de múltiples fuentes, entre ellas Google Search Console, [Telemetría operativa](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) y plataformas de optimización de los motores de búsqueda de terceros. La oportunidad de identificación automática identifica los dominios externos que se vinculan a direcciones URL rotas y las prioriza en función del impacto, incluidas la autoridad de dominio y las pérdidas de tráfico y equidad de vínculos esperadas.
 
-* **Página de referencia**: el dominio del sitio web que contiene el vínculo roto.
-* **Prioridad**: alta, media o baja, lo que indica el impacto que tiene el vínculo roto en SEO basado en TODO.
-* **URL de destino rota**: la dirección URL no existente del sitio a la que se está vinculando.
+Esta oportunidad enumera todos los problemas identificados, incluidos los siguientes detalles:
+
+* **Dominio de referencia y página**: La página o dominio externo que contiene el vínculo roto.
+* **Prioridad**: alta, media o baja que indica el impacto que tiene el vínculo roto en el proceso de SEO.
+* **Dirección URL de destino dañada**: Dirección URL inexistente del sitio a la que se está vinculando.
 
 ## Sugerencia automática
 
 ![Sugerencia automática de vínculos de retroceso rotos](./assets/broken-backlinks/auto-suggest.png){align="center"}
 
-La oportunidad de vínculos de retroceso rotos también proporciona sugerencias generadas por IA sobre a qué página del sitio web debe redirigirse la URL rota. Las sugerencias se basan en el texto que incluye la dirección URL rota y el contenido de la página sugerida.
+Para cada vínculo posterior roto identificado, AEM Sites Optimizer recomienda el destino más adecuado para restaurar el tráfico y el valor SEO. Determina la intención del vínculo de retorno analizando:
 
+* Estructura y tokens de URL
+* Anclar texto
+* Título y contexto de la página de referencia
+
+Esta intención se compara con el contenido existente del sitio para identificar la página de destino más relevante. Cada URL rota se asigna a una página de reemplazo exacta o a la correspondiente más cercana. Si no se puede determinar un destino adecuado, el problema se muestra para su revisión manual.
 
 >[!BEGINTABS]
 
@@ -56,7 +58,7 @@ Si no está de acuerdo con la sugerencia generada por IA, puede editar la URL su
 
 ![Ignorar vínculos de retroceso rotos](./assets/broken-backlinks/ignore.png){align="center"}
 
-Puede optar por ignorar las entradas con la URL de destino rota. Al seleccionar el ![icono de eliminar o el icono de ignorar](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg), se eliminará el vínculo de retroceso roto de la lista de oportunidades. Los vínculos de retroceso rotos ignorados se pueden volver a activar desde la pestaña **Ignorado** en la parte superior de la página de la oportunidad.
+Puede elegir ignorar las entradas con las direcciones URL rotas indicadas. Al seleccionar el ![icono de eliminar o el icono de ignorar](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg), se eliminará el vínculo de retroceso roto de la lista de oportunidades. Los vínculos de retroceso rotos ignorados se pueden volver a activar desde la pestaña **Ignorado** en la parte superior de la página de la oportunidad.
 
 >[!ENDTABS]
 
@@ -64,22 +66,12 @@ Puede optar por ignorar las entradas con la URL de destino rota. Al seleccionar 
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-![Optimización automática de vínculos de retroceso rotos](./assets/broken-backlinks/auto-optimize.png){align="center"}
+Una vez que las sugerencias se hayan revisado y aprobado, puede hacer clic en **Implementar optimización**. A continuación, AEM Sites Optimizer aplica las correcciones en el entorno de creación, en función de cómo se administran las redirecciones en la implementación. El autor de AEM puede publicar los cambios desde el sistema de administración de contenido (CMS).
 
-Sites Optimizer Ultimate añade la posibilidad de implementar la optimización automática de vínculos de retroceso rotos. Al seleccionar el botón **Optimización automática**, se actualizan automáticamente las reglas de redireccionamiento del sitio de AEM para asignar la **URL de destino rota** a la **URL sugerida**. Esta funcionalidad garantiza que los visitantes del sitio web y los bots de búsqueda que siguen los vínculos rotos en las **páginas de referencia** se redirijan a la página correcta del sitio, lo que mejora la optimización de los motores de búsqueda y la experiencia del usuario.
+Según la configuración, las correcciones se aplican como cambios de contenido o código dentro de los flujos de trabajo de implementación existentes. El proceso de optimización incluye los siguientes pasos:
 
->[!BEGINTABS]
+* **Validación**: garantiza que los cambios funcionen según lo esperado y no introduzcan regresiones antes de la implementación.
+* **Implementación**: aplica cambios a través de procesos existentes, como actualizaciones de contenido en AEM o implementación de código a través de canalizaciones de CI/CD.
+* **Comprobación de permisos** - Comprueba que el usuario tiene los permisos adecuados para implementar los cambios. Si no es así, se proporcionan salidas alternativas como listas de redireccionamiento descargables o parches de código.
 
->[!TAB Implementar optimización]
-
-![Implementar optimización de vínculos de retroceso rotos rotos](./assets/broken-backlinks/deploy-optimization.png){align="center"}
-
-Si selecciona **Implementar optimización**, se actualizarán las reglas de redireccionamiento del sitio de AEM para asignar la **URL de destino rota** a la **URL sugerida**. Esta funcionalidad garantiza que los visitantes del sitio web y los bots de búsqueda que siguen los vínculos rotos en las **páginas de referencia** se redirijan a la página correcta del sitio, lo que mejora la optimización de los motores de búsqueda y la experiencia del usuario.
-
->[!TAB Solicitar aprobación]
-
-![Solicitar aprobación de los vínculos de retroceso rotos](./assets/broken-backlinks/request-approval.png){align="center"}
-
-{{auto-optimize-request-approval}}
-
->[!ENDTABS]
+Este proceso garantiza que las redirecciones se implementen con precisión, se validen antes de la versión y se alineen con las configuraciones y los procesos de gobernanza existentes.
