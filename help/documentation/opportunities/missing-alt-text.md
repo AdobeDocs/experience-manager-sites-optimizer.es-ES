@@ -2,10 +2,10 @@
 title: Documentación sobre el texto ALT que falta
 description: Obtenga información sobre la oportunidad de texto alternativo que falta y cómo utilizarla para mejorar la participación en el sitio web.
 badgeEngagement: label="Participación" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Participación"
-source-git-commit: 42f67f8ca52aa8e17ab780702023c0987e457f76
+source-git-commit: ba3f15903a3f551bd64351a3bb002b43cf5cb2cd
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 36%
+source-wordcount: '694'
+ht-degree: 37%
 
 ---
 
@@ -67,8 +67,20 @@ Según la configuración, las actualizaciones se pueden aplicar directamente al 
 
 Las actualizaciones se versiones donde se admiten, lo que proporciona visibilidad y capacidad de reversión. Esto garantiza que las actualizaciones de texto alternativo se apliquen con precisión, se alineen con las implementaciones existentes y sean coherentes con los estándares de gobernanza y accesibilidad.
 
-AEM Sites Optimizer aplica automáticamente las actualizaciones de texto alternativo en función de su configuración:
+AEM Sites Optimizer aplica automáticamente las actualizaciones de texto alternativo en función de su configuración, de la siguiente manera:
 
-* **Edge Delivery Services**: actualiza el documento de origen (por ejemplo, Google Docs o SharePoint).
-* **AEM as a Cloud Service**: escribe actualizaciones directamente a través de la API de contenido con versiones y compatibilidad de reserva.
-* **Administración de recursos digitales (opcional)**: actualiza el texto alternativo de nivel de recurso donde corresponda.
+>[!BEGINTABS]
+
+>[!TAB Edge Delivery Services]
+
+Actualiza el documento de origen (por ejemplo, Google Docs o SharePoint).
+
+>[!TAB AEM as a Cloud Service]
+
+Escribe actualizaciones directamente a través de la API de contenido con soporte de versiones y reserva.
+
+>[!TAB Administración de recursos digitales (opcional)]
+
+Actualiza el texto alternativo de nivel de recurso donde corresponda.
+
+>[!ENDTABS]
