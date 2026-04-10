@@ -1,9 +1,9 @@
 ---
 title: Resultados de auditoría en comprobación preliminar
-description: Obtenga información sobre cómo interpretar los resultados de la auditoría de comprobaciones y la barra de progreso del usuario, navegar a los problemas de la vista previa y aplicar sugerencias generadas por IA.
-source-git-commit: 10534d1fabdd88b11f45895d39bc1afd0d664ff1
+description: Obtenga información sobre cómo interpretar los resultados de la auditoría de comprobaciones y la barra de progreso del usuario y navegue hasta los problemas en la vista previa.
+source-git-commit: f513d2bb8ff8af203333bd0c27bd00092f69d014
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -26,33 +26,13 @@ La barra tiene un código de colores:
 
 Consulte la [lista completa de tipos de oportunidades disponibles y cómo solucionarlos](./overview.md#preflight-opportunities).
 
-## Navegar a problemas y aplicar sugerencias
+## Navegar a problemas
 
-Una vez finalizada la auditoría, puede pasar rápidamente a los problemas identificados y aplicar sugerencias generadas por IA directamente en la vista previa.
+Una vez finalizada la auditoría, puede pasar rápidamente a los problemas identificados en la vista previa.
 
-![Resalte de vista previa de comprobación preliminar y panel de sugerencias de IA](./assets/audit-results/highlight-issue.png){align="center"}
+![Vista previa de comprobación preliminar que resalta un problema](./assets/audit-results/highlight-issue.png){align="center"}
 
 ### Navegar a un problema
 
 1. Seleccione un problema de la lista de problemas en el panel Comprobaciones.
 1. La vista previa se desplaza automáticamente a y resalta la ubicación correspondiente en la página, por lo que puede revisar el problema en contexto sin buscarlo manualmente.
-
-### Aplicar sugerencias generadas por IA
-
-Para los problemas que incluyen recomendaciones generadas por IA, puede aplicar optimizaciones sugeridas directamente desde el panel de sugerencias.
-
-#### Aplicación de una optimización
-
-1. Revise la sugerencia generada por IA.
-1. Seleccione **Aplicar optimización**.
-
-El contenido recomendado se aplica directamente al contenido.
-
-#### Editar antes de aplicar
-
-Si es necesario realizar ajustes:
-
-1. Modifique la sugerencia generada por IA en el panel de sugerencias.
-1. Seleccione **Aplicar optimización**.
-
-La versión editada se aplicará a la vista previa.
