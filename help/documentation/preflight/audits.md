@@ -1,9 +1,9 @@
 ---
 title: Ejecutar auditorías en comprobación preliminar
 description: Obtenga información sobre cómo iniciar una auditoría de comprobaciones en la página.
-source-git-commit: e7c34d27bd34b3c9db1e6a999007e9d36dc1fb21
+source-git-commit: f513d2bb8ff8af203333bd0c27bd00092f69d014
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -17,4 +17,4 @@ Las comprobaciones auditan la página para identificar oportunidades de mejorar 
 1. Abra el [panel de comprobaciones](./access-preflight.md).
 1. La comprobación preliminar realiza automáticamente todas las auditorías de la página abierta en el editor y muestra todas las oportunidades que encuentra.
 
-Para interpretar los resultados, abrir problemas en la vista previa y aplicar sugerencias generadas por IA, consulte [Resultados de auditoría en comprobación preliminar](./audit-results.md).
+Para interpretar los resultados y los problemas pendientes en la vista previa, vea [Resultados de auditoría en la comprobación preliminar](./audit-results.md).
