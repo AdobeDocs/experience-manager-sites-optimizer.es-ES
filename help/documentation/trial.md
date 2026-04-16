@@ -1,7 +1,7 @@
 ---
 title: Prueba de Sites Optimizer
 description: Empiece con la versión de prueba de AEM Sites Optimizer para clientes de AEM Sites existentes.
-source-git-commit: 0c9acea024f436166c467d55a3d3697f3eaf08b6
+source-git-commit: 9fae4c52a977c34419037b131d2a70b404511502
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 15%
@@ -13,7 +13,7 @@ ht-degree: 15%
 
 Empiece a usar Sites Optimizer con esta prueba para clientes de AEM Sites existentes (Edge Delivery Services, Cloud Services y Managed Services). Los datos de dominio ya están preincorporados, por lo que puede empezar a optimizar de inmediato. El siguiente vídeo lo acompaña durante la experiencia de prueba y le muestra cómo empezar.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483290/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
 
 >[!TIP]
 >
@@ -23,7 +23,7 @@ Empiece a usar Sites Optimizer con esta prueba para clientes de AEM Sites existe
 
 Siga estos pasos para comenzar con la versión de prueba:
 
-1. Inicie sesión con su identificador de organización de AEM Sites IMS para [www.sitesoptimizer.now](https://www.sitesoptimizer.now).
+1. Inicie sesión con su ID de organización de IMS de AEM Sites en [www.sitesoptimizer.live](http://www.sitesoptimizer.live/).
 2. Vea métricas clave como vistas de página, tiempo de carga y tasa de participación, junto con las principales oportunidades de optimización priorizadas por impacto.
 3. Explore los tres tipos de oportunidades disponibles: [vínculos secundarios rotos](./opportunities/broken-backlinks.md), [Core Web Vitals](./opportunities/core-web-vitals.md) y [falta texto alternativo](./opportunities/missing-alt-text.md).
 4. Para cada oportunidad, revise hasta tres problemas identificados. Utilice sugerencias generadas por IA e implemente optimizaciones directamente en su entorno de AEM cuando esté listo.
@@ -56,7 +56,7 @@ Clientes de AEM Sites existentes (Edge Delivery Services, Cloud Services y Manag
 +++
 +++¿Cómo puedo acceder a la versión de prueba?
 
-Vaya a [www.sitesoptimizer.now](https://www.sitesoptimizer.now) e inicie sesión con su identificador de organización de IMS de AEM Sites.
+Vaya a [www.sitesoptimizer.live](http://www.sitesoptimizer.live/) e inicie sesión con su identificador de organización de IMS de AEM Sites.
 
 +++
 +++¿Cuesta algo el juicio?
