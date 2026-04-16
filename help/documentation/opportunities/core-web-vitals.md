@@ -38,7 +38,7 @@ Al hacer clic en el botón de sugerencia, aparece una nueva ventana que contiene
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
->[!VIDEO](https://video.tv.adobe.com/v/3483371/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483374/?captions=spa&learn=on&enablevpops)
 
 Una vez que las recomendaciones se hayan revisado y aprobado, puede hacer clic en **Implementar optimización**. AEM Sites Optimizer genera parches de código basados en los problemas identificados y los pone a disposición a través de procesos de control de versiones. El proceso de optimización incluye los siguientes pasos:
 

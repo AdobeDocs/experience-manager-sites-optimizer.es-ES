@@ -55,7 +55,7 @@ Puede elegir omitir las entradas de la lista de oportunidades. Si se selecciona 
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
->[!VIDEO](https://video.tv.adobe.com/v/3483251/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483267/?captions=spa&learn=on&enablevpops)
 
 Una vez que las sugerencias se hayan revisado y aprobado, puede hacer clic en **Implementar optimización**. A continuación, AEM Sites Optimizer aplica las correcciones en el entorno de creación, en función de cómo se administre el texto alternativo en la implementación. El autor de AEM puede publicar los cambios desde el sistema de administración de contenido (CMS).
 

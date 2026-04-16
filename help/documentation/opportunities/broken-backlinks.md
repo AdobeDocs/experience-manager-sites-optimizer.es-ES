@@ -66,7 +66,7 @@ Puede elegir ignorar las entradas con las direcciones URL rotas indicadas. Al se
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
->[!VIDEO](https://video.tv.adobe.com/v/3483250/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483256/?captions=spa&learn=on&enablevpops)
 
 Una vez que las sugerencias se hayan revisado y aprobado, puede hacer clic en **Implementar optimización**. A continuación, AEM Sites Optimizer aplica las correcciones en el entorno de creación, en función de cómo se administran las redirecciones en la implementación. El autor de AEM puede publicar los cambios desde el sistema de administración de contenido (CMS).
 
