@@ -2,9 +2,9 @@
 title: Documentación sobre el texto ALT que falta
 description: Obtenga información sobre la oportunidad de texto alternativo que falta y cómo utilizarla para mejorar la participación en el sitio web.
 badgeEngagement: label="Participación" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Participación"
-source-git-commit: ba3f15903a3f551bd64351a3bb002b43cf5cb2cd
+source-git-commit: 8052c94f778829012f023fe470411dfe77ef46b9
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '689'
 ht-degree: 37%
 
 ---
@@ -55,7 +55,7 @@ Puede elegir omitir las entradas de la lista de oportunidades. Si se selecciona 
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-![Optimización automática del texto alternativo que falta](./assets/missing-alt-text/auto-optimize.png){align="center"}
+>[!VIDEO](https://video.tv.adobe.com/v/3483251/?learn=on&enablevpops)
 
 Una vez que las sugerencias se hayan revisado y aprobado, puede hacer clic en **Implementar optimización**. A continuación, AEM Sites Optimizer aplica las correcciones en el entorno de creación, en función de cómo se administre el texto alternativo en la implementación. El autor de AEM puede publicar los cambios desde el sistema de administración de contenido (CMS).
 
