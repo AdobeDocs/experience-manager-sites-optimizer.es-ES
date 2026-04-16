@@ -2,10 +2,10 @@
 title: Documentación sobre la oportunidad de Core Web Vitals
 description: Obtenga información sobre la oportunidad de Core Web Vitals y cómo utilizarla para mejorar la adquisición de tráfico.
 badgeSiteHealth: label="Estado del sitio" type="Caution" url="../../opportunity-types/site-health.md" tooltip="Estado del sitio"
-source-git-commit: 42f67f8ca52aa8e17ab780702023c0987e457f76
+source-git-commit: 3a5354a8306c8700bdf63858da70f26b5c72e58d
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 10%
+source-wordcount: '550'
+ht-degree: 9%
 
 ---
 
@@ -38,7 +38,7 @@ Al hacer clic en el botón de sugerencia, aparece una nueva ventana que contiene
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-![Optimización automática de la oportunidad de Core Web Vitals](./assets/core-web-vitals/auto-optimize.png){align="center"}
+>[!VIDEO](https://video.tv.adobe.com/v/3483374/?captions=spa&learn=on&enablevpops)
 
 Una vez que las recomendaciones se hayan revisado y aprobado, puede hacer clic en **Implementar optimización**. AEM Sites Optimizer genera parches de código basados en los problemas identificados y los pone a disposición a través de procesos de control de versiones. El proceso de optimización incluye los siguientes pasos:
 

@@ -2,7 +2,7 @@
 title: Documentación sobre la oportunidad de vínculos de retroceso rotos
 description: Obtenga información sobre la oportunidad de vínculos de retroceso rotos y cómo utilizarla para mejorar la adquisición de tráfico.
 badgeTrafficAcquisition: label="Adquisición de tráfico" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Adquisición de tráfico"
-source-git-commit: 42f67f8ca52aa8e17ab780702023c0987e457f76
+source-git-commit: 643a639a233417b3295b7b66c1a6a12ef37abab0
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 33%
@@ -65,6 +65,8 @@ Puede elegir ignorar las entradas con las direcciones URL rotas indicadas. Al se
 ## Optimización automática
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483256/?captions=spa&learn=on&enablevpops)
 
 Una vez que las sugerencias se hayan revisado y aprobado, puede hacer clic en **Implementar optimización**. A continuación, AEM Sites Optimizer aplica las correcciones en el entorno de creación, en función de cómo se administran las redirecciones en la implementación. El autor de AEM puede publicar los cambios desde el sistema de administración de contenido (CMS).
 
