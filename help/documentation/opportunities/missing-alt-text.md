@@ -2,23 +2,25 @@
 title: Documentación sobre el texto ALT que falta
 description: Obtenga información sobre la oportunidad de texto alternativo que falta y cómo utilizarla para mejorar la participación en el sitio web.
 badgeEngagement: label="Participación" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Participación"
-source-git-commit: 8052c94f778829012f023fe470411dfe77ef46b9
+source-git-commit: fd992e5f4508ccd4236757167a16c744d98cc6ae
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 37%
+source-wordcount: '669'
+ht-degree: 35%
 
 ---
 
 
 # Oportunidad de texto alternativo que falta
 
-![Oportunidad de texto alternativo que falta](./assets/missing-alt-text/hero.png){align="center"}
+<!--![Missing alt text opportunity](./assets/missing-alt-text/hero.png){align="center"}-->
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483267/?captions=spa&learn=on&enablevpops)
 
 La oportunidad de texto alternativo que falta identifica las imágenes del sitio web que no tienen texto alternativo descriptivo. Sin texto alternativo, los usuarios que dependen de los lectores de pantalla no pueden interpretar el contenido visual, lo que crea barreras de accesibilidad. También limita la manera en que los motores de búsqueda entienden e indexan las imágenes, lo que reduce la capacidad de detección de contenido y el rendimiento de la búsqueda. AEM Sites Optimizer identifica los problemas de texto alternativo que faltan, proporciona recomendaciones de IA específicas y permite una implementación con un solo clic para solucionarlos, todo en una sola vista centralizada.
 
 ## Identificación automática
 
-![Identificación automática del texto alternativo que falta](./assets/missing-alt-text/auto-identify.png){align="center"}
+<!--![Auto-identify missing alt text](./assets/missing-alt-text/auto-identify.png){align="center"}-->
 
 AEM Sites Optimizer explora su sitio web mediante una auditoría de varios pasos que combina la rastrea del sitio, los datos del tráfico de usuarios reales y el análisis de IA para identificar imágenes que requieren texto alternativo pero no lo tienen definido. También evalúa las imágenes de la página para determinar si es necesario un texto alternativo, excluyendo las imágenes decorativas o no informativas de acuerdo con las Directrices de accesibilidad al contenido web (WCAG). Las imágenes se analizan en función de su función y relevancia dentro de la página priorizando las correcciones que tienen el mayor impacto en la accesibilidad y la SEO.
 
@@ -29,7 +31,7 @@ Esta oportunidad proporciona una lista de los problemas identificados, entre los
 
 ## Sugerencia automática
 
-![Sugerencia automática para texto alternativo que falta](./assets/missing-alt-text/auto-suggest.png){align="center"}
+<!--![Auto-suggest missing alt text](./assets/missing-alt-text/auto-suggest.png){align="center"}-->
 
 Para cada problema identificado, AEM Sites Optimizer sugiere un texto alternativo descriptivo para la imagen. Utiliza modelos de visión de IA para analizar la imagen y generar una descripción que refleje su contenido y función dentro de la página. Las recomendaciones son concisas, relevantes y están alineadas con las prácticas recomendadas de accesibilidad. Cada sugerencia se puede revisar y editar antes de aplicarla.
 
@@ -37,7 +39,7 @@ Para cada problema identificado, AEM Sites Optimizer sugiere un texto alternativ
 
 >[!TAB Editar texto alternativo que falta]
 
-![Editar texto alternativo que falta](./assets/missing-alt-text/edit-alt-text-value.png){align="center"}
+<!--![Edit missing alt text](./assets/missing-alt-text/edit-alt-text-value.png){align="center"}-->
 
 Si no está de acuerdo con la sugerencia generada por IA, puede editar el texto alternativo sugerido seleccionando el **icono de edición**. Esta función le permite ajustar manualmente el texto que piensa que es el más adecuado para la imagen. La ventana de edición contiene lo siguiente:
 
@@ -53,9 +55,7 @@ Puede elegir omitir las entradas de la lista de oportunidades. Si se selecciona 
 
 ## Optimización automática
 
-[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
-
->[!VIDEO](https://video.tv.adobe.com/v/3483267/?captions=spa&learn=on&enablevpops)
+<!--[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}-->
 
 Una vez que las sugerencias se hayan revisado y aprobado, puede hacer clic en **Implementar optimización**. A continuación, AEM Sites Optimizer aplica las correcciones en el entorno de creación, en función de cómo se administre el texto alternativo en la implementación. El autor de AEM puede publicar los cambios desde el sistema de administración de contenido (CMS).
 
