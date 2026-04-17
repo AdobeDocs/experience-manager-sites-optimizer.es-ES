@@ -22,7 +22,7 @@ La oportunidad de vínculos secundarios rotos identifica vínculos externos que 
 
 <!--![Auto-identify broken backlinks](./assets/broken-backlinks/auto-identify.png){align="center"}-->
 
-AEM Sites Optimizer analiza continuamente las fuentes de datos externas para detectar los vínculos secundarios que apuntan a páginas 404 inexistentes del sitio. Se agregan datos de múltiples fuentes, entre ellas Google Search Console, [Telemetría operativa](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) y plataformas de optimización de los motores de búsqueda de terceros. La oportunidad de identificación automática identifica los dominios externos que se vinculan a direcciones URL rotas y las prioriza en función del impacto, incluidas la autoridad de dominio y las pérdidas de tráfico y equidad de vínculos esperadas.
+AEM Sites Optimizer analiza continuamente las fuentes de datos externas para detectar los vínculos secundarios que apuntan a páginas 404 inexistentes del sitio. Se agregan datos de múltiples fuentes, entre ellas Google Search Console, [Telemetría operativa](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) y plataformas de optimización de los motores de búsqueda de terceros. La oportunidad de identificación automática identifica los dominios externos que se vinculan a direcciones URL rotas y las prioriza en función del impacto, incluidas la autoridad de dominio y las pérdidas de tráfico y equidad de vínculos esperadas.
 
 Esta oportunidad enumera todos los problemas identificados, incluidos los siguientes detalles:
 
