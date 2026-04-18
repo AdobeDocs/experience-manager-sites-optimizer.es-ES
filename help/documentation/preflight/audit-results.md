@@ -30,7 +30,7 @@ Consulte la [lista completa de tipos de oportunidades disponibles y cómo soluci
 
 Una vez finalizada la auditoría, puede localizar y comprender rápidamente las oportunidades resaltándolas directamente en la página.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483412/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483415/?captions=spa&learn=on&enablevpops)
 
 La comprobación preliminar resalta cada oportunidad en contexto, conectando los resultados del panel con la ubicación exacta del contenido. Esto facilita la revisión y la resolución de oportunidades sin buscar manualmente en la página.
 
