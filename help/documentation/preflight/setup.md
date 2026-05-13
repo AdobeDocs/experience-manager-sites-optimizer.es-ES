@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo configurar la extensión de Prefli
 TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8ObcY
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
-workflow-type: ht
-source-wordcount: 596
-ht-degree: 100%
+source-git-commit: 511e784d7d484b18942ac4b711df1c802debfec9
+workflow-type: tm+mt
+source-wordcount: 587
+ht-degree: 97%
 
 ---
 
@@ -32,8 +32,8 @@ Para configurar la comprobación preliminar en el editor universal, siga estos p
 
 1. Abra **Extension Manager** en:
    [https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor](https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor)
-1. Busque la **extensión de comprobaciones de AEM Sites Optimizer** y envíe una solicitud para habilitarla.
-1. El **equipo de AEM de Adobe** revisa y habilita la extensión para su organización.
+1. Busque la extensión **AEM Sites Optimizer Preflight**.
+1. El administrador del sistema de la organización deberá habilitar esta extensión.
 1. Una vez habilitada la extensión, abra una página en el **Editor universal**, por ejemplo:
    `https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/en/example/home.html`
 1. La **extensión Preflight** aparece en el **carril lateral**.
