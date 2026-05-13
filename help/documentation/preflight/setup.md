@@ -2,22 +2,21 @@
 title: Configuración de Preflight
 description: Obtenga información sobre cómo configurar la extensión de Preflight para AEM Sites Optimizer.
 TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8ObcY
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
 workflow-type: tm+mt
 source-wordcount: 596
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 # Configuración de Preflight
 
-La identificación de la oportunidad de comprobación preliminar de AEM Sites Optimizer requiere la configuración de la extensión de comprobación preliminar. Puede configurarlo en el editor universal, la vista previa basada en documentos o AEM Cloud Service para poder ejecutar auditorías de comprobaciones en las páginas antes de publicarlas.
+La identificación de la oportunidad de AEM Sites Optimizer Preflight requiere la configuración de la extensión de Preflight. Puede configurarla en el editor universal, en la vista previa basada en documentos o en AEM Cloud Service para poder ejecutar auditorías de Preflight en las páginas antes de publicarlas.
 
 ## Habilitar el acceso de los usuarios
 
-Para usar la extensión de comprobaciones, asegúrese de que el usuario esté asignado al menos a uno de los siguientes perfiles de producto de AEM Sites Optimizer en [Adobe Admin Console](https://adminconsole.adobe.com):
+Para usar la extensión de Preflight, asegúrese de que al usuario se le asigne al menos uno de los siguientes perfiles de producto de AEM Sites Optimizer en [Adobe Admin Console](https://adminconsole.adobe.com):
 
 * AEM Sites Optimizer: sugerencia automática de usuario
 * AEM Sites Optimizer: optimización automática del usuario
@@ -36,7 +35,7 @@ Para configurar la comprobación preliminar en el editor universal, siga estos p
 1. El **equipo de AEM de Adobe** revisa y habilita la extensión para su organización.
 1. Una vez habilitada la extensión, abra una página en el **Editor universal**, por ejemplo:
    `https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/en/example/home.html`
-1. La **extensión de comprobación preliminar** aparece en el **carril lateral**.
+1. La **extensión Preflight** aparece en el **carril lateral**.
 1. Seleccione la **extensión Preflight** en la barra lateral para iniciar una **auditoría Preflight** de la página actual.
 
 >[!TAB Creación basada en documentos]
@@ -122,7 +121,7 @@ Para configurar la comprobación preliminar para la creación basada en document
 
 Para utilizar la comprobación preliminar en el editor de páginas de AEM Sites, puede crear un bookmarklet en el explorador web. Siga estos pasos:
 
-1. Mostrar la **Barra de marcadores** en el explorador web:
+1. Muestre la **Barra de marcadores** en el explorador web:
 
    * Pulse **Ctrl+Mayús+B** (Windows) o **Cmd+Mayús+B** (Mac).
 
@@ -143,9 +142,9 @@ Para utilizar la comprobación preliminar en el editor de páginas de AEM Sites,
 
 >[!IMPORTANT]
 >
->Solo se admiten los entornos de Adobe Managed Services (AMS) que utilizan el proveedor de identidad (IMS) de Adobe para la autenticación en AEM Author. Las comprobaciones no funcionan si su organización utiliza cualquier otro proveedor de identidad para la autenticación AMS.
+>Solo se admiten los entornos de Adobe Managed Services (AMS) que utilizan el proveedor de identidad (IMS) de Adobe para la autenticación en AEM Author. Preflight (comprobación preliminar) no funciona si su organización utiliza cualquier otro proveedor de identidad para la autenticación AMS.
 
-Para utilizar la comprobación preliminar en el editor de páginas de AEM Sites en un entorno de AMS, cree un bookmarklet en el explorador web siguiendo estos pasos:
+Para utilizar Preflight en el editor de páginas de AEM Sites en un entorno de AMS, cree un bookmarklet en el explorador web siguiendo estos pasos:
 
 1. Muestre la **Barra de marcadores** en el explorador web:
 
@@ -172,5 +171,5 @@ Cuando ejecute auditorías de comprobaciones preliminares, tenga en cuenta las s
 
 * Ejecute siempre auditorías en **páginas de ensayo o vista previa** antes de publicar en producción.
 * Priorice la resolución de **problemas de alto impacto**, como vínculos rotos, etiquetas H1 que faltan o vínculos no seguros.
-* Asegúrese de que la autenticación **esté habilitada** para los entornos de ensayo protegidos antes de ejecutar auditorías.
+* Asegúrese de que **la autenticación esté habilitada** para los entornos de ensayo protegidos antes de ejecutar auditorías.
 * Revise y aplique **recomendaciones de etiquetas meta** para mejorar el rendimiento de SEO.

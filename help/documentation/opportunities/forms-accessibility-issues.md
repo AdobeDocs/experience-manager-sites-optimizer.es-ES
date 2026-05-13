@@ -3,26 +3,23 @@ title: Documentación sobre la oportunidad de problemas de accesibilidad de form
 description: Obtenga información sobre la oportunidad de problemas de accesibilidad y cómo utilizarla para mejorar la experiencia de usuario y la accesibilidad de los formularios en el sitio web.
 badgeFormOptimization: label="Optimización de formularios" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Optimización de formularios"
 TQID: https://experienceleague.adobe.com/LsxxwR0UUBZEB1AJDXwE8zHbPRJcrOqwn25xdsesPhg
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 hide: true
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
 source-wordcount: 311
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 # Oportunidad de problemas de accesibilidad de formularios
 
-<span class="preview">: la funcionalidad Optimización de Forms está disponible en un programa de acceso anticipado. Puede escribir a aem-forms-ea@adobe.com desde su ID de correo electrónico oficial para unirse al programa de acceso anticipado y solicitar acceso a esta funcionalidad. </span>
+<span class="preview"> La funcionalidad Optimización de formularios está disponible en un programa de acceso anticipado. Puede escribir a aem-forms-ea@adobe.com desde su ID de correo electrónico oficial para unirse al programa de acceso anticipado y solicitar acceso a esta funcionalidad. </span>
 
 ![Oportunidad de problemas de accesibilidad de formularios](./assets/forms-accessibility-issues/hero.png){align="center"}
 
-La oportunidad de problemas de accesibilidad identifica en qué medida su sitio web se ajusta a las necesidades de las personas con discapacidades y si siguen las [pautas de accesibilidad para el contenido web (WCAG)](https://www.w3.org/TR/WCAG21/). Al evaluar la conformidad de los formularios con WCAG, ayudará a crear una experiencia de formularios inclusiva. Al hacerlo, las personas con deficiencias visuales, auditivas, cognitivas y motoras pueden navegar, interactuar con los formularios y completarlos correctamente. No sólo es esencial por razones éticas, sino que también promueve el cumplimiento de los requisitos legales. También mejora las tasas de finalización de formularios y puede aumentar el alcance de la audiencia, mejorando tanto la experiencia del usuario como el rendimiento empresarial.
+La oportunidad de problemas de accesibilidad identifica en qué medida su sitio web se ajusta a las necesidades de las personas con discapacidades y si siguen las [pautas de accesibilidad para el contenido web (WCAG)](https://www.w3.org/TR/WCAG21/). Al evaluar la conformidad de sus formularios con WCAG, contribuye a crear una experiencia de formularios inclusiva. Al hacerlo, las personas con problemas de visión, auditivos, cognitivos y motores pueden navegar, interactuar con los formularios y completarlos correctamente. No solo es esencial por motivos éticos, sino que también promueve el cumplimiento de los requisitos legales. También mejora las tasas de finalización de formularios y puede aumentar el alcance del público, lo que mejora tanto la experiencia del usuario como el rendimiento empresarial.
 
 ## Identificación automática
 
@@ -40,7 +37,7 @@ La **oportunidad de problemas de accesibilidad de formularios** identifica los p
 
 ![Problemas de accesibilidad de formularios con sugerencia automática](./assets/forms-accessibility-issues/auto-suggest.png){align="center"}
 
-La sugerencia automática proporciona recomendaciones generadas por IA en el campo **Sugerencias**, que proporciona instrucciones prescriptivas sobre qué hacer para solucionar el problema de accesibilidad de los formularios.
+La sugerencia automática ofrece recomendaciones generadas por IA en el campo **Sugerencias** que proporcionan orientación normativa sobre qué hacer para solucionar el problema.
 
 <!-- 
 

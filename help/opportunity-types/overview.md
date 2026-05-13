@@ -2,17 +2,12 @@
 title: Tipos de oportunidades de Sites Optimizer
 description: Obtenga información sobre los tipos de oportunidades clave en Sites Optimizer y cómo pueden ayudarle a mejorar el rendimiento de su sitio.
 TQID: https://experienceleague.adobe.com/mtma4uEArQQJu4C3kpdWZy0GR9ySS1TIgx0L9GUrlY4
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
 workflow-type: tm+mt
 source-wordcount: 348
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +26,7 @@ AEM Sites Optimizer proporciona información y recomendaciones valiosas para ayu
 
 Cada categoría resalta una manera diferente de mejorar el sitio. Una categoría puede aumentar la interacción del visitante. Otra puede mejorar la capacidad de detección. Otras se centran en reforzar la seguridad o en mantener la estabilidad del sitio. Preflight le ayuda a analizar y optimizar las páginas antes de publicarlas.
 
-Aprovechar estas oportunidades mejora la experiencia del usuario, atrae al público adecuado y mantiene el sitio seguro y fiable. La mejora de la participación y la adquisición de tráfico fomenta la interacción y la visibilidad, mientras que una posición de seguridad sólida y el estado saludable del sitio ayudan a garantizar la confianza y la estabilidad. El análisis de comprobaciones garantiza que el contenido esté optimizado antes de publicarse. Explore los vínculos siguientes para ver las oportunidades organizadas por categoría y descubrir formas de mejorar el sitio.
+Aprovechar estas oportunidades mejora la experiencia del usuario, atrae al público adecuado y mantiene el sitio seguro y fiable. La mejora de la participación y la adquisición de tráfico fomenta la interacción y la visibilidad, mientras que una posición de seguridad sólida y el estado saludable del sitio ayudan a garantizar la confianza y la estabilidad. El análisis de Preflight (comprobación preliminar) garantiza que el contenido esté optimizado antes de publicarse. Explore los vínculos siguientes para ver las oportunidades organizadas por categoría y descubrir formas de mejorar el sitio.
 
 ## Tipos de oportunidades
 
@@ -72,7 +67,7 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre cómo mejorar la participación con Sites Optimizer.</p>
                 </div>
                 <a href="./engagement.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -95,7 +90,7 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre cómo mejorar la seguridad de su sitio con Sites Optimizer.</p>
                 </div>
                 <a href="./security-posture.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -118,7 +113,7 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre cómo mejorar el estado del sitio con Sites Optimizer.</p>
                 </div>
                 <a href="./site-health.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -141,7 +136,7 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre cómo aumentar la adquisición de tráfico con Sites Optimizer.</p>
                 </div>
                 <a href="./traffic-acquisition.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -164,7 +159,7 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre cómo mejorar la conversión de formularios con la optimización de formularios.</p>
                 </div>
                 <a href="./form-optimization.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -173,8 +168,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./form-optimization.md" title="Accesibilidad a formularios" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/form-optimization/hero.png" alt="Accesibilidad a formularios"
+                    <a href="./form-optimization.md" title="Accesibilidad de formularios" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/form-optimization/hero.png" alt="Accesibilidad de formularios"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -182,12 +177,12 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./form-optimization.md" target="_blank" rel="referrer" title="Accesibilidad a formularios">Accesibilidad de formularios</a>
+                        <a href="./form-optimization.md" target="_blank" rel="referrer" title="Accesibilidad de formularios">Accesibilidad de formularios</a>
                     </p>
                     <p class="is-size-6">Obtenga información sobre cómo mejorar la accesibilidad de los formularios con la optimización de formularios.</p>
                 </div>
                 <a href="./form-optimization.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -207,10 +202,10 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/preflight/overview.md" target="_blank" rel="referrer" title="Preflight">Preflight</a>
                     </p>
-                    <p class="is-size-6">Obtenga información acerca del análisis de preflight y cómo configurar oportunidades de preflight en Sites Optimizer.</p>
+                    <p class="is-size-6">Obtenga información acerca del análisis de Preflight y cómo configurar oportunidades de Preflight en Sites Optimizer.</p>
                 </div>
                 <a href="../documentation/preflight/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -219,4 +214,4 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-<span class="preview"> Las funcionalidades de optimización de Forms y accesibilidad de Forms están disponibles en el programa de acceso anticipado. Puede escribir a aem-forms-ea@adobe.com desde su ID de correo electrónico oficial para unirse al programa de acceso anticipado y solicitar acceso a esta funcionalidad. </span>
+<span class="preview"> Las funcionalidades de optimización de formularios y accesibilidad de formularios están disponibles en el programa de acceso anticipado. Puede escribir a aem-forms-ea@adobe.com desde su ID de correo electrónico oficial para unirse al programa de acceso anticipado y solicitar acceso a esta funcionalidad. </span>

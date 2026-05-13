@@ -1,16 +1,13 @@
 ---
 title: AEM Sites Optimizer Preflight
-description: Obtenga información acerca de las comprobaciones y los tipos de oportunidades que evalúa antes de publicar.
+description: Obtenga información sobre Preflight y los tipos de oportunidades que evalúa antes de publicar.
 TQID: https://experienceleague.adobe.com/pZrPXBAaroTlpEsfSluFiLW2Noy4y5sD4dZHTsXgSfA
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
 workflow-type: tm+mt
 source-wordcount: 307
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
@@ -18,18 +15,18 @@ ht-degree: 36%
 
 ![Oportunidades de Preflight](./assets/overview/hero.png){align="center"}
 
-Las comprobaciones en AEM Sites Optimizer le ayudan a validar y optimizar las páginas antes de que se publiquen, analizando el contenido y la estructura, y marcando los problemas con recomendaciones procesables. Está diseñado para autores, especialistas en marketing y desarrolladores que deseen garantizar que las páginas sean de alta calidad, tengan un buen rendimiento y estén listas para publicar, a la vez que reducen la reutilización.
+Preflight en AEM Sites Optimizer le ayuda a validar y optimizar las páginas antes de que se publiquen, analizando el contenido y la estructura, y marcando los problemas con recomendaciones procesables. Está diseñado para autores, expertos en marketing y desarrolladores que deseen garantizar que las páginas sean de alta calidad, tengan un buen rendimiento y estén listas para publicar, a la vez que se reduce el trabajo de reelaboración.
 
-En el núcleo de la comprobación preliminar se encuentran las oportunidades, que se identifican a través de un conjunto de auditorías que evalúan aspectos clave de la página antes de su publicación. Estas auditorías ponen de manifiesto posibles problemas y ofrecen recomendaciones claras y útiles para mejorar la calidad y el rendimiento generales.
+En el centro de Preflight se encuentran las oportunidades, que se identifican a través de un conjunto de auditorías que evalúan los aspectos clave de la página antes de su publicación. Estas auditorías ponen de manifiesto posibles problemas y ofrecen recomendaciones claras y útiles para mejorar la calidad y el rendimiento generales.
 
-## Introducción a las comprobaciones
+## Introducción a Preflight
 
-Comenzar con las comprobaciones es fácil. Solo tiene que configurar las comprobaciones, abrirlas en el entorno de creación, realizar una auditoría en la página y realizar las comprobaciones restantes.
+Empezar a utilizar Preflight es fácil. Solo tiene que configurar la comprobación preliminar (Preflight), abrirla en el entorno de creación, realizar una auditoría en la página y Preflight hará el resto.
 
-1. [Configurar comprobación preliminar](./setup.md) - Aprenda a configurar la comprobación preliminar para su instancia de AEM
-1. [Acceder a la comprobación preliminar](./access-preflight.md) - Descubra dónde aparece la comprobación preliminar en su entorno de creación
-1. [Ejecutar auditorías](./audits.md) - Obtenga información sobre cómo iniciar una auditoría de comprobaciones
-1. [Resultados y oportunidades de auditoría](./audit-results.md) - Aprenda a interpretar los resultados de la auditoría
+1. [Configuración de la comprobación preliminar](./setup.md): aprenda a configurar la comprobación preliminar para su instancia de AEM
+1. [Acceso a la comprobación preliminar](./access-preflight.md): descubra dónde aparece Preflight en su entorno de creación
+1. [Ejecutar auditorías](./audits.md): obtenga información sobre cómo iniciar una auditoría de comprobación preliminar
+1. [Resultados y oportunidades de auditoría](./audit-results.md): aprenda a interpretar los resultados de la auditoría
 
 ## Oportunidades de Preflight
 
@@ -59,10 +56,10 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./opportunities/accessibility.md" target="_blank" rel="referrer" title="Oportunidad de accesibilidad de Preflight">Oportunidad de accesibilidad de Preflight</a>
                     </p>
-                    <p class="is-size-6">Obtenga información acerca de la oportunidad de accesibilidad de las comprobaciones en Sites Optimizer.</p>
+                    <p class="is-size-6">Obtenga información sobre la oportunidad de accesibilidad de Preflight (comprobación preliminar) en Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/accessibility.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -82,10 +79,10 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./opportunities/h1-count.md" target="_blank" rel="referrer" title="Oportunidad de recuento H1 de Preflight">Oportunidad de recuento H1 de Preflight</a>
                     </p>
-                    <p class="is-size-6">Obtenga información acerca de la oportunidad de accesibilidad de las comprobaciones en Sites Optimizer.</p>
+                    <p class="is-size-6">Obtenga información sobre la oportunidad de accesibilidad de Preflight (comprobación preliminar) en Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/h1-count.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -108,7 +105,7 @@ CARDS
                     <p class="is-size-6">Obtenga información acerca de la oportunidad Vínculos de Preflight en Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/links.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -128,10 +125,10 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./opportunities/meta-data.md" target="_blank" rel="referrer" title="Oportunidad de metadatos de Preflight">Oportunidad de metadatos de Preflight</a>
                     </p>
-                    <p class="is-size-6">Obtenga información acerca de la oportunidad de metadatos de comprobaciones en Sites Optimizer.</p>
+                    <p class="is-size-6">Obtenga información acerca de la oportunidad de metadatos de Preflight en Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/meta-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -151,10 +148,10 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./opportunities/readability.md" target="_blank" rel="referrer" title="Oportunidad de legibilidad de Preflight">Oportunidad de legibilidad de Preflight</a>
                     </p>
-                    <p class="is-size-6">Obtenga información acerca de la oportunidad Legibilidad de las comprobaciones en Sites Optimizer.</p>
+                    <p class="is-size-6">Obtenga información sobre la oportunidad de legibilidad de Preflight en Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/readability.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
