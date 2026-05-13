@@ -2,13 +2,15 @@
 title: Documentación sobre la oportunidad de configuración de CORS
 description: Obtenga información sobre la oportunidad de configuración de CORS y aprenda a identificar y corregir las vulnerabilidades de seguridad del sitio.
 badgeSecurityPosture: label="Posición de seguridad" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Posición de seguridad"
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '193'
+TQID: https://experienceleague.adobe.com/z-8fvRSLN71AnJ4Y6n9TnHGHoOEAAjt8AbVJY9RG-C0
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
+workflow-type: tm+mt
+source-wordcount: 199
 ht-degree: 100%
 
 ---
-
 
 # Oportunidad de configuración de CORS
 

@@ -1,13 +1,15 @@
 ---
 title: Documentación sobre oportunidades de Sites Optimizer
 description: Obtenga información sobre todas las oportunidades disponibles de Site Optimizer y cómo utilizarlas para mejorar el rendimiento del sitio.
-source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
+TQID: https://experienceleague.adobe.com/x-9Vr-OhGbZV-RIJhD1sLhbEVJXeJWMX2Fs78Vb4Mdk
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 96%
+source-wordcount: 891
+ht-degree: 92%
 
 ---
-
 
 # Documentación sobre oportunidades
 
@@ -139,8 +141,8 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre la oportunidad de problemas de accesibilidad y cómo utilizarla para aumentar la seguridad de en el sitio web.</p>
                 </div>
                 <a href="./accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -162,8 +164,8 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre la oportunidad de vínculos de retroceso rotos y cómo utilizarla para mejorar la adquisición de tráfico.</p>
                 </div>
                 <a href="./broken-backlinks.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -300,8 +302,8 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre la oportunidad de metadatos no válidos o que faltan y cómo utilizarla para mejorar la adquisición de tráfico.</p>
                 </div>
                 <a href="./invalid-or-missing-metadata.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -392,8 +394,8 @@ CARDS
                     <p class="is-size-6">Obtenga información acerca de los problemas de accesibilidad de Forms y cómo utilizarlos para mejorar la participación en el sitio web.</p>
                 </div>
                 <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -415,8 +417,8 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre la oportunidad de texto alternativo que falta y cómo utilizarla para mejorar la participación en el sitio web.</p>
                 </div>
                 <a href="./missing-alt-text.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -438,8 +440,8 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre la oportunidad de datos estructurados que faltan o no son válidos y cómo utilizarlos para mejorar la adquisición de tráfico.</p>
                 </div>
                 <a href="./missing-invalid-structured-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -461,8 +463,8 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre la oportunidad de problemas del mapa del sitio y cómo utilizarla para mejorar la adquisición de tráfico.</p>
                 </div>
                 <a href="./sitemap-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -484,8 +486,8 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre la oportunidad de permisos del sitio web y cómo utilizarla para aumentar la seguridad en el sitio web.</p>
                 </div>
                 <a href="./website-permissions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>

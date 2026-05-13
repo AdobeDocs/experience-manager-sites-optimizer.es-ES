@@ -1,13 +1,15 @@
 ---
 title: Tipos de oportunidades de Sites Optimizer
 description: Obtenga información sobre los tipos de oportunidades clave en Sites Optimizer y cómo pueden ayudarle a mejorar el rendimiento de su sitio.
-source-git-commit: d0fda0afad66289298e79edd1f84be251433a9f1
+TQID: https://experienceleague.adobe.com/mtma4uEArQQJu4C3kpdWZy0GR9ySS1TIgx0L9GUrlY4
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 92%
+source-wordcount: 348
+ht-degree: 88%
 
 ---
-
 
 # Tipos de oportunidades
 
@@ -65,8 +67,8 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre cómo mejorar la participación con Sites Optimizer.</p>
                 </div>
                 <a href="./engagement.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -88,8 +90,8 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre cómo mejorar la seguridad de su sitio con Sites Optimizer.</p>
                 </div>
                 <a href="./security-posture.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -111,8 +113,8 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre cómo mejorar el estado del sitio con Sites Optimizer.</p>
                 </div>
                 <a href="./site-health.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -134,8 +136,8 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre cómo aumentar la adquisición de tráfico con Sites Optimizer.</p>
                 </div>
                 <a href="./traffic-acquisition.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>

@@ -2,19 +2,21 @@
 title: Documentación sobre el texto ALT que falta
 description: Obtenga información sobre la oportunidad de texto alternativo que falta y cómo utilizarla para mejorar la participación en el sitio web.
 badgeEngagement: label="Participación" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Participación"
-source-git-commit: fd992e5f4508ccd4236757167a16c744d98cc6ae
+TQID: https://experienceleague.adobe.com/FyAC4UY-RAYtfYsKUkS-fgU3Kgy7ov5WYBtBpQ4ZFzk
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: 669
 ht-degree: 35%
 
 ---
-
 
 # Oportunidad de texto alternativo que falta
 
 <!--![Missing alt text opportunity](./assets/missing-alt-text/hero.png){align="center"}-->
 
->[!VIDEO](https://video.tv.adobe.com/v/3483267/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483251/?learn=on&enablevpops)
 
 La oportunidad de texto alternativo que falta identifica las imágenes del sitio web que no tienen texto alternativo descriptivo. Sin texto alternativo, los usuarios que dependen de los lectores de pantalla no pueden interpretar el contenido visual, lo que crea barreras de accesibilidad. También limita la manera en que los motores de búsqueda entienden e indexan las imágenes, lo que reduce la capacidad de detección de contenido y el rendimiento de la búsqueda. AEM Sites Optimizer identifica los problemas de texto alternativo que faltan, proporciona recomendaciones de IA específicas y permite una implementación con un solo clic para solucionarlos, todo en una sola vista centralizada.
 
