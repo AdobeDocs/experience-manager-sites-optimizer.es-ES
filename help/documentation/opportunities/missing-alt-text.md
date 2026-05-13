@@ -10,7 +10,7 @@ topic_v2:
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
 source-wordcount: 669
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 35%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3483267/?captions=spa&learn=on&enablevpops)
 
-La oportunidad de texto alternativo que falta identifica las imágenes del sitio web que no tienen texto alternativo descriptivo. Sin texto alternativo, los usuarios que dependen de los lectores de pantalla no pueden interpretar el contenido visual, lo que crea barreras de accesibilidad. También limita la manera en que los motores de búsqueda entienden e indexan las imágenes, lo que reduce la capacidad de detección de contenido y el rendimiento de la búsqueda. AEM Sites Optimizer identifica los problemas de texto alternativo que faltan, proporciona recomendaciones de IA específicas y permite una implementación con un solo clic para solucionarlos, todo en una sola vista centralizada.
+La oportunidad de texto alternativo que falta identifica las imágenes del sitio web que no tienen texto alternativo descriptivo. Sin un texto alternativo, los usuarios que dependen de los lectores de pantalla no pueden interpretar el contenido visual, lo que crea barreras de accesibilidad. También limita la manera en que los motores de búsqueda entienden e indexan las imágenes, lo que reduce la capacidad de detección de contenido y el rendimiento de la búsqueda. AEM Sites Optimizer identifica los problemas de texto alternativo que faltan, ofrece recomendaciones de IA específicas y permite una implementación con un solo clic para solucionar dichos problemas, todo ello en una sola vista centralizada.
 
 ## Identificación automática
 
 <!--![Auto-identify missing alt text](./assets/missing-alt-text/auto-identify.png){align="center"}-->
 
-AEM Sites Optimizer explora su sitio web mediante una auditoría de varios pasos que combina la rastrea del sitio, los datos del tráfico de usuarios reales y el análisis de IA para identificar imágenes que requieren texto alternativo pero no lo tienen definido. También evalúa las imágenes de la página para determinar si es necesario un texto alternativo, excluyendo las imágenes decorativas o no informativas de acuerdo con las Directrices de accesibilidad al contenido web (WCAG). Las imágenes se analizan en función de su función y relevancia dentro de la página priorizando las correcciones que tienen el mayor impacto en la accesibilidad y la SEO.
+AEM Sites Optimizer explora su sitio web mediante una auditoría de varios pasos que combina el rastreo del sitio, los datos del tráfico de usuarios reales y el análisis de IA para identificar imágenes que requieren texto alternativo pero no lo tienen definido. También evalúa las imágenes de la página para determinar si es necesario un texto alternativo, excluyendo las imágenes decorativas o no informativas de acuerdo con las directrices de accesibilidad al contenido web (WCAG). Las imágenes se analizan según su función y relevancia dentro de la página priorizando las correcciones que tienen el mayor impacto en la accesibilidad y el SEO.
 
-Esta oportunidad proporciona una lista de los problemas identificados, entre los que se incluyen:
+Esta oportunidad ofrece una lista de los problemas identificados, entre los que se incluyen los siguientes:
 
 * **Página**: ruta a la página que contiene el texto alternativo que falta.
 * **Imagen**: imagen en la que falta el texto alternativo descriptivo.
@@ -37,7 +37,7 @@ Esta oportunidad proporciona una lista de los problemas identificados, entre los
 
 <!--![Auto-suggest missing alt text](./assets/missing-alt-text/auto-suggest.png){align="center"}-->
 
-Para cada problema identificado, AEM Sites Optimizer sugiere un texto alternativo descriptivo para la imagen. Utiliza modelos de visión de IA para analizar la imagen y generar una descripción que refleje su contenido y función dentro de la página. Las recomendaciones son concisas, relevantes y están alineadas con las prácticas recomendadas de accesibilidad. Cada sugerencia se puede revisar y editar antes de aplicarla.
+Para cada problema identificado, AEM Sites Optimizer sugiere un texto alternativo descriptivo para la imagen. Utiliza modelos de visión de IA para analizar la imagen y generar una descripción que refleje su contenido y función dentro de la página. Las recomendaciones son concisas, relevantes y se ajustan a las prácticas recomendadas de accesibilidad. Cada sugerencia se puede revisar y editar antes de aplicarse.
 
 >[!BEGINTABS]
 
@@ -61,15 +61,15 @@ Puede elegir omitir las entradas de la lista de oportunidades. Si se selecciona 
 
 <!--[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}-->
 
-Una vez que las sugerencias se hayan revisado y aprobado, puede hacer clic en **Implementar optimización**. A continuación, AEM Sites Optimizer aplica las correcciones en el entorno de creación, en función de cómo se administre el texto alternativo en la implementación. El autor de AEM puede publicar los cambios desde el sistema de administración de contenido (CMS).
+Una vez que revisadas y aprobadas las sugerencias, puede hacer clic en **Implementar optimización**. A continuación, AEM Sites Optimizer aplica las correcciones en el entorno de creación, en función de cómo se administre el texto alternativo en la implementación. A continuación, el autor de AEM puede publicar los cambios desde el sistema de gestión de contenidos (CMS).
 
-Según la configuración, las actualizaciones se pueden aplicar directamente al contenido de la página, los metadatos de los recursos o los modelos de contenido de soporte. El proceso de optimización incluye los siguientes pasos:
+Según la configuración, las actualizaciones se pueden aplicar directamente al contenido de la página, a los metadatos de los recursos o a los modelos de contenido de soporte. El proceso de optimización incluye los siguientes pasos:
 
 * **Validación**: garantiza que las actualizaciones se apliquen de forma segura sin afectar a la funcionalidad existente.
-* **Implementación**: aplica las actualizaciones a través de procesos existentes, como actualizaciones de contenido en AEM o integración con API de contenido.
-* **Comprobación de permisos** - Comprueba que el usuario tiene los permisos adecuados para aplicar los cambios. Si no es así, se pueden utilizar resultados alternativos, como actualizaciones descargables, para el traspaso.
+* **Implementación**: aplica las actualizaciones a través de procesos existentes, como actualizaciones de contenido en AEM o integración con las API de contenido.
+* **Comprobación de permisos**: comprueba que el usuario tiene los permisos adecuados para aplicar los cambios. Si no es así, se pueden utilizar salidas alternativas, como actualizaciones descargables, para la transferencia.
 
-Las actualizaciones se versiones donde se admiten, lo que proporciona visibilidad y capacidad de reversión. Esto garantiza que las actualizaciones de texto alternativo se apliquen con precisión, se alineen con las implementaciones existentes y sean coherentes con los estándares de gobernanza y accesibilidad.
+Las actualizaciones se versionan cuando hay compatibilidad, lo que proporciona visibilidad y capacidad de reversión. Esto garantiza que las actualizaciones de texto alternativo se apliquen con precisión, se ajusten a las implementaciones existentes y sean coherentes con los estándares de gobernanza y accesibilidad.
 
 AEM Sites Optimizer aplica automáticamente las actualizaciones de texto alternativo en función de su configuración, de la siguiente manera:
 
@@ -81,10 +81,10 @@ Actualiza el documento de origen (por ejemplo, Google Docs o SharePoint).
 
 >[!TAB AEM as a Cloud Service]
 
-Escribe actualizaciones directamente a través de la API de contenido con soporte de versiones y reserva.
+Escribe actualizaciones directamente a través de la API de contenido con control de versiones y compatibilidad de versiones y mecanismos de reserva.
 
 >[!TAB Administración de recursos digitales (opcional)]
 
-Actualiza el texto alternativo de nivel de recurso donde corresponda.
+Actualiza el texto alternativo a nivel de recurso cuando corresponda.
 
 >[!ENDTABS]

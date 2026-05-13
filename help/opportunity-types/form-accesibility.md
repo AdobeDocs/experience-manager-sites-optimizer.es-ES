@@ -11,18 +11,18 @@ hide: true
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
 source-wordcount: 154
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
-# Oportunidades de accesibilidad de Forms
+# Oportunidades de accesibilidad de formularios
 
-<span class="preview">: la funcionalidad Optimización de Forms está disponible en un programa de acceso anticipado. Puede escribir a aem-forms-ea@adobe.com desde su ID de correo electrónico oficial para unirse al programa de acceso anticipado y solicitar acceso a esta funcionalidad. </span>
+<span class="preview"> La funcionalidad Optimización de formularios está disponible en un programa de acceso anticipado. Puede escribir a aem-forms-ea@adobe.com desde su ID de correo electrónico oficial para unirse al programa de acceso anticipado y solicitar acceso a esta funcionalidad. </span>
 
 ![Oportunidades de accesibilidad de formularios](./assets/form-accesibility/hero.png){align="center"}
 
 
-Las oportunidades de accesibilidad de formularios son esenciales para mejorar las interacciones de los usuarios y aumentar las conversiones. La evaluación del cumplimiento de las directrices de accesibilidad del contenido web (WCAG) en los formularios ayuda a garantizar una experiencia inclusiva para los usuarios con deficiencias visuales, auditivas, cognitivas y motoras. Esta funcionalidad no solo cumple con los requisitos éticos y legales, sino que también mejora las tasas de finalización de formularios y amplía la audiencia, lo que resulta en una mejor experiencia del usuario y resultados comerciales más sólidos.
+Las oportunidades de accesibilidad de formularios son esenciales para mejorar las interacciones de los usuarios y aumentar las conversiones. La evaluación del cumplimiento de las directrices de accesibilidad del contenido web (WCAG) en los formularios ayuda a garantizar una experiencia inclusiva para los usuarios con deficiencias visuales, auditivas, cognitivas y motoras. Esta funcionalidad no solo cumple con los requisitos éticos y legales, sino que también mejora las tasas de finalización de formularios y amplía el público, lo que se traduce en una mejor experiencia del usuario y resultados comerciales más sólidos.
 
 ## Oportunidades
 
@@ -55,10 +55,10 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/forms-accessibility-issues.md" target="_blank" rel="referrer" title="Problemas de accesibilidad de formularios">Problemas de accesibilidad de formularios</a>
                     </p>
-                    <p class="is-size-6">Obtenga información sobre los problemas de accesibilidad de los formularios y cómo utilizarlos para mejorar la participación de los formularios en su sitio web.</p>
+                    <p class="is-size-6">Obtenga información sobre los problemas de accesibilidad de los formularios y cómo utilizarlos para mejorar la interacción con los formularios en su sitio web.</p>
                 </div>
                 <a href="../documentation/opportunities/forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>

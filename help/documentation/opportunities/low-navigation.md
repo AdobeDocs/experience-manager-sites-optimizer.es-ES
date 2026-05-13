@@ -12,17 +12,17 @@ hide: true
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
 source-wordcount: 333
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Oportunidad de navegación baja de formularios
 
-<span class="preview">: la funcionalidad Optimización de Forms está disponible en un programa de acceso anticipado. Puede escribir a aem-forms-ea@adobe.com desde su ID de correo electrónico oficial para unirse al programa de acceso anticipado y solicitar acceso a esta funcionalidad. </span>
+<span class="preview"> La funcionalidad Optimización de formularios está disponible en un programa de acceso anticipado. Puede escribir a aem-forms-ea@adobe.com desde su ID de correo electrónico oficial para unirse al programa de acceso anticipado y solicitar acceso a esta funcionalidad. </span>
 
 ![Oportunidad de navegación baja](./assets/low-navigation/hero.png){align="center"}
 
-La oportunidad de navegación baja identifica los formularios del sitio web que tienen tasas de navegación bajas. Este tipo de oportunidad identifica los formularios que los usuarios no descubren ni acceden a y sugiere formas de mejorar su capacidad de detección.
+La oportunidad de navegación baja identifica los formularios del sitio web que tienen tasas de navegación bajas. Este tipo de oportunidad identifica los formularios que los usuarios no detectan o a los que no acceden y sugiere formas de mejorar su capacidad de detección.
 
 
 ## Identificación automática

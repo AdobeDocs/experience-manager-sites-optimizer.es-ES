@@ -12,19 +12,19 @@ hide: true
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
 source-wordcount: 219
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 # Oportunidades de optimización de formularios
 
-<span class="preview">: la funcionalidad Optimización de Forms está disponible en un programa de acceso anticipado. Puede escribir a aem-forms-ea@adobe.com desde su ID de correo electrónico oficial para unirse al programa de acceso anticipado y solicitar acceso a esta funcionalidad. </span>
+<span class="preview"> La funcionalidad Optimización de formularios está disponible en un programa de acceso anticipado. Puede escribir a aem-forms-ea@adobe.com desde su ID de correo electrónico oficial para unirse al programa de acceso anticipado y solicitar acceso a esta funcionalidad. </span>
 
 <!-- [!VIDEO](https://video.tv.adobe.com/v/3469472/) -->
 
 ![Oportunidades de optimización de formularios](./assets/form-optimization/hero.png){align="center"}
 
-Las oportunidades de optimización de Forms permiten a las organizaciones mejorar sistemáticamente las interacciones de los usuarios y aumentar las conversiones de los formularios. Al detectar problemas, como vistas bajas, conversiones bajas y tasas de navegación bajas, los equipos pueden realizar ajustes basados en datos en el diseño, la ubicación y el contenido del formulario. Estas optimizaciones ayudan a optimizar la experiencia del usuario, lo que facilita a los visitantes la cumplimentación de formularios y la obtención de los resultados deseados. El uso de las perspectivas de Forms Optimization permite identificar y resolver de forma continua las lagunas de rendimiento, lo que da como resultado formularios más eficaces y mejores resultados empresariales.
+Las oportunidades de optimización de formularios permiten a las organizaciones mejorar sistemáticamente las interacciones de los usuarios y aumentar las conversiones de los formularios. Al detectar problemas, como vistas bajas, conversiones bajas y tasas de navegación bajas, los equipos pueden realizar ajustes basados en datos en el diseño, la ubicación y el contenido del formulario. Estas optimizaciones ayudan a optimizar la experiencia del usuario, lo que facilita a los visitantes la cumplimentación de formularios y la obtención de los resultados deseados. El uso de la información obtenida a partir de la optimización de formularios permite identificar y resolver de forma continua las lagunas de rendimiento, lo que se traduce en formularios más eficaces y mejores resultados empresariales.
 
 ## Oportunidades
 
@@ -60,7 +60,7 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre la oportunidad de visualizaciones bajas y cómo utilizarla para mejorar la participación de los formularios en su sitio web.</p>
                 </div>
                 <a href="../documentation/opportunities/low-views.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -83,7 +83,7 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre la oportunidad de conversiones bajas y cómo utilizarla para mejorar la participación del formulario en su sitio web.</p>
                 </div>
                 <a href="../documentation/opportunities/low-conversions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -103,10 +103,10 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/low-navigation.md" target="_blank" rel="referrer" title="Problemas de accesibilidad">Navegación baja</a>
                     </p>
-                    <p class="is-size-6">Obtenga información sobre la oportunidad de visualizaciones bajas y cómo utilizarla para mejorar la participación de los formularios en su sitio web.</p>
+                    <p class="is-size-6">Obtenga información sobre la oportunidad de navegación baja y cómo utilizarla para mejorar la participación de los formularios en su sitio web.</p>
                 </div>
                 <a href="../documentation/opportunities/low-navigation.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>

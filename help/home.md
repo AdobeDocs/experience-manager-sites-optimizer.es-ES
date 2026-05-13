@@ -7,7 +7,7 @@ product_v2:
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
 workflow-type: tm+mt
 source-wordcount: 182
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre las oportunidades disponibles de Site Optimizer y cómo utilizarlas para mejorar el rendimiento del sitio.</p>
                 </div>
                 <a href="./opportunity-types/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -62,8 +62,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./documentation/preflight/overview.md" title="Documentación de comprobación preliminar" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="documentation/preflight/assets/overview/hero.png" alt="Documentación de comprobación preliminar"
+                    <a href="./documentation/preflight/overview.md" title="Documentación sobre Preflight" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="documentation/preflight/assets/overview/hero.png" alt="Documentación sobre Preflight"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -71,12 +71,12 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./documentation/preflight/overview.md" target="_blank" rel="referrer" title="Documentación de comprobación preliminar">Documentación de comprobación preliminar</a>
+                        <a href="./documentation/preflight/overview.md" target="_blank" rel="referrer" title="Documentación sobre Preflight">Documentación sobre Preflight</a>
                     </p>
-                    <p class="is-size-6">Obtenga información sobre la comprobación preliminar en Sites Optimizer y cómo optimizar las páginas web antes de publicarlas.</p>
+                    <p class="is-size-6">Obtenga información sobre Preflight en Sites Optimizer y cómo optimizar las páginas web antes de publicarlas.</p>
                 </div>
                 <a href="./documentation/preflight/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -85,8 +85,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./documentation/overview.md" title="Documentación de Sites Optimizer" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="documentation/assets/overview/hero.png" alt="Documentación de Sites Optimizer"
+                    <a href="./documentation/overview.md" title="Documentación sobre Sites Optimizer" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="documentation/assets/overview/hero.png" alt="Documentación sobre Sites Optimizer"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -94,12 +94,12 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./documentation/overview.md" target="_blank" rel="referrer" title="Documentación de Sites Optimizer">Documentación de Sites Optimizer</a>
+                        <a href="./documentation/overview.md" target="_blank" rel="referrer" title="Documentación sobre Sites Optimizer">Documentación sobre Sites Optimizer</a>
                     </p>
                     <p class="is-size-6">Explore la documentación de Sites Optimizer para conocer todas sus funcionalidades.</p>
                 </div>
                 <a href="./documentation/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>

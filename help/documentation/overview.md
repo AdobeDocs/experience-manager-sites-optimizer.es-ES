@@ -10,11 +10,11 @@ topic_v2:
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
 source-wordcount: 145
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
-# Documentación de Sites Optimizer
+# Documentación sobre Sites Optimizer
 
 ![Sites Optimizer](./assets/overview/hero.png){align="center"}
 
@@ -59,7 +59,7 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre los conceptos básicos de Sites Optimizer y cómo navegar por él.</p>
                 </div>
                 <a href="./basics.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -82,7 +82,7 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre todas las oportunidades disponibles de Site Optimizer y cómo utilizarlas para mejorar el rendimiento del sitio.</p>
                 </div>
                 <a href="./opportunities/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -105,7 +105,7 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre cómo configurar los valores de Sites Optimizer e integrarlo con otras herramientas.</p>
                 </div>
                 <a href="./settings.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -123,12 +123,12 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./trial.md" target="_blank" rel="referrer" title="Versión de prueba">Prueba</a>
+                        <a href="./trial.md" target="_blank" rel="referrer" title="Versión de prueba">Versión de prueba</a>
                     </p>
-                    <p class="is-size-6">Comience con la versión de prueba de Sites Optimizer, que incluye pasos, límites y preguntas frecuentes para clientes de AEM Sites existentes.</p>
+                    <p class="is-size-6">Comience con la versión de prueba de Sites Optimizer, que incluye pasos, límites y preguntas frecuentes para los clientes de AEM Sites existentes.</p>
                 </div>
                 <a href="./trial.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
