@@ -2,13 +2,18 @@
 title: Documentación sobre la oportunidad de metadatos no válidos o que faltan
 description: Obtenga información sobre la oportunidad de metadatos no válidos o que faltan y cómo utilizarla para mejorar la adquisición de tráfico.
 badgeTrafficAcquisition: label="Adquisición de tráfico" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Adquisición de tráfico"
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '521'
+TQID: https://experienceleague.adobe.com/mNGZuKaPU9sxVOgXi4dRXPW1yU6FqHf9DC9WW9BsVBI
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
+workflow-type: tm+mt
+source-wordcount: 550
 ht-degree: 100%
 
 ---
-
 
 # Oportunidad de metadatos que faltan o no son válidos
 
@@ -48,7 +53,7 @@ Al seleccionar el ![icono Información](https://spectrum.adobe.com/static/icons/
 
 ![Editar metadatos no válidos o que faltan sugeridos](./assets/missing-or-invalid-metadata/edit-suggested-metadata-value.png){align="center"}
 
-Si no está de acuerdo con la sugerencia generada por la IA, puede editar el valor de metadatos sugerido seleccionando el ![icono Eliminar](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg). Esto le permite introducir manualmente el valor que crea que es el más adecuado para los metadatos.  La ventana de edición contiene lo siguiente:
+Si no está de acuerdo con la sugerencia generada por la IA, puede editar el valor de metadatos sugerido seleccionando el ![icono Eliminar](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg). Esto le permite introducir manualmente el valor que crea que es el más adecuado para los metadatos. La ventana de edición contiene lo siguiente:
 
 * **Ruta de acceso**: la ruta de acceso a la página que contiene los metadatos (o la falta de).
 * **Descripción del problema**: indica el tipo de problema que afecta a la etiqueta de metadatos y una breve descripción.

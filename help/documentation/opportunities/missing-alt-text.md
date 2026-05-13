@@ -2,13 +2,17 @@
 title: Documentación sobre el texto ALT que falta
 description: Obtenga información sobre la oportunidad de texto alternativo que falta y cómo utilizarla para mejorar la participación en el sitio web.
 badgeEngagement: label="Participación" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Participación"
-source-git-commit: fd992e5f4508ccd4236757167a16c744d98cc6ae
+TQID: https://experienceleague.adobe.com/FyAC4UY-RAYtfYsKUkS-fgU3Kgy7ov5WYBtBpQ4ZFzk
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: 669
 ht-degree: 35%
 
 ---
-
 
 # Oportunidad de texto alternativo que falta
 

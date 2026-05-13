@@ -1,13 +1,15 @@
 ---
 title: AEM Sites Optimizer
 description: 'Aumente el rendimiento de su sitio web con Sites Optimizer: mejore la velocidad, reduzca los costes y mejore la fiabilidad para lograr una mejor participación.'
-source-git-commit: 626de60c72579fd6ed96f259fbf524ed0a7103ba
+TQID: https://experienceleague.adobe.com/tep2UnSJ4BsorZ9caKACfbOFyI1qvM2ZCxhjHd3vcSc
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 84%
+source-wordcount: 182
+ht-degree: 81%
 
 ---
-
 
 # AEM Sites Optimizer
 
@@ -97,8 +99,8 @@ CARDS
                     <p class="is-size-6">Explore la documentación de Sites Optimizer para conocer todas sus funcionalidades.</p>
                 </div>
                 <a href="./documentation/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
