@@ -3,13 +3,10 @@ title: La página de tráfico alto tiene una documentación de oportunidad de CT
 description: Obtenga más información sobre la oportunidad que representan las páginas con mucho tráfico y un CTR bajo, y cómo aprovecharla para aumentar la participación en su sitio web.
 badgeEngagement: label="Participación" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Participación"
 TQID: https://experienceleague.adobe.com/pnOZaaoYn5nIWwc2Qt3Xs-wyCygoRgMEHsD8P0Rq-6U
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 274
 ht-degree: 100%
 
