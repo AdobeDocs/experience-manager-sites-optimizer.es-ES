@@ -2,7 +2,7 @@
 title: Oportunidad de recuento H1 de Preflight
 description: Obtenga información acerca de la oportunidad de accesibilidad de las comprobaciones en Sites Optimizer.
 source-git-commit: d0fda0afad66289298e79edd1f84be251433a9f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '59'
 ht-degree: 100%
 

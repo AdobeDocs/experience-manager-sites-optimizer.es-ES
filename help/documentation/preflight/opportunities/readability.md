@@ -1,10 +1,10 @@
 ---
 title: Oportunidad de legibilidad de Preflight
-description: Obtenga información acerca de la oportunidad Legibilidad de las comprobaciones en Sites Optimizer.
+description: Obtenga información sobre la oportunidad de legibilidad de Preflight en Sites Optimizer.
 source-git-commit: d0fda0afad66289298e79edd1f84be251433a9f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '85'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -24,4 +24,4 @@ Las oportunidades de Legibilidad de las comprobaciones están disponibles en var
 * Alemán
 * Neerlandés
 
-Garantiza que los equipos puedan evaluar y optimizar la legibilidad del contenido en una amplia gama de audiencias.
+Garantiza que los equipos puedan evaluar y optimizar la legibilidad del contenido entre una amplia gama de públicos.

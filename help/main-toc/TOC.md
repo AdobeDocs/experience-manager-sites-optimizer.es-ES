@@ -3,9 +3,9 @@ user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Se trata de una descripción de la guía del usuario que se mostrará en la página de destino.
 source-git-commit: 8052c94f778829012f023fe470411dfe77ef46b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -36,23 +36,23 @@ ht-degree: 91%
       + [Configuración de CORS](/help/documentation/opportunities/cors-configuration.md)
       + [Ejecución de scripts en sitios múltiples](/help/documentation/opportunities/cross-site-scripting.md)
       + [Tasa de salida hacia otro sitio alta](/help/documentation/opportunities/high-bounce-rate.md)
-      + [La página de alto tráfico tiene un CTR bajo](/help/documentation/opportunities/high-traffic-page-has-low-ctr.md)
+      + [La página de tráfico elevado tiene un CTR bajo](/help/documentation/opportunities/high-traffic-page-has-low-ctr.md)
       + [Metadatos que faltan o no son válidos](/help/documentation/opportunities/invalid-or-missing-metadata.md)
       + [Datos estructurados que faltan o no son válidos](/help/documentation/opportunities/missing-invalid-structured-data.md)
       + [Texto alternativo que falta](/help/documentation/opportunities/missing-alt-text.md)
       + {hide-from-toc}[Conversiones bajas de formularios](/help/documentation/opportunities/low-conversions.md)
       + {hide-from-toc}[Visualizaciones bajas de formularios](/help/documentation/opportunities/low-views.md)
       + {hide-from-toc}[Navegación baja de formularios](/help/documentation/opportunities/low-navigation.md)
-      + {hide-from-toc}[Problema de accesibilidad de Forms](/help/documentation/opportunities/forms-accessibility-issues.md)
+      + {hide-from-toc}[Problema de accesibilidad de formularios](/help/documentation/opportunities/forms-accessibility-issues.md)
       + [Problemas del mapa del sitio](/help/documentation/opportunities/sitemap-issues.md)
       + [Permisos del sitio web](/help/documentation/opportunities/website-permissions.md)
       + [Vulnerabilidades del sitio web](/help/documentation/opportunities/website-vulnerabilities.md)
    + Preflight{#preflight}
       + [Información general](/help/documentation/preflight/overview.md)
       + [Configuración](/help/documentation/preflight/setup.md)
-      + [Acceder a comprobación preliminar](/help/documentation/preflight/access-preflight.md)
+      + [Acceso a Preflight](/help/documentation/preflight/access-preflight.md)
       + [Auditorías](/help/documentation/preflight/audits.md)
-      + [Resultados de auditoría](/help/documentation/preflight/audit-results.md)
+      + [Resultados de la auditoría](/help/documentation/preflight/audit-results.md)
       + Oportunidades{#preflight-opportunities}
          + [Accesibilidad](/help/documentation/preflight/opportunities/accessibility.md)
          + [Recuento H1](/help/documentation/preflight/opportunities/h1-count.md)
