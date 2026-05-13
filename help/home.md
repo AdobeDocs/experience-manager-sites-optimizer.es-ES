@@ -2,7 +2,8 @@
 title: AEM Sites Optimizer
 description: 'Aumente el rendimiento de su sitio web con Sites Optimizer: mejore la velocidad, reduzca los costes y mejore la fiabilidad para lograr una mejor participación.'
 TQID: https://experienceleague.adobe.com/tep2UnSJ4BsorZ9caKACfbOFyI1qvM2ZCxhjHd3vcSc
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
 workflow-type: ht
 source-wordcount: 182
