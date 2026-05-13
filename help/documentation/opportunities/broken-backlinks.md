@@ -18,7 +18,7 @@ ht-degree: 30%
 
 <!--![Broken backlinks opportunity](./assets/broken-backlinks/hero.png){align="center"}-->
 
->[!VIDEO](https://video.tv.adobe.com/v/3483250/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483256/?captions=spa&learn=on&enablevpops)
 
 La oportunidad de vínculos secundarios rotos identifica vínculos externos que apuntan a páginas inexistentes (404) del sitio. Estos vínculos resultan en pérdida de tráficos de referencia y menor valor de SEO, ya que los motores de búsqueda dependen de los backlinks para evaluar la relevancia y la autoridad. Estos problemas se producen cuando se cambian las direcciones URL, se elimina el contenido o las páginas ya no están disponibles sin las redirecciones adecuadas. AEM Sites Optimizer identifica todos los vínculos secundarios rotos, proporciona recomendaciones de IA específicas y permite una implementación con un solo clic para corregirlas, todo en una sola vista centralizada.
 
