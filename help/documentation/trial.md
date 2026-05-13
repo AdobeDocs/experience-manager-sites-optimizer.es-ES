@@ -13,7 +13,7 @@ ht-degree: 100%
 
 Empiece a usar Sites Optimizer con esta versión de prueba para los clientes de AEM Sites existentes (Edge Delivery Services, Cloud Services y Managed Services). Los datos de dominio ya están previamente incorporados, por lo que puede empezar a optimizar de inmediato. El siguiente vídeo le guía a través de la experiencia de la versión de prueba y le muestra cómo empezar.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483290/?captions=spa&learn=on&enablevpops)
 
 >[!TIP]
 >
