@@ -2,8 +2,8 @@
 title: Versión de prueba de Sites Optimizer
 description: Empiece a usar la versión de prueba de AEM Sites Optimizer para los clientes de AEM Sites existentes.
 source-git-commit: 9fae4c52a977c34419037b131d2a70b404511502
-workflow-type: ht
-source-wordcount: '541'
+workflow-type: tm+mt
+source-wordcount: '535'
 ht-degree: 100%
 
 ---
@@ -113,7 +113,7 @@ CARDS
                 </div>
                 <a href="./opportunities/core-web-vitals.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                </a>
             </div>
         </div>
     </div>
@@ -136,7 +136,7 @@ CARDS
                 </div>
                 <a href="./opportunities/missing-alt-text.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                </a>
             </div>
         </div>
     </div>
@@ -159,7 +159,7 @@ CARDS
                 </div>
                 <a href="./opportunities/broken-backlinks.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                </a>
             </div>
         </div>
     </div>

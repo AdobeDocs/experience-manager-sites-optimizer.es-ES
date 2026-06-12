@@ -9,8 +9,8 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 hide: true
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
-workflow-type: ht
-source-wordcount: 154
+workflow-type: tm+mt
+source-wordcount: 152
 ht-degree: 100%
 
 ---
@@ -58,7 +58,7 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre los problemas de accesibilidad de los formularios y cómo utilizarlos para mejorar la interacción con los formularios en su sitio web.</p>
                 </div>
                 <a href="../documentation/opportunities/forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>

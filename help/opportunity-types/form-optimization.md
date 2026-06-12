@@ -10,8 +10,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 hide: true
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
-workflow-type: ht
-source-wordcount: 219
+workflow-type: tm+mt
+source-wordcount: 213
 ht-degree: 100%
 
 ---
@@ -60,7 +60,7 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre la oportunidad de visualizaciones bajas y cómo utilizarla para mejorar la participación de los formularios en su sitio web.</p>
                 </div>
                 <a href="../documentation/opportunities/low-views.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -83,7 +83,7 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre la oportunidad de conversiones bajas y cómo utilizarla para mejorar la participación del formulario en su sitio web.</p>
                 </div>
                 <a href="../documentation/opportunities/low-conversions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -106,7 +106,7 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre la oportunidad de navegación baja y cómo utilizarla para mejorar la participación de los formularios en su sitio web.</p>
                 </div>
                 <a href="../documentation/opportunities/low-navigation.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>

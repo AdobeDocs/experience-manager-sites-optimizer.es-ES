@@ -10,8 +10,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
-workflow-type: ht
-source-wordcount: 348
+workflow-type: tm+mt
+source-wordcount: 334
 ht-degree: 100%
 
 ---
@@ -72,8 +72,8 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre cómo mejorar la participación con Sites Optimizer.</p>
                 </div>
                 <a href="./engagement.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -95,8 +95,8 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre cómo mejorar la seguridad de su sitio con Sites Optimizer.</p>
                 </div>
                 <a href="./security-posture.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -118,8 +118,8 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre cómo mejorar el estado del sitio con Sites Optimizer.</p>
                 </div>
                 <a href="./site-health.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -141,8 +141,8 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre cómo aumentar la adquisición de tráfico con Sites Optimizer.</p>
                 </div>
                 <a href="./traffic-acquisition.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
-                </a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                </a>
             </div>
         </div>
     </div>
@@ -164,7 +164,7 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre cómo mejorar la conversión de formularios con la optimización de formularios.</p>
                 </div>
                 <a href="./form-optimization.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -174,7 +174,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="./form-optimization.md" title="Accesibilidad de formularios" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/form-optimization/hero.png" alt="Accesibilidad de formularios"
+                        <img class="is-bordered-r-small" src="assets/form-optimization/hero.png" alt="Accesibilidad a formularios"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -187,7 +187,7 @@ CARDS
                     <p class="is-size-6">Obtenga información sobre cómo mejorar la accesibilidad de los formularios con la optimización de formularios.</p>
                 </div>
                 <a href="./form-optimization.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -210,7 +210,7 @@ CARDS
                     <p class="is-size-6">Obtenga información acerca del análisis de Preflight y cómo configurar oportunidades de Preflight en Sites Optimizer.</p>
                 </div>
                 <a href="../documentation/preflight/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>

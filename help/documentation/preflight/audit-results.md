@@ -2,7 +2,7 @@
 title: Resultados de la auditoría en Preflight
 description: Obtenga información sobre cómo interpretar los resultados de la auditoría en Preflight y la barra de progreso del usuario y navegue hasta los problemas en la vista previa.
 source-git-commit: 30060044e558774ab1e17684945f29d3e76dc3a7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
 
