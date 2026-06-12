@@ -2,7 +2,7 @@
 title: Resultados de la auditoría en Preflight
 description: Obtenga información sobre cómo interpretar los resultados de la auditoría en Preflight y la barra de progreso del usuario y navegue hasta los problemas en la vista previa.
 source-git-commit: 30060044e558774ab1e17684945f29d3e76dc3a7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Consulte la [lista completa de tipos de oportunidades disponibles y cómo aborda
 
 Una vez finalizada la auditoría, puede localizar y comprender rápidamente las oportunidades resaltándolas directamente en la página.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483415/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483412/?learn=on&enablevpops)
 
 Preflight resalta cada oportunidad en su contexto, conectando los resultados del panel con la ubicación exacta de su contenido. Esto facilita la revisión y la resolución de oportunidades sin buscar manualmente en la página.
 
