@@ -18,7 +18,7 @@ ht-degree: 100%
 
 <!--![Broken backlinks opportunity](./assets/broken-backlinks/hero.png){align="center"}-->
 
->[!VIDEO](https://video.tv.adobe.com/v/3483250/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483256/?captions=spa&learn=on&enablevpops)
 
 La oportunidad de vínculos de retroceso rotos identifica vínculos externos que apuntan a páginas inexistentes (404) del sitio. Estos vínculos provocan una pérdida del tráfico de referencia y reducen el valor del SEO, ya que los motores de búsqueda dependen de los vínculos de retroceso para evaluar la relevancia y la autoridad. Estos problemas se producen cuando se cambian las direcciones URL, se quita el contenido o las páginas ya no están disponibles sin las redirecciones adecuadas. AEM Sites Optimizer identifica todos los vínculos de retroceso rotos, ofrece recomendaciones de IA específicas y permite una implementación con un solo clic para corregirlos, todo ello en una sola vista centralizada.
 

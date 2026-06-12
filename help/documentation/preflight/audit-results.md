@@ -30,7 +30,7 @@ Consulte la [lista completa de tipos de oportunidades disponibles y cómo aborda
 
 Una vez finalizada la auditoría, puede localizar y comprender rápidamente las oportunidades resaltándolas directamente en la página.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483412/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483415/?captions=spa&learn=on&enablevpops)
 
 Preflight resalta cada oportunidad en su contexto, conectando los resultados del panel con la ubicación exacta de su contenido. Esto facilita la revisión y la resolución de oportunidades sin buscar manualmente en la página.
 
