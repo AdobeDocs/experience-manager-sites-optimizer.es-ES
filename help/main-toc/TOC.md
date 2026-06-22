@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Se trata de una descripción de la guía del usuario que se mostrará en la página de destino.
-source-git-commit: 8052c94f778829012f023fe470411dfe77ef46b9
-workflow-type: ht
-source-wordcount: '123'
+source-git-commit: d17008c39f231c45a9ba41ca7f0aa96b9878f674
+workflow-type: tm+mt
+source-wordcount: '125'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 100%
       + [Configuración de CORS](/help/documentation/opportunities/cors-configuration.md)
       + [Ejecución de scripts en sitios múltiples](/help/documentation/opportunities/cross-site-scripting.md)
       + [Tasa de salida hacia otro sitio alta](/help/documentation/opportunities/high-bounce-rate.md)
-      + [La página de tráfico elevado tiene un CTR bajo](/help/documentation/opportunities/high-traffic-page-has-low-ctr.md)
+      + [La página de alto tráfico tiene un CTR bajo](/help/documentation/opportunities/high-traffic-page-has-low-ctr.md)
       + [Metadatos que faltan o no son válidos](/help/documentation/opportunities/invalid-or-missing-metadata.md)
       + [Datos estructurados que faltan o no son válidos](/help/documentation/opportunities/missing-invalid-structured-data.md)
       + [Texto alternativo que falta](/help/documentation/opportunities/missing-alt-text.md)
@@ -60,3 +60,4 @@ ht-degree: 100%
          + [Metadatos](/help/documentation/preflight/opportunities/meta-data.md)
          + [Legibilidad](/help/documentation/preflight/opportunities/readability.md)
    + [Configuración](/help/documentation/settings.md)
+   + [Notas de la versión](/help/documentation/release-notes.md)
