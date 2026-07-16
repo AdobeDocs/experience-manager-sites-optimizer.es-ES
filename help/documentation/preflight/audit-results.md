@@ -1,39 +1,57 @@
 ---
 title: Resultados de la auditoría en Preflight
-description: Obtenga información sobre cómo interpretar los resultados de la auditoría en Preflight y la barra de progreso del usuario y navegue hasta los problemas en la vista previa.
-source-git-commit: 30060044e558774ab1e17684945f29d3e76dc3a7
+description: Obtenga información sobre cómo interpretar los resultados de la auditoría de comprobaciones, el medidor de disponibilidad y las categorías de auditoría, y vaya a las oportunidades en la vista previa.
+source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 100%
+source-wordcount: '597'
+ht-degree: 5%
 
 ---
 
 
 # Resultados de la auditoría en Preflight
 
-Cuando finaliza la auditoría, Preflight muestra los resultados de la auditoría como oportunidades. Cada oportunidad está organizada por el tipo e incluye recomendaciones para ayudarle a mejorar y optimizar la página. Dentro de una oportunidad, los problemas individuales identifican elementos específicos que se deben revisar o corregir.
+Cuando se completan las auditorías, Comprobación preliminar muestra los resultados en el panel de preparación. El panel muestra un medidor de disponibilidad general y las oportunidades que encontró, agrupadas por categoría de auditoría. Dentro de cada categoría, las auditorías individuales identifican elementos específicos que se deben revisar o corregir.
 
-En la parte superior del cuadro de diálogo AEM Preflight hay una barra de progreso del usuario que refleja los resultados generales de la auditoría. Muestra el porcentaje de oportunidades que se han completado sin problemas y la cantidad total de problemas encontrados en todas las oportunidades. La barra de progreso del usuario ayuda a los autores a evaluar el estado general de la página de un solo vistazo.
+## Medidor de preparación
 
-![Barra de progreso del usuario y oportunidades de auditoría en el cuadro de diálogo AEM Preflight](./assets/overview/hero.png){align="center"}
+En la parte superior del tablero, el indicador de disponibilidad refleja los resultados generales de la auditoría. Muestra una puntuación de preparación como porcentaje, basada en la proporción de auditorías que finalizaron sin oportunidades, junto con el número total de oportunidades encontradas en todas las auditorías. El medidor de disponibilidad le ayuda a medir el estado general de la página de un vistazo.
 
-La barra tiene un código de colores:
+![El medidor de preparación y las categorías de auditoría en el tablero de comprobaciones](./assets/overview/hero.png){align="center"}
 
-* Rojo para **menos de 1/3** de oportunidades completadas
-* Naranja para **entre 1/3 y 2/3 completadas**
-* Verde para **más de 2/3 completadas**
-* Azul mientras las auditorías **siguen ejecutándose**
+Mientras se siguen ejecutando las auditorías, el medidor de disponibilidad muestra una barra de progreso con un estado como **Ejecutando auditorías** o el número de auditorías que aún se están ejecutando. Cuando se completan las auditorías, el medidor muestra el porcentaje de disponibilidad final y el recuento de oportunidades.
 
-Consulte la [lista completa de tipos de oportunidades disponibles y cómo abordarlas](./overview.md#preflight-opportunities).
+## Categorías de auditoría
 
-## Resaltar oportunidades
+Los grupos de comprobaciones relacionaron auditorías en categorías como **SEO** y **Accesibilidad**. Cada categoría aparece como una tarjeta que muestra el número de oportunidades encontradas o indica que todas sus auditorías pasaron sin oportunidades.
 
-Una vez finalizada la auditoría, puede localizar y comprender rápidamente las oportunidades resaltándolas directamente en la página.
+Expanda una categoría para ver sus auditorías individuales. Cada auditoría muestra si se aprobaron o encontraron oportunidades, una breve descripción y un recuento de las oportunidades encontradas. Seleccione una auditoría que haya encontrado oportunidades para abrir su página de detalles.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483415/?captions=spa&learn=on&enablevpops)
+Para obtener la lista completa de categorías de auditoría y las auditorías de cada una, vea [Categorías de auditoría de comprobación preliminar](./overview.md#preflight-audit-categories).
 
-Preflight resalta cada oportunidad en su contexto, conectando los resultados del panel con la ubicación exacta de su contenido. Esto facilita la revisión y la resolución de oportunidades sin buscar manualmente en la página.
+## Detalles de la oportunidad
 
-1. Abra el panel Preflight en el contexto de la página que desea auditar y ejecute las auditorías.
-1. Seleccione una oportunidad específica en la lista del panel Preflight.
-1. La vista previa se desplaza automáticamente al área relevante y resalta el elemento correspondiente, lo que le permite identificar fácilmente y optimizar la oportunidad en su contexto.
+La página de detalles muestra las oportunidades que encontró la auditoría seleccionada. Cuando el mismo problema se produce en más de un lugar, cada ocurrencia se denomina instancia. Utilice el navegador (**Instancia anterior** y **Instancia siguiente**) para avanzar por ellos; muestra su posición, por ejemplo *1 de 5 instancias encontradas*.
+
+![Página de detalles de una auditoría que muestra una oportunidad y su sugerencia](./assets/audit-results/audit-detail.png){align="center"}
+
+Cada oportunidad incluye:
+
+* Un distintivo de gravedad o impacto que indica la importancia de la oportunidad.
+* Detalles sobre la oportunidad, como una descripción del problema, una recomendación y, para accesibilidad, la regla WCAG y el nivel de conformidad relacionados.
+* Una sección **Element** que muestra el elemento afectado en la página, con un botón **Resaltar en la página**.
+* Una sección **Sugerencia** con una corrección recomendada. Cuando AI genera la sugerencia, se marca como una sugerencia generada por IA y puede incluir una breve justificación que explique la corrección sugerida.
+
+## Resaltar en la página
+
+Una vez completadas las auditorías, puede localizar y comprender rápidamente una oportunidad resaltándola directamente en la página.
+
+La comprobación preliminar resalta el elemento afectado en el contexto y conecta el resultado del panel con la ubicación exacta del contenido. Esto facilita la revisión y la resolución de oportunidades sin buscar manualmente en la página.
+
+1. Abra el panel Comprobaciones en el contexto de la página que desea auditar y seleccione **Analizar página** para ejecutar las auditorías.
+1. Seleccione una auditoría en el panel de preparación y, a continuación, seleccione una oportunidad para revisarla.
+1. Seleccione **Resaltar en la página**. La vista previa se desplaza automáticamente al área relevante y resalta el elemento correspondiente, para que pueda identificar y optimizar fácilmente la oportunidad en contexto.
+
+## ID de trabajo
+
+Cada ejecución de comprobaciones tiene un ID de trabajo único, que se muestra en la parte inferior del panel. Resulta principalmente útil cuando un administrador soluciona problemas en una ejecución específica. Pase el ratón sobre el ID y seleccione el icono de copia que aparece a su derecha; el ID se copia en el portapapeles y aparece un mensaje de confirmación. Incluya este ID cuando informe de un problema.
