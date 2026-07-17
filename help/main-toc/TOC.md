@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Se trata de una descripción de la guía del usuario que se mostrará en la página de destino.
-source-git-commit: d17008c39f231c45a9ba41ca7f0aa96b9878f674
+source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 100%
+source-wordcount: '134'
+ht-degree: 96%
 
 ---
 
@@ -53,11 +53,17 @@ ht-degree: 100%
       + [Acceso a Preflight](/help/documentation/preflight/access-preflight.md)
       + [Auditorías](/help/documentation/preflight/audits.md)
       + [Resultados de la auditoría](/help/documentation/preflight/audit-results.md)
-      + Oportunidades{#preflight-opportunities}
+      + Categorías de auditoría{#preflight-opportunities}
          + [Accesibilidad](/help/documentation/preflight/opportunities/accessibility.md)
-         + [Recuento H1](/help/documentation/preflight/opportunities/h1-count.md)
-         + [Vínculos](/help/documentation/preflight/opportunities/links.md)
-         + [Metadatos](/help/documentation/preflight/opportunities/meta-data.md)
-         + [Legibilidad](/help/documentation/preflight/opportunities/readability.md)
+         + SEO{#preflight-seo}
+            + [Información general](/help/documentation/preflight/opportunities/seo.md)
+            + [Metatags](/help/documentation/preflight/opportunities/seo/metatags.md)
+            + [Encabezados](/help/documentation/preflight/opportunities/seo/headings.md)
+            + [Recuento H1](/help/documentation/preflight/opportunities/seo/h1-count.md)
+            + [Vínculos](/help/documentation/preflight/opportunities/seo/links.md)
+            + [Legibilidad](/help/documentation/preflight/opportunities/seo/readability.md)
+            + [Canónico](/help/documentation/preflight/opportunities/seo/canonical.md)
+            + [Tamaño del cuerpo](/help/documentation/preflight/opportunities/seo/body-size.md)
+            + [Lorem ipsum](/help/documentation/preflight/opportunities/seo/lorem-ipsum.md)
    + [Configuración](/help/documentation/settings.md)
    + [Notas de la versión](/help/documentation/release-notes.md)
