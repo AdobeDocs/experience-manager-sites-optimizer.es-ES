@@ -2,11 +2,9 @@
 title: Configuración de Sites Optimizer
 description: Obtenga información sobre cómo configurar los valores de Sites Optimizer e integrarlo con otras herramientas.
 TQID: https://experienceleague.adobe.com/eznjSHZgAmCh-ek-XE-lLtuoGJxC0yY4UVrmPjc0KYo
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 89291cb72c3cb56fcf43564cb04461750d748219
 workflow-type: tm+mt
 source-wordcount: 749
 ht-degree: 100%
@@ -148,7 +146,7 @@ Haga clic en **Validar conexión** para confirmar el acceso y, a continuación, 
 
 1. En Google Drive, haga clic con el botón derecho del ratón en la carpeta que contiene su sitio EDS y seleccione **Compartir**.
 2. En el campo **Añadir personas y grupos**, escriba el correo electrónico de la cuenta de servicio que se muestra en el cuadro de diálogo **Conectar con AEM Sites**:
-   `experience-success-studio@helix-225321.iam.gserviceaccount.com`
+   `aem-sites-optimizer@adbe-gcp0843.iam.gserviceaccount.com`
 3. Establezca el nivel de permiso en **Editor**.
 4. Desmarque **Notificar a las personas** y haga clic en **Compartir**.
 
