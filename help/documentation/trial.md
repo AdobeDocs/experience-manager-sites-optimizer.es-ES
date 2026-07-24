@@ -17,7 +17,7 @@ Empiece a usar Sites Optimizer con esta versión de prueba para los clientes exi
 >
 >Actualmente, la versión de prueba de AEM Sites Optimizer no admite sitios web sin encabezado. Para utilizar la versión de prueba, incorpore un sitio web que utilice la entrega de front-end de AEM Sites.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483290/?captions=spa&learn=on&enablevpops)
 
 >[!TIP]
 >
