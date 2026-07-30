@@ -1,10 +1,10 @@
 ---
 title: Resultados de la auditoría en Preflight
 description: Obtenga información sobre cómo interpretar los resultados de la auditoría de comprobaciones, el medidor de disponibilidad y las categorías de auditoría, y vaya a las oportunidades en la vista previa.
-source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+source-git-commit: 9989144c429da97e3ea303c0c8caf5a9b38e2634
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 5%
+source-wordcount: '671'
+ht-degree: 4%
 
 ---
 
@@ -13,13 +13,20 @@ ht-degree: 5%
 
 Cuando se completan las auditorías, Comprobación preliminar muestra los resultados en el panel de preparación. El panel muestra un medidor de disponibilidad general y las oportunidades que encontró, agrupadas por categoría de auditoría. Dentro de cada categoría, las auditorías individuales identifican elementos específicos que se deben revisar o corregir.
 
+## Barra de herramientas
+
+La barra de herramientas situada en la parte superior del panel de preparación proporciona acciones para la ejecución actual. **Más acciones** (**...**) ofertas de menú:
+
+* **Volver a analizar**: inicia una nueva ejecución de auditoría en la página actual. Volver a analizar siempre descarta los resultados mostrados y ejecuta cada auditoría de nuevo, por lo que debe utilizarlo siempre que desee resultados nuevos; por ejemplo, después de editar la página.
+* **Exportar (CSV)**: descargue los resultados actuales como archivo CSV, incluidas las oportunidades y los metadatos de la ejecución de auditoría actual.
+
 ## Medidor de preparación
 
 En la parte superior del tablero, el indicador de disponibilidad refleja los resultados generales de la auditoría. Muestra una puntuación de preparación como porcentaje, basada en la proporción de auditorías que finalizaron sin oportunidades, junto con el número total de oportunidades encontradas en todas las auditorías. El medidor de disponibilidad le ayuda a medir el estado general de la página de un vistazo.
 
 ![El medidor de preparación y las categorías de auditoría en el tablero de comprobaciones](./assets/overview/hero.png){align="center"}
 
-Mientras se siguen ejecutando las auditorías, el medidor de disponibilidad muestra una barra de progreso con un estado como **Ejecutando auditorías** o el número de auditorías que aún se están ejecutando. Cuando se completan las auditorías, el medidor muestra el porcentaje de disponibilidad final y el recuento de oportunidades.
+Mientras las auditorías siguen ejecutándose, el indicador de disponibilidad muestra una barra de progreso con un estado corto debajo que muestra el paso actual. Cuando se completan las auditorías, el medidor muestra el porcentaje de disponibilidad final y el recuento de oportunidades.
 
 ## Categorías de auditoría
 
