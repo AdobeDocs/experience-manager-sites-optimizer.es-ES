@@ -41,6 +41,7 @@ Necesita el servidor MCP `chrome-devtools`, que **no** está comprometido con es
      }
    }
    ```
+
 2. Agregar `.mcp.json` a `.gitignore` (herramientas personales, no compartidas).
 3. En `.claude/settings.local.json`, agregue `"enableAllProjectMcpServers": true` y `"enabledMcpjsonServers": ["chrome-devtools"]`.
 4. Indique al usuario que reinicie el código Claude (o que ejecute `/mcp`): los servidores MCP solo se cargan al inicio; esto no se puede hacer a mitad de la sesión.

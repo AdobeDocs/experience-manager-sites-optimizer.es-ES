@@ -37,7 +37,7 @@ Referencia de sintaxis completa con cada código abreviado y regla: [reference.m
 | Lista con viñetas | `* item` (elija uno de `*`/`-`/`+`, mantenga la coherencia) | Línea en blanco antes/después de la lista; mezcla de marcadores = error de validación |
 | Lista numerada | `1. item` (repetir `1.` cada línea) | GitHub procesa los números reales |
 | Código (en línea) | `` `code` `` | Para nombres de archivo, comandos, valores y direcciones URL de ejemplo no validadas |
-| Código (delimitado) | ` ```language ` ... ` ``` ` | Especificar siempre un idioma; línea en blanco antes o después; `{line-numbers="true" start-line="n" highlight="n-m"}` opcional |
+| Código (delimitado) | ` `&#x200B;``language ` ... ` ``&#x200B;` ` | Especificar siempre un idioma; línea en blanco antes o después; `{line-numbers="true" start-line="n" highlight="n-m"}` opcional |
 | Insignia (en línea) | `[!BADGE Beta]{type=Informative url="..." tooltip="..."}` | `type`: informativo/positivo/negativo/neutro/precaución |
 | Contraíble | `+++Summary` ... `+++` | No hay contraíbles anidados; líneas en blanco alrededor de listas/códigos internos |
 | Hack de línea en blanco | `<br>&nbsp;` en su propia línea | El procesador contrae/ignora las líneas en blanco adicionales sin formato |

@@ -156,17 +156,19 @@ En línea: `` `code` `` — o envuelva en triples acentos graves en línea si ne
 
 Delimitado:
 
-````markdown
+&grave;&grave;&grave;&grave;markdown
+
 ```javascript
 var x = 1;
 ```
-````
+
+&grave;&grave;&grave;&grave;
 
 - Especifique siempre un idioma para el resaltado de sintaxis + el botón Copiar.
 - Línea en blanco requerida encima y debajo del bloque delimitado.
-- Números de línea: `` ```html {line-numbers="true"} ``
-- Iniciar numeración en otra parte: `` ```html {line-numbers="true" start-line="7"} ``
-- Resaltar líneas: `` ```html {line-numbers="true" start-line="7" highlight="11-13, 16"} ``
+- Números de línea: `` ``&#x200B;`html {line-numbers="true"} `&#x200B;&grave;
+- Iniciar numeración en otra parte: `` ``&#x200B;`html {line-numbers="true" start-line="7"} `&#x200B;&grave;
+- Resaltar líneas: `` ``&#x200B;`html {line-numbers="true" start-line="7" highlight="11-13, 16"} `&#x200B;&grave;
 - El contenido del bloque de código nunca se traduce (excepto las etiquetas `!UICONTROL`/`!DNL`, que se eliminan en el momento de la publicación).
 - No hay formato de markdown/HTML (como `<i>`) que funcione dentro de bloques de código; utilice corchetes angulares o texto sin formato para los marcadores de posición.
 
