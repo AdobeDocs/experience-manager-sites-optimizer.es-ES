@@ -2,21 +2,22 @@
 title: AEM Sites Optimizer Preflight
 description: Obtenga información sobre las comprobaciones y las auditorías que ejecuta para evaluar la página antes de publicarla.
 TQID: https://experienceleague.adobe.com/pZrPXBAaroTlpEsfSluFiLW2Noy4y5sD4dZHTsXgSfA
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
 workflow-type: tm+mt
-source-wordcount: 351
-ht-degree: 49%
+source-wordcount: 300
+ht-degree: 28%
 
 ---
 
 # AEM Sites Optimizer Preflight
 
 ![Panel de preparación para comprobaciones](./assets/overview/hero.png){align="center"}
+
+>[!NOTE]
+>
+>A partir de [AEM 2026.7.0 (versión 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083), la comprobación preliminar está integrada en la barra de herramientas del Editor de páginas de AEM Sites. Consulte [Configuración de comprobaciones](./setup.md) para obtener más información.
 
 Las comprobaciones en AEM Sites Optimizer le ayudan a validar y optimizar las páginas antes de que se publiquen, analizando el contenido y la estructura, y mostrando oportunidades con recomendaciones procesables. Está diseñado para autores, expertos en marketing y desarrolladores que deseen garantizar que las páginas sean de alta calidad, tengan un buen rendimiento y estén listas para publicar, a la vez que se reduce el trabajo de reelaboración.
 
@@ -59,7 +60,7 @@ CARDS
                     <p class="is-size-6">Obtenga información acerca de las auditorías de accesibilidad de comprobaciones en Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/accessibility.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -82,7 +83,7 @@ CARDS
                     <p class="is-size-6">Obtenga información acerca de las auditorías SEO de comprobaciones en Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/seo.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>

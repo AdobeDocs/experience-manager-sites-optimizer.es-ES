@@ -2,12 +2,11 @@
 title: Configuración de Preflight
 description: Obtenga información sobre cómo configurar las comprobaciones para AEM Sites Optimizer.
 TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8ObcY
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
 workflow-type: tm+mt
-source-wordcount: 577
-ht-degree: 72%
+source-wordcount: 785
+ht-degree: 52%
 
 ---
 
@@ -120,7 +119,23 @@ Para configurar la comprobación preliminar para la creación basada en document
 
 >[!TAB Editor de página de AEM Sites]
 
-Para utilizar la comprobación preliminar en el editor de páginas de AEM Sites, puede crear un bookmarklet en el explorador web. Siga estos pasos:
+Si su entorno de creación ejecuta [AEM 2026.7.0 (versión 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) o posterior, la comprobación preliminar está integrada en el editor de páginas de AEM Sites y no se requiere ningún bookmarklet. Siga estos pasos:
+
+1. Abra la página que desee auditar en el **Editor de páginas de AEM Sites**.
+1. En la barra de herramientas del editor, seleccione el icono **Comprobación preliminar** (el botón de reproducción, resaltado abajo) para abrir el panel Comprobación preliminar de la página actual.
+
+   ![Icono de comprobación preliminar en la barra de herramientas del Editor de páginas de AEM Sites](./assets/setup/toolbar-preflight-button.png){align="center"}
+
+>[!NOTE]
+>
+>¿No ves el icono **Comprobaciones** en la barra de herramientas? Compruebe lo siguiente:
+>
+>* **Versión compatible**: el botón integrado requiere AEM 2026.7.0 (versión 27083) o posterior. En versiones anteriores, utilice el método bookmarklet que aparece a continuación.
+>* **Despliegue**: el botón integrado se está habilitando para organizaciones por fases, por lo que es posible que aún no haya llegado a su organización, incluso en una versión compatible. Hasta que lo haga, utilice el método bookmarklet que aparece a continuación o póngase en contacto con Adobe o su administrador.
+>* **Acceso a la página**: el botón solo aparece cuando tiene acceso de edición a la página.
+>* **Acceso de usuario**: confirma que tu usuario tiene asignado el perfil **AEM Sites Optimizer - Sugerencia automática del usuario** o **AEM Sites Optimizer - Optimización automática del usuario**. Consulte [Habilitar acceso de usuario](#enable-user-access).
+
+Para utilizar la comprobación preliminar en el editor de páginas de AEM Sites en versiones anteriores de AEM, puede crear un bookmarklet en el explorador web. Siga estos pasos:
 
 1. Muestre la **Barra de marcadores** en el explorador web:
 
