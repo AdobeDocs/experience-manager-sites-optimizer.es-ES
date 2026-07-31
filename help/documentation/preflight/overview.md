@@ -20,7 +20,7 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->A partir de [AEM 2026.7.0 (versión 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083), la comprobación preliminar está integrada en la barra de herramientas del Editor de páginas de AEM Sites. Consulte [Configuración de comprobaciones](./setup.md) para obtener más información.
+>A partir de [AEM 2026.7.0 (versión 27083)](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083), la comprobación preliminar está integrada en la barra de herramientas del Editor de páginas de AEM Sites. Consulte [Configuración de comprobaciones](./setup.md) para obtener más información.
 
 Las comprobaciones en AEM Sites Optimizer le ayudan a validar y optimizar las páginas antes de que se publiquen, analizando el contenido y la estructura, y mostrando oportunidades con recomendaciones procesables. Está diseñado para autores, expertos en marketing y desarrolladores que deseen garantizar que las páginas sean de alta calidad, tengan un buen rendimiento y estén listas para publicar, a la vez que se reduce el trabajo de reelaboración.
 
