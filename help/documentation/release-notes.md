@@ -1,14 +1,12 @@
 ---
 title: Notas de la versión
 description: Obtenga información sobre las últimas funciones, mejoras y correcciones de errores en Adobe Experience Manager Sites Optimizer.
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d5cc34fd40395fc13ce3554a0b80c0216d859157
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 8e4fe6595fc7e872a00387d92892710c61e8632b
 workflow-type: tm+mt
-source-wordcount: 1471
-ht-degree: 2%
+source-wordcount: 1775
+ht-degree: 1%
 
 ---
 
@@ -16,6 +14,26 @@ ht-degree: 2%
 # Notas de la versión
 
 Esta página documenta las últimas actualizaciones, nuevas funciones y mejoras de Adobe Experience Manager Sites Optimizer.
+
+## Del 1 al 19 de julio de 2026
+
+### Nuevas funciones
+
+- **Administración de permisos**: los usuarios con la capacidad Administrar usuarios ahora pueden controlar el acceso al sitio desde una nueva ficha Permisos: buscar personas por nombre o correo electrónico y conceder o revocar capacidades específicas. Las acciones que un usuario no puede realizar aparecen deshabilitadas con información sobre herramientas que explica cómo solicitar acceso.
+- **Insignias de estado de implementación**: las correcciones marcadas como implementadas manualmente ahora muestran el distintivo &quot;Marcado como implementado&quot; en la vista Implementado, lo que facilita la identificación de las actualizaciones manuales, excepto las implementaciones automáticas.
+
+### Mejoras
+
+- **Corrección automática para GitHub (Cloud Manager)**: La corrección automática de revisión de código para oportunidades como Core Web Vitals, Seguridad y Accesibilidad de formularios ahora puede generar solicitudes de extracción en repositorios de Git propios alojados en GitHub de Cloud Manager, que coinciden con la compatibilidad existente con GitLab, Bitbucket y Azure DevOps. Una nueva opción de configuración permite controlar la confirmación de configuración única del sitio.
+- **Corrección automática mediante rama (Cloud Manager Standard)**: La corrección automática mediante rama ya está disponible para los repositorios estándar de Cloud Manager cuando está habilitada para su sitio.
+- **Vista implementada: realizada por** — La vista implementada ahora muestra quién marcó cada corrección como implementada y cuándo se actualizó por última vez su estado, a través de las nuevas columnas &quot;Realizado por&quot; y &quot;Última actualización de estado&quot;.
+- **Comentarios sobre la desconexión de Google Ads**: al desconectar una cuenta de Google Ads en Configuración ahora se muestra el estado &quot;Desconectando...&quot;, con un mensaje de error que se puede omitir si la desconexión falla y se puede reintentar.
+
+### Correcciones de errores
+
+- La oportunidad Corregir etiquetas ARIA ahora muestra la dirección URL de página correcta en el cuadro de diálogo Detalles cuando una corrección abarca varias páginas.
+- El mensaje de información del cuadro de diálogo Omitir ahora se muestra correctamente, con el texto correctamente alineado, en coreano, chino simplificado y chino tradicional.
+- Los cuadros de diálogo de páginas relacionadas para Texto alternativo y Metadatos no válidos o que faltan ahora se cargan de forma fiable, y la vista implementada de Metadatos no válidos o que faltan y las correcciones de metaetiquetas ahora funcionan correctamente con el formato de sugerencia más reciente.
 
 ## 11-22 de mayo de 2026
 
