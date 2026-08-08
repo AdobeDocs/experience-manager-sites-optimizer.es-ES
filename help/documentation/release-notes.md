@@ -5,9 +5,9 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c3279d62d56503108a6c28389cfbf14b95cd5a1a
+source-git-commit: 9af59e18de7ce016778f25d4add450b50e0b1fde
 workflow-type: tm+mt
-source-wordcount: 1803
+source-wordcount: 1805
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Las características marcadas **(acceso anticipado)** están disponibles bajo pe
 
 ### Nuevas funciones
 
-- **Administración de permisos**: los usuarios con la capacidad Administrar usuarios ahora pueden controlar el acceso al sitio desde una nueva ficha Permisos: buscar personas por nombre o correo electrónico y conceder o revocar capacidades específicas. Las acciones que un usuario no puede realizar aparecen deshabilitadas con información sobre herramientas que explica cómo solicitar acceso.
+- **Administración de permisos (acceso anticipado)**: los usuarios con la capacidad Administrar usuarios ahora pueden controlar el acceso al sitio desde una nueva ficha Permisos. Busque personas por nombre o correo electrónico y conceda o revoque capacidades específicas. Las acciones que un usuario no puede realizar aparecen deshabilitadas con información sobre herramientas que explica cómo solicitar acceso.
 - **Insignias de estado de implementación**: las correcciones marcadas como implementadas manualmente ahora muestran el distintivo &quot;Marcado como implementado&quot; en la vista Implementado, lo que facilita la identificación de las actualizaciones manuales, excepto las implementaciones automáticas.
 
 ### Mejoras
