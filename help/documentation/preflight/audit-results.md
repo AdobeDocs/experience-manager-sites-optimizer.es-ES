@@ -1,10 +1,10 @@
 ---
 title: Resultados de la auditoría en Preflight
 description: Obtenga información sobre cómo interpretar los resultados de la auditoría de comprobaciones, el medidor de disponibilidad y las categorías de auditoría, y vaya a las oportunidades en la vista previa.
-source-git-commit: 9989144c429da97e3ea303c0c8caf5a9b38e2634
+source-git-commit: 7224badecd83652a0971f669e23ff325b26892f3
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 4%
+source-wordcount: '930'
+ht-degree: 3%
 
 ---
 
@@ -15,16 +15,27 @@ Cuando se completan las auditorías, Comprobación preliminar muestra los result
 
 ## Barra de herramientas
 
-La barra de herramientas situada en la parte superior del panel de preparación proporciona acciones para la ejecución actual. **Más acciones** (**...**) ofertas de menú:
+La barra de herramientas situada en la parte superior del panel de preparación proporciona acciones para la ejecución actual:
 
-* **Volver a analizar**: inicia una nueva ejecución de auditoría en la página actual. Volver a analizar siempre descarta los resultados mostrados y ejecuta cada auditoría de nuevo, por lo que debe utilizarlo siempre que desee resultados nuevos; por ejemplo, después de editar la página.
-* **Exportar (CSV)**: descargue los resultados actuales como archivo CSV, incluidas las oportunidades y los metadatos de la ejecución de auditoría actual.
+* **Volver a analizar**: inicia una nueva ejecución de auditoría en la página actual. Volver a analizar siempre descarta los resultados mostrados y ejecuta cada auditoría de nuevo, por lo que debe utilizarlo siempre que desee resultados nuevos; por ejemplo, después de editar la página. Volver a analizar se encuentra en **Más acciones** (**...**) menú.
+* **Exportar** - Descargue la ejecución actual como un archivo **CSV** (compatible con la hoja de cálculo) o **PDF** (un documento con formato). Según el entorno, seleccione **Exportar** en la barra de herramientas o en **Más acciones** (**...**) menú.
+
+Al exportar, también puede elegir qué incluir:
+
+* **Incluir tabla de metadatos**: agregue una tabla de detalles de ejecución, como el host, la ruta de contenido y los detalles de generación.
+* **Incluir auditorías aprobadas**: incluya las auditorías que se aprobaron sin oportunidades, no solo las oportunidades que se encontraron.
+
+>[!NOTE]
+>
+>Las exportaciones de PDF siempre se generan en inglés, independientemente del idioma de la interfaz. Las exportaciones de CSV siguen el idioma de la interfaz lo más fielmente posible.
 
 ## Medidor de preparación
 
 En la parte superior del tablero, el indicador de disponibilidad refleja los resultados generales de la auditoría. Muestra una puntuación de preparación como porcentaje, basada en la proporción de auditorías que finalizaron sin oportunidades, junto con el número total de oportunidades encontradas en todas las auditorías. El medidor de disponibilidad le ayuda a medir el estado general de la página de un vistazo.
 
 ![El medidor de preparación y las categorías de auditoría en el tablero de comprobaciones](./assets/overview/hero.png){align="center"}
+
+Cuando está viendo una ejecución que se recargó desde una sesión anterior, el encabezado muestra hace cuánto tiempo se realizó, por ejemplo, *ayer*. Para obtener más información, vea [Continuar una sesión anterior](./audits.md#continue-a-previous-session).
 
 Mientras las auditorías siguen ejecutándose, el indicador de disponibilidad muestra una barra de progreso con un estado corto debajo que muestra el paso actual. Cuando se completan las auditorías, el medidor muestra el porcentaje de disponibilidad final y el recuento de oportunidades.
 
@@ -38,7 +49,7 @@ Para obtener la lista completa de categorías de auditoría y las auditorías de
 
 ## Detalles de la oportunidad
 
-La página de detalles muestra las oportunidades que encontró la auditoría seleccionada. Cuando el mismo problema se produce en más de un lugar, cada ocurrencia se denomina instancia. Utilice el navegador (**Instancia anterior** y **Instancia siguiente**) para avanzar por ellos; muestra su posición, por ejemplo *1 de 5 instancias encontradas*.
+La página de detalles muestra las oportunidades que encontró la auditoría seleccionada. Cuando el mismo problema se produce en más de un lugar, cada ocurrencia se denomina instancia. Utilice el navegador (**Instancia anterior** y **Instancia siguiente**) para avanzar por ellos; muestra su posición, por ejemplo *1 de 5 instancias encontradas*. Para volver al panel de preparación, seleccione la flecha hacia atrás junto al título de la auditoría; el panel se vuelve a abrir con la categoría de la auditoría expandida.
 
 ![Página de detalles de una auditoría que muestra una oportunidad y su sugerencia](./assets/audit-results/audit-detail.png){align="center"}
 
@@ -46,7 +57,7 @@ Cada oportunidad incluye:
 
 * Un distintivo de gravedad o impacto que indica la importancia de la oportunidad.
 * Detalles sobre la oportunidad, como una descripción del problema, una recomendación y, para accesibilidad, la regla WCAG y el nivel de conformidad relacionados.
-* Una sección **Element** que muestra el elemento afectado en la página, con un botón **Resaltar en la página**.
+* Una sección **Element** que identifica el elemento afectado en la página, con un botón **Resaltar en la página**. Cuando el elemento tiene texto legible, la sección se titula **Elemento: Texto** y muestra ese texto, lo que facilita el reconocimiento del elemento; seleccione **Ver más** para expandir el texto largo. Cuando el elemento no tiene texto legible (por ejemplo, un vínculo de solo icono), la sección se titula **Elemento: Selector** y muestra el selector CSS del elemento en su lugar. Para copiar el valor, seleccione el icono Copiar en el modo de selector o abra **Más acciones** (**...**) en modo texto y elija **Copiar texto** o **Copiar selector**.
 * Una sección **Sugerencia** con una corrección recomendada. Cuando AI genera la sugerencia, se marca como una sugerencia generada por IA y puede incluir una breve justificación que explique la corrección sugerida.
 
 ## Resaltar en la página
@@ -62,3 +73,5 @@ La comprobación preliminar resalta el elemento afectado en el contexto y conect
 ## ID de trabajo
 
 Cada ejecución de comprobaciones tiene un ID de trabajo único, que se muestra en la parte inferior del panel. Resulta principalmente útil cuando un administrador soluciona problemas en una ejecución específica. Pase el ratón sobre el ID y seleccione el icono de copia que aparece a su derecha; el ID se copia en el portapapeles y aparece un mensaje de confirmación. Incluya este ID cuando informe de un problema.
+
+Cuando se utiliza la comprobación preliminar fuera del editor universal (por ejemplo, a través de Sidekick o un bookmarklet), el pie de página del panel también muestra el nombre de la organización encima del ID de trabajo. En el editor universal, su organización aparece en el encabezado de AEM.
