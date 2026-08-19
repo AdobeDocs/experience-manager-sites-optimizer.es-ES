@@ -120,7 +120,7 @@ Para configurar la comprobación preliminar para la creación basada en document
 
 >[!TAB Editor de página de AEM Sites]
 
-Si su entorno de creación ejecuta [AEM 2026.7.0 (versión 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) o posterior, la comprobación preliminar está integrada en el editor de páginas de AEM Sites y no se requiere ningún bookmarklet. Siga estos pasos:
+Si su entorno de creación ejecuta [AEM 2026.7.0 (versión 27083)](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) o posterior, la comprobación preliminar está integrada en el editor de páginas de AEM Sites y no se requiere ningún bookmarklet. Siga estos pasos:
 
 1. Abra la página que desee auditar en el **Editor de páginas de AEM Sites**.
 1. En la barra de herramientas del editor, seleccione el icono **Comprobación preliminar** (el botón de reproducción, resaltado abajo) para abrir el panel Comprobación preliminar de la página actual.
