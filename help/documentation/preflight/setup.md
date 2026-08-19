@@ -2,12 +2,11 @@
 title: Configuración de Preflight
 description: Obtenga información sobre cómo configurar las comprobaciones para AEM Sites Optimizer.
 TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8ObcY
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+source-git-commit: 9edf940bffa7407ca58ea9f504ea8afe4bdd7a50
 workflow-type: tm+mt
-source-wordcount: 785
-ht-degree: 52%
+source-wordcount: 896
+ht-degree: 47%
 
 ---
 
@@ -120,7 +119,7 @@ Para configurar la comprobación preliminar para la creación basada en document
 
 >[!TAB Editor de página de AEM Sites]
 
-Si su entorno de creación ejecuta [AEM 2026.7.0 (versión 27083)](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) o posterior, la comprobación preliminar está integrada en el editor de páginas de AEM Sites y no se requiere ningún bookmarklet. Siga estos pasos:
+Si su entorno de creación ejecuta [AEM 2026.7.0 (versión 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) o posterior, la comprobación preliminar está integrada en el editor de páginas de AEM Sites y no se requiere ningún bookmarklet. Siga estos pasos:
 
 1. Abra la página que desee auditar en el **Editor de páginas de AEM Sites**.
 1. En la barra de herramientas del editor, seleccione el icono **Comprobación preliminar** (el botón de reproducción, resaltado abajo) para abrir el panel Comprobación preliminar de la página actual.
@@ -161,7 +160,18 @@ Para utilizar la comprobación preliminar en el editor de páginas de AEM Sites 
 >
 >Solo se admiten los entornos de Adobe Managed Services (AMS) que utilizan el proveedor de identidad (IMS) de Adobe para la autenticación en AEM Author. Preflight (comprobación preliminar) no funciona si su organización utiliza cualquier otro proveedor de identidad para la autenticación AMS.
 
-Para utilizar la comprobación preliminar en el editor de páginas de AEM Sites en un entorno de AMS, cree un bookmarklet en el explorador web, siguiendo estos pasos:
+Cuando la comprobación preliminar está integrada en la barra de herramientas del Editor de páginas de AEM Sites, no se requiere ningún bookmarklet. Póngase en contacto con Adobe para instalarlo en su organización. Una vez instalado, siga estos pasos:
+
+1. Abra la página que desee auditar en el **Editor de páginas de AEM Sites**.
+1. En la barra de herramientas del editor, seleccione el icono **Comprobación preliminar** (el botón de reproducción, resaltado abajo) para abrir el panel Comprobación preliminar de la página actual.
+
+   ![Icono de comprobación preliminar en la barra de herramientas del Editor de páginas de AEM Sites](./assets/setup/toolbar-preflight-button.png){align="center"}
+
+>[!NOTE]
+>
+>¿No ves el icono **Comprobaciones** en la barra de herramientas? Es posible que el botón integrado aún no esté instalado para su organización. Póngase en contacto con Adobe para instalarlo o utilice el método bookmarklet que aparece a continuación.
+
+Para utilizar Comprobación preliminar en el Editor de páginas de AEM Sites en un entorno de AMS sin el icono de la barra de herramientas, cree un bookmarklet en el explorador web, siguiendo estos pasos:
 
 1. Muestre la **Barra de marcadores** en el explorador web:
 
