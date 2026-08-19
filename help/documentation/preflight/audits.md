@@ -1,10 +1,10 @@
 ---
 title: Ejecutar auditorías en Preflight
 description: Obtenga información sobre cómo iniciar una auditoría de Preflight en la página.
-source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
+source-git-commit: 7224badecd83652a0971f669e23ff325b26892f3
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 17%
+source-wordcount: '422'
+ht-degree: 14%
 
 ---
 
@@ -37,6 +37,8 @@ La comprobación preliminar recuerda la ejecución más reciente, por lo que no 
 * Si devuelves **en una ficha nueva o después de cerrar el explorador**, la pantalla de aterrizaje mostrará el botón **Continuar última sesión** junto a **Analizar página**. Seleccione **Continuar última sesión** para volver a cargar los resultados más recientes o seleccione **Analizar página** para iniciar una nueva ejecución.
 
 La comprobación preliminar realiza un seguimiento de la ejecución más reciente por separado para cada página, por lo que **Continuar la última sesión** siempre vuelve a cargar la última ejecución de la página en la que se encuentra.
+
+Cuando vuelve a cargar una ejecución anterior, el encabezado muestra hace cuánto tiempo se realizó esa ejecución (por ejemplo, *2 minutos atrás* o *ayer*) para que pueda saber de un vistazo qué tan actuales son los resultados. La etiqueta se actualiza a medida que pasa el tiempo y permanece visible a medida que se mueve entre el panel de preparación y las páginas de detalles de auditoría.
 
 Una vez que finalicen las auditorías y se muestren los resultados, seleccione **Volver a analizar** de las **acciones más** (**...**) en la barra de herramientas para descartar los resultados y volver a ejecutar cada auditoría. Ver [resultados de auditoría en comprobación preliminar](./audit-results.md#toolbar).
 
