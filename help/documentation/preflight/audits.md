@@ -25,7 +25,7 @@ Para comprender los resultados de la vista previa e identificar las oportunidade
 
 ## Utilice el botón Comprobaciones integrado
 
-Si su entorno de creación ejecuta [AEM 2026.7.0 (versión 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) o posterior, la comprobación preliminar está integrada en la barra de herramientas del Editor de páginas de AEM Sites. Seleccione el icono **Comprobaciones** (el botón de reproducción) para abrir el panel de la página actual y, a continuación, seleccione **Analizar página** para ejecutar las auditorías.
+Si su entorno de creación ejecuta [AEM 2026.7.0 (versión 27083)](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) o posterior, la comprobación preliminar está integrada en la barra de herramientas del Editor de páginas de AEM Sites. Seleccione el icono **Comprobaciones** (el botón de reproducción) para abrir el panel de la página actual y, a continuación, seleccione **Analizar página** para ejecutar las auditorías.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496629?learn=on&enablevpops)
 
