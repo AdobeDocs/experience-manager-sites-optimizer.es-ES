@@ -42,7 +42,7 @@ no generalice a borradores futuros, por lo que una entrada duradera sería simpl
 Entradas más recientes en la parte superior. Si una lección posterior reemplaza o limita una anterior, edite
 Utilice la entrada anterior para tener en cuenta que, en lugar de dejar dos reglas en conflicto en el archivo.
 
----
+&#x200B;---
 
 Aún no hay entradas: este archivo recibe su primera entrada la primera vez que cambia una solicitud humana
 en una de las relaciones públicas de este agente.
