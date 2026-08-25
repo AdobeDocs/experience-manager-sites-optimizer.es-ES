@@ -1,9 +1,9 @@
 ---
 title: Resultados de la auditoría en Preflight
 description: Obtenga información sobre cómo interpretar los resultados de la auditoría de comprobaciones, el medidor de disponibilidad y las categorías de auditoría, y vaya a las oportunidades en la vista previa.
-source-git-commit: 7224badecd83652a0971f669e23ff325b26892f3
+source-git-commit: 56a56991a262d9f19a228dc9ca6ec440acdc2999
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '1009'
 ht-degree: 3%
 
 ---
@@ -57,7 +57,7 @@ Cada oportunidad incluye:
 
 * Un distintivo de gravedad o impacto que indica la importancia de la oportunidad.
 * Detalles sobre la oportunidad, como una descripción del problema, una recomendación y, para accesibilidad, la regla WCAG y el nivel de conformidad relacionados.
-* Una sección **Element** que identifica el elemento afectado en la página, con un botón **Resaltar en la página**. Cuando el elemento tiene texto legible, la sección se titula **Elemento: Texto** y muestra ese texto, lo que facilita el reconocimiento del elemento; seleccione **Ver más** para expandir el texto largo. Cuando el elemento no tiene texto legible (por ejemplo, un vínculo de solo icono), la sección se titula **Elemento: Selector** y muestra el selector CSS del elemento en su lugar. Para copiar el valor, seleccione el icono Copiar en el modo de selector o abra **Más acciones** (**...**) en modo texto y elija **Copiar texto** o **Copiar selector**.
+* Una sección **Element** que identifica el elemento afectado en la página, con un botón **Resaltar en la página**. Cuando el elemento tiene texto legible, la sección se titula **Elemento: Texto** y muestra ese texto; de lo contrario, se titula **Elemento: Selector** y muestra el selector CSS del elemento. Para las oportunidades de **Links** y **Canonical**, una sección de **URL actual** también muestra la URL involucrada, que puede abrir en una nueva pestaña si es posible.
 * Una sección **Sugerencia** con una corrección recomendada. Cuando AI genera la sugerencia, se marca como una sugerencia generada por IA y puede incluir una breve justificación que explique la corrección sugerida.
 
 ## Resaltar en la página
@@ -69,6 +69,12 @@ La comprobación preliminar resalta el elemento afectado en el contexto y conect
 1. Abra el panel Comprobaciones en el contexto de la página que desea auditar y seleccione **Analizar página** para ejecutar las auditorías.
 1. Seleccione una auditoría en el panel de preparación y, a continuación, seleccione una oportunidad para revisarla.
 1. Seleccione **Resaltar en la página**. La vista previa se desplaza automáticamente al área relevante y resalta el elemento correspondiente, para que pueda identificar y optimizar fácilmente la oportunidad en contexto.
+
+Resaltar no es posible para cada oportunidad; por ejemplo, cuando una oportunidad no está vinculada a un elemento específico, el elemento está oculto o ya no está en la página. En estos casos, el botón **Resaltar en la página** aparece atenuado; pase el ratón sobre él para ver el motivo.
+
+En el editor universal, aún no se admite el resaltado para las oportunidades de **Accesibilidad**; el botón **Resaltar en la página** aparece atenuado y puede pasar el ratón sobre él para ver el motivo.
+
+En el editor de páginas de AEM Sites y en Adobe Managed Services (AMS), para resaltar también se requiere **modo de edición**. En **modo de vista previa**, la comprobación preliminar muestra **problemas de resaltado no disponibles**; cambie a **modo de edición** para resaltar elementos en la página.
 
 ## ID de trabajo
 
