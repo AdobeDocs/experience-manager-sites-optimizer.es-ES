@@ -22,7 +22,7 @@ Empiece a usar Sites Optimizer con esta versión de prueba para los clientes exi
 >* Es de acceso público y no está detrás de un inicio de sesión.
 >* Utiliza la entrega de front-end de AEM Sites. Actualmente no se admite la entrega sin encabezado.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483290/?captions=spa&learn=on&enablevpops)
 
 >[!TIP]
 >
