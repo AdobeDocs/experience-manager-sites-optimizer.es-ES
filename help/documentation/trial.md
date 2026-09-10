@@ -1,10 +1,10 @@
 ---
 title: Versión de prueba de Sites Optimizer
 description: Empiece a usar la versión de prueba de AEM Sites Optimizer para los clientes de AEM Sites existentes.
-source-git-commit: da39fb8ccf51e24f5f5eb1bac33e51ecd959874a
+source-git-commit: 5bd55dcc380f0721fb9818413207c22e21e8299b
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 89%
+source-wordcount: '1102'
+ht-degree: 59%
 
 ---
 
@@ -22,7 +22,7 @@ Empiece a usar Sites Optimizer con esta versión de prueba para los clientes exi
 >* Es de acceso público y no está detrás de un inicio de sesión.
 >* Utiliza la entrega de front-end de AEM Sites. Actualmente no se admite la entrega sin encabezado.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483290/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
 
 >[!TIP]
 >
@@ -48,6 +48,40 @@ En la versión de prueba se incluye lo siguiente:
   * **Identificación automática**: detecta problemas en el sitio utilizando varias fuentes de datos.
   * **Sugerencia automática**: proporciona recomendaciones prescriptivas generadas por IA para cada problema.
   * **Optimización automática**: después de la aprobación, implemente correcciones directamente en el entorno de creación. Las actualizaciones siguen sus flujos de trabajo existentes, lo que permite que su equipo revise y publique a través de AEM.
+
+## Habilitar la corrección automática para sitios de prueba de Edge Delivery
+
+Descubra cómo los clientes de prueba habilitan la acción **Implementar para crear** para sugerencias de corrección automática en sitios de Edge Delivery Services (EDS) creados en Google Drive o SharePoint.
+
+>[!NOTE]
+>
+>Este requisito solo se aplica a las organizaciones de prueba cuyos sitios se hayan creado en Google Drive o SharePoint. Los clientes de pago y los sitios creados en Crosswalk o Dark Alley no se ven afectados.
+
+Los clientes de prueba deben formar parte del grupo de IMS **ASO-EDS-Autofix-Users**. Si el grupo no existe, el administrador de su organización puede crearlo y agregarle.
+
+1. Inicie sesión en [Adobe Admin Console](https://adminconsole.adobe.com/).
+1. Seleccione **Usuarios** > **Grupos de usuarios**.
+1. Seleccione **Agregar grupo de usuarios**.
+1. Para **nombre de grupo de usuarios**, escriba exactamente:
+
+   ```
+   ASO-EDS-Autofix-Users
+   ```
+
+   >[!IMPORTANT]
+   >
+   > El nombre del grupo debe coincidir exactamente, incluyendo mayúsculas. Coincide con la distinción entre mayúsculas y minúsculas, por lo que no funciona un formato de mayúsculas y minúsculas diferente (por ejemplo, `ASO-EDS-Autofix-users`). No cambie el nombre del grupo después de crearlo.
+
+1. Seleccione **Guardar**.
+
+   ![Cree un nuevo cuadro de diálogo de grupo de usuarios en Adobe Admin Console, con el campo Nombre de grupo de usuarios establecido en ASO-EDS-Autofix-Users](./assets/trial/create-user-group.png){align="center"}
+
+1. Abra el nuevo grupo y seleccione **Agregar usuarios**.
+1. Escriba la dirección de correo electrónico o el nombre de usuario de cada persona que pueda implementar las correcciones automáticas y, a continuación, seleccione **Guardar**.
+
+   ![Agregar usuarios a este cuadro de diálogo de grupo de usuarios en Adobe Admin Console](./assets/trial/add-users-to-group.png){align="center"}
+
+Si es miembro del grupo, el botón **Implementar en autor** está habilitado. Si todavía no eres miembro, **Implementar en autor** se deshabilitará con información sobre herramientas que te pedirá que te pongas en contacto con el administrador para agregarte al grupo. Cuando el administrador le añada al grupo, cierre la sesión y vuelva a iniciarla en Sites Optimizer para que su sesión recoja la nueva pertenencia al grupo.
 
 ## Preguntas frecuentes
 
@@ -85,6 +119,16 @@ Sites Optimizer identifica continuamente los problemas que afectan al rendimient
 +++¿Cómo puedo acceder a más oportunidades?
 
 Use la actualización o póngase en contacto con las CTA (llamadas a la acción) de ventas disponibles a través de la experiencia del producto o envíe un correo electrónico a [siteoptimizer-now@adobe.com](mailto:siteoptimizer-now@adobe.com).
+
++++
++++Estoy en el grupo ASO-EDS-Autofix-Users, pero la opción Implementar en autor sigue deshabilitada. ¿Qué debería comprobar?
+
+Cerrar sesión y volver a iniciarla: la pertenencia a un grupo se lee al iniciar sesión. Confirme también que el nombre del grupo está escrito y escrito exactamente `ASO-EDS-Autofix-Users` con mayúsculas y que se creó en la misma organización a la que pertenece el sitio.
+
++++
++++¿Se aplica el requisito del grupo ASO-EDS-Autofix-Users a todos los sitios de Edge Delivery Services?
+
+No. Solo se aplica a los sitios de prueba creados en **Google Drive** o **SharePoint**. Los sitios creados en **Crosswalk** o **Dark Alley**, y todos los sitios **pagados**, no se ven afectados.
 
 +++
 
