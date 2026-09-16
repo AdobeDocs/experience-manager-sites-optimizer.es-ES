@@ -1,13 +1,11 @@
 ---
 title: Resultados de la auditoría en Preflight
 description: Obtenga información sobre cómo interpretar los resultados de la auditoría de comprobaciones, el medidor de disponibilidad y las categorías de auditoría, y vaya a las oportunidades en la vista previa.
-source-git-commit: 56a56991a262d9f19a228dc9ca6ec440acdc2999
+source-git-commit: dd2637e61e15a6b8364456ae7d11717a0b81ad09
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 3%
-
+source-wordcount: '1066'
+ht-degree: 2%
 ---
-
 
 # Resultados de la auditoría en Preflight
 
@@ -73,6 +71,8 @@ La comprobación preliminar resalta el elemento afectado en el contexto y conect
 Resaltar no es posible para cada oportunidad; por ejemplo, cuando una oportunidad no está vinculada a un elemento específico, el elemento está oculto o ya no está en la página. En estos casos, el botón **Resaltar en la página** aparece atenuado; pase el ratón sobre él para ver el motivo.
 
 En el editor universal, aún no se admite el resaltado para las oportunidades de **Accesibilidad**; el botón **Resaltar en la página** aparece atenuado y puede pasar el ratón sobre él para ver el motivo.
+
+En el editor universal, las comprobaciones solo pueden resaltar contenido editable. Si el elemento afectado no forma parte del contenido editable, el botón **Resaltar en la página** aparece atenuado; pase el ratón sobre él para ver el motivo. Si el elemento en sí no se puede editar directamente pero el bloque editable más cercano es, Comprobaciones resalta ese bloque y agrega una nota explicando el motivo.
 
 En el editor de páginas de AEM Sites y en Adobe Managed Services (AMS), para resaltar también se requiere **modo de edición**. En **modo de vista previa**, la comprobación preliminar muestra **problemas de resaltado no disponibles**; cambie a **modo de edición** para resaltar elementos en la página.
 
