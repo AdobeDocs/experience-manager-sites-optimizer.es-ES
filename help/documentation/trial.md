@@ -1,13 +1,11 @@
 ---
 title: Versión de prueba de Sites Optimizer
 description: Empiece a usar la versión de prueba de AEM Sites Optimizer para los clientes de AEM Sites existentes.
-source-git-commit: 5bd55dcc380f0721fb9818413207c22e21e8299b
+source-git-commit: 052faac621530a5b9e74bd8e4790a604887515f7
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 59%
-
+source-wordcount: '1481'
+ht-degree: 45%
 ---
-
 
 # Versión de prueba de Sites Optimizer
 
@@ -22,7 +20,7 @@ Empiece a usar Sites Optimizer con esta versión de prueba para los clientes exi
 >* Es de acceso público y no está detrás de un inicio de sesión.
 >* Utiliza la entrega de front-end de AEM Sites. Actualmente no se admite la entrega sin encabezado.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483290/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
 
 >[!TIP]
 >
@@ -48,6 +46,25 @@ En la versión de prueba se incluye lo siguiente:
   * **Identificación automática**: detecta problemas en el sitio utilizando varias fuentes de datos.
   * **Sugerencia automática**: proporciona recomendaciones prescriptivas generadas por IA para cada problema.
   * **Optimización automática**: después de la aprobación, implemente correcciones directamente en el entorno de creación. Las actualizaciones siguen sus flujos de trabajo existentes, lo que permite que su equipo revise y publique a través de AEM.
+
+## Permitir que Sites Optimizer acceda al sitio
+
+Sites Optimizer analiza el sitio para identificar oportunidades de optimización. Si el sitio se encuentra detrás de un firewall, una red de distribución de contenido (CDN) u otra configuración de seguridad que bloquee clientes no reconocidos, el analizador no podrá llegar a las páginas. Cuando esto sucede, la incorporación muestra un mensaje de **Acción necesaria** que indica que Sites Optimizer no puede acceder al sitio web y el análisis se detiene hasta que se permite el acceso.
+
+![Cuadro de diálogo de incorporación que indica que Sites Optimizer no puede acceder al sitio web e incluye las direcciones IP del agente de usuario y el analizador para la lista de permitidos, cada una con un botón Copiar y un botón Actualizar para volver a comprobar el acceso](./assets/trial/ip-allowlist-action-required.png){align="center"}
+
+Para permitir el acceso al analizador, realice la lista de permitidos de lo siguiente en la configuración del cortafuegos, del proveedor de alojamiento o de la seguridad. Para los sitios de AEM Cloud Service, agregue una regla de permiso para el analizador a las [reglas de filtro de tráfico de CDN](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf) en Cloud Manager, que pueden coincidir tanto en la dirección del agente de usuario como en la dirección IP. Si restringe el acceso mediante [listas de permitidos IP de Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction), agregue también las direcciones IP del analizador a la lista de permitidos aplicada.
+
+* **User-Agent**: el analizador se identifica a sí mismo con un User-Agent que contiene el token `Spacecat/1.0`. Lista de permitidos este token, idealmente como una coincidencia &quot;contiene&quot;, para que siga funcionando incluso si cambia la cadena completa del agente de usuario.
+* **Direcciones IP del escáner**: Lista de permitidos las direcciones IP salientes del escáner.
+
+La pantalla de incorporación muestra las direcciones IP y del agente de usuario exactas a la lista de permitidos, cada una con un botón **Copiar**, para que pueda copiar los valores actuales directamente en la configuración.
+
+Después de lista de permitidos el escáner, seleccione **Actualizar** en la pantalla de incorporación. Una vez concedido el acceso, el análisis se reanuda automáticamente y muestra las oportunidades de optimización.
+
+>[!NOTE]
+>
+>Estas direcciones IP solo se utilizan para analizar el sitio. La inclusión en la lista de permitidos no concede ningún otro acceso.
 
 ## Habilitar la corrección automática para sitios de prueba de Edge Delivery
 
@@ -129,6 +146,11 @@ Cerrar sesión y volver a iniciarla: la pertenencia a un grupo se lee al iniciar
 +++¿Se aplica el requisito del grupo ASO-EDS-Autofix-Users a todos los sitios de Edge Delivery Services?
 
 No. Solo se aplica a los sitios de prueba creados en **Google Drive** o **SharePoint**. Los sitios creados en **Crosswalk** o **Dark Alley**, y todos los sitios **pagados**, no se ven afectados.
+
++++
++++Sites Optimizer dice que no puede acceder a mi sitio. ¿Qué debo hacer?
+
+Es probable que el sitio esté detrás de una configuración de firewall, CDN o seguridad que bloquee el analizador. Lista de permitidos el agente de usuario del analizador (el token `Spacecat/1.0`) y las direcciones IP en su configuración de seguridad o, para los sitios de AEM Cloud Service, en las listas de permitidos de CDN de Cloud Manager. Luego selecciona **Actualizar**. Ver [Permitir que Sites Optimizer acceda a tu sitio](#allow-sites-optimizer-to-access-your-site).
 
 +++
 
