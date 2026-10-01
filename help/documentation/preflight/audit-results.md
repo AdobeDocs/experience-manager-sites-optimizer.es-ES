@@ -1,9 +1,9 @@
 ---
 title: Resultados de la auditoría en Preflight
 description: Obtenga información sobre cómo interpretar los resultados de la auditoría de comprobaciones, el medidor de disponibilidad y las categorías de auditoría, y vaya a las oportunidades en la vista previa.
-source-git-commit: dd2637e61e15a6b8364456ae7d11717a0b81ad09
+source-git-commit: d87b607248efdeecf1ba29ede03bf1628d1dff30
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1168'
 ht-degree: 2%
 ---
 
@@ -49,13 +49,17 @@ Para obtener la lista completa de categorías de auditoría y las auditorías de
 
 La página de detalles muestra las oportunidades que encontró la auditoría seleccionada. Cuando el mismo problema se produce en más de un lugar, cada ocurrencia se denomina instancia. Utilice el navegador (**Instancia anterior** y **Instancia siguiente**) para avanzar por ellos; muestra su posición, por ejemplo *1 de 5 instancias encontradas*. Para volver al panel de preparación, seleccione la flecha hacia atrás junto al título de la auditoría; el panel se vuelve a abrir con la categoría de la auditoría expandida.
 
+Para las auditorías que identifican una dirección URL específica en la página, la sección **Element** aparece en la parte superior de la tarjeta para presentar el elemento, y el resto de la oportunidad aparece debajo de ella en su propia sección.
+
+Cuando más de una oportunidad afecta al mismo elemento (por ejemplo, varios problemas con el mismo vínculo), la comprobación preliminar los muestra juntos en una tarjeta, cada uno en su propia sección titulada con su número de instancia, como **Instancia 3**. A continuación, el navegador muestra un rango en lugar de una sola posición, por ejemplo *3-5 de 12 instancias encontradas*.
+
 ![Página de detalles de una auditoría que muestra una oportunidad y su sugerencia](./assets/audit-results/audit-detail.png){align="center"}
 
 Cada oportunidad incluye:
 
 * Un distintivo de gravedad o impacto que indica la importancia de la oportunidad.
 * Detalles sobre la oportunidad, como una descripción del problema, una recomendación y, para accesibilidad, la regla WCAG y el nivel de conformidad relacionados.
-* Una sección **Element** que identifica el elemento afectado en la página, con un botón **Resaltar en la página**. Cuando el elemento tiene texto legible, la sección se titula **Elemento: Texto** y muestra ese texto; de lo contrario, se titula **Elemento: Selector** y muestra el selector CSS del elemento. Para las oportunidades de **Links** y **Canonical**, una sección de **URL actual** también muestra la URL involucrada, que puede abrir en una nueva pestaña si es posible.
+* Una sección **Element** que identifica el elemento afectado en la página, con un botón **Resaltar en la página**. Cuando el elemento tiene texto legible, la sección se titula **Elemento: Texto** y muestra ese texto; de lo contrario, se titula **Elemento: Selector** y muestra el selector CSS del elemento. Para las oportunidades de **Vínculos internos** y **Canónicos**, la sección **URL actual** también muestra la URL involucrada. Seleccione **Copiar URL** para copiarlo en el portapapeles, o **Abrir en ficha nueva** para abrirlo.
 * Una sección **Sugerencia** con una corrección recomendada. Cuando AI genera la sugerencia, se marca como una sugerencia generada por IA y puede incluir una breve justificación que explique la corrección sugerida.
 
 ## Resaltar en la página
