@@ -1,9 +1,9 @@
 ---
 title: Auditoría de SEO de comprobaciones
 description: Obtenga información acerca de las auditorías SEO que ejecuta la comprobación preliminar en su página en AEM Sites Optimizer.
-source-git-commit: d87b607248efdeecf1ba29ede03bf1628d1dff30
+source-git-commit: 8a465f3ef54dbd295255f326eda2e8f37a114ace
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '221'
 ht-degree: 0%
 ---
 # Auditorías de SEO
@@ -20,6 +20,7 @@ La categoría SEO incluye las siguientes auditorías:
 * [Encabezados](./seo/headings.md): revisa la estructura y el orden de los encabezados de la página.
 * [Recuento H1](./seo/h1-count.md) - Revisa el número de encabezados H1 de la página.
 * [Vínculos internos](./seo/internal-links.md): revisa los vínculos de la página que apuntan a su propio sitio.
+* [Vínculos externos](./seo/external-links.md): revisa los vínculos de la página que apuntan a otros sitios.
 * [Legibilidad](./seo/readability.md): revisa la facilidad de lectura del contenido de la página.
 * [Canónico](./seo/canonical.md): revisa el vínculo canónico de la página.
 * [Tamaño del cuerpo](./seo/body-size.md): revisa la cantidad de contenido del cuerpo en la página.
