@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 5399b579133dc11cd8a8154b55467b8bc5291b4d
+source-git-commit: 8d6936c2c577d7a98937cb8ddf90d18a6e82a9bb
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2628'
 ht-degree: 2%
 ---
 
@@ -19,17 +19,26 @@ Esta página documenta las últimas actualizaciones, nuevas funciones y mejoras 
 
 Las características marcadas **(acceso anticipado)** están disponibles bajo petición; póngase en contacto con el equipo de su cuenta o con el ingeniero de éxito del cliente para habilitarlas en su organización.
 
-## Del 28 al 29 de septiembre de 2026
+## Del 28 de septiembre al 4 de octubre de 2026 {#september-28-october-4-2026}
+
+### Nuevas funciones
+
+- **Oportunidades para agentes de IA personal (acceso anticipado)**: filtre las oportunidades que ayudan a los agentes de IA personal a leer su sitio e interactuar con él, con insignias y directrices que explican los beneficios.
 
 ### Mejoras
 
 - **Implementación de vínculo interno interrumpida (acceso anticipado)**: proporcione una URL de reemplazo para un vínculo que no se puede corregir automáticamente e implemente la actualización validada.
-- **Estado de implementación publicado**: vea cuándo se confirma un cambio implementado activo en la página publicada mientras se conservan los estados de error y redetección claros.
+- **Estado de publicación de texto alternativo**: vea cuándo se confirma un cambio de texto alternativo activo en la página publicada mientras se conservan los estados de error y redetección claros.
+- **Parches de código Core Web Vitals**: revise los parches de archivo por archivo con números de línea y adiciones y eliminaciones resaltadas.
+- **Implementación de código Core Web Vitals (acceso anticipado)**: envíe parches de código aptos como solicitud de extracción en el repositorio de código configurado.
 
 ### Correcciones de errores
 
 - Las oportunidades de accesibilidad de Forms ahora admiten la creación de problemas de Jira.
 - Los vínculos de seguimiento de la implementación ahora abren el repositorio de código configurado.
+- Los informes detallados de accesibilidad ahora se abren y muestran su contenido en lugar de redirigirlos a la página principal o aparecer en blanco.
+- Los recuentos y grupos de fechas implementados de texto alternativo ahora coinciden con las correcciones mostradas, sin grupos de implementación fallidos vacíos.
+- La restauración de las sugerencias de mapas del sitio omitidos y Core Web Vitals ahora actualiza su estado de forma fiable.
 
 ## Del 21 al 27 de septiembre de 2026
 
