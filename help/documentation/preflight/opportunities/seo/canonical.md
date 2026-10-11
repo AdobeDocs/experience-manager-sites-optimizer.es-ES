@@ -1,13 +1,14 @@
 ---
 title: Auditoría canónica de comprobación preliminar
 description: Obtenga información acerca de la auditoría canónica en Comprobación preliminar para AEM Sites Optimizer.
-source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
-
 ---
-
 # Auditoría canónica
 
 La auditoría **Canonical** revisa el vínculo canónico en su página. Un vínculo canónico correcto indica a los motores de búsqueda qué URL es la versión autorizada de una página, lo que ayuda a evitar problemas de contenido duplicado. La auditoría indica los vínculos canónicos que faltan o son incorrectos.

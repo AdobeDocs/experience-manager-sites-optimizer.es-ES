@@ -1,7 +1,10 @@
 ---
 title: Versión de prueba de Sites Optimizer
 description: Empiece a usar la versión de prueba de AEM Sites Optimizer para los clientes de AEM Sites existentes.
-source-git-commit: 052faac621530a5b9e74bd8e4790a604887515f7
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
 workflow-type: tm+mt
 source-wordcount: '1481'
 ht-degree: 45%
@@ -20,7 +23,7 @@ Empiece a usar Sites Optimizer con esta versión de prueba para los clientes exi
 >* Es de acceso público y no está detrás de un inicio de sesión.
 >* Utiliza la entrega de front-end de AEM Sites. Actualmente no se admite la entrega sin encabezado.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483290/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
 
 >[!TIP]
 >
@@ -53,7 +56,7 @@ Sites Optimizer analiza el sitio para identificar oportunidades de optimización
 
 ![Cuadro de diálogo de incorporación que indica que Sites Optimizer no puede acceder al sitio web e incluye las direcciones IP del agente de usuario y el analizador para la lista de permitidos, cada una con un botón Copiar y un botón Actualizar para volver a comprobar el acceso](./assets/trial/ip-allowlist-action-required.png){align="center"}
 
-Para permitir el acceso al analizador, realice la lista de permitidos de lo siguiente en la configuración del cortafuegos, del proveedor de alojamiento o de la seguridad. Para los sitios de AEM Cloud Service, agregue una regla de permiso para el analizador a las [reglas de filtro de tráfico de CDN](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf) en Cloud Manager, que pueden coincidir tanto en la dirección del agente de usuario como en la dirección IP. Si restringe el acceso mediante [listas de permitidos IP de Cloud Manager](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction), agregue también las direcciones IP del analizador a la lista de permitidos aplicada.
+Para permitir el acceso al analizador, realice la lista de permitidos de lo siguiente en la configuración del cortafuegos, del proveedor de alojamiento o de la seguridad. Para los sitios de AEM Cloud Service, agregue una regla de permiso para el analizador a las [reglas de filtro de tráfico de CDN](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf) en Cloud Manager, que pueden coincidir tanto en la dirección del agente de usuario como en la dirección IP. Si restringe el acceso mediante [listas de permitidos IP de Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction), agregue también las direcciones IP del analizador a la lista de permitidos aplicada.
 
 * **User-Agent**: el analizador se identifica a sí mismo con un User-Agent que contiene el token `Spacecat/1.0`. Lista de permitidos este token, idealmente como una coincidencia &quot;contiene&quot;, para que siga funcionando incluso si cambia la cadena completa del agente de usuario.
 * **Direcciones IP del escáner**: Lista de permitidos las direcciones IP salientes del escáner.
