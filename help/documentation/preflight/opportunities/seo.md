@@ -4,9 +4,9 @@ description: Obtenga información acerca de las auditorías SEO que ejecuta la c
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
+source-git-commit: 913fd85808a08eb8f6ba7de8207d53ee7b68409e
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '211'
 ht-degree: 0%
 ---
 # Auditorías de SEO
@@ -19,7 +19,7 @@ En el panel de preparación, expanda la categoría **SEO** para ver cada auditor
 
 La categoría SEO incluye las siguientes auditorías:
 
-* [Etiquetas de metadatos](./seo/metatags.md): revisa el título de la página y las etiquetas de descripción de metadatos.
+* [Etiquetas meta](./seo/metatags.md): revisa el título de la página, la descripción meta y el encabezado H1.
 * [Encabezados](./seo/headings.md): revisa la estructura y el orden de los encabezados de la página.
 * [Vínculos internos](./seo/internal-links.md): revisa los vínculos de la página que apuntan a su propio sitio.
 * [Vínculos externos](./seo/external-links.md): revisa los vínculos de la página que apuntan a otros sitios.
