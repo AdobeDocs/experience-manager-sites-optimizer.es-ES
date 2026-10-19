@@ -1,20 +1,20 @@
 ---
 title: Administrar permisos de usuario
-description: Obtenga información sobre cómo administrar el acceso de los usuarios y las funcionalidades en AEM Sites Optimizer.
+description: Obtenga información sobre cómo administrar el acceso y las funcionalidades para usuarios y grupos de usuarios en AEM Sites Optimizer.
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: c372679073253df686a77daccb6cb548622181f5
+source-git-commit: 99cab67b45300bb89cec79e714761e67e19bc2dc
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1708'
 ht-degree: 1%
 ---
 # Administrar permisos de usuario
 
-Controle quién puede acceder a un sitio en Sites Optimizer y qué puede hacer con él. El acceso se genera a partir de un pequeño conjunto de *capacidades* independientes (ver, editar, implementar, configurar y administrar usuarios) que usted concede a cada persona.
+Controle quién puede acceder a un sitio en Sites Optimizer y qué puede hacer con él. El acceso se genera a partir de un pequeño conjunto de *capacidades* independientes (ver, editar, implementar, configurar y administrar usuarios) que usted concede a personas individuales o a grupos de usuarios.
 
 El acceso es **aditivo**: los permisos de una persona son la suma de todo lo que se le ha concedido. No hay &quot;denegar&quot;, así que las concesiones nunca entran en conflicto ni se cancelan mutuamente. Para que alguien tenga menos acceso, quite una concesión en lugar de intentar anularla.
 
@@ -91,11 +91,26 @@ Cada concesión con ámbito aparece como su propia fila para el miembro, con una
 >
 >El ámbito solo limita lo que proporciona *esa concesión de*; nunca elimina el acceso que proporciona otra concesión. Si una persona también tiene acceso en toda la organización o una concesión de tipo **All**, se seguirá aplicando ese acceso más amplio. Por lo tanto, para limitar a alguien a tipos de oportunidades específicos, asegúrese de que no tenga una función más amplia o una concesión de **Todos**.
 
+## Concesión de acceso a grupos de usuarios
+
+Además de las personas individuales, puedes conceder acceso a nivel de sitio a un **grupo de usuarios** desde el [Adobe Admin Console](https://adminconsole.adobe.com/) de tu organización. Todos los miembros del grupo obtienen las capacidades que concede al grupo en ese sitio, de modo que puede administrar el acceso de todo un equipo con una única concesión.
+
+- Los grupos de usuarios se crean y mantienen en Admin Console, en **Usuarios** > **Grupos de usuarios**. Sites Optimizer enumera los grupos que ya existen en su organización. No puede crear un grupo desde la ficha **Permisos**.
+- Cuando las personas se unen al grupo o lo abandonan en Admin Console, su acceso al sitio cambia con él. No es necesario actualizar nada en Sites Optimizer.
+- A un grupo se le otorgan capacidades y tipos de oportunidad exactamente igual que a una persona, y aparece en la tabla **Miembros** con la etiqueta **Grupo**. Puede editarlo o eliminarlo del mismo modo.
+- El acceso grupal se suma a todo lo demás que posee una persona. Una persona que pertenece a un grupo y también tiene su propia subvención obtiene la combinación de ambos.
+
+>[!NOTE]
+>
+>Si no se puede cargar el nombre de un grupo, su fila de la tabla **Members** muestra un Id. de grupo abreviado en su lugar. Pase el ratón sobre el ID o céntrese en él para verlo todo. La subvención sigue siendo válida.
+
 ## Agregar un miembro
+
+Un miembro es una persona o un grupo de usuarios.
 
 1. Abra la ficha **Permisos** (el icono de candado en el panel de navegación izquierdo) y seleccione el sitio.
 1. Haga clic en **Agregar miembros**.
-1. Busque por nombre o correo electrónico y seleccione una o más personas.
+1. En **Personas y grupos**, busque personas por nombre o correo electrónico, o grupos de usuarios por nombre. Seleccionar una o más personas o grupos: los grupos se marcan con la etiqueta **Grupo**.
 1. Elija **los tipos de oportunidad** a los que se aplica el acceso (o **Todos**) y, a continuación, seleccione las capacidades que desea conceder.
 1. Haga clic en **Agregar**.
 
@@ -105,6 +120,8 @@ En la tabla **Members**:
 
 - Haga clic en **Editar capacidades** en la fila de un miembro para cambiar lo que puede hacer. Al editar una concesión existente, su tipo de oportunidad permanece fijo: sólo cambia las capacidades y debe permanecer seleccionada al menos una.
 - Haga clic en **Quitar** para revocar por completo el acceso de ese miembro al sitio.
+
+Una persona que ya no forma parte de su organización (por ejemplo, alguien que se fue) aparece en la tabla **Miembros** con la etiqueta **Usuario inactivo** y su ID en lugar de un nombre. No puede editar su acceso, pero puede eliminar el miembro para limpiar la entrada.
 
 >[!NOTE]
 >
@@ -156,6 +173,10 @@ La creación de una función para toda la organización es una acción de Admin 
 **¿Cómo revoco el acceso de una persona a un sitio?**
 
 Quite su concesión en la ficha **Permisos**. Esto es diferente a las capacidades de edición, que siempre deben dejar al menos una capacidad.
+
+**¿Puedo conceder acceso a todo un equipo a la vez?**
+
+Sí. Agregue un grupo de usuarios de Admin Console como miembro en la ficha **Permisos**. Todos los miembros del grupo obtienen las capacidades del grupo en ese sitio y el acceso sigue la pertenencia del grupo a Admin Console. Consulte [Conceder acceso a grupos de usuarios](#grant-access-to-user-groups).
 
 **¿Puedo limitar a una persona a tipos de oportunidades específicos?**
 
