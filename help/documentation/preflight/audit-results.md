@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo interpretar los resultados de la a
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
+source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1362'
 ht-degree: 2%
 ---
 
@@ -18,8 +18,11 @@ Cuando se completan las auditorías, Comprobación preliminar muestra los result
 
 La barra de herramientas situada en la parte superior del panel de preparación proporciona acciones para la ejecución actual:
 
-* **Volver a analizar**: inicia una nueva ejecución de auditoría en la página actual. Volver a analizar siempre descarta los resultados mostrados y ejecuta cada auditoría de nuevo, por lo que debe utilizarlo siempre que desee resultados nuevos; por ejemplo, después de editar la página. Volver a analizar se encuentra en **Más acciones** (**...**) menú.
+* **Volver a analizar**: inicia una nueva ejecución de auditoría en la página actual. Volver a analizar siempre descarta los resultados mostrados y ejecuta cada auditoría de nuevo, por lo que debe utilizarlo siempre que desee resultados nuevos; por ejemplo, después de editar la página. Seleccione **Volver a analizar** en la barra de herramientas.
 * **Exportar** - Descargue la ejecución actual como un archivo **CSV** (compatible con la hoja de cálculo) o **PDF** (un documento con formato). Según el entorno, seleccione **Exportar** en la barra de herramientas o en **Más acciones** (**...**) menú.
+* **Configuración** - Usa **Mostrar vínculos de navegación del sitio** para incluir vínculos de navegación del sitio (actualmente solo vínculos internos). Seleccione el icono del engranaje o abra **Más acciones** (**...**) y seleccione **Configuración**. La configuración está disponible antes o después de que finalice una ejecución, pero no mientras se están ejecutando auditorías o en el Editor universal. Ver [Incluir vínculos de navegación del sitio](./opportunities/seo/internal-links.md#include-site-navigation-links).
+
+Si cambia una configuración después de una ejecución, un punto en **Volver a analizar** y la etiqueta **Volver a analizar para aplicar la nueva configuración** indican que los resultados mostrados usaron una configuración diferente. Seleccione **Volver a analizar** para aplicar la configuración guardada a una nueva ejecución.
 
 Al exportar, también puede elegir qué incluir:
 
@@ -32,19 +35,21 @@ Al exportar, también puede elegir qué incluir:
 
 ## Medidor de preparación
 
-En la parte superior del tablero, el indicador de disponibilidad refleja los resultados generales de la auditoría. Muestra una puntuación de preparación como porcentaje, basada en la proporción de auditorías que finalizaron sin oportunidades, junto con el número total de oportunidades encontradas en todas las auditorías. El medidor de disponibilidad le ayuda a medir el estado general de la página de un vistazo.
+En la parte superior del tablero, el indicador de disponibilidad refleja los resultados generales de la auditoría. Muestra el porcentaje de auditorías que finalizaron sin oportunidades, con la etiqueta **% superado**, junto con el número total de oportunidades encontradas en todas las auditorías. Por ejemplo, **el 85% superó** significa que el 85% de las auditorías completadas no encontraron oportunidades. Este porcentaje describe los resultados de la auditoría, no el progreso durante la ejecución.
 
 ![El medidor de preparación y las categorías de auditoría en el tablero de comprobaciones](./assets/overview/hero.png){align="center"}
 
 Cuando está viendo una ejecución que se recargó desde una sesión anterior, el encabezado muestra hace cuánto tiempo se realizó, por ejemplo, *ayer*. Para obtener más información, vea [Continuar una sesión anterior](./audits.md#continue-a-previous-session).
 
-Mientras las auditorías siguen ejecutándose, el indicador de disponibilidad muestra una barra de progreso con un estado corto debajo que muestra el paso actual. Cuando se completan las auditorías, el medidor muestra el porcentaje de disponibilidad final y el recuento de oportunidades.
+Mientras se siguen ejecutando las auditorías, el panel muestra **Analizando página** con un estado corto debajo. Al principio aparece una barra de progreso, antes de que lleguen las categorías de auditoría con nombre. Una vez que aparecen las categorías, sus indicadores de procesamiento individuales muestran qué categorías aún tienen trabajo en curso. Cuando se completan todas las auditorías, el medidor muestra el porcentaje final aprobado y el recuento de oportunidades.
 
 ## Categorías de auditoría
 
 Los grupos de comprobaciones relacionaron auditorías en categorías como **SEO** y **Accesibilidad**. Cada categoría aparece como una tarjeta que muestra el número de oportunidades encontradas o indica que todas sus auditorías pasaron sin oportunidades.
 
 Expanda una categoría para ver sus auditorías individuales. Cada auditoría muestra si se aprobaron o encontraron oportunidades, una breve descripción y un recuento de las oportunidades encontradas. Seleccione una auditoría que haya encontrado oportunidades para abrir su página de detalles.
+
+Una categoría puede mostrar resultados mientras se siguen ejecutando algunas de sus auditorías. Su icono muestra un indicador de procesamiento y su estado indica, por ejemplo, **3/3 auditorías realizadas hasta el momento**. Este recuento incluye solo las auditorías que han devuelto resultados, de modo que puede cambiar a medida que llegan más resultados. Expanda la categoría para ver las auditorías individuales que aún se están procesando. Una categoría sin oportunidades muestra su marca de verificación de borrado solo después de que finalice su trabajo pendiente.
 
 Para obtener la lista completa de categorías de auditoría y las auditorías de cada una, vea [Categorías de auditoría de comprobación preliminar](./overview.md#preflight-audit-categories).
 
@@ -56,7 +61,7 @@ Para las auditorías que identifican una dirección URL específica en la págin
 
 Cuando más de una oportunidad afecta al mismo elemento (por ejemplo, varios problemas con el mismo vínculo), la comprobación preliminar los muestra juntos en una tarjeta, cada uno en su propia sección titulada con su número de instancia, como **Instancia 3**. A continuación, el navegador muestra un rango en lugar de una sola posición, por ejemplo *3-5 de 12 instancias encontradas*.
 
-![Página de detalles de una auditoría que muestra una oportunidad y su sugerencia](./assets/audit-results/audit-detail.png){align="center"}
+![Página de detalles de la auditoría de vínculos internos que muestra una oportunidad y la sección de la dirección URL actual](./assets/audit-results/audit-detail.png){align="center"}
 
 Cada oportunidad incluye:
 

@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 8d6936c2c577d7a98937cb8ddf90d18a6e82a9bb
+source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
 workflow-type: tm+mt
-source-wordcount: '2628'
+source-wordcount: '2920'
 ht-degree: 2%
 ---
 
@@ -18,6 +18,23 @@ ht-degree: 2%
 Esta página documenta las últimas actualizaciones, nuevas funciones y mejoras de Adobe Experience Manager Sites Optimizer.
 
 Las características marcadas **(acceso anticipado)** están disponibles bajo petición; póngase en contacto con el equipo de su cuenta o con el ingeniero de éxito del cliente para habilitarlas en su organización.
+
+## Del 5 al 20 de octubre de 2026 {#october-5-20-2026}
+
+### Nuevas funciones
+
+- **Configuración de vínculos de exploración del sitio de comprobación preliminar**: elija si la auditoría de vínculos internos comprueba los vínculos dentro de los menús de exploración del sitio. La configuración está desactivada de manera predeterminada, por lo que las auditorías finalizan más rápido y **Volver a analizar** muestra cuándo aún no se ha aplicado una configuración modificada.
+
+### Mejoras
+
+- **Progreso de auditoría de comprobación preliminar**: el medidor de preparación ahora muestra el porcentaje de auditorías que se superaron y cada categoría muestra cuándo se siguen ejecutando las auditorías, con un recuento &quot;superado hasta el momento&quot; hasta que los resultados sean finales.
+- **Comprobación preliminar de la cobertura de los vínculos internos**: la auditoría de vínculos internos ahora comprueba todos los vínculos válidos del mismo host en la página, incluidos los vínculos de componentes repetidos, como las listas de tarjetas. Los vínculos de navegación del sitio se incluyen solamente cuando se selecciona **Mostrar vínculos de navegación del sitio**. Primero se enumeran los vínculos fuera de la navegación del sitio y Comprobación preliminar informa claramente cuando una página tiene demasiados vínculos para protegerse a tiempo.
+- **Detalles del vínculo de comprobación preliminar**: los vínculos rotos marcados por el verificador de vínculos de AEM ahora muestran el texto visible del vínculo en lugar de un selector CSS.
+- **Acciones de encabezado de comprobación preliminar** — **Volver a analizar** y **Cerrar** siempre permanecen visibles en el encabezado de comprobación preliminar, y **Exportar** y **Configuración** se mueven al menú **Más acciones** cuando el espacio es limitado.
+- **Comprobación preliminar de coincidencia de sitios**: cuando una página coincide con más de un sitio incorporado, Comprobación preliminar explica el problema y le permite continuar con uno de los sitios coincidentes.
+- **Sugerencias de texto alternativo de comprobación preliminar**: las oportunidades de texto alternativo muestran el texto alternativo sugerido como una sugerencia lista para usar, seguida del motivo de la sugerencia cuando hay una disponible.
+- **Detalles de Lorem Ipsum de comprobación preliminar**: cuando se encuentra texto de marcador de posición en un atributo, como el texto alternativo de una imagen, la oportunidad muestra qué atributo coincide.
+- **Comprobaciones en el editor universal**: las auditorías en el editor universal ahora usan el contenido procesado de la página, lo que las hace más rápidas y fiables.
 
 ## Del 28 de septiembre al 4 de octubre de 2026 {#september-28-october-4-2026}
 
