@@ -4,9 +4,9 @@ description: Obtenga información acerca de la auditoría Encabezados en Comprob
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
+source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '649'
 ht-degree: 0%
 ---
 # Auditoría de encabezados
@@ -23,8 +23,6 @@ La auditoría informa de una oportunidad para cada uno de los problemas siguient
 
 * **Encabezado vacío:** un H2, H3, H4, H5 o H6 sin texto. Un encabezado que contenga solo espacios o solo una imagen cuenta como vacío.
 * **Nivel de encabezado omitido:** un encabezado que es más de un nivel más profundo que el encabezado justo antes de él, por ejemplo, un H2 seguido de un H4 o un H1 seguido de un H3. La oportunidad se recoge en un encabezado más profundo.
-
-Ambos se notifican con impacto moderado.
 
 La auditoría [Metatags](./metatags.md) revisa los encabezados H1, y comprueba si falta un H1, si está vacío o si es demasiado largo y si hay más de un H1 en una página.
 

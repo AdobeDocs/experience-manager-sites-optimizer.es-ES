@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
+source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '3026'
 ht-degree: 2%
 ---
 
@@ -18,6 +18,22 @@ ht-degree: 2%
 Esta página documenta las últimas actualizaciones, nuevas funciones y mejoras de Adobe Experience Manager Sites Optimizer.
 
 Las características marcadas **(acceso anticipado)** están disponibles bajo petición; póngase en contacto con el equipo de su cuenta o con el ingeniero de éxito del cliente para habilitarlas en su organización.
+
+## Del 21 al 22 de octubre de 2026 {#october-21-22-2026}
+
+### Nuevas funciones
+
+- **Filtros de instancia de comprobación preliminar**: en las páginas de detalles Vínculos internos y Vínculos externos, filtre las instancias por **Rotos** o **Necesita verificación**.
+
+### Mejoras
+
+- **Reintentos de vínculos internos de comprobación preliminar**: la auditoría de vínculos internos ahora reintenta los vínculos que fallan temporalmente, por lo que es menos probable que una interrupción breve se comunique como un vínculo roto.
+- **Indicadores de progreso de comprobación preliminar**: los indicadores de procesamiento ahora aparecen solamente en las auditorías que aún se están ejecutando, no en sus categorías.
+- **Detalles de oportunidad de comprobación preliminar**: las oportunidades ya no muestran distintivos de gravedad y las exportaciones de CSV y PDF ya no incluyen gravedad.
+
+### Correcciones de errores
+
+- Las direcciones URL largas en los detalles de la oportunidad de comprobación preliminar ahora se ajustan en lugar de ampliar la tarjeta.
 
 ## Del 5 al 20 de octubre de 2026 {#october-5-20-2026}
 

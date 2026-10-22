@@ -4,9 +4,9 @@ description: Obtenga información acerca de la auditoría Vínculos externos en 
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 13bc34bf4c3d31e730dbe597b84fd6d594df6fea
+source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '753'
 ht-degree: 0%
 ---
 # Auditoría de vínculos externos
@@ -23,7 +23,7 @@ La auditoría informa de una oportunidad para cada vínculo externo que tiene un
 
 * **Vínculo roto:** el vínculo devuelve `Status 404` o `Status 410`, o bien no se puede llegar a su sitio, por ejemplo porque el dominio ya no existe. De la misma manera, se informa de un vínculo que llega al error después de una redirección.
 * **Vínculo no seguro:** el vínculo usa `http://` y el sitio no lo redirige a `https://`. Un vínculo que comienza como `http://` pero que se redirige a una página `https://` segura no está marcado. Actualice el vínculo para utilizar `https://`.
-* **Vínculo no verificado:** La comprobación preliminar no pudo confirmar que el vínculo funciona, por ejemplo porque el sitio requiere inicio de sesión, bloquea las comprobaciones automatizadas, devuelve un error del servidor, no responde a tiempo o redirige demasiadas veces. Algunas redes sociales, como LinkedIn e Instagram, informan de páginas que faltan en comprobaciones automatizadas, por lo que los errores de páginas que faltan en esos sitios también se registran como no verificados. Es muy probable que estos vínculos funcionen en un explorador, por lo que Comprobaciones no los comunica como rotos. En su lugar, le pide que abra el vínculo y lo confirme usted mismo, y lo comunica con un bajo impacto.
+* **Vínculo no verificado:** La comprobación preliminar no pudo confirmar que el vínculo funciona, por ejemplo porque el sitio requiere inicio de sesión, bloquea las comprobaciones automatizadas, devuelve un error del servidor, no responde a tiempo o redirige demasiadas veces. Algunas redes sociales, como LinkedIn e Instagram, informan de páginas que faltan en comprobaciones automatizadas, por lo que los errores de páginas que faltan en esos sitios también se registran como no verificados. Es muy probable que estos vínculos funcionen en un explorador, por lo que Comprobaciones no los comunica como rotos. En su lugar, le pide que abra el vínculo y lo confirme.
 
 Un vínculo puede ser inseguro y roto, o inseguro y no verificado, en cuyo caso se informa de ambas oportunidades. Un vínculo que se resuelve correctamente no se marca, aunque tenga redirecciones en camino.
 
@@ -34,6 +34,18 @@ Se comprueban todos los vínculos externos de la página. Un vínculo externo es
 Se informa de cada vínculo una vez, incluso si aparece varias veces en la página o con diferentes anclajes, como `#pricing` y `#features`. La oportunidad resalta el primer lugar en el que aparece el vínculo.
 
 Los vínculos que el verificador de vínculos de AEM ya ha marcado como no válidos se incluyen en la auditoría, aunque el editor elimine el vínculo en el que se puede hacer clic de la página. Se vuelven a comprobar en lugar de tener confianza, por lo que no se informa de ningún vínculo que haya comenzado a funcionar.
+
+## Filtrado de los resultados
+
+En la página de detalles, use el filtro que se encuentra junto al encabezado **Instancias** para mostrar solo algunas de las oportunidades:
+
+| Filter | Oportunidades mostradas |
+|---|---|
+| **Todos** (predeterminado) | Cada oportunidad |
+| **Roto** | Vínculos rotos |
+| **Necesita verificación** | Vínculos no verificados y vínculos no seguros |
+
+Si un vínculo tiene más de una oportunidad, como un vínculo no seguro que también está roto, cada oportunidad aparece bajo su propio filtro. Para obtener más información, consulte [Instancias de filtro](../../audit-results.md#filter-instances).
 
 ## Limitaciones conocidas
 

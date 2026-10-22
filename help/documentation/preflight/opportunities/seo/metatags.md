@@ -4,9 +4,9 @@ description: Obtenga información acerca de la auditoría Etiquetas de metadatos
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 913fd85808a08eb8f6ba7de8207d53ee7b68409e
+source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '801'
 ht-degree: 1%
 ---
 # Auditoría de metaetiquetas
@@ -34,12 +34,6 @@ Un valor con algunos caracteres sobre la longitud ideal se registra como **por e
 | Encabezado H1 | Hasta 70 caracteres | de 71 a 75 caracteres | Más de 75 caracteres |
 
 Estos intervalos son directrices recomendadas, no requisitos de motores de búsqueda. Las comprobaciones las utilizan para decidir cuándo informar de una oportunidad.
-
-Cada oportunidad se comunica en uno de los tres niveles de impacto:
-
-* **Alta:** una etiqueta que falta o está vacía.
-* **Moderar:** un título de página o una metadescripción que es demasiado corta, una metadescripción o H1 que es demasiado larga o una página con más de un H1.
-* **Bajo:** un valor que supera la longitud ideal pero no es demasiado largo, incluido cualquier título de página que tenga más de 60 caracteres.
 
 ## Lectura de los valores
 
