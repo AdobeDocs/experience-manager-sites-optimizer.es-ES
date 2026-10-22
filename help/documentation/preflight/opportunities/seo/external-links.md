@@ -4,9 +4,9 @@ description: Obtenga información acerca de la auditoría Vínculos externos en 
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
+source-git-commit: 13bc34bf4c3d31e730dbe597b84fd6d594df6fea
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '692'
 ht-degree: 0%
 ---
 # Auditoría de vínculos externos
@@ -21,26 +21,24 @@ Un vínculo externo roto es un callejón sin salida para el lector y una señal 
 
 La auditoría informa de una oportunidad para cada vínculo externo que tiene uno de los siguientes problemas:
 
-* **Vínculo interrumpido:** No se puede alcanzar el vínculo o devuelve un error como `Status 404`, `Status 410` o un error del servidor `5xx`. De la misma manera, se informa de un vínculo que llega al error después de una redirección. Un vínculo cuyo sitio no responde en absoluto, por ejemplo porque el dominio ya no existe, también se comunica como roto.
+* **Vínculo roto:** el vínculo devuelve `Status 404` o `Status 410`, o bien no se puede llegar a su sitio, por ejemplo porque el dominio ya no existe. De la misma manera, se informa de un vínculo que llega al error después de una redirección.
 * **Vínculo no seguro:** el vínculo usa `http://` y el sitio no lo redirige a `https://`. Un vínculo que comienza como `http://` pero que se redirige a una página `https://` segura no está marcado. Actualice el vínculo para utilizar `https://`.
-* **Vínculo no verificado:** el sitio respondió pero rechazó la comprobación automatizada, por ejemplo porque requiere el inicio de sesión (`Status 401` o `Status 403`), limita las solicitudes automatizadas (`Status 429`) o bloquea bots, como lo hacen algunas redes sociales. También se informa de este modo de un vínculo que redirige demasiadas veces para seguirlo. Es muy probable que estos vínculos funcionen en un explorador, por lo que Comprobaciones no los comunica como rotos. En su lugar, le pide que abra el vínculo y lo confirme usted mismo, y lo comunica con un bajo impacto.
+* **Vínculo no verificado:** La comprobación preliminar no pudo confirmar que el vínculo funciona, por ejemplo porque el sitio requiere inicio de sesión, bloquea las comprobaciones automatizadas, devuelve un error del servidor, no responde a tiempo o redirige demasiadas veces. Algunas redes sociales, como LinkedIn e Instagram, informan de páginas que faltan en comprobaciones automatizadas, por lo que los errores de páginas que faltan en esos sitios también se registran como no verificados. Es muy probable que estos vínculos funcionen en un explorador, por lo que Comprobaciones no los comunica como rotos. En su lugar, le pide que abra el vínculo y lo confirme usted mismo, y lo comunica con un bajo impacto.
 
 Un vínculo puede ser inseguro y roto, o inseguro y no verificado, en cuyo caso se informa de ambas oportunidades. Un vínculo que se resuelve correctamente no se marca, aunque tenga redirecciones en camino.
 
-## Comprobación de los vínculos
+## Qué vínculos se comprueban
 
-Un vínculo externo es cualquier vínculo cuyo host difiere de la página que está editando. El host es el nombre de dominio más cualquier puerto no estándar, como `:8443`. Los subdominios se cuentan como hosts diferentes, por lo que `blog.example.com` y `example.com` son externos a `www.example.com`. No importa si el vínculo usa `http://` o `https://`. Los vínculos al mismo host, incluidos `http://` vínculos a su propio sitio, están cubiertos por la auditoría [Vínculos internos](./internal-links.md). Se omiten vínculos como `mailto:`, `tel:` y `javascript:`.
+Se comprueban todos los vínculos externos de la página. Un vínculo externo es cualquier vínculo cuyo host difiere de la página que está editando. El host es el nombre de dominio más cualquier puerto no estándar, como `:8443`. Los subdominios se cuentan como hosts diferentes, por lo que `blog.example.com` y `example.com` son externos a `www.example.com`. Los vínculos al mismo host, incluidos `http://` vínculos a su propio sitio, están cubiertos por la auditoría [Vínculos internos](./internal-links.md). Los vínculos en la exploración del sitio siempre se incluyen, ya que la opción **Mostrar vínculos de exploración del sitio** sólo se aplica a la auditoría de vínculos internos. Se omiten vínculos como `mailto:`, `tel:` y `javascript:`.
 
-El explorador no puede leer el estado de un vínculo en otro sitio, por lo que Comprobación preliminar comprueba los vínculos externos desde los servidores de Adobe en lugar de hacerlo desde la sesión de creación. Cada vínculo se comprueba una vez, incluso si aparece varias veces en la página o con diferentes anclajes, como `#pricing` y `#features`. La oportunidad resalta el primer lugar en el que aparece el vínculo.
+Se informa de cada vínculo una vez, incluso si aparece varias veces en la página o con diferentes anclajes, como `#pricing` y `#features`. La oportunidad resalta el primer lugar en el que aparece el vínculo.
 
-Los vínculos que el verificador de vínculos de AEM ya ha marcado como no válidos se incluyen en la auditoría, aunque el editor elimine el vínculo en el que se puede hacer clic de la página. A continuación, se vuelven a comprobar en lugar de asumir una confianza, por lo que no se informa de ningún vínculo que haya comenzado a funcionar.
+Los vínculos que el verificador de vínculos de AEM ya ha marcado como no válidos se incluyen en la auditoría, aunque el editor elimine el vínculo en el que se puede hacer clic de la página. Se vuelven a comprobar en lugar de tener confianza, por lo que no se informa de ningún vínculo que haya comenzado a funcionar.
 
 ## Limitaciones conocidas
 
-* **Número de vínculos:** se comprueban hasta 50 vínculos externos distintos por página. Los vínculos que superan ese límite no están marcados.
-* **Límite de tiempo:** cada vínculo tiene un tiempo de espera de 10 segundos, y toda la comprobación tiene un límite de tiempo para que la comprobación preliminar siga respondiendo. Un sitio que no responde dentro del tiempo de espera se comunica como roto. En páginas con muchos sitios lentos, es posible que algunos vínculos no se comprueben en una ejecución determinada.
-* **Direcciones privadas:** los vínculos que se dirigen a direcciones de red privadas o internas, como un sitio de intranet, no se comprueban y no se notifican.
-* **Vista del lado del servidor:** debido a que los vínculos se comprueban desde los servidores de Adobe, un sitio que se comporta de manera diferente en función de la ubicación, el inicio de sesión o la detección de bots puede devolver un resultado diferente del que se ve en el explorador. Estos vínculos generalmente se registran como **Vínculo no verificado** en lugar de estar roto.
+* **Direcciones privadas:** los vínculos a direcciones de red privadas o internas, como un sitio de intranet, no se comprueban y no se notifican.
+* **Vista del lado del servidor:** La comprobación preliminar comprueba los vínculos externos desde los servidores de Adobe en lugar de hacerlo desde el explorador. Un sitio que se comporta de forma diferente en función de la ubicación, el inicio de sesión o la detección de bots puede devolver un resultado diferente al que ve en el explorador. Estos vínculos generalmente se registran como **Vínculo no verificado** en lugar de estar roto.
 
 ## Cómo resolver
 

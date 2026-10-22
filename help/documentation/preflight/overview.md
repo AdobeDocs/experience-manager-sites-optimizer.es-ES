@@ -4,16 +4,17 @@ description: Obtenga información sobre las comprobaciones y las auditorías que
 TQID: https://experienceleague.adobe.com/pZrPXBAaroTlpEsfSluFiLW2Noy4y5sD4dZHTsXgSfA
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
+    internal-label: Accessibility
+source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
 workflow-type: tm+mt
-source-wordcount: 300
-ht-degree: 28%
-
+source-wordcount: '389'
+ht-degree: 48%
 ---
-
 # AEM Sites Optimizer Preflight
 
 ![Panel de preparación para comprobaciones](./assets/overview/hero.png){align="center"}
@@ -24,7 +25,7 @@ ht-degree: 28%
 
 Las comprobaciones en AEM Sites Optimizer le ayudan a validar y optimizar las páginas antes de que se publiquen, analizando el contenido y la estructura, y mostrando oportunidades con recomendaciones procesables. Está diseñado para autores, expertos en marketing y desarrolladores que deseen garantizar que las páginas sean de alta calidad, tengan un buen rendimiento y estén listas para publicar, a la vez que se reduce el trabajo de reelaboración.
 
-Inicie la comprobación preliminar desde el entorno de creación y seleccione **Analizar página** para ejecutar sus auditorías. Una auditoría evalúa un aspecto de la página, como los metadatos o la estructura de encabezados, y realiza auditorías relacionadas con los grupos de comprobaciones en categorías como **SEO** y **Accesibilidad**. A continuación, Comprobación preliminar informa de una puntuación de preparación para la página, junto con las oportunidades que encuentra: las cosas específicas que puede mejorar, cada una con una recomendación procesable.
+Inicie la comprobación preliminar desde el entorno de creación y seleccione **Analizar página** para ejecutar sus auditorías. Una auditoría evalúa un aspecto de la página, como los metadatos o la estructura de encabezados, y realiza auditorías relacionadas con los grupos de comprobaciones en categorías como **SEO** y **Accesibilidad**. A continuación, Preflight informa del porcentaje de auditorías que se han realizado para la página, junto con las oportunidades que encuentra: las cosas específicas que puede mejorar, cada una con una recomendación procesable.
 
 ## Introducción a Preflight
 
@@ -63,7 +64,7 @@ CARDS
                     <p class="is-size-6">Obtenga información acerca de las auditorías de accesibilidad de comprobaciones en Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/accessibility.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>
@@ -86,7 +87,7 @@ CARDS
                     <p class="is-size-6">Obtenga información acerca de las auditorías SEO de comprobaciones en Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/seo.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
+                   <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Más información</span>
                 </a>
             </div>
         </div>

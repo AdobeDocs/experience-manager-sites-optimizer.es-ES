@@ -4,9 +4,9 @@ description: Obtenga información acerca de la auditoría Vínculos internos en 
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
+source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '889'
 ht-degree: 0%
 ---
 # Auditoría de vínculos internos
@@ -36,6 +36,28 @@ La auditoría comprueba los vínculos de la sesión de creación para que los ve
 Los vínculos que el verificador de vínculos de AEM ya ha marcado como no válidos se incluyen en la auditoría, aunque el editor elimine el vínculo en el que se puede hacer clic de la página. A continuación, se vuelven a comprobar en lugar de asumir una confianza, por lo que no se informa de ningún vínculo que haya comenzado a funcionar.
 
 Se informa de una oportunidad por cada lugar donde aparece un vínculo, por lo que un vínculo incorrecto utilizado en tres puntos le ofrece tres instancias que corregir, cada una de las cuales resalta su propio punto en la página. Cuando uno de esos puntos tiene más de un problema, la comprobación preliminar los muestra juntos en una tarjeta.
+
+## Incluir vínculos de navegación del sitio
+
+De forma predeterminada, la auditoría Vínculos internos omite los vínculos de navegación del sitio. Estos vínculos no se comprueban ni se incluyen en el informe. Un vínculo en el cuerpo de la página sigue activado aunque la misma URL también aparezca en un menú.
+
+Un vínculo se cuenta como navegación si el vínculo en sí o cualquier antecesor es un elemento `<nav>` o tiene un atributo `role="navigation"`.
+
+Para incluir vínculos de navegación en la siguiente ejecución de auditoría:
+
+1. Antes de iniciar una auditoría o después de que finalice una ejecución, abre **Configuración** (el icono del engranaje) en el encabezado de Comprobaciones. Si el icono del engranaje no está visible, abra **Más acciones** (**...**) y seleccione **Configuración**.
+1. Seleccione **Mostrar vínculos de navegación del sitio**.
+1. Seleccione **Analizar página** para iniciar una ejecución o **Volver a analizar** si los resultados ya se muestran.
+
+![Menú de configuración de comprobaciones con la opción Mostrar vínculos de navegación del sitio](./assets/internal-links/settings-menu.png){align="center"}
+
+**Mostrar vínculos de navegación del sitio** controla qué vínculos comprueba la auditoría, no solo qué resultados muestra (actualmente solo vínculos internos).
+
+Cambiar la configuración no inicia una auditoría ni cambia los resultados que ya están en pantalla. Cuando esos resultados usan una configuración diferente, aparece un punto en **Reanalizar**, con la etiqueta **Reanalizar para aplicar la nueva configuración**. Vuelva a ejecutar las auditorías para aplicar el cambio o restaure la configuración anterior para borrar el punto.
+
+La comprobación preliminar guarda la configuración en el explorador y la conserva después de cerrar la sesión. Las pestañas del mismo sitio comparten la configuración. Para volver a omitir los vínculos de navegación, borre **Mostrar vínculos de navegación del sitio** antes de la siguiente ejecución.
+
+La configuración no está disponible mientras se estén ejecutando auditorías o en el Editor universal.
 
 ## Limitaciones conocidas
 

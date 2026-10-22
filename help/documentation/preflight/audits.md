@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo iniciar una auditoría de Prefligh
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
+source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 19%
+source-wordcount: '469'
+ht-degree: 17%
 ---
 
 # Auditorías en Preflight
@@ -20,7 +20,8 @@ Para ejecutar auditorías de Preflight para una página:
 
 1. Abra la página que desee auditar en su [entorno de creación](./access-preflight.md) (editor universal, creación basada en documentos o editor de páginas de AEM Sites).
 1. Abra el [panel Preflight](./access-preflight.md). Se abre la comprobación preliminar en la pantalla de aterrizaje **Ejecutar auditoría de preparación para el rendimiento**.
-1. Seleccione **Analizar página**. Preflight ejecuta todas sus auditorías en la página actual y abre el panel de preparación, donde muestra una puntuación de preparación y las oportunidades que encuentra, agrupadas por categoría.
+1. Si es necesario, abra **Configuración** (el icono del engranaje) para incluir vínculos de navegación del sitio en la auditoría de vínculos internos. Esta opción está desactivada de forma predeterminada y no está disponible en el Editor universal. Según el entorno, **Configuración** aparece en el encabezado o en **Más acciones** (**...**). Ver [Incluir vínculos de navegación del sitio](./opportunities/seo/internal-links.md#include-site-navigation-links).
+1. Seleccione **Analizar página**. Preflight ejecuta todas sus auditorías en la página actual y abre el panel de preparación, donde muestra el porcentaje de auditorías realizadas y las oportunidades que encuentra, agrupadas por categoría.
 
 Para comprender los resultados de la vista previa e identificar las oportunidades de optimización, vea [Resultados de auditoría en la comprobación preliminar](./audit-results.md).
 
@@ -41,5 +42,4 @@ La comprobación preliminar realiza un seguimiento de la ejecución más recient
 
 Cuando vuelve a cargar una ejecución anterior, el encabezado muestra hace cuánto tiempo se realizó esa ejecución (por ejemplo, *2 minutos atrás* o *ayer*) para que pueda saber de un vistazo qué tan actuales son los resultados. La etiqueta se actualiza a medida que pasa el tiempo y permanece visible a medida que se mueve entre el panel de preparación y las páginas de detalles de auditoría.
 
-Una vez que finalicen las auditorías y se muestren los resultados, seleccione **Volver a analizar** de las **acciones más** (**...**) en la barra de herramientas para descartar los resultados y volver a ejecutar cada auditoría. Ver [resultados de auditoría en comprobación preliminar](./audit-results.md#toolbar).
-
+Una vez que finalicen y se muestren los resultados de las auditorías, seleccione **Volver a analizar** en la barra de herramientas para descartar los resultados y volver a ejecutar cada auditoría. Ver [resultados de auditoría en comprobación preliminar](./audit-results.md#toolbar).
