@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo interpretar los resultados de la a
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 12279cd1468a3442709cb73a8691922598a33dab
+source-git-commit: 00dbc1a9033cf327da68df99c9604b50f45b43ee
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 1%
+source-wordcount: '1653'
+ht-degree: 0%
 ---
 
 # Resultados de la auditoría en Preflight
@@ -92,15 +92,15 @@ El filtro no cambia los recuentos de oportunidades en el panel de resultados o e
 
 Una vez completadas las auditorías, puede localizar y comprender rápidamente una oportunidad resaltándola directamente en la página.
 
-La comprobación preliminar resalta el elemento afectado en el contexto y conecta el resultado del panel con la ubicación exacta del contenido. Esto facilita la revisión y la resolución de oportunidades sin buscar manualmente en la página.
+La comprobación preliminar resalta el elemento afectado en el contexto, conectando el resultado del panel con su ubicación en el contenido. En el editor universal, la comprobación preliminar utiliza el esquema de selección del editor. En otros entornos de creación, el resaltado utiliza anillos de contorno contrastantes para permanecer visible contra el fondo de la página.
 
 1. Abra el panel Comprobaciones en el contexto de la página que desea auditar y seleccione **Analizar página** para ejecutar las auditorías.
 1. Seleccione una auditoría en el panel de resultados y, a continuación, seleccione una oportunidad para revisarla.
-1. Seleccione **Resaltar en la página**. La vista previa se desplaza automáticamente al área relevante y resalta el elemento correspondiente, para que pueda identificar y optimizar fácilmente la oportunidad en contexto.
+1. Seleccione **Resaltar en la página**. La vista previa se desplaza automáticamente al área relevante y resalta el elemento correspondiente, para que pueda identificar y optimizar fácilmente la oportunidad en contexto. Vuelva a seleccionar **Resaltar en la página** para quitar el resaltado sin dejar la oportunidad.
 
 Resaltar no es posible para cada oportunidad; por ejemplo, cuando una oportunidad no está vinculada a un elemento específico, el elemento está oculto o ya no está en la página. En estos casos, el botón **Resaltar en la página** aparece atenuado; pase el ratón sobre él para ver el motivo.
 
-En el editor universal, aún no se admite el resaltado para las oportunidades de **Accesibilidad**; el botón **Resaltar en la página** aparece atenuado y puede pasar el ratón sobre él para ver el motivo.
+En el editor universal, se admite el resaltado para las oportunidades de **SEO** y **texto alternativo** en la categoría **Accesibilidad**. Todavía no se admiten otras oportunidades de **accesibilidad**. En estos casos, el botón **Resaltar en la página** aparece atenuado; pase el ratón sobre él para ver el motivo.
 
 En el editor universal, las comprobaciones solo pueden resaltar contenido editable. Si el elemento afectado no forma parte del contenido editable, el botón **Resaltar en la página** aparece atenuado; pase el ratón sobre él para ver el motivo. Si el elemento en sí no se puede editar directamente pero el bloque editable más cercano es, Comprobaciones resalta ese bloque y agrega una nota explicando el motivo.
 

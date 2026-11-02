@@ -5,23 +5,18 @@ TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9edf940bffa7407ca58ea9f504ea8afe4bdd7a50
+source-git-commit: 00dbc1a9033cf327da68df99c9604b50f45b43ee
 workflow-type: tm+mt
-source-wordcount: 896
-ht-degree: 47%
-
+source-wordcount: '877'
+ht-degree: 49%
 ---
-
 # Configuración de Preflight
 
 La ejecución de la comprobación preliminar requiere su configuración en el entorno de creación. Puede configurar Comprobaciones para el editor universal, la creación basada en documentos, el editor de páginas de AEM Sites o Adobe Managed Services, de modo que pueda ejecutar las auditorías de comprobaciones en sus páginas antes de publicarlas.
 
 ## Habilitar el acceso de los usuarios
 
-Para usar la comprobación preliminar, asegúrate de que el usuario esté asignado al menos a uno de los siguientes perfiles de producto de AEM Sites Optimizer en [Adobe Admin Console](https://adminconsole.adobe.com):
-
-* AEM Sites Optimizer: sugerencia automática de usuario
-* AEM Sites Optimizer: optimización automática del usuario
+Para usar la comprobación preliminar, los usuarios deben tener asignado el producto **Adobe Experience Manager Sites Optimizer** en [Adobe Admin Console](https://adminconsole.adobe.com).
 
 ## Activar comprobación preliminar
 
