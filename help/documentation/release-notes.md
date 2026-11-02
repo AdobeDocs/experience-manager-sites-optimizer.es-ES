@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 12279cd1468a3442709cb73a8691922598a33dab
+source-git-commit: 7a1c63e47cd778635fd18113bc2b08c83447fe35
 workflow-type: tm+mt
-source-wordcount: '3815'
+source-wordcount: '3973'
 ht-degree: 1%
 ---
 
@@ -19,20 +19,28 @@ Esta página documenta las últimas actualizaciones, nuevas funciones y mejoras 
 
 Las características marcadas **(acceso anticipado)** están disponibles bajo petición; póngase en contacto con el equipo de su cuenta o con el ingeniero de éxito del cliente para habilitarlas en su organización.
 
-## Del 26 al 28 de octubre de 2026 {#october-26-28-2026}
+## Del 26 de octubre al 1 de noviembre de 2026 {#october-26-november-1-2026}
 
 ### Nuevas funciones
 
-- **Cobertura de auditoría en la configuración** — La configuración ahora incluye una sección **Cobertura de auditoría** que enumera las auditorías que se ejecutan para su sitio, agrupadas por categoría como SEO, Accesibilidad, Seguridad y Conversión y participación.
+- **Cobertura de auditoría en la configuración** — La configuración ahora incluye una sección de **Cobertura de auditoría** que enumera las auditorías que se ejecutan para su sitio, agrupadas por categoría como SEO, Accesibilidad, Seguridad y Conversión y participación, incluidas las comprobaciones habilitadas para páginas de error 404, scripts entre sitios y consentimiento de cookies.
 - **Valor estimado (acceso anticipado)**: Core Web Vitals, texto alternativo, accesibilidad, contraste de color, accesibilidad del formulario y oportunidades de seguridad ahora muestran un valor estimado, como la mano de obra ahorrada o el riesgo evitado, para ayudarle a priorizar las correcciones. La mano de obra guardada para correcciones de accesibilidad y seguridad se muestra como un valor único, y las oportunidades de mapa del sitio y de Hreflang muestran cuántos problemas se han marcado.
 
 ### Mejoras
 
 - **Entradas de Jira para texto alternativo (acceso anticipado)**: cree entradas de Jira para uno o más problemas de texto alternativo, con la dirección URL de la página, la dirección URL de la imagen y el texto alternativo sugerido incluidos en cada entrada.
+- **Detalles de corrección de contraste de color**: en los sitios admitidos, revise una fila independiente para cada página y causa raíz, con una corrección compartida para los elementos afectados y una explicación del impacto de cada elemento en el usuario.
+- **Contexto de implementación de Cloud Manager**: La cronología de alertas del sitio ahora identifica **Implementaciones de Cloud Manager** y explica qué implementaciones de producción aparecen.
+- **Implementación de etiquetas de Meta**: cuando la información de relación de páginas está disponible, el cuadro de diálogo de implementación se abre sin una conexión adicional con AEM Author, lo que hace más confiable elegir si corregir la página de origen o una copia local en AEM Multi-Site Manager.
 - **Auditorías de comprobaciones que no se pudieron completar**: una auditoría que no se pudo completar ahora muestra el motivo en lugar de aparecer como superada. Cuenta como no pasado en la figura **% pasado**, y las exportaciones CSV y PDF siempre lo enumeran.
 - **Progreso de texto alternativo de comprobación preliminar**: mientras la comprobación de IA de una imagen sigue ejecutándose, su oportunidad de texto alternativo aparece con un indicador **Generando sugerencia**. La vista de detalles de la oportunidad también permanece en la oportunidad que está viendo cuando cambian los resultados.
 - **Motivos de los vínculos externos de comprobación preliminar**: la auditoría de vínculos externos ahora explica más tipos de errores, incluidos errores de servidor, bucles de redireccionamiento, vínculos que requieren inicio de sesión y vínculos no disponibles por motivos legales. Los vínculos que agotan el tiempo de espera o bloquean las comprobaciones automatizadas ahora le piden que las confirme manualmente.
 - **Captura de página de comprobación preliminar**: ahora la comprobación preliminar espera hasta 30 segundos a que se cargue una página lenta antes de analizar la página, fuera del Editor universal.
+
+### Correcciones de errores
+
+- El historial de eventos de alertas del sitio ahora muestra la métrica y el valor de Core Web Vitals correctos para cada incidente, las caídas de rendimiento se etiquetan como **Degradación** de forma consistente en todas las alertas del sitio y los vínculos de sugerencias abren una sugerencia disponible en lugar de una obsoleta.
+- Se ha corregido un problema que podía impedir la reversión de las correcciones de oportunidades implementadas.
 
 ## 19-25 de octubre de 2026 {#october-19-25-2026}
 
