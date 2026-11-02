@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo interpretar los resultados de la a
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 12279cd1468a3442709cb73a8691922598a33dab
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 2%
+source-wordcount: '1616'
+ht-degree: 1%
 ---
 
 # Resultados de la auditoría en Preflight
@@ -28,6 +28,8 @@ Al exportar, también puede elegir qué incluir:
 
 * **Incluir tabla de metadatos**: agregue una tabla de detalles de ejecución, como el host, la ruta de contenido y los detalles de generación.
 * **Incluir auditorías aprobadas**: incluya las auditorías que se aprobaron sin oportunidades, no solo las oportunidades que se encontraron.
+
+Las auditorías que no se pudieron completar siempre se incluyen, independientemente de lo que elija. Para obtener más información, consulte [Auditorías que no se pudieron completar](#audits-that-could-not-be-completed).
 
 >[!NOTE]
 >
@@ -50,6 +52,15 @@ Los grupos de comprobaciones relacionaron auditorías en categorías como **SEO*
 Expanda una categoría para ver sus auditorías individuales. Cada auditoría muestra si se aprobaron o encontraron oportunidades, una breve descripción y un recuento de las oportunidades encontradas. Seleccione una auditoría que haya encontrado oportunidades para abrir su página de detalles.
 
 Una categoría puede mostrar resultados mientras se siguen ejecutando algunas de sus auditorías. Su estado indica, por ejemplo, **3/3 auditorías realizadas hasta el momento**. Este recuento incluye solo las auditorías que han devuelto resultados, de modo que puede cambiar a medida que llegan más resultados. Expanda la categoría para ver qué auditorías se siguen ejecutando. Una categoría sin oportunidades muestra su marca de verificación de borrado solo después de que finalice su trabajo pendiente.
+
+### Auditorías que no se han podido completar
+
+En ocasiones no se puede completar una auditoría para una página, por ejemplo porque la comprobación no pudo evaluar la página o se produjo un error. La comprobación preliminar no muestra una auditoría como la que se ha realizado. En su lugar:
+
+* La fila de la auditoría muestra un icono neutro y el motivo por el que no se pudo completar la auditoría, en lugar de su descripción habitual. Cuando el motivo lo sugiera, ejecute de nuevo la comprobación preliminar para volver a intentarlo.
+* La auditoría cuenta como no superada en la cifra **% passed** y en el recuento de auditorías superadas de su categoría.
+* Su categoría no muestra la marca de verificación &quot;borrar todo&quot;.
+* El informe exportado siempre enumera la auditoría y su motivo, incluso cuando **Incluir auditorías aprobadas** no está seleccionado. El resumen del informe nunca dice que todas las comprobaciones se hayan realizado.
 
 Para obtener la lista completa de categorías de auditoría y las auditorías de cada una, vea [Categorías de auditoría de comprobación preliminar](./overview.md#preflight-audit-categories).
 

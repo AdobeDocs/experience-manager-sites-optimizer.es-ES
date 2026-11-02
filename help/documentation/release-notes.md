@@ -7,10 +7,10 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 733056458d3e34a9ef2e285adfc810a98159002b
+source-git-commit: 12279cd1468a3442709cb73a8691922598a33dab
 workflow-type: tm+mt
-source-wordcount: '3666'
-ht-degree: 2%
+source-wordcount: '3815'
+ht-degree: 1%
 ---
 
 # Notas de la versión
@@ -29,6 +29,10 @@ Las características marcadas **(acceso anticipado)** están disponibles bajo pe
 ### Mejoras
 
 - **Entradas de Jira para texto alternativo (acceso anticipado)**: cree entradas de Jira para uno o más problemas de texto alternativo, con la dirección URL de la página, la dirección URL de la imagen y el texto alternativo sugerido incluidos en cada entrada.
+- **Auditorías de comprobaciones que no se pudieron completar**: una auditoría que no se pudo completar ahora muestra el motivo en lugar de aparecer como superada. Cuenta como no pasado en la figura **% pasado**, y las exportaciones CSV y PDF siempre lo enumeran.
+- **Progreso de texto alternativo de comprobación preliminar**: mientras la comprobación de IA de una imagen sigue ejecutándose, su oportunidad de texto alternativo aparece con un indicador **Generando sugerencia**. La vista de detalles de la oportunidad también permanece en la oportunidad que está viendo cuando cambian los resultados.
+- **Motivos de los vínculos externos de comprobación preliminar**: la auditoría de vínculos externos ahora explica más tipos de errores, incluidos errores de servidor, bucles de redireccionamiento, vínculos que requieren inicio de sesión y vínculos no disponibles por motivos legales. Los vínculos que agotan el tiempo de espera o bloquean las comprobaciones automatizadas ahora le piden que las confirme manualmente.
+- **Captura de página de comprobación preliminar**: ahora la comprobación preliminar espera hasta 30 segundos a que se cargue una página lenta antes de analizar la página, fuera del Editor universal.
 
 ## 19-25 de octubre de 2026 {#october-19-25-2026}
 
