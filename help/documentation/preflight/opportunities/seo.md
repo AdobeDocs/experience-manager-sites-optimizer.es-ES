@@ -4,9 +4,9 @@ description: Obtenga información acerca de las auditorías SEO que ejecuta la c
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 7c362d99632758d1aba0af2bdccaa75c48abd2ec
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '201'
 ht-degree: 0%
 ---
 # Auditorías de SEO
@@ -23,7 +23,6 @@ La categoría SEO incluye las siguientes auditorías:
 * [Encabezados](./seo/headings.md): revisa la estructura y el orden de los encabezados de la página.
 * [Vínculos internos](./seo/internal-links.md): revisa los vínculos de la página que apuntan a su propio sitio.
 * [Vínculos externos](./seo/external-links.md): revisa los vínculos de la página que apuntan a otros sitios.
-* [Legibilidad](./seo/readability.md): revisa la facilidad de lectura del contenido de la página.
 * [Canónico](./seo/canonical.md): revisa el vínculo canónico de la página.
 * [Tamaño del cuerpo](./seo/body-size.md): revisa la cantidad de contenido del cuerpo en la página.
 * [Lorem ipsum](./seo/lorem-ipsum.md): detecta el texto de marcador de posición que queda en el contenido.
