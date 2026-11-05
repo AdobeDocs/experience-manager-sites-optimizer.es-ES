@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7a1c63e47cd778635fd18113bc2b08c83447fe35
+source-git-commit: 64709247e9a900f505b47235bf303984ce918faa
 workflow-type: tm+mt
-source-wordcount: '3973'
+source-wordcount: '3999'
 ht-degree: 1%
 ---
 
@@ -35,6 +35,7 @@ Las características marcadas **(acceso anticipado)** están disponibles bajo pe
 - **Auditorías de comprobaciones que no se pudieron completar**: una auditoría que no se pudo completar ahora muestra el motivo en lugar de aparecer como superada. Cuenta como no pasado en la figura **% pasado**, y las exportaciones CSV y PDF siempre lo enumeran.
 - **Progreso de texto alternativo de comprobación preliminar**: mientras la comprobación de IA de una imagen sigue ejecutándose, su oportunidad de texto alternativo aparece con un indicador **Generando sugerencia**. La vista de detalles de la oportunidad también permanece en la oportunidad que está viendo cuando cambian los resultados.
 - **Motivos de los vínculos externos de comprobación preliminar**: la auditoría de vínculos externos ahora explica más tipos de errores, incluidos errores de servidor, bucles de redireccionamiento, vínculos que requieren inicio de sesión y vínculos no disponibles por motivos legales. Los vínculos que agotan el tiempo de espera o bloquean las comprobaciones automatizadas ahora le piden que las confirme manualmente.
+- **Detalles de Lorem Ipsum de comprobación preliminar**: los resultados de Lorem Ipsum ahora identifican dónde aparece el texto de marcador de posición, explican cómo corregirlo y muestran el texto dentro de su etiqueta HTML.
 - **Captura de página de comprobación preliminar**: ahora la comprobación preliminar espera hasta 30 segundos a que se cargue una página lenta antes de analizar la página, fuera del Editor universal.
 
 ### Correcciones de errores
