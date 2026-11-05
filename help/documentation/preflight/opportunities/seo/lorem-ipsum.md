@@ -4,9 +4,9 @@ description: Obtenga información acerca de la auditoría Lorem ipsum en Comprob
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 587aec4eb905a2b1ced746590ca25b8ed97b16c1
+source-git-commit: 64709247e9a900f505b47235bf303984ce918faa
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '370'
 ht-degree: 1%
 ---
 # Lorem ipsum audit
@@ -37,8 +37,12 @@ La auditoría busca la frase &quot;lorem ipsum&quot; en cualquier combinación d
 ## Limitaciones conocidas
 
 * **Solo &quot;lorem ipsum&quot;:** no se detecta ningún otro texto de marcador de posición, como &quot;TBD&quot; u otras palabras de relleno latino sin &quot;lorem ipsum&quot;.
-* **Resaltar en la página:** no está disponible para el título de página o los metadatos, ya que no aparecen en la página. Utilice el texto que se muestra en la oportunidad para encontrarlos.
+* **Resaltar en la página:** no está disponible para el título de página o los metadatos, ya que no aparecen en la página. Use **Detalles** y el cuadro **Elemento** para encontrar el texto.
 
 ## Cómo resolver
 
-Cuando la auditoría encuentra oportunidades, cada una identifica dónde aparece el texto del marcador de posición. Cuando esté disponible, usa **Resaltar en la página** para saltar al texto del contenido. Reemplace el marcador de posición por contenido real o elimínelo. Para las etiquetas de texto alternativo y accesibilidad, escriba una descripción de la imagen o del control. Para obtener información sobre cómo revisar y resolver oportunidades, consulte [Resultados de auditoría en comprobaciones](../../audit-results.md).
+Comprueba **Detalles** para ver la ubicación del texto, como un título de página, texto alternativo o encabezado. **Recomendación** explica cómo corregirla, y el cuadro **Elemento** muestra el texto dentro de su etiqueta.
+
+Use **Resaltar en la página** donde esté disponible. Un elemento oculto puede aparecer en otros tamaños de pantalla o en un menú o diálogo.
+
+Reemplace o quite el texto del marcador de posición. Para el texto alternativo y las etiquetas de accesibilidad, describa la imagen o el control. Consulte [Resultados de auditoría en Comprobación preliminar](../../audit-results.md) para obtener más información.
