@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 64709247e9a900f505b47235bf303984ce918faa
+source-git-commit: b17260f7dbb82fd26120fd90c1d21a22d33949b1
 workflow-type: tm+mt
-source-wordcount: '3999'
+source-wordcount: '4035'
 ht-degree: 1%
 ---
 
@@ -18,6 +18,12 @@ ht-degree: 1%
 Esta página documenta las últimas actualizaciones, nuevas funciones y mejoras de Adobe Experience Manager Sites Optimizer.
 
 Las características marcadas **(acceso anticipado)** están disponibles bajo petición; póngase en contacto con el equipo de su cuenta o con el ingeniero de éxito del cliente para habilitarlas en su organización.
+
+## 11 de noviembre de 2026 {#november-11-2026}
+
+### Mejoras
+
+- **Panel de elementos de comprobación preliminar** — La sección **Elemento** muestra ahora una miniatura de imagen o texto legible en lugar de un selector CSS cuando puede, y le permite copiar el texto del elemento o el selector CSS.
 
 ## Del 26 de octubre al 1 de noviembre de 2026 {#october-26-november-1-2026}
 
