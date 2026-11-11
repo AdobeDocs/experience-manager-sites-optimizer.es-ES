@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo interpretar los resultados de la a
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 00dbc1a9033cf327da68df99c9604b50f45b43ee
+source-git-commit: b17260f7dbb82fd26120fd90c1d21a22d33949b1
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1703'
 ht-degree: 0%
 ---
 
@@ -77,7 +77,13 @@ Cuando más de una oportunidad afecta al mismo elemento (por ejemplo, varios pro
 Cada oportunidad incluye:
 
 * Detalles sobre la oportunidad, como una descripción del problema, una recomendación y, para accesibilidad, la regla WCAG y el nivel de conformidad relacionados.
-* Una sección **Element** que identifica el elemento afectado en la página, con un botón **Resaltar en la página**. Cuando el elemento tiene texto legible, la sección se titula **Elemento: Texto** y muestra ese texto; de lo contrario, se titula **Elemento: Selector** y muestra el selector CSS del elemento. Para las oportunidades de **Vínculos internos** y **Canónicos**, la sección **URL actual** también muestra la URL involucrada. Seleccione **Copiar URL** para copiarlo en el portapapeles, o **Abrir en ficha nueva** para abrirlo.
+* Una sección **Element** que identifica el elemento afectado. Su título muestra lo que muestra:
+  * **Elemento: Texto**: el texto del elemento o la dirección a la que está vinculado.
+  * **Elemento: imagen**: una miniatura de la imagen, por ejemplo, en **Texto alternativo** y otras oportunidades de **accesibilidad**.
+  * **Elemento: Selector**: el selector CSS del elemento, cuando no hay texto o imagen disponible.
+
+  Para copiar, pase el ratón sobre la sección o céntrese en ella. **Elemento: Texto** muestra **Más acciones** (**...**) menú con **Copiar texto** y **Selector de copia**. **Elemento: Imagen** y **Elemento: Selector** muestran un icono de copia que copia el selector CSS. Cuando la copia se realiza correctamente, aparece un mensaje de confirmación.
+* Para las oportunidades de **Vínculos internos** y **Canónicos**, una sección de **URL actual** que muestra la URL involucrada. Seleccione **Copiar URL** para copiarla, o **Abrir en ficha nueva** para abrirla.
 * Una sección **Sugerencia** con una corrección recomendada. Cuando AI genera la sugerencia, se marca como una sugerencia generada por IA y puede incluir una breve justificación que explique la corrección sugerida.
 
 ### Filtrar instancias
