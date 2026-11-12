@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b17260f7dbb82fd26120fd90c1d21a22d33949b1
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
-source-wordcount: '4035'
+source-wordcount: '4063'
 ht-degree: 1%
 ---
 
@@ -24,6 +24,7 @@ Las características marcadas **(acceso anticipado)** están disponibles bajo pe
 ### Mejoras
 
 - **Panel de elementos de comprobación preliminar** — La sección **Elemento** muestra ahora una miniatura de imagen o texto legible en lugar de un selector CSS cuando puede, y le permite copiar el texto del elemento o el selector CSS.
+- **Comprobación canónica de comprobaciones de HTTPS**: La auditoría canónica ahora marca una URL canónica que usa `http://` en lugar de `https://`, en lugar de marcar una URL canónica cuyo protocolo difiere del de la página.
 
 ## Del 26 de octubre al 1 de noviembre de 2026 {#october-26-november-1-2026}
 

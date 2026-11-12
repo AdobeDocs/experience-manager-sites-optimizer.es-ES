@@ -1,15 +1,16 @@
 ---
 title: Auditoría canónica de comprobación preliminar
 description: Obtenga información acerca de la auditoría canónica en Comprobación preliminar para AEM Sites Optimizer.
+badgePreflightSEO: label="Comprobación preliminar - SEO" type="Caution" url="../seo.md" tooltip="Comprobación preliminar - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 5c97431c2029e117339877219c2d6e4e30902a70
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%
 ---
-# Auditoría canónica
+# Comprobación preliminar: auditoría canónica
 
 La auditoría **Canonical** revisa el vínculo canónico en su página. El vínculo canónico es una etiqueta `<link rel="canonical">` en `<head>` de la página que indica la dirección URL preferida para el contenido de la página. La auditoría indica los vínculos canónicos que faltan, que se han configurado incorrectamente o que apuntan a algún lugar distinto de la propia página.
 
@@ -25,7 +26,7 @@ La auditoría comprueba la existencia de problemas en tres ámbitos:
 
 * **Tanto si la página tiene un vínculo canónico:** falta el vínculo canónico, como si la página tiene más de uno. Se informa de varios vínculos canónicos que apuntan a direcciones URL diferentes por separado, ya que los motores de búsqueda pueden ignorarlas todas.
 * **Si la etiqueta está configurada correctamente:** la etiqueta está fuera de `<head>`, no tiene un atributo `href` o está vacía, o lleva un atributo como `hreflang`, `media` o `type` que puede hacer que los motores de búsqueda la ignoren.
-* **Indica si la dirección URL es correcta:** la dirección URL canónica es relativa en lugar de absoluta, contiene letras mayúsculas en la ruta de acceso o en la cadena de consulta, utiliza un protocolo diferente (`http://` o `https://`) de la página o apunta a una página diferente de la que está editando.
+* **Indica si la dirección URL es correcta:** la dirección URL canónica es relativa en lugar de absoluta, contiene letras mayúsculas en la ruta de acceso o en la cadena de consulta, usa `http://` en lugar de `https://` o señala a una página diferente de la que está editando.
 
 ## Comparación de la URL canónica
 
@@ -38,4 +39,4 @@ Las comprobaciones se ejecutan en páginas de vista previa, cuyo host suele ser 
 
 ## Cómo resolver
 
-Cuando la auditoría encuentra oportunidades, cada una describe el problema y el cambio recomendado. En la mayoría de los casos, la página debe tener exactamente un vínculo canónico, en el `<head>`, con una dirección URL absoluta con una ruta de acceso en minúsculas que apunte a la propia página. Si la página señala intencionadamente a otra página como su versión canónica, por ejemplo, una copia duplicada o compatible con la impresora, puede dejarla tal cual. La auditoría seguirá informando. Para obtener información sobre cómo revisar y resolver oportunidades, consulte [Resultados de auditoría en comprobaciones](../../audit-results.md).
+Cuando la auditoría encuentra oportunidades, cada una describe el problema y el cambio recomendado. En la mayoría de los casos, la página debe tener exactamente un vínculo canónico, en `<head>`, con una dirección URL absoluta de `https://` con una ruta de acceso en minúsculas que apunte a la propia página. Si la página señala intencionadamente a otra página como su versión canónica, por ejemplo, una copia duplicada o compatible con la impresora, puede dejarla tal cual. La auditoría seguirá informando. Para obtener información sobre cómo revisar y resolver oportunidades, consulte [Resultados de auditoría en comprobaciones](../../audit-results.md).

@@ -1,15 +1,16 @@
 ---
 title: Auditoría de vínculos externos de comprobación preliminar
 description: Obtenga información acerca de la auditoría Vínculos externos en Comprobación preliminar para AEM Sites Optimizer.
+badgePreflightSEO: label="Comprobación preliminar - SEO" type="Caution" url="../seo.md" tooltip="Comprobación preliminar - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 12279cd1468a3442709cb73a8691922598a33dab
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1117'
 ht-degree: 0%
 ---
-# Auditoría de vínculos externos
+# Comprobación preliminar - Auditoría de vínculos externos
 
 La auditoría **Vínculos externos** revisa los vínculos de la página que apuntan a otros sitios. La auditoría comprueba todos los vínculos externos de la página que está editando y marca los que están rotos, no son seguros o no se han podido comprobar automáticamente.
 
