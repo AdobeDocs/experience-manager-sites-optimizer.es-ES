@@ -1,15 +1,16 @@
 ---
 title: Auditoría de metaetiquetas de comprobación preliminar
 description: Obtenga información acerca de la auditoría Etiquetas de metadatos en Comprobación preliminar para AEM Sites Optimizer.
+badgePreflightSEO: label="Comprobación preliminar - SEO" type="Caution" url="../seo.md" tooltip="Comprobación preliminar - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '806'
 ht-degree: 1%
 ---
-# Auditoría de metaetiquetas
+# Comprobación preliminar - Auditoría de metaetiquetas
 
 La auditoría **Etiquetas de metadatos** revisa el título de la página, la descripción de la meta y el encabezado principal (H1). Indica cualquiera de ellas que falta, que están vacías o que no tienen la longitud recomendada, e indica páginas con más de un encabezado H1.
 

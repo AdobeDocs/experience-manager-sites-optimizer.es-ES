@@ -1,15 +1,16 @@
 ---
 title: Auditoría de vínculos internos de comprobación preliminar
 description: Obtenga información acerca de la auditoría Vínculos internos en Comprobación preliminar para AEM Sites Optimizer.
+badgePreflightSEO: label="Comprobación preliminar - SEO" type="Caution" url="../seo.md" tooltip="Comprobación preliminar - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1043'
 ht-degree: 0%
 ---
-# Auditoría de vínculos internos
+# Comprobación preliminar - Auditoría de vínculos internos
 
 La auditoría **Vínculos internos** revisa los vínculos de la página que apuntan a su propio sitio. La auditoría comprueba cada vínculo interno de la página que está editando e indica los que están rotos, no son seguros o apuntan a un lugar que un visitante no puede seguir.
 

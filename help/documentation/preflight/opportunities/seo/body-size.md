@@ -1,15 +1,16 @@
 ---
 title: Auditoría de tamaño de cuerpo de comprobación preliminar
 description: Obtenga información acerca de la auditoría de tamaño del cuerpo en Comprobación preliminar para AEM Sites Optimizer.
+badgePreflightSEO: label="Comprobación preliminar - SEO" type="Caution" url="../seo.md" tooltip="Comprobación preliminar - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '697'
 ht-degree: 0%
 ---
-# Auditoría del tamaño del cuerpo
+# Comprobación preliminar - Auditoría del tamaño de la carrocería
 
 La auditoría **Tamaño del cuerpo** revisa la cantidad de contenido del cuerpo en su página. Las páginas con muy poco contenido pueden ser menos útiles para los lectores y pueden clasificarse mal en los resultados de búsqueda. La auditoría marca las páginas que parecen tener demasiado poco texto.
 

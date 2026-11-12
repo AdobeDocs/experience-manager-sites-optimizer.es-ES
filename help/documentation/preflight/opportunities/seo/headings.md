@@ -1,15 +1,16 @@
 ---
 title: Auditoría de encabezados de comprobación previa
 description: Obtenga información acerca de la auditoría Encabezados en Comprobación preliminar para AEM Sites Optimizer.
+badgePreflightSEO: label="Comprobación preliminar - SEO" type="Caution" url="../seo.md" tooltip="Comprobación preliminar - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '654'
 ht-degree: 0%
 ---
-# Auditoría de encabezados
+# Comprobación preliminar - Auditoría de encabezados
 
 La auditoría **Encabezados** revisa los subencabezados de la página (H2 a H6). Marca los títulos que no tienen texto y los títulos que omiten un nivel, como un H2 seguido directamente por un H4.
 

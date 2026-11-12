@@ -1,15 +1,16 @@
 ---
 title: Auditoría de IPSUM de Lorem de comprobación preliminar
 description: Obtenga información acerca de la auditoría Lorem ipsum en Comprobación preliminar para AEM Sites Optimizer.
+badgePreflightSEO: label="Comprobación preliminar - SEO" type="Caution" url="../seo.md" tooltip="Comprobación preliminar - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 64709247e9a900f505b47235bf303984ce918faa
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '375'
 ht-degree: 1%
 ---
-# Lorem ipsum audit
+# Comprobación preliminar - Lorem ipsum audit
 
 La auditoría **Lorem ipsum** detecta el texto de marcador de posición que ha quedado en el contenido de la página.
 
