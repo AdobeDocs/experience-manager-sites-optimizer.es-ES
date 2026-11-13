@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
+source-git-commit: e522ca835da67851faebe486165ba8f7fc850998
 workflow-type: tm+mt
-source-wordcount: '4063'
+source-wordcount: '4702'
 ht-degree: 1%
 ---
 
@@ -19,12 +19,54 @@ Esta página documenta las últimas actualizaciones, nuevas funciones y mejoras 
 
 Las características marcadas **(acceso anticipado)** están disponibles bajo petición; póngase en contacto con el equipo de su cuenta o con el ingeniero de éxito del cliente para habilitarlas en su organización.
 
-## 11 de noviembre de 2026 {#november-11-2026}
+## Del 9 al 12 de noviembre de 2026 {#november-9-12-2026}
+
+### Nuevas funciones
+
+- **Oportunidades de accesibilidad adicionales (acceso anticipado)**: encuentre el acceso mediante el teclado, el idioma y título de la página, la tabla de datos, los medios y el movimiento, y los problemas de espaciado y tamaño de destino como oportunidades de accesibilidad independientes, cada una con su propia página de detalles.
 
 ### Mejoras
 
 - **Panel de elementos de comprobación preliminar** — La sección **Elemento** muestra ahora una miniatura de imagen o texto legible en lugar de un selector CSS cuando puede, y le permite copiar el texto del elemento o el selector CSS.
 - **Comprobación canónica de comprobaciones de HTTPS**: La auditoría canónica ahora marca una URL canónica que usa `http://` en lugar de `https://`, en lugar de marcar una URL canónica cuyo protocolo difiere del de la página.
+- **Priorización de correcciones de Core Web Vitals**: la pestaña **Actual** ahora enumera los problemas de Core Web Vitals con las revisiones de código más exhaustivas probadas primero, para que pueda empezar con las correcciones más fiables.
+
+### Correcciones de errores
+
+- Se ha corregido un problema que podía ocultar una oportunidad en las fichas **Actual** e **Implementado**.
+- El vínculo Directrices del usuario de IA en la información de IA ahora se abre en el idioma seleccionado.
+- Los anuncios de Novedades ahora se muestran en chino simplificado y tradicional en lugar de en inglés.
+
+## Del 2 al 8 de noviembre de 2026 {#november-2-8-2026}
+
+### Nuevas funciones
+
+- **Correcciones de código de etiquetas de ARIA (acceso anticipado)**: revise y descargue parches de código de nivel de componente para problemas de etiquetas de ARIA admitidos, vea qué etiquetas requieren un cambio de código primero e identifique los problemas que necesitan un desarrollador.
+- **Oportunidades para agentes (acceso anticipado)**: vea el rendimiento de su sitio para los agentes de IA que exploran en nombre de los visitantes, con oportunidades para las herramientas de los agentes, accesibilidad legible por los agentes, y estabilidad y capacidad de detección del sitio.
+
+### Mejoras
+
+- **Cobertura de valor estimada (acceso anticipado)**: el valor estimado ya está disponible para Vínculos rotos, Vínculos internos rotos, Datos canónicos estructurados, Etiquetas de Meta, Consentimiento de cookies y oportunidades de conversión de formularios cuando hay datos de soporte disponibles. Las oportunidades de Hreflang también pueden mostrar un ahorro de mano de obra estimado de una sola vez.
+- **Detalles del valor estimado (acceso anticipado)**: las tarjetas de oportunidad y las páginas de detalles ahora muestran una sola estimación de titular, con intervalos y explicaciones más claras en el desglose. Los ahorros de mano de obra de Core Web Vitals se identifican como ahorros únicos en lugar de ahorros mensuales.
+- **Entradas de Jira para Core Web Vitals (acceso anticipado)**: cree tickets de Jira para páginas seleccionadas con problemas de equipos de escritorio y móviles, recomendaciones y parches de código disponibles, incluso cuando una página no tenga un parche implementable.
+- **Entradas de Jira para usuarios de prueba**: Los usuarios de prueba pueden conectar Jira y crear entradas para los problemas de texto alternativo, vínculos rotos, vínculos internos rotos, Core Web Vitals, accesibilidad, contraste de color y accesibilidad del formulario.
+- **Revisión de texto alternativo por primera vez con imágenes** — La ficha Texto alternativo **Actual** ahora enumera sugerencias por imagen, muestra todas las páginas afectadas y agrega un panel de detalles para editar e implementar. Para los sitios de AEM Multi-Site Manager, elija si desea aplicar una corrección en el origen o localmente en el mismo flujo de implementación.
+- **Confirmación de implementación de corrección de código (acceso anticipado)**: Confirme desde una tarjeta de corrección de código de etiqueta ARIA si el cambio implementado está activo.
+- **Estados de oportunidad de prueba** — Las tarjetas de texto alternativo, vínculos de retorno rotos y Core Web Vitals permanecen disponibles cuando no se encuentran problemas actuales y sus páginas de detalles distinguen una lista de problemas vacía de una cuota de optimización mensual completada.
+- **Sugerencias de accesibilidad**: las sugerencias con parches de código descargables aparecen primero, lo que facilita la búsqueda de correcciones listas para usar.
+- **Guía de implementación de formularios de terceros**: ahora, las vistas de formularios de gran tamaño y las oportunidades de bajas conversiones explican cuándo un formulario no se ha creado en AEM y no se puede implementar automáticamente, así como la deshabilitación de la implementación para esos formularios.
+- **Recomendaciones de formularios específicas**: las oportunidades de formularios ya no muestran recomendaciones incompletas, como las que no tienen una variación utilizable o una corrección implementable, o sus variaciones de prueba vinculadas.
+
+### Correcciones de errores
+
+- Los informes de accesibilidad móvil ahora utilizan los resultados del análisis móvil en lugar de las correcciones de escritorio en los detalles del problema y las exportaciones de CSV. Los informes unificados ya no se vinculan a un informe detallado reemplazado.
+- Se ha corregido un problema que podía ocultar las recomendaciones de Core Web Vitals para páginas de tráfico de pago.
+- Las tarjetas Velocidad del sitio y Tiempo medio de carga del Monitor de estado del sitio y del Hogar ahora muestran la unidad de segundos en el idioma seleccionado.
+- Los errores genéricos al agregar miembros en Permisos ahora se muestran en el idioma seleccionado.
+- Las tarjetas de oportunidad Hreflang ya no muestran una etiqueta de subtipo redundante.
+- La incorporación de prueba ahora explica por qué no se puede agregar un dominio en lugar de mostrar un error genérico.
+- Las oportunidades de texto alternativo ya no enumeran las imágenes identificadas como decorativas.
+- El marcador de posición &quot;NA&quot; de la página de inicio ahora se muestra en el idioma seleccionado.
 
 ## Del 26 de octubre al 1 de noviembre de 2026 {#october-26-november-1-2026}
 
